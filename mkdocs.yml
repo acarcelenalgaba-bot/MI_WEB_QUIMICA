@@ -1,0 +1,53 @@
+site_name: Química 2º Bachillerato
+site_url: https://acarcelenalgaba-bot.github.io/mi_web_quimica/
+site_author: Ángel Carcelén Algaba
+
+theme:
+  name: material
+  language: es
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+    - content.code.annotate
+
+markdown_extensions:
+  - tables
+  - attr_list
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences
+  - toc:
+      permalink: false
+      title: "📋 Contenidos del Curso"
+  - pymdownx.magiclink
+  
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Inicio: index.md
+  - Tema 1 - Estructura atómica:
+    - Estructura Atómica: tema1-estructura.md
+  - Tema 2 - Enlace Químico:
+    - Enlace Químico: tema2-enlace.md

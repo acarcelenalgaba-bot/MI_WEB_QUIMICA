@@ -1,0 +1,20 @@
+:root {
+  /* Amplía el ancho de la rejilla principal al máximo */
+  --md-grid-width: 100%; 
+}
+
+/* Fuerza al contenedor principal a usar todo el espacio */
+.md-main__inner {
+  max-width: 100%;
+}
+
+/* Quita el límite de ancho al bloque donde escribes la teoría y las tablas */
+.md-content {
+  max-width: 100% !important;
+}
+
+/* Opcional: Si quieres que las tablas ocupen también el 100% del nuevo ancho */
+.md-content table {
+  display: table;
+  width: 100%;
+}
