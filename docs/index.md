@@ -8,8 +8,8 @@ Utiliza el siguiente índice para acceder directamente a cada unidad didáctica:
 
 ### ⚛️ Bloque 1: Estructura de la Materia y Enlace
 *   **[Tema 1: Estructura Atómica y Propiedades Periódicas](tema1-estructura.md)**
-    *   *Contenido:* Modelo mecanocuántico, números cuánticos, configuración electrónica de la EBAU y justificación de propiedades periódicas ($Z_{ef}$).
-*   **[Tema 2: Enlace Químico](tema2-enlace.md)** *(Pendiente de redactar)*
+    *   *Contenido:* Modelo mecanocuántico, números cuánticos, configuración electrónica de la EBAU y justificación de propiedades periódicas ($\ce{Z_{ef}}$).
+*   **[Tema 2: Enlace Químico](tema2-enlace.md)** 
     *   *Contenido:* Enlace iónico (Ciclo de Born-Haber), enlace metálico, enlace covalente (Lewis, RPECV, Hibridación) y fuerzas intermoleculares.
 
 ### 🔥 Bloque 2: Energética y Cinética Química

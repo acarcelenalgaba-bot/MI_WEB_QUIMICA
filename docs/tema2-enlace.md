@@ -231,24 +231,14 @@ En los metales tampoco se forman moléculas individuales. La situación es muy p
 
 ## 5. **Enlace covalente**
 
-A diferencia de lo que pasa en un enla-
-ce iónico, en donde se produce la transfe-
-rencia de electrones de un átomo a otro,
-en el enlace covalente, los electrones
-de enlace son compartidos por am-
-bos átomos.
-En el enlace covalente, los dos átomos
-no metálicos comparten uno o más
-electrones, es decir se unen a través de
-sus electrones en el último orbital.
-Entre los dos átomos pueden compartirse
-uno, dos o tres pares de electrones, lo cual
-dará lugar a la formación de un enlace sim-
-ple, doble o triple respectivamente.
-De esta manera alcanzan los ocho electro-
-nes en la última capa (2 en el caso del hidrógeno, pues así alcanza la configuración
-del He, 1 s2 .
-23ENLACE COVALENTE
+A diferencia de lo que pasa en un enlace iónico, en donde se produce la transferencia de electrones de un átomo a otro, en el enlace covalente, los electrones de enlace son compartidos por ambos átomos.
+
+En el enlace covalente, los dos átomos no metálicos comparten uno o más electrones, es decir se unen a través de sus electrones en el último orbital.
+
+Entre los dos átomos pueden compartirse uno, dos o tres pares de electrones, lo cual dará lugar a la formación de un enlace simple, doble o triple respectivamente.
+
+De esta manera alcanzan los ocho electrones en la última capa (2 en el caso del hidrógeno, pues así alcanza la configuración del He, 1 s2 .
+
 Los átomos se acercan hasta que los orbitales se solapan. Los electrones de
 ambos átomos se mueven ahora en una "zona común": orbital molecular.
 Es un enlace característico entre átomos de electronegatividad alta
