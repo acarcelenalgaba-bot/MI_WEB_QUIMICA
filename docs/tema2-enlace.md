@@ -14,7 +14,7 @@ El mínimo de energía se corresponderá, por tanto, con la agrupación más est
 
 ![Texto alternativo](imagenes/tema02/enlace.png){ style="display: block; margin: 0 auto; height: 450px; width: 100%;" }
 
-**TIPOS DE ENLACE QUÍMICO**
+## 2. **Tipos de enlace químico**
 
 **Enlace iónico**: Las **unidades estructurales básicas** enlazadas son iones de signo contrario (**aniones** y **cationes**). Los iones se mantienen unidos mediante fuerzas de naturaleza electrostática, debidas a la presencia de cargas de distinto signo.
 
@@ -26,7 +26,9 @@ El mínimo de energía se corresponderá, por tanto, con la agrupación más est
 
 Básicamente podemos encontrar varios tipos de sólidos, según sea el enlace: sólidos **iónicos**, sólidos de red **covalente**, sólidos **metálicos** y sólidos **moleculares**.
 
-**SÓLIDOS IÓNICOS**. Las **unidades estructurales básicas** de estos compuestos son **iones** (aniones y cationes) unidos mediante enlaces iónicos.
+**SÓLIDOS IÓNICOS**. 
+
+Las **unidades estructurales básicas** de estos compuestos son **iones** (aniones y cationes) unidos mediante enlaces iónicos.
 
 El **enlace iónico es muy fuerte**, razón por la que poseen **elevados puntos de fusión **y **ebullición**.
 
@@ -66,8 +68,24 @@ Los **metales** son **ejemplos típicos** de este tipo.
 
 Las **unidades básicas** son **moléculas**, pero existen fuerzas entre ellas (intermoleculares) suficientes para unir (aunque débilmente) a las moléculas formando una estructura típica de sólidos.
 
-La debilidad de las fuerzas entre moléculas condicionan que estas sustancias fundan (o sublimen) a temperaturas bajas.
+La **debilidad de las fuerzas entre moléculas** condicionan que estas sustancias fundan (o sublimen) a **temperaturas bajas**.
 
 Ejemplos de sólidos moleculares son el yodo o las parafinas.
 
-El agua es sólida por debajo de 0 ◦C a presión de 1 atm. Las uniones que se representan en la figura por líneas negras son puentes de hidrógeno entre las moléculas.
+El agua es sólida por debajo de 0 $^{\circ}$C a presión de 1 atm. Las uniones que se representan en la figura por líneas negras son puentes de hidrógeno entre las moléculas.
+
+![Texto alternativo](imagenes/tema02/solido_molecular.png){ style="display: block; margin: 0 auto; height: 250px; width: 45%;" }
+
+## 3. **Enlace iónico**
+
+Si enfrentamos un átomo al que le falten pocos electrones en su capa de valencia para adquirir la configuración de gas noble (muy electronegativo, tendencia a coger electrones), tal como el cloro, con otro cuya electronegatividad sea baja (tendencia a ceder electrones), tal como el sodio, éste cederá un electrón al cloro.
+
+Como consecuencia, el cloro se convertirá en un ión negativo (anión) mientras que el sodio se convierte en un ión positivo (catión).
+
+Ambos se unen debido a la atracción entre cargas de distinto signo (atracción electrostática).
+
+## 4. **Enlace metálico**
+
+## 5. **Enlace covalente**
+
+## 6. **Fuerzas intermoleculares**
