@@ -3,7 +3,7 @@ name: Deploy MkDocs con PDFs por Tema
 on:
   push:
     branches:
-      - main # Cambia a master si tu rama principal se llama master
+      - main # Asegúrate de que sea la rama correcta (main o master)
 
 permissions:
   contents: write
@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Instalar dependencias del sistema (Requeridas para WeasyPrint / PDF)
+      - name: Instalar dependencias del sistema gráficos
         run: |
           sudo apt-get update
           sudo apt-get install -y build-essential libcairo2-dev libpango1.0-dev libgdk-pixbuf2.0-dev libffi-dev shared-mime-info
@@ -28,9 +28,7 @@ jobs:
       - name: Instalar MkDocs y Plugins
         run: |
           pip install pip --upgrade
-          pip install mkdocs-material
-          pip install mkdocs-with-pdf
-          # Añade aquí otros complementos si usas extensiones raras de pymdownx que no vengan en material
+          pip install mkdocs-material mkdocs-pdf-export-plugin
 
       - name: Compilar y Desplegar en GitHub Pages
         run: |
