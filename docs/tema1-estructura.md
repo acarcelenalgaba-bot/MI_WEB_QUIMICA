@@ -1,6 +1,7 @@
-
-[TOC]
-
+---
+setting:
+  toc:
+    title: "📋 Contenidos del Tema"
 ---
 
 ## **1. Modelos anteriores a Bohr**.
@@ -599,11 +600,11 @@ Según se iban descubriendo nuevos elementos a lo largo del siglo XIX, hubo nume
 
 La actual clasificación que nos aporta la tabla periódica se basa en los trabajos de **D. Mendeléiev** y **L. Meyer**, que se basa en la variación periódica de algunas de las propiedades de los elementos en función de su masa atómica. En esa inicial tabla había once períodos y ocho grupos. Incluso llegaron a prever huecos en la misma anunciando que correspondían a elementos aún no descubiertos, cosa que fue cierta.
 
-En 1912, **H. Moseley**, observó que las frecuencias características de absorción de los espectros de rayos x de los elementos conocidos seguían una ordenación secuencial que era función del no atómico (Z) de dichos elementos. Surge entonces la idea de ordenarlos según sus números atómicos y no según las masas atómicas.
+En 1912, **H. Moseley**, observó que las frecuencias características de absorción de los espectros de rayos x de los elementos conocidos seguían una ordenación secuencial que era función del número atómico (Z) de dichos elementos. Surge entonces la idea de ordenarlos según sus números atómicos y no según las masas atómicas.
 
 A partir de esa idea surge el actual sistema periódico debido a A. Werner y F.A. Paneth, que consta de **18 columnas o grupos** y **7 filas o periodos**.
 
-En cada grupo se colocan los elementos de propiedades análogas, y cada periodo se construye colocando elementos que aumentan en una unidad la Z (número atómico) del elemento precedente. De esta manera se separan los metales de los no-metales y, sobre todo, las distribuciones electrónicas son coherentes con la estructura del sistema periódico.
+En cada grupo se colocan los elementos de propiedades análogas, y cada periodo se construye colocando elementos que aumentan en una unidad Z (número atómico) del elemento precedente. De esta manera se separan los metales de los no-metales y, sobre todo, las distribuciones electrónicas son coherentes con la estructura del sistema periódico.
 
 ![Texto alternativo](imagenes/tabla.png){ style="display: block; margin: 0 auto; width: 850px;" }
 
