@@ -42,8 +42,6 @@ plugins:
   - search
   - pdf-export:
       combined: false # Genera un PDF independiente por cada página .md
-      output_path: pdfs/
-      
 
 extra_javascript:
   - javascripts/mathjax.js
