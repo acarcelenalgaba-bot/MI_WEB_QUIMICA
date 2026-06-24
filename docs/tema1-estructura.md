@@ -1,4 +1,4 @@
-
+# Tema 1: Estructura atómica de la materia
 
 ## **1. Modelos anteriores a Bohr**.
 
@@ -24,7 +24,7 @@ Los electrones (pequeñas partículas con carga negativa) se encuentran incrusta
 
 La carga positiva de la nube compensa exactamente la negativa de los electrones siendo el átomo eléctricamente neutro. A este modelo se le suele llamar “**el pastel de pasas**”.
 
-![Texto alternativo](imagenes/thomson.png){ style="display: block; margin: 0 auto; width: 250px;" }
+![Texto alternativo](imagenes/tema01/thomson.png){ style="display: block; margin: 0 auto; width: 250px;" }
 
 **Modelo de RUTHERFORD**
 
@@ -32,7 +32,7 @@ La carga positiva de la nube compensa exactamente la negativa de los electrones 
 
 **Partículas alfa (α)**, procedentes de un material radiactivo, se aceleran y se hacen incidir sobre una lámina de oro muy delgada, visualizándose la dirección en la que emergen tras atravesar los átomos de la lámina.
 
-![Texto alternativo](imagenes/rutherford.png){ style="display: block; margin: 0 auto; width: 800px;" }
+![Texto alternativo](imagenes/tema01/rutherford.png){ style="display: block; margin: 0 auto; width: 800px;" }
 
 El análisis de los resultados obtenidos lleva a Rutherford a proponer la existencia de un **núcleo** (muy pequeño en relación con el volumen total del átomo).
 
@@ -76,7 +76,7 @@ El **espectro electromagnético** es un continuo formado por el conjunto de las 
 
 Como enseguida veremos, a menor longitud de onda, mayor frecuencia y energía, y más peligrosas son las radiaciones. Así, la ultravioleta, $R_X$, $R_γ$, son radiaciones ionizantes.
 
-![Texto alternativo](imagenes/espectro.png){ style="display: block; margin: 0 auto; width: 800px;" }
+![Texto alternativo](imagenes/tema01/espectro.png){ style="display: block; margin: 0 auto; width: 800px;" }
 
 **HIPÓTESIS DE PLANCK**
 
@@ -96,7 +96,7 @@ $h = 6,626 \cdot 10^{−34}$ J · s
 
 Es especialmente importante, por su relevancia en los espectros atómicos, y conviene que sepamos el “orden” de magnitud de sus longitudes de onda.
 
-![Texto alternativo](imagenes/luz.png){ style="display: block; margin: 0 auto; width: 800px;" }
+![Texto alternativo](imagenes/tema01/luz.png){ style="display: block; margin: 0 auto; width: 800px;" }
 
 **EL EFECTO FOTOELÉCTRICO**
 
@@ -136,17 +136,17 @@ Pronto se concluyó que la emisión de luz podría deberse a que los electrones 
 
 Esta interpretación conducía, sin embargo, a afirmar que los espectros deberían de ser continuos, ya que al existir órbitas de cualquier radio (y energía) todos los saltos son posibles. La experiencia, por el contrario, mostraba que los espectros de los átomos son **discontinuos**. Constan de rayas de diversos colores sobre un fondo negro.
 
-![Texto alternativo](imagenes/espectro_emision.png){ style="display: block; margin: 0 auto; width: 800px;" }
+![Texto alternativo](imagenes/tema01/espectro_emision.png){ style="display: block; margin: 0 auto; width: 800px;" }
 
 Los espectros de **absorción** para un elemento determinado son como los de emisión, pero aparecen rayas negras en un fondo coloreado con el espectro continuo.
 
 Para obtenerlos, en vez de calentar la muestra, se hace pasar a través de ella un haz de luz blanca.
 
-![Texto alternativo](imagenes/espectro_absorcion.png){ style="display: block; margin: 0 auto; width: 800px;" }
+![Texto alternativo](imagenes/tema01/espectro_absorcion.png){ style="display: block; margin: 0 auto; width: 800px;" }
 
 La **espectrofotometría** es una técnica básica de identificación de sustancias, ya que cada elemento químico emite siempre las mismas rayas de frecuencias características que sirven para identificarlo.
 
-![Texto alternativo](imagenes/espectrofotometria.png){ style="display: block; margin: 0 auto; width: 800px;" }
+![Texto alternativo](imagenes/tema01/espectrofotometria.png){ style="display: block; margin: 0 auto; width: 800px;" }
 
 El **espectro del hidrógeno** fue el primero que se interpretó, por ser el más sencillo.
 
@@ -158,7 +158,7 @@ $\dfrac {1}{\lambda} = R \cdot \left( \dfrac {1}{m^2} + \dfrac {1}{n^2} \right)$
 
 ## **3. El átomo de Bohr.**
 
-![Texto alternativo](imagenes/bohr.png){ style="display: block; margin: 0 auto; width: 150px;" }
+![Texto alternativo](imagenes/tema01/bohr.png){ style="display: block; margin: 0 auto; width: 150px;" }
 
 Con el fin de resolver los problemas acumulados sobre el modelo de átomo planetario, y para explicar el espectro del átomo de hidrógeno, **Niels Bohr** propone en **1913** un nuevo modelo atómico sustentado en tres postulados:
 
@@ -185,7 +185,7 @@ El número n que determina las órbitas posibles, se denomina **número cuántic
 
 **3. Postulado.** La energía liberada al caer un electrón desde una órbita superior, de energía $E_2$, a otra inferior, de energía $E_1$, se **emite en forma de un cuanto** de luz (fotón).
 
-![Texto alternativo](imagenes/postulado.png){ style="display: block; margin: 0 auto; width: 450px;" }
+![Texto alternativo](imagenes/tema01/postulado.png){ style="display: block; margin: 0 auto; width: 450px;" }
 
 La frecuencia ($f$) del cuanto viene dada por la expresión:
 
@@ -237,7 +237,7 @@ La tercera órbita un radio de $9 \cdot r_1$, etc.
 
 Dado que n es siempre un número entero vemos que las órbitas no pueden tomar cualquier valor , es decir el valor del radio está “**cuantizado**”.
 
-![Texto alternativo](imagenes/energia_bohr.png){ style="display: block; margin: 0 auto; width: 250px;" }
+![Texto alternativo](imagenes/tema01/energia_bohr.png){ style="display: block; margin: 0 auto; width: 250px;" }
 
 **ENERGÍA DEL ELECTRÓN EN LAS ÓRBITAS**
 
@@ -299,7 +299,7 @@ Los parámetros más importantes de la elipse son:
   
 - La distancia focal, c.
 
-![Texto alternativo](imagenes/elipse.png){ style="display: block; margin: 0 auto; width: 250px;" }
+![Texto alternativo](imagenes/tema01/elipse.png){ style="display: block; margin: 0 auto; width: 250px;" }
 
 Por tanto, para determinar las posibles órbitas elípticas necesitamos dos números cuánticos:
 
@@ -371,7 +371,7 @@ Por razones históricas los niveles con:
   
 - $\ell$ = 3 se nombran como "**f**"
   
-![Texto alternativo](imagenes/numeros.png){ style="display: block; margin: 0 auto; width: 800px;" }
+![Texto alternativo](imagenes/tema01/numeros.png){ style="display: block; margin: 0 auto; width: 800px;" }
 
 **DIAGRAMA DE MÖLLER**
 
@@ -381,7 +381,7 @@ Se puede observar que a partir de la tercera capa estados con un valor de n supe
 
 En general, **cuanto mayor es n + $\boldsymbol{\ell}$**, **mayor es la energía**.
 
-![Texto alternativo](imagenes/moller.png){ style="display: block; margin: 0 auto; width: 200px;" }
+![Texto alternativo](imagenes/tema01/moller.png){ style="display: block; margin: 0 auto; width: 200px;" }
 
 **PRINCIPIO DE EXCLUSIÓN DE PAULI**
 
@@ -568,11 +568,11 @@ de **probabilidades**, como ya nos sugería el principio de indeterminación. Po
 
 **TIPOS DE ORBITALES**
 
-![Texto alternativo](imagenes/orbitales.png){ style="display: block; margin: 0 auto; width: 850px;" }
+![Texto alternativo](imagenes/tema01/orbitales.png){ style="display: block; margin: 0 auto; width: 850px;" }
 
 Los orbitales se relacionan con los subniveles de energía vistos anteriormente y están determinados por los números cuánticos permitidos. El valor que tome el número cuántico l nos da el tipo de orbitales.
 
-![Texto alternativo](imagenes/orbitales2.png){ style="display: block; margin: 0 auto; width: 750px;" }
+![Texto alternativo](imagenes/tema01/orbitales2.png){ style="display: block; margin: 0 auto; width: 750px;" }
 
 **NÚMEROS CUÁNTICOS Y ORBITALES**
 
@@ -602,11 +602,11 @@ A partir de esa idea surge el actual sistema periódico debido a A. Werner y F.A
 
 En cada grupo se colocan los elementos de propiedades análogas, y cada periodo se construye colocando elementos que aumentan en una unidad Z (número atómico) del elemento precedente. De esta manera se separan los metales de los no-metales y, sobre todo, las distribuciones electrónicas son coherentes con la estructura del sistema periódico.
 
-![Texto alternativo](imagenes/tabla.png){ style="display: block; margin: 0 auto; width: 850px;" }
+![Texto alternativo](imagenes/tema01/tabla.png){ style="display: block; margin: 0 auto; width: 850px;" }
 
 La tabla periódica guarda una estrecha relación con las configuraciones electrónicas. Si éstas terminan en orbitales **s** o **p** se trata de elementos de los **grupos representativos**, si terminan en **d** son **elementos de transición**, y si terminan en **f** son **elementos de transición interna**.
 
-![Texto alternativo](imagenes/tabla2.png){ style="display: block; margin: 0 auto; width: 800px;" }
+![Texto alternativo](imagenes/tema01/tabla2.png){ style="display: block; margin: 0 auto; width: 800px;" }
 
 **FAMILIAS DE ELEMENTOS**
 
@@ -666,13 +666,13 @@ Rigurosamente deberíamos de hablar de **primera energía de ionización** cuand
 
 Como se observa en la tabla **la tendencia es a crecer hacia la derecha**. Se observan valores anormalmente altos para el Be y el N que se pueden explicar por la especial estabilidad de la configuración $\ce{2s^2}$ (con el **nivel s lleno**) para el Be, y $\ce{2s^2 2p^3}$ (con el **nivel p semilleno**) para el N. Observar la gran energía de ionización del Ne debido a la gran estabilidad de la estructura $\ce{2s^2 2p^6}$.
 
-![Texto alternativo](imagenes/energia_ionizacion.png){ style="display: block; margin: 0 auto; height: 70px; width: 700px;" }
+![Texto alternativo](imagenes/tema01/energia_ionizacion.png){ style="display: block; margin: 0 auto; height: 70px; width: 700px;" }
 
 Si **descendemos en un grupo** la **distancia al núcleo aumenta** (a medida que descendemos aumenta el número de capas), mientras que la carga nuclear no aumenta significativamente (a pesar de que lo hace el número de protones) debido a que los electrones situados en órbitas inferiores “apantallan” en gran medida la carga del núcleo, haciendo que la carga nuclear efectiva sobre los electrones más externos ($\ce{Z^∗ = Z − \sigma}$) sea menor de la esperada.
 
 La **energía de ionización**, por tanto, **disminuye** a medida que se **desciende en un grupo** al estar los electrones menos atraidos por el núcleo.
 
-![Texto alternativo](imagenes/energia_ionizacion2.png){ style="display: block; margin: 0 auto; width: 200px;" }
+![Texto alternativo](imagenes/tema01/energia_ionizacion2.png){ style="display: block; margin: 0 auto; width: 200px;" }
 
 **AFINIDAD ELECTRÓNICA**
 
@@ -688,7 +688,7 @@ La **variación de la afinidad electrónica en el sistema periódico será idén
   
 - Si un elemento tiende a **ceder electrones** habrá que comunicarle poca energía (**energía de ionización baja**) y no tenderá a captarlos (**afinidad electrónica baja**).
 
-![Texto alternativo](imagenes/afinidad.png){ style="display: block; margin: 0 auto; width: 300px;" }
+![Texto alternativo](imagenes/tema01/afinidad.png){ style="display: block; margin: 0 auto; width: 300px;" }
 
 **ELECTRONEGATIVIDAD**
 
@@ -722,7 +722,7 @@ La electronegatividad no es medible experimentalmente (como la energía de ioniz
 
 La escala de electronegatividad más usada es la propuesta por Pauling, en ella el elemento más electronegativo es el flúor.
 
-![Texto alternativo](imagenes/electronegatividad.png){ style="display: block; margin: 0 auto; height: 400px; width: 800px;" }
+![Texto alternativo](imagenes/tema01/electronegatividad.png){ style="display: block; margin: 0 auto; height: 400px; width: 800px;" }
 
 **TAMAÑO DE LOS ÁTOMOS (RADIO ATÓMICO)**
 
@@ -748,7 +748,7 @@ En resumen, en los **periodos largos**, el tamaño **decrece desde la izquierda 
 
 Los átomos más pequeños se encuentran situados hacia la mitad periodo.
 
-![Texto alternativo](imagenes/tamaño.png){ style="display: block; margin: 0 auto; height: 300px; width: 700px;" }
+![Texto alternativo](imagenes/tema01/tamaño.png){ style="display: block; margin: 0 auto; height: 300px; width: 700px;" }
 
 **TAMAÑO DE LOS IONES (RADIO IÓNICO)**
 
@@ -762,7 +762,7 @@ La razón está clara, a igualdad de carga efectiva del núcleo, al situar una c
 
 La pérdida de una carga negativa implica que las repulsiones entre los electrones restantes se relajan y el radio del ión disminuye respecto del átomo neutro.
 
-![Texto alternativo](imagenes/radio_ionico.png){ style="display: block; margin: 0 auto; height: 250px; width: 400px;" }
+![Texto alternativo](imagenes/tema01/radio_ionico.png){ style="display: block; margin: 0 auto; height: 250px; width: 400px;" }
 
 **RESUMEN PROPIEDADES PERIÓDICAS**
 
@@ -791,7 +791,7 @@ Como resultado de esos choques se producen nuevas partículas, la mayoría de el
 
 A ello hay que sumar la existencia de “antimateria”, predicha por Paul Dirac en 1930, confirmada dos años después al encontrar positrones (la antipartícula del electrón) en los rayos cósmicos.
 
-![Texto alternativo](imagenes/particulas.png){ style="display: block; margin: 0 auto; width: 400px;" }
+![Texto alternativo](imagenes/tema01/particulas.png){ style="display: block; margin: 0 auto; width: 400px;" }
 
 **MODELO ESTÁNDAR**
 
@@ -803,7 +803,7 @@ Plantea dos tipos de partículas:
 
 - **Bosones gauge** (cuarta columna), responsables de las interacciones entre los fermiones.
 
-![Texto alternativo](imagenes/modelo_estandar.png){ style="display: block; margin: 0 auto; width: 350px;" }
+![Texto alternativo](imagenes/tema01/modelo_estandar.png){ style="display: block; margin: 0 auto; width: 350px;" }
 
 Los **fermiones** pueden ser **quarks** o **leptones**.
 
@@ -825,11 +825,11 @@ Son **cuatro las interacciones fundamentales**:
 
 - **Nuclear débil**: responsable de que las partículas de las generaciones segunda y tercera decaigan en las de la primera (Bosón).
   
-![Texto alternativo](imagenes/interaccion.png){ style="display: block; margin: 0 auto; width: 450px;" }
+![Texto alternativo](imagenes/tema01/interaccion.png){ style="display: block; margin: 0 auto; width: 450px;" }
 
 **EVOLUCIÓN DEL UNIVERSO**
 
-![Texto alternativo](imagenes/universo.png){ style="display: block; margin: 0 auto; height: 450px; width: 750px;" }
+![Texto alternativo](imagenes/tema01/universo.png){ style="display: block; margin: 0 auto; height: 450px; width: 750px;" }
 
 En la imagen anterior se visualiza la estrecha relación que existe en cosmología entre la **física de partículas** y la **teoría del Big Bang**.
 
@@ -845,5 +845,5 @@ A partir de ahí y hasta los 3 min la temperatura baja lo suficiente como para q
 
 En los siguientes 100-200 millones de años, **por atracción gravitatoria, se forman las galaxias y en las estrellas**. En estas últimas, los átomos de hidrógeno y helio se fusionan para dar lugar a otros más pesados.
 
-![Texto alternativo](imagenes/galaxia.png){ style="display: block; margin: 0 auto; height: 250px; width: 450px;" }
+![Texto alternativo](imagenes/tema01/galaxia.png){ style="display: block; margin: 0 auto; height: 250px; width: 450px;" }
 
