@@ -1,5 +1,9 @@
 # Tema 2: Enlace químico
 
+[:material-file-download: Descargar este tema en PDF](../pdfs/tema2-enlace.pdf){ .md-button .md-button--primary download="" }
+
+---
+
 ## 1. **Introducción**
 
 La causa determinante de que los átomos traten de combinarse unos con otros es la tendencia de todos ellos a adquirir la configuración de gas noble ($\ce{ns np^6}$) en su capa más externa o “capa de valencia”.

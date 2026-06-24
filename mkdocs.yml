@@ -39,14 +39,9 @@ markdown_extensions:
 
 
 plugins:
-  - search # Requerido explícitamente al declarar la sección plugins
-  - with-pdf:
-      author: Ángel Carcelén Algaba
-      page_size: A4
-      render_js: true # Crucial para procesar MathJax (\ce{...}) antes de generar el PDF
-      output_path: pdfs/
-      # Esto inyecta de forma automática un botón/icono de descarga en la barra de herramientas superior de cada tema
-      page_download: true 
+  - search
+  - pdf-export:
+      combined: false
 
 extra_javascript:
   - javascripts/mathjax.js
