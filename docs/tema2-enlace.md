@@ -1,6 +1,6 @@
 # Tema 2: Enlace químico
 
-[:material-file-download: Descargar este tema en PDF](../pdfs/tema2-enlace.pdf){ .md-button .md-button--primary download="" }
+[:material-file-download: Descargar este tema en PDF](pdf/){ .md-button .md-button--primary download="" }
 
 ---
 
