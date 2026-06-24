@@ -18,3 +18,10 @@
   display: table;
   width: 100%;
 }
+
+@media print {
+    /* Oculta la barra de navegación lateral en el PDF final */
+    .md-nav, .md-sidebar {
+        display: none;
+    }
+}

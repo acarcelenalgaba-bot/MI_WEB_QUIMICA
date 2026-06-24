@@ -38,6 +38,16 @@ markdown_extensions:
   - pymdownx.magiclink
 
 
+plugins:
+  - search # Requerido explícitamente al declarar la sección plugins
+  - with-pdf:
+      author: Ángel Carcelén Algaba
+      page_size: A4
+      render_js: true # Crucial para procesar MathJax (\ce{...}) antes de generar el PDF
+      output_path: pdfs/
+      # Esto inyecta de forma automática un botón/icono de descarga en la barra de herramientas superior de cada tema
+      page_download: true 
+
 extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
