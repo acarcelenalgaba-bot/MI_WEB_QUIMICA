@@ -1,9 +1,5 @@
 # Tema 1: Estructura atómica de la materia
 
-[Descargar este tema en PDF](../pdf/tema1-estructura.pdf){ .md-button .md-button--primary download="" }
-
----
-
 ## **1. Modelos anteriores a Bohr**.
 
 El primer científico que publicó, en **1808**, una teoría sobre los átomos basada en hechos experimentales fue el inglés **John Dalton**.

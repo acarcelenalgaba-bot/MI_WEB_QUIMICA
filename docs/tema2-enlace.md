@@ -1,8 +1,5 @@
 # Tema 2: Enlace químico
 
-[Descargar este tema en PDF](../pdf/tema2-enlace.pdf){ .md-button .md-button--primary download="" }
----
-
 ## 1. **Introducción**
 
 La causa determinante de que los átomos traten de combinarse unos con otros es la tendencia de todos ellos a adquirir la configuración de gas noble ($\ce{ns np^6}$) en su capa más externa o “capa de valencia”.
@@ -197,39 +194,49 @@ Es importante observar que los electrones pueden circular libremente entre los c
 
 Esta nube electrónica hace de “colchón” entre las cargas positivas impidiendo que se repelan, a la vez que mantienen unidos los átomos del metal.
 
+![Texto alternativo](imagenes/tema02/nube.png){ style="display: block; margin: 0 auto; height: 250px; width: 55%;" }
+
 **ENLACE METÁLICO (TEORÍA DE BANDAS)**
 
-El modelo de la teoría de bandas, supone que, al estar tan cerca los átomos de los metales unos de otros, sus orbitales de valencia se superponen entre sí, dando lugar a un conjunto de orbitales muy parecidos que constituyen lo que se llama “banda de niveles energéticos”.
+El modelo de la **teoría de bandas**, supone que, al estar tan cerca los átomos de los metales unos de otros, sus orbitales de valencia se superponen entre sí, dando lugar a un conjunto de orbitales muy parecidos que constituyen lo que se llama “**banda de niveles energéticos**”.
 
-La banda de valencia está formada por los orbitales atómicos de valencia.
+La **banda de valencia** está formada por los orbitales atómicos de valencia.
 
-La banda de conducción está formada por los primeros orbitales atómicos vacíos.
+La **banda de conducción** está formada por los primeros orbitales atómicos vacíos.
 
 En los metales ambas bandas se solapan o están muy próximas y la energía que hay que aportar para que un electrón pase de una a otra es mínima.
 
-En los aislantes dichas bandas están muy separadas, y en los semiconductores la distancia no es muy grande.
+En los **aislantes** dichas bandas están muy separadas, y en los **semiconductores** la distancia no es muy grande.
+
+![Texto alternativo](imagenes/tema02/conductores.png){ style="display: block; margin: 0 auto; height: 350px; width: 55%;" }
 
 Si un cristal está formado por N átomos de Li, en el existirán N orbitales moleculares totalmente llenos, procedentes de la interacción de los orbitales atómicos 1s, otros N orbitales moleculares semillenos que derivan de la interacción de los orbitales 2s, y 3N orbitales moleculares vacíos (de la interacción de los orbitales atómicos 2p), cuya banda se superpone energéticamente con la correspondiente a los orbitales 2s.
 
 Cuando como en este caso, los electrones pueden moverse por todo el metal al aplicar un campo eléctrico externo, hablamos de banda de conducción.
 
-Por tanto en este caso los elementos que poseen esta estructura de bandas son conductores.
+Por tanto en este caso los elementos que poseen esta estructura de bandas son **conductores**.
+
+![Texto alternativo](imagenes/tema02/energia.png){ style="display: block; margin: 0 auto; height: 350px; width: 65%;" }
 
 La diferencia de energía, (distancia entre bandas) disminuye cuando descendemos en un grupo, para el caso del carbono su valor es 107 Kj/mol, y para el Pb (último elemento del grupo) 8 Kj/mol; esto evidencia la transición del carácter no metálico a metálico de los elementos implicados.
+
+![Texto alternativo](imagenes/tema02/tipos.png){ style="display: block; margin: 0 auto; height: 350px; width: 65%;" }
 
 **PROPIEDADES DE LOS METALES**
 
 En los metales tampoco se forman moléculas individuales. La situación es muy parecida a la encontrada en el caso de los compuestos iónicos. Sus propiedades son:
 
-- Son sólidos a temperatura ambiente (a excepción del mercurio) de densidad elevada. La red metálica es una estructura muy ordenada (típica de los sólidos) y compacta (con los iones muy bien empaquetados, muy juntos, densidad alta)
+- Son **sólidos** a **temperatura ambiente **(a excepción del mercurio) de densidad elevada. La red metálica es una estructura muy ordenada (típica de los sólidos) y compacta (con los iones muy bien empaquetados, muy juntos, densidad alta)
 
-- Temperaturas de fusión y ebullición altas, síntoma de que el enlace entre los átomos es fuerte.
+- **Temperaturas de fusión y ebullición altas**, síntoma de que el enlace entre los átomos es fuerte.
 
-- Buenos conductores del calor y la electricidad, debido a la existencia de electrones libres que pueden moverse.
+- **Buenos conductores del calor y la electricidad**, debido a la existencia de electrones libres que pueden moverse.
 
-- Ductilidad, tenacidad y maleabilidad, debido a la posibilidad de que las capas de iones se pueden deslizar unas sobre otras sin que se rompa la red metálica.
+- **Ductilidad**, **tenacidad** y **maleabilidad**, debido a la posibilidad de que las capas de iones se pueden deslizar unas sobre otras sin que se rompa la red metálica.
 
-- El característico brillo metálico es también una consecuencia de la existencia de electrones libres que pueden absorber y emitir luz de diversas frecuencias.
+![Texto alternativo](imagenes/tema02/maleable.png){ style="display: block; margin: 0 auto; height: 200px; width: 55%;" }
+
+- El característico **brillo metálico** es también una consecuencia de la existencia de electrones libres que pueden absorber y emitir luz de diversas frecuencias.
 
 
 ## 5. **Enlace covalente**
@@ -541,12 +548,7 @@ H
 En física se llama dipolo eléctrico a un sistema de dos cargas de signo opuesto e
 igual magnitud cercanas entre sí.
 Se define el momento dipolar eléctrico como una magnitud vectorial con módulo
-igual al producto de la carga q por la distancia que las separa d, cuya dirección va
--
-→
--
-→
-de la carga negativa a la positiva:
+igual al producto de la carga q por la distancia que las separa d, cuya dirección va de la carga negativa a la positiva:
 p = q· d
 Teóricamente en un enlace covalente los pares de electrones deberían compartirse por
 igual (digamos a un 50 %). Sin embargo esto solo es cierto cuando los elementos que
