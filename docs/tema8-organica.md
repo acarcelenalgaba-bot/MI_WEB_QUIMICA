@@ -36,7 +36,7 @@ Podemos ver la serie homóloga de los hidrocarburos lineales y cómo varían las
 
 **PROPIEDADES FÍSICAS DE LOS COMPUESTOS ORGÁNICOS**
 
-Son las que ya estudiamos en general para los compuestos que presentaban enlaces covalentes, es decir, dependen básicamente de la masa molecular y de la polaridad de los grupos funcionales, ya que cuanto mayores sean ambas mayores serán las fuerzas intermoleculares.
+Son en general las que presentan los compuestos con enlaces covalentes, es decir, dependen básicamente de la masa molecular y de la polaridad de los grupos funcionales, ya que cuanto mayores sean ambas mayores serán las fuerzas intermoleculares.
 
 Las sustancias que puedan formar enlaces de hidrógeno (alcoholes, ácidos, aminas…) podrán ser líquidas o sólidas a temperatura ambiente aunque no tengan grandes masas moleculares. En el caso de que no posean enlaces de hidrógeno, pero sean polares, también tendrán puntos de fusión y ebullición mayores que otras apolares de similar masa molecular.
 
@@ -46,42 +46,11 @@ En cuanto a la solubilidad dependerá de la polaridad de las moléculas. La mayo
 
 Los de mayor carácter polar como ácidos, alcoholes, aminas primarias o amidas serán solubles en agua, pero hay que tener en cuenta que la solubilidad disminuye a medida que crece la longitud de la cadena carbonada, ya que esta es apolar. Por ejemplo, el etanol es totalmente soluble en agua, pero el pentanol tiene una solubilidad de solo 2,7 g de alcohol por cada 100 g de agua.
 
-**EJERCICIO: PROPIEDADES FÍSICAS**
-
-Dados los siguientes compuestos: **ácido propanoico, propino, propanol y propanamina**, justifica para cada uno de ellos:
-
-* **a)** Su tendencia a disolverse en agua.
-* 
-* **b)** Su carácter ácido o básico.
-* 
-* **c)** Ordénalos en orden creciente de punto de ebullición.
-
-**Fórmulas de los compuestos**:
-
-* Ácido propanoico: $\ce{CH3-CH2-COOH}$
-* Propanol: $\ce{CH3-CH2-CH2OH}$ *(suponemos 1-propanol)*
-* Propanamina: $\ce{CH3-CH2-CH2NH2}$
-* Propino: $\ce{CH3-C \equiv CH}$
-
-**Resolución**:
-
-* **a)** Dada la existencia de enlaces de hidrógeno en el ácido ($\ce{-COOH}$), el alcohol ($\ce{-OH}$) y la amina ($\ce{-NH2}$), todos ellos tendrán tendencia a disolverse en agua, no así el propino, que es apolar.
-
-* **b)** El ácido propanoico será ácido (débil, como todos los orgánicos):
-$$\ce{CH3-CH2-COOH + H2O \leftrightarrow CH3-CH2-COO- + H3O+}$$
-
-La amina será básica (a semejanza del amoníaco):
-$$\ce{CH3-CH2-CH2NH2 + H2O \leftrightarrow CH3-CH2-CH2NH3+ + OH-}$$
-
-El alcohol será prácticamente neutro (solo una base fortísima sería capaz de arrancarle el hidrógeno del OH) y el propino será neutro.
-
-* **c)** El de mayor punto de ebullición será el ácido propanoico ($141^\circ\text{C}$), ya que además de presentar enlaces de hidrógeno, tiene mayor masa molecular (74) que el siguiente, que será el propanol ($97^\circ\text{C}$), a continuación la propanamina ($48^\circ\text{C}$) y por último el propino ($-23^\circ\text{C}$) que no tiene enlaces de hidrógeno. La diferencia entre el alcohol y la amina no está en sus masas moleculares, que son prácticamente iguales (60 y 59), sino a que los enlaces de hidrógeno son más fuertes entre O-H que entre N-H.
-
 ## **3. FORMULACIÓN Y NOMENCLATURA ORGÁNICA**
 
-El texto de las secciones de formulación y nomenclatura orgánica está tomado de la página AlonsoFormula. En dicha página se pueden encontrar numerosos ejemplos de cómo proceder para nombrar cuando dan una fórmula y para formular cuando nos dan un nombre. También tiene numerosos ejercicios en los que se puede comprobar si se han hecho bien.
+El texto de las secciones de formulación y nomenclatura orgánica está tomado de la página AlonsoFormula (http://www.alonsoformula.com/organica/). En dicha página se pueden encontrar numerosos ejemplos de cómo proceder para nombrar cuando dan una fórmula y para formular cuando nos dan un nombre. También tiene numerosos ejercicios en los que se puede comprobar si se han hecho bien.
 
-**ALCANOS**
+### **ALCANOS**
 
 Son compuestos de C e H (de ahí el nombre de hidrocarburos) de cadena abierta que están unidos entre sí por enlaces sencillos (C-C y C-H).
 
@@ -138,9 +107,6 @@ El nombre genérico de los hidrocarburos aromáticos mono y policíclicos es **"
 
 Experimentalmente se comprueba que los seis enlaces son equivalentes, de ahí que la molécula de benceno se represente como una estructura resonante entre las dos fórmulas propuestas por Kekulé.
 
-```markdown
-```smiles
-c1ccccc1
 
 Cuando el benceno lleva un radical se nombra primero dicho radical seguido de la palabra **"-benceno"**.
 
