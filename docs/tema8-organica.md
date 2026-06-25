@@ -136,6 +136,12 @@ Son hidrocarburos derivados del benceno ($\ce{C6H6}$). El benceno se caracteriza
 
 El nombre genérico de los hidrocarburos aromáticos mono y policíclicos es **"areno"** y los radicales derivados de ellos se llaman radicales **"arilo"**. Todos ellos se pueden considerar derivados del benceno, que es una molécula cíclica, de forma hexagonal y con un orden de enlace intermedio entre un enlace sencillo y un doble enlace donde todos sus enlaces son equivalentes por resonancia.
 
+Experimentalmente se comprueba que los seis enlaces son equivalentes, de ahí que la molécula de benceno se represente como una estructura resonante entre las dos fórmulas propuestas por Kekulé.
+
+```markdown
+```smiles
+c1ccccc1
+
 Cuando el benceno lleva un radical se nombra primero dicho radical seguido de la palabra **"-benceno"**.
 
 Si son dos los radicales se indica su posición relativa dentro del anillo bencénico mediante los números 1,2; 1,3 ó 1,4, teniendo el número 1 el sustituyente más importante. Sin embargo, en estos casos se sigue utilizando los prefijos **"orto-"** (1,2), **"meta-"** (1,3) y **"para-"** (1,4) para indicar esas mismas posiciones del segundo sustituyente.

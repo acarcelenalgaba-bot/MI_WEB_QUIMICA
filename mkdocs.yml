@@ -40,6 +40,8 @@ markdown_extensions:
 
 plugins:
   - search
+  - kroki:
+      FencePrefix: 'kroki-'
 
 extra_javascript:
   - javascripts/mathjax.js
