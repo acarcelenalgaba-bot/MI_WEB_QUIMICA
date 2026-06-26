@@ -46,7 +46,7 @@ TEX
             pdflatex -interaction=nonstopmode temp_chem.tex > temp_compile.log 2>&1
             
             if [ -f temp_chem.pdf ]; then
-                pdf2svg temp_chem.pdf imagenes/$ID.svg 2>/dev/null
+                pdf2svg temp_chem.pdf imagenes/tema08/$ID.svg 2>/dev/null
                 echo "✅ Generada con éxito: imagenes/$ID.svg (Tamaño: $TAMANO)"
                 # Limpiar log de error si existía de antes
                 rm -f imagenes/${ID}_error.log

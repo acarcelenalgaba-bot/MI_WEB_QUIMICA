@@ -121,7 +121,7 @@ Experimentalmente se comprueba que los seis enlaces son equivalentes, de ahí qu
 ```
 -->
 
-![...](imagenes/benceno.svg)
+![...](imagenes/tema08/benceno.svg)
 
 Cuando el benceno lleva un radical se nombra primero dicho radical seguido de la palabra **"-benceno"**.
 
@@ -145,7 +145,7 @@ Cuando el benceno actúa como radical de otra cadena se utiliza con el nombre de
 ```
 -->
 
-![...](imagenes/difenilo.svg)
+![...](imagenes/tema08/difenilo.svg)
 
 ![Texto alternativo](imagenes/tema08/aromaticos.png){ style="display: block; margin: 0 auto; width: 80%;" }
 
