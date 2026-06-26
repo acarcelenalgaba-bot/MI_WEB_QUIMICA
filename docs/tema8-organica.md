@@ -107,10 +107,9 @@ El nombre genérico de los hidrocarburos aromáticos mono y policíclicos es **"
 
 Experimentalmente se comprueba que los seis enlaces son equivalentes, de ahí que la molécula de benceno se represente como una estructura resonante entre las dos fórmulas propuestas por Kekulé.
 
-<!-- ![Texto alternativo](imagenes/tema08/resonancia.png){ style="display: block; margin: 0 auto; width: 70%;" } -->
 
 <!--
-```chemfig id=benceno sep=2em
+##chemfig id=benceno sep=2em
 \schemestart
 	\subscheme{\chemfig{[0,1.2]*6(=-=-=-)} 
 		\arrow{<->}[0,1.2]
@@ -118,10 +117,9 @@ Experimentalmente se comprueba que los seis enlaces son equivalentes, de ahí qu
 		\arrow{<->}[0,1.2]
 		\chemfig{[0,1.2]**6(------)}}
 \schemestop
-```
 -->
 
-![...](imagenes/tema08/benceno.svg)
+![...](imagenes/tema08/benceno.svg){style="display: block; margin: 0 auto; width: 50%;"}
 
 Cuando el benceno lleva un radical se nombra primero dicho radical seguido de la palabra **"-benceno"**.
 
@@ -133,19 +131,16 @@ Cuando el benceno actúa como radical de otra cadena se utiliza con el nombre de
 
 **Estructura de Ejemplo (Cadena con radicales fenilo)**:
 
-<!-- ![Texto alternativo](imagenes/tema08/fenilos.png){ style="display: block; margin: 0 auto; width: 70%;" } -->
-
 <!--
-```chemfig id=difenilo sep=2em
+##chemfig id=difenilo sep=2em
 \schemestart
 	\subscheme{
 		\chemfig{[:-30]*6(=-=(-CH_2-CH([:-270]-CH_3)-CH_2-CH([:-270]-CH_2-[:0]CH_3)-CH_2-CH_2-(*6(=-=-=-)))-=-)}
 	}
 \schemestop
-```
 -->
 
-![...](imagenes/tema08/difenilo.svg)
+![...](imagenes/tema08/difenilo.svg){style="display: block; margin: 0 auto; width: 60%;"}
 
 ![Texto alternativo](imagenes/tema08/aromaticos.png){ style="display: block; margin: 0 auto; width: 80%;" }
 
@@ -171,15 +166,12 @@ Cuando el alcohol no es la función principal, se nombra como **"hidroxi-"**, in
 
 Ejemplo: **4-metil-3-hidroxipentanal**:
   
-$$\ce{CH3-CH(CH3)-CH(OH)-CH2-CHO}$$
+<!--
+##chemfig id=hidroxipentanal sep=2em
+	\chemfig{CH_3-CH(-[2]CH_3)-CH(-[6]OH)-CH_2-CHO}
+-->
 
-$$\ce{\begin{matrix}
- & & \text{OH} & & \\
- & & | & & \\
-CH3 & - CH - & CH & - CH2 - & CHO \\
- & | & & & \\
- & \text{CH3} & & & 
-\end{matrix}}$$
+![...](imagenes/tema08/hidroxipentanal.svg){style="display: block; margin: 0 auto; width: 30%;"}
 
 ### **Fenoles**
 
