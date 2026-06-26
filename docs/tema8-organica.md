@@ -379,26 +379,35 @@ Los compuestos presentan idéntica conectividad molecular pero difieren en la or
 **1. Reacciones de Sustitución**
 
 Un átomo o grupo de átomos de la molécula sustrato es sustituido por otro.
+
 * **Ejemplo (Halogenación de alcanos):**
-$$\ce{CH4 + Cl2 ->[luz] CH3Cl + HCl}$$
+  
+$\ce{CH4 + Cl2 ->[luz] CH3Cl + HCl}$
 
 **2. Reacciones de Adición**
 
 Ocurren en moléculas insaturadas (con dobles o triples enlaces). Los átomos del reactivo se añaden rompiendo el enlace pi.
+
 * Siguen la **Regla de Markovnikov**: El hidrógeno del reactivo se adiciona mayoritariamente al carbono insaturado que tenga ya más átomos de hidrógeno.
+  
 * **Ejemplo (Hidratación de alquenos):**
-$$\ce{CH3-CH=CH2 + H2O ->[H+] CH3-CH(OH)-CH3}$$ *(Producto mayoritario: 2-propanol)*
+  
+$\ce{CH3-CH=CH2 + H2O ->[H+] CH3-CH(OH)-CH3}$ *(Producto mayoritario: 2-propanol)*
 
 **3. Reacciones de Eliminación**
 
 Dos átomos o grupos de átomos se escinden de posiciones adyacentes para dar lugar a una insaturación (doble o triple enlace).
+
 * Siguen la **Regla de Saytzeff**: Se elimina preferentemente el hidrógeno del carbono vecino que posea menos hidrógenos, obteniéndose el alqueno más sustituido y estable.
+  
 * **Ejemplo (Deshidratación de alcoholes):**
-$$\ce{CH3-CH2-CH(OH)-CH3 ->[H2SO4][\Delta] CH3-CH=CH-CH3 + H2O}$$ *(Producto mayoritario: but-2-eno)*
+  
+$\ce{CH3-CH2-CH(OH)-CH3 ->[H2SO4][\Delta] CH3-CH=CH-CH3 + H2O}$ *(Producto mayoritario: but-2-eno)*
 
 **4. Reacciones de Oxidación y Reducción**
 
 * **Oxidación:** Un alcohol primario se oxida a aldehído y este consecutivamente a ácido carboxílico. Un alcohol secundario se oxida a cetona.
+  
 * **Reducción:** Es el proceso inverso al anterior.
 
 **Problemas complementarios (Estilo PAU)**
@@ -407,17 +416,25 @@ Ejercicio 1
 Para cada uno de los siguientes procesos, formula la reacción, indica el nombre de los productos y el tipo de reacción orgánica:
 
 * **a) Hidrogenación catalítica del 3-metilbut-1-eno.**
-$$\ce{CH3-CH(CH3)-CH=CH2 + H2 ->[Pt/Pd] CH3-CH(CH3)-CH2-CH3}$$
+  
+$\ce{CH3-CH(CH3)-CH=CH2 + H2 ->[Pt/Pd] CH3-CH(CH3)-CH2-CH3}$
+
 *Producto:* 2-metilbutano. *Tipo:* Adición (Reducción).
 
 * **b) Deshidratación de 1-butanol con ácido sulfúrico en caliente.**
-$$\ce{CH3-CH2-CH2-CH2OH ->[H2SO4][\Delta] CH3-CH2-CH=CH2 + H2O}$$
+  
+$\ce{CH3-CH2-CH2-CH2OH ->[H2SO4][\Delta] CH3-CH2-CH=CH2 + H2O}$
+
 *Producto:* but-1-eno. *Tipo:* Eliminación.
 
 * **c) Deshidrohalogenación de 2-bromobutano con hidróxido de potasio en etanol.**
-$$\ce{CH3-CHBr-CH2-CH3 + KOH ->[etanol] CH3-CH=CH-CH3 + KBr + H2O}$$
+  
+$\ce{CH3-CHBr-CH2-CH3 + KOH ->[etanol] CH3-CH=CH-CH3 + KBr + H2O}$
+
 *Producto:* but-2-eno (mayoritario por la regla de Saytzeff). *Tipo:* Eliminación.
 
 * **d) Obtención de metanol a partir de clorometano.**
-$$\ce{CH3Cl + NaOH -> CH3OH + NaCl}$$
+  
+$\ce{CH3Cl + NaOH -> CH3OH + NaCl}$
+
 *Producto:* Metanol. *Tipo:* Sustitución nucleófila.
