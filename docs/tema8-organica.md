@@ -372,7 +372,27 @@ Los compuestos presentan idéntica conectividad molecular pero difieren en la or
 
 * **Isomería Geométrica (cis/trans):** Propia de compuestos con doble enlace rígido $\ce{C=C}$. El isómero *cis* posee los sustituyentes principales al mismo lado, mientras que el *trans* los posee en lados opuestos.
 
+<!--
+##chemfig id=cis sep=2em
+\schemestart{
+\chemname{\chemfig{C(-[3]CH_3)(-[5]H)=C(-[1]CH_3)(-[7]H)}}{cis-but-2-eno} \hspace{2cm}
+\chemname{\chemfig{C(-[3]CH_3)(-[5]H)=C(-[7]CH_3)(-[1]H)}}{trans-but-2-eno}
+ } 
+\schemestop
+-->
+
+![...](imagenes/tema08/cis.svg){style="display: block; margin: 0 auto; width: 50%;"}
+
 * **Isomería Óptica:** Ocurre ante la presencia de un carbono asimétrico o quiral (unido a 4 sustituyentes distintos). Da lugar a enantiómeros, imágenes especulares no superponibles que desvían la luz polarizada hacia la derecha (dextrógiro) o hacia la izquierda (levógiro).
+
+<!--
+##chemfig id=optica sep=2em
+\schemestart{
+\chemname{\chemfig{CH_3-CH_2-C(-[6]Cl)(-[2]OH)-CH_3}}{2-clorobutan-2-ol} }
+\schemestop
+-->
+
+![...](imagenes/tema08/optica.svg){style="display: block; margin: 0 auto; width: 40%;"}
 
 ## **5. Reacciones orgánicas principales**
 
