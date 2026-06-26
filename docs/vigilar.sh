@@ -5,7 +5,7 @@ compilar_todo() {
     echo "🔄 Procesando archivo index.qmd en busca de moléculas y esquemas..."
 
     # Buscar todas las líneas que abren un bloque chemfig
-    grep -n '^```chemfig' index.qmd | while read -r linea; do
+    grep -n '^```chemfig' tema8-organica.md | while read -r linea; do
         num_linea=$(echo "$linea" | cut -d: -f1)
         contenido_linea=$(echo "$linea" | cut -d: -f2-)
 
