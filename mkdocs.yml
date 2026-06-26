@@ -25,16 +25,19 @@ theme:
     - navigation.sections
     - content.code.copy
     - content.code.annotate
+    - navigation.expand
 
 markdown_extensions:
   - tables
   - attr_list
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.details
   - pymdownx.superfences
   - toc:
       permalink: false
       title: "📋 Contenidos"
+      toc_depth: 2
   - pymdownx.magiclink
 
 

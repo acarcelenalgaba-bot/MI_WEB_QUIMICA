@@ -147,6 +147,14 @@ Ejemplo: **4-metil-3-hidroxipentanal**:
   
 $$\ce{CH3-CH(CH3)-CH(OH)-CH2-CHO}$$
 
+$$\ce{\begin{matrix}
+ & & \text{OH} & & \\
+ & & | & & \\
+CH3 & - CH - & CH & - CH2 - & CHO \\
+ & | & & & \\
+ & \text{CH3} & & & 
+\end{matrix}}$$
+
 ### **Fenoles**
 
 Son derivados aromáticos que presentan grupos hidroxilo, **-OH** unidos directamente a un anillo bencénico. Los fenoles tienen cierto carácter ácido y forman sales metálicas.
@@ -293,7 +301,8 @@ El orden decreciente de prioridad es el siguiente:
 | 3. **Amidas** ($\ce{-CONH2}$) |  ...amida |  Carbamoil- |
 | 4. **Nitrilos** ($\ce{-CN}$) |  ...nitrilo |  Ciano- |
 | 5. **Aldehídos** ($\ce{-CHO}$) |  ...al |  Formil- (u Oxo-) |
-| 6. **Cetonas** ($\ce{-CO-}$) |  ...ona |  Oxo- |
+| 6. **Cetonas** ($\ce{-CO-}$) |  ...ona | 
+ Oxo- |
 | 7. **Alcoholes** ($\ce{-OH}$) |  ...ol |  Hidroxi- |
 | 8. **Aminas** ($\ce{-NH2}$) |  ...amina |  Amino- |
 | 9. **Éteres** ($\ce{-O-}$) |  ...oxi... |  Alcoxi- |
