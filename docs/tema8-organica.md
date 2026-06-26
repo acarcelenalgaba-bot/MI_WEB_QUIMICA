@@ -111,11 +111,21 @@ Experimentalmente se comprueba que los seis enlaces son equivalentes, de ahí qu
 
 <!--
 ```chemfig id=benceno sep=2em
-    \chemfig{CH_3-CH([2]-CH_3)-CH_2-C(=[2]O)-OH} 
+\schemestart
+	\subscheme{\chemfig{[0,1.2]*6(=-=-=-)} 
+		\arrow{<->}[0,1.2]
+		\chemfig{[0,1.2]*6(-=-=-=)} 
+		\arrow{<->}[0,1.2]
+		\chemfig{[0,1.2]**6(------)}}
+\schemestop
 ```
 -->
 
 ![...](imagenes/benceno.svg)
+
+| 
+:-: |
+![Benceno](imagenes/benceno.svg)
 
 Cuando el benceno lleva un radical se nombra primero dicho radical seguido de la palabra **"-benceno"**.
 

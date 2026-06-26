@@ -2,7 +2,7 @@
 mkdir -p imagenes
 
 compilar_todo() {
-    echo "🔄 Procesando archivo index.qmd en busca de moléculas y esquemas..."
+    echo "🔄 Procesando archivo tema8-organica.md en busca de moléculas y esquemas..."
 
     # Buscar todas las líneas que abren un bloque chemfig
     grep -n '^```chemfig' tema8-organica.md | while read -r linea; do
@@ -18,7 +18,7 @@ compilar_todo() {
         if [ -z "$TAMANO" ]; then TAMANO="3em"; fi
 
         # EXTRAER CÓDIGO (Ultra-robusto contra CRLF/Windows y saltos de línea extraños)
-        CODIGO_MOLECULA=$(tail -n +$((num_linea+1)) index.qmd | tr -d '\r' | sed -n '1,/^```/p' | grep -v '^```' | grep -v '^#|' | tr '\n' ' ' | sed 's/  */ /g;s/^ //;s/ $//')
+        CODIGO_MOLECULA=$(tail -n +$((num_linea+1)) tema8-organica.md | tr -d '\r' | sed -n '1,/^```/p' | grep -v '^```' | grep -v '^#|' | tr '\n' ' ' | sed 's/  */ /g;s/^ //;s/ $//')
 
         if [ ! -z "$CODIGO_MOLECULA" ]; then
             
@@ -65,7 +65,7 @@ TEX
 # Ejecutar al arrancar
 compilar_todo
 
-# Vigilar cambios en el archivo index.qmd
-while inotifywait -e close_write index.qmd; do
+# Vigilar cambios en el archivo tema8-organica.md
+while inotifywait -e close_write tema8-organica.md; do
     compilar_todo
 done
