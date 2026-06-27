@@ -111,11 +111,13 @@ Experimentalmente se comprueba que los seis enlaces son equivalentes, de ahí qu
 <!--
 ##chemfig id=benceno sep=2em
 \schemestart
-	\subscheme{\chemfig{[0,1.2]*6(=-=-=-)} 
+	\subscheme{
+        \chemfig{[0,1.2]*6(=-=-=-)} 
 		\arrow{<->}[0,1.2]
 		\chemfig{[0,1.2]*6(-=-=-=)} 
 		\arrow{<->}[0,1.2]
-		\chemfig{[0,1.2]**6(------)}}
+		\chemfig{[0,1.2]**6(------)}
+    }
 \schemestop
 -->
 
@@ -269,13 +271,15 @@ Se pueden considerar derivados del amoníaco ($\ce{NH3}$) por sustitución de un
 <!--
 ##chemfig id=aminas sep=2em
 \schemestart
-	\subscheme{\chemfig{NH_3} 
+	\subscheme{
+        \chemfig{NH_3} 
 		\arrow{->}[0,0.7]
 		\chemfig{R-NH_2} 
 		\arrow{->}[0,0.7]
         \chemfig{R-NH-R'} 
 		\arrow{->}[0,0.7]
-		\chemfig{R-N(-[6]R'')-R''}}
+		\chemfig{R-N(-[6]R'')-R''}
+    }
 \schemestop
 -->
 
@@ -374,10 +378,11 @@ Los compuestos presentan idéntica conectividad molecular pero difieren en la or
 
 <!--
 ##chemfig id=cis sep=2em
-\schemestart{
-\chemname{\chemfig{C(-[3]CH_3)(-[5]H)=C(-[1]CH_3)(-[7]H)}}{cis-but-2-eno} \hspace{2cm}
-\chemname{\chemfig{C(-[3]CH_3)(-[5]H)=C(-[7]CH_3)(-[1]H)}}{trans-but-2-eno}
- } 
+\schemestart
+    \subscheme{
+        \chemname{\chemfig{C(-[3]CH_3)(-[5]H)=C(-[1]CH_3)(-[7]H)}}{cis-but-2-eno} \hspace{2cm}
+        \chemname{\chemfig{C(-[3]CH_3)(-[5]H)=C(-[7]CH_3)(-[1]H)}}{trans-but-2-eno}
+    } 
 \schemestop
 -->
 
@@ -387,9 +392,11 @@ Los compuestos presentan idéntica conectividad molecular pero difieren en la or
 
 <!--
 ##chemfig id=optica sep=2em
-\schemestart{
-\chemname{\chemfig{CH_3-CH_2-C(-[6]Cl)(-[2]OH)-CH_3}}{2-clorobutan-2-ol}  \hspace{2cm}
-\chemname{\chemfig{[,1.7] C(-[2]H)(-[6]I)(<[:330]Cl)(<:[:210]Br)} }{\footnotesize bromocloroyodometano} }
+\schemestart
+    \subscheme{
+        \chemname{\chemfig{CH_3-CH_2-C(-[6]Cl)(-[2]OH)-CH_3}}{2-clorobutan-2-ol}  \hspace{2cm}
+        \chemname{\chemfig{[,1.7] C(-[2]H)(-[6]I)(<[:330]Cl)(<:[:210]Br)} }{\footnotesize bromocloroyodometano} 
+    }
 \schemestop
 -->
 
@@ -459,22 +466,61 @@ Ejemplos:
 
 <!--
 ##chemfig id=bromobenceno sep=2em
-\schemestart{
-\chemfig{*6(=-=-=-)} \; + \; \chemfig{Br_2} \;
-\chemfig{*6(=-=(-Br)-=-)} \; + \; \chemfig{HBr}
+\schemestart
+    \subscheme{
+        \chemname{\chemfig{*6(=-=-=-)}}{benceno} \; + \; \chemfig{Br_2} \;
+        \arrow{->}[0,0.7]
+        \chemname{\chemfig{*6(=-=(-Br)-=-)}}{bromobenceno} \; + \; \chemfig{HBr}
     }
 \schemestop
 -->
 
-![...](imagenes/tema08/bromobenceno.svg){style="display: block; margin: 0 auto; width: 40%;"}
+![...](imagenes/tema08/bromobenceno.svg){style="display: block; margin: 0 auto; width: 50%;"}
 
-Benceno + HNO3 −→ Nitrobenceno + H2 O
+<!--
+##chemfig id=nitrobenceno sep=2em
+\schemestart
+    \subscheme{
+        \chemname{\chemfig{*6(=-=-=-)}}{benceno} \; + \; \chemfig{HNO_3} \;
+        \arrow{->}[0,0.7]
+        \chemname{\chemfig{*6(=-=(-NO_2)-=-)}}{nitrobenceno} \; + \; \chemfig{H_2O}
+    }
+\schemestop
+-->
 
-Suelen estar catalizadas por ácidos.
+![...](imagenes/tema08/nitrobenceno.svg){style="display: block; margin: 0 auto; width: 50%;"}
+
+Las reacciones suelen estar catalizadas por ácidos.
 
 **2. Reacciones de Adición**
 
-Ocurren en moléculas insaturadas (con dobles o triples enlaces). Los átomos del reactivo se añaden rompiendo el enlace pi.
+Ocurren en moléculas insaturadas (dobles o triples enlaces). Los átomos del reactivo se añaden rompiendo el enlace $\pi$.
+
+También pueden ser por radicales libres, nucleófilas o electrófilas. Las más importantes son las electrófilas.
+
+Los ejemplos típicos son la **adición de hidrógeno** (H-H) (**hidrogenación**), de **halógeno** (ej: Cl-Cl), de **hidrácido** (ej: H-Br) o de **agua** (H-OH).
+
+Cuando el **reactivo es simétrico** no hay dudas sobre el compuesto obtenido, por ejemplo, la reacción de cloro (**simétrico**) con propeno da lugar a 1,2- dicloropropeno:
+
+$\ce{CH3-CH=CH2 + Cl2 \; \rightarrow \; CH3-CHCl-CH2-Cl + HCl}$
+
+Sin embargo, cuando el **reactivo es asimétrico** podemos obtener dos isómeros, por ejemplo, con el mismo propeno, si reacciona con ácido bromhídrico podemos obtener el 2-bromopropano o el 1-bromopropano.
+
+<!--
+##chemfig id=propeno sep=2em
+\schemestart[0, 0.8, 1.5]
+    \chemname{\chemfig{CH_3-CH=CH_2}}{propeno} 
+    \arrow{0}[,0.7] + \arrow{0}[,0.7]
+    \chemname{\chemfig{HBr}}{ácido bromhídrico} \arrow{0}[,0.25]
+    \arrow(.mid--.mid){->}[0,0.8] 
+    \arrow{0}[,0.75]
+    \chemname{\chemfig{CH_3-CH(-[6]Br)-CH_3}}{mayoritario} 
+    \arrow{0}[,0.2] + \arrow{0}[,0.2]
+    \chemname{\chemfig{CH_3-CH_2-CH_2(-[6]Br)}}{minoritario}
+\schemestop
+-->
+
+![...](imagenes/tema08/propeno.svg){style="display: block; margin: 0 auto; width: 100%"}
 
 * Siguen la **Regla de Markovnikov**: El hidrógeno del reactivo se adiciona mayoritariamente al carbono insaturado que tenga ya más átomos de hidrógeno.
   
