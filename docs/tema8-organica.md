@@ -425,9 +425,52 @@ La primera da lugar a radicales libres, la segunda a carbocationes o carbaniones
 
 Un átomo o grupo de átomos de la molécula sustrato es sustituido por otro.
 
-* **Ejemplo (Halogenación de alcanos):**
+a) **Reacciones de sustitucion nucleófila**
+
+Se producen cuando un reactivo nucleófilo, Y, sustituye a un átomo o grupo de átomos electronegativo, X, que está unido a un carbono:
+
+$\ce{R-X + Y \; \rightarrow \; R-Y + X}$
+
+Las reacciones típicas son:
+
+- **Halogenación de alcanos:**
   
 $\ce{CH4 + Cl2 ->[luz] CH3Cl + HCl}$
+
+- En **derivados halogenados formación de alcoholes**: el reactivo es el ión $\ce{OH^-}$ por ejemplo del NaOH: se cambia el halógeno por el OH y se obtiene un alcohol:
+
+$\ce{CH3-CH2-Br + NaOH \; \rightarrow \; CH3-CH2-OH + NaBr}$
+
+- A partir de derivados halogenados también se pueden obtener otras sustancias: aminas, nitrilos, éteres, ésteres, pero la más importante es la que da alcoholes.
+
+- **Formación de derivados halogenados a partir de alcoholes**.
+
+Es justamente la reacción contraria a la anterior. Están catalizadas por ácidos.
+Si para la anterior se usaba un hidróxido para ésta al revés, se usa un ácido,
+por ejemplo:
+
+$\ce{CH3-CH2-OH + HCl \; \rightarrow \; CH3-CH2-Cl + H2O}$
+
+b) **Reacciones de sustitución electrófila**
+
+Son típicas del benceno y los compuestos aromáticos. En ellas un hidrógeno del benceno se sustituye por el reactivo electrófilo.
+
+Ejemplos:
+
+<!--
+##chemfig id=bromobenceno sep=2em
+\schemestart{
+\chemfig{*6(=-=-=-)} \; + \; \chemfig{Br_2} \;
+\chemfig{*6(=-=(-Br)-=-)} \; + \; \chemfig{HBr}
+    }
+\schemestop
+-->
+
+![...](imagenes/tema08/bromobenceno.svg){style="display: block; margin: 0 auto; width: 40%;"}
+
+Benceno + HNO3 −→ Nitrobenceno + H2 O
+
+Suelen estar catalizadas por ácidos.
 
 **2. Reacciones de Adición**
 
