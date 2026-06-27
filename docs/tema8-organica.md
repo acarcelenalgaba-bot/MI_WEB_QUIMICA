@@ -607,6 +607,15 @@ Ejemplo de esterificación:
 
 ![...](imagenes/tema08/esterificacion.svg){style="display: block; margin: 0 auto; width: 100%"}
 
+**Condensación de amidas**
+
+La formación de amidas, a partir de un ácido y amoníaco (o amina), donde también se libera agua tiene una importancia especial, ya que se trata del enlace peptídico, básico en la formación de las proteínas.
+
+**Hidrólisis de ésteres**
+
+Conviene saber también que la reacción contraria a la esterificación es la hidrólisis de los ésteres, que de hacerse en medio ácido nos da el alcohol y ácido iniciales, pero en medio básico se llama **“saponificación”** y supone la formación irreversible del anión carboxilato.
+
+Cuando se hace la saponificación de las grasas (ésteres de ácidos grasos con la glicerina) se obtienen los jabones.
 
 **Problemas complementarios (Estilo PAU)**
 
@@ -618,22 +627,22 @@ Para cada uno de los siguientes procesos, formula la reacción, indica el nombre
   
 $\ce{CH3-CH(CH3)-CH=CH2 + H2 ->[Pt/Pd] CH3-CH(CH3)-CH2-CH3}$
 
-*Producto:* 2-metilbutano. *Tipo:* Adición (Reducción).
+*Producto:* 2-metilbutano. *Tipo de reacción:* Adición (Reducción).
 
 * **b) Deshidratación de 1-butanol con ácido sulfúrico en caliente.**
   
 $\ce{CH3-CH2-CH2-CH2OH ->[H2SO4][\Delta] CH3-CH2-CH=CH2 + H2O}$
 
-*Producto:* but-1-eno. *Tipo:* Eliminación.
+*Producto:* but-1-eno. *Tipo de reacción:* Eliminación.
 
 * **c) Deshidrohalogenación de 2-bromobutano con hidróxido de potasio en etanol.**
   
 $\ce{CH3-CHBr-CH2-CH3 + KOH ->[etanol] CH3-CH=CH-CH3 + KBr + H2O}$
 
-*Producto:* but-2-eno (mayoritario por la regla de Saytzeff). *Tipo:* Eliminación.
+*Producto:* but-2-eno (mayoritario por la regla de Saytzeff). *Tipo de reacción:* Eliminación.
 
 * **d) Obtención de metanol a partir de clorometano.**
   
 $\ce{CH3Cl + NaOH -> CH3OH + NaCl}$
 
-*Producto:* Metanol. *Tipo:* Sustitución nucleófila.
+*Producto:* Metanol. *Tipo de reacción:* Sustitución nucleófila.
