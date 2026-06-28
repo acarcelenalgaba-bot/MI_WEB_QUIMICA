@@ -10,59 +10,55 @@ compilar_fichero() {
     # Extraer el número del tema (ej: de "tema3-algo.md" extrae "3")
     NUM_TEMA=$(echo "$FICHERO" | sed -E 's/^tema([0-9]+)-.*/\1/')
     
-    # Formatear a dos dígitos (ej: "3" se convierte en "02" o "12" se queda "12")
+    # Formatear a dos dígitos (ej: "3" se convierte en "03" o "12" se queda "12")
     NUM_FORMATEADO=$(printf "%02d" "$NUM_TEMA")
     
     # Definir y crear la carpeta de destino específica para este tema
     CARPETA_DESTINO="imagenes/tema$NUM_FORMATEADO"
     mkdir -p "$CARPETA_DESTINO"
 
-    echo "🔄 Procesando archivo $FICHERO en busca de moléculas y esquemas..."
+    echo "🔄 Procesando archivo $FICHERO en busca de gráficos TikZ..."
 
-    # Buscar todas las líneas que abren un bloque chemfig
-    grep -n '^##chemfig' "$FICHERO" | while read -r linea; do
+    # Buscar todas las líneas que abren un bloque tikz
+    grep -n '^##tikz' "$FICHERO" | while read -r linea; do
         num_linea=$(echo "$linea" | cut -d: -f1)
         contenido_linea=$(echo "$linea" | cut -d: -f2-)
 
-        # Extraer el ID y el atom sep
+        # Extraer el ID del gráfico
         ID=$(echo "$contenido_linea" | grep -o 'id=[a-zA-Z0-9_-]*' | sed 's/id=//g')
-        TAMANO=$(echo "$contenido_linea" | grep -o 'sep=[a-zA-Z0-9.]*' | sed 's/sep=//g')
 
-        if [ -z "$ID" ]; then ID="molecula_$num_linea"; fi
-        if [ -z "$TAMANO" ]; then TAMANO="3em"; fi
+        if [ -z "$ID" ]; then ID="tikz_$num_linea"; fi
 
-        # EXTRAER CÓDIGO (Ultra-robusto contra CRLF/Windows)
-        CODIGO_MOLECULA=$(tail -n +$((num_linea+1)) "$FICHERO" | tr -d '\r' | sed -n '1,/^```/p' | grep -v '^```' | grep -v '^#|' | tr '\n' ' ' | sed 's/  */ /g;s/^ //;s/ $//')
+        # EXTRAER CÓDIGO (Preservando saltos de línea para evitar problemas con comentarios '%')
+        CODIGO_BLOQUE=$(tail -n +$((num_linea+1)) "$FICHERO" | tr -d '\r' | sed -n '1,/^```/p' | grep -v '^```' | grep -v '^#|')
 
-        if [ ! -z "$CODIGO_MOLECULA" ]; then
+        if [ ! -z "$CODIGO_BLOQUE" ]; then
             
-            if echo "$CODIGO_MOLECULA" | grep -q -E '\\schemestart|\\chemfig'; then
-                CONTENIDO_FINAL="$CODIGO_MOLECULA"
+            # Comprobar si el código ya incluye el entorno tikzpicture
+            if echo "$CODIGO_BLOQUE" | grep -q '\\begin{tikzpicture}'; then
+                CONTENIDO_FINAL="$CODIGO_BLOQUE"
             else
-                CONTENIDO_FINAL="\\chemfig{$CODIGO_MOLECULA}"
+                CONTENIDO_FINAL=$"\\begin{tikzpicture}\n$CODIGO_BLOQUE\n\\end{tikzpicture}"
             fi
 
-            # Generar el archivo temporal de LaTeX
-            cat << TEX > temp_chem.tex
+            # Generar el archivo temporal de LaTeX incluyendo librerías críticas de texturas y formas
+            cat << TEX > temp_tikz.tex
 \documentclass[tikz,border=2mm]{standalone}
-\usepackage{chemfig}
-\usepackage{tikz}
-\usetikzlibrary{shapes,snakes}
-\setchemfig{atom sep=$TAMANO}
+\usetikzlibrary{shapes,patterns}
 \begin{document}
 $CONTENIDO_FINAL
 \end{document}
 TEX
             
             # Compilar
-            pdflatex -interaction=nonstopmode temp_chem.tex > temp_compile.log 2>&1
+            pdflatex -interaction=nonstopmode temp_tikz.tex > temp_compile.log 2>&1
             
-            if [ -f temp_chem.pdf ]; then
-                pdf2svg temp_chem.pdf "$CARPETA_DESTINO/$ID.svg" 2>/dev/null
-                echo "✅ Generada con éxito: $CARPETA_DESTINO/$ID.svg (Tamaño: $TAMANO)"
+            if [ -f temp_tikz.pdf ]; then
+                pdf2svg temp_tikz.pdf "$CARPETA_DESTINO/$ID.svg" 2>/dev/null
+                echo "✅ Generado con éxito: $CARPETA_DESTINO/$ID.svg"
                 rm -f "$CARPETA_DESTINO/${ID}_error.log"
             else
-                echo "❌ Error al compilar la molécula $ID en la línea $num_linea de $FICHERO"
+                echo "❌ Error al compilar el gráfico TikZ ($ID) en la línea $num_linea de $FICHERO"
                 mv temp_compile.log "$CARPETA_DESTINO/${ID}_error.log"
                 echo "   🔍 Log de error en: $CARPETA_DESTINO/${ID}_error.log"
             fi

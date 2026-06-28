@@ -473,7 +473,7 @@ Centro: Tres pares. Estructura triangular plana (120$^{\circ}$)
 Derecha: Cuatro pares. Estructura tetraédrica (109,5$^{\circ}$)
 
 <!--
-##chemfig id=tipos_geometria sep=2em
+##tikz id=tipos_geometria sep=2em
 \begin{tikzpicture}[scale=1] 
 
 % Geometria lineal
