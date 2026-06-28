@@ -249,6 +249,8 @@ Entre los dos átomos pueden compartirse uno, dos o tres pares de electrones, lo
 
 De esta manera alcanzan los ocho electrones en la última capa (2 en el caso del hidrógeno, pues así alcanza la configuración del He, $\ce{1 s^2}$.
 
+![Texto alternativo](imagenes/tema02/covalente.png){ style="display: block; margin: 0 auto; height: 200px; width: 55%;" }
+
 Los átomos se acercan hasta que los orbitales se solapan. Los electrones de ambos átomos se mueven ahora en una "zona común": **orbital molecular**.
 
 Es un enlace característico entre átomos de electronegatividad alta (no metales).
