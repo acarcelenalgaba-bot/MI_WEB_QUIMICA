@@ -368,10 +368,10 @@ Por eso ninguna de las dos fórmulas de Lewis responde bien a su estructura real
 <!--
 ##chemfig id=resonancia2 sep=2em
 \schemestart
-\chemname[2em]{ \chemfig{[,1] \charge{135=\|,315=\|}{O}=[:30]\charge{90=\|}{S}-[::-60]\charge{45=\|,225=\|,315=\|}{O}} \hspace{1cm} $\leftrightarrow$ \hspace{1cm}
+\chemname[2em]{ \chemfig{[,1] \charge{135=\|,315=\|}{O}=[:30]\charge{90=\|}{S}-[::-60]\charge{45=\|,225=\|,315=\|}{O}} \hspace{1cm} $\longleftrightarrow$ \hspace{1cm}
 \chemfig{[,1] \charge{135=\|,225=\|,315=\|}{O}-[:30]\charge{90=\|}{S}=[::-60]\charge{45=\|,225=\|}{O}} }{Dioxido de azufre}  \hspace{3cm}
 
-\chemname[2em]{ \chemfig{[,1] \charge{135=\|,315=\|}{O}=[:30]\charge{90=\|}{O}-[::-60]\charge{45=\|,225=\|,315=\|}{O}} \hspace{1cm} $\leftrightarrow$ \hspace{1cm}
+\chemname[2em]{ \chemfig{[,1] \charge{135=\|,315=\|}{O}=[:30]\charge{90=\|}{O}-[::-60]\charge{45=\|,225=\|,315=\|}{O}} \hspace{1cm} $\longleftrightarrow$ \hspace{1cm}
 \chemfig{[,1] \charge{135=\|,225=\|,315=\|}{O}-[:30]\charge{90=\|}{O}=[::-60]\charge{45=\|,225=\|}{O}} }{Ozono}
 \schemestop
 -->
@@ -391,7 +391,7 @@ Por eso ninguna de las dos fórmulas de Lewis responde bien a su estructura real
 
 ![...](imagenes/tema02/nitrato.svg){style="display: block; margin: 0 auto; width: 70%"}
 
-$\ce{\hspace{6cm} Anión \; nitrato{,} NO3^-}$
+$\ce{\hspace{8cm} Anión \; nitrato{,} NO3^-}$
 
 **Reglas para generar el diagrama de Lewis**
 
