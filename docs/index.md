@@ -27,7 +27,7 @@ Utiliza el siguiente índice para acceder directamente a cada unidad didáctica:
     *   *Contenido:* Ajuste por el método del ion-electrón, celdas galvánicas (pilas) y estequiometría de la electrólisis (Leyes de Faraday).
 
 ### 🔗 Bloque 4: Química Organica
-*   **[Tema 8: Química organica y reactividad](tema8-organica.md)** *(Pendiente de redactar)*
+*   **[Tema 8: Química organica y reactividad](tema8-organica.md)**
     *   *Contenido:* Formulación orgánica, isomería y reactividad.
 *   **[Tema 9: Polimeros organicos](tema9-polimeros.md)** *(Pendiente de redactar)*
     *   *Contenido:* Definición, tipos y reacciones típicas.
