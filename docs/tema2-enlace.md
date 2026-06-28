@@ -466,65 +466,196 @@ La existencia de **pares no enlazantes** sobre los átomos altera la geometría 
 
 Estructuras que hacen mínimas las repulsiones entre pares de enlace:
 
-Izquierda: Dos pares. Estructura lineal. (180$^{\circ}$)
+**Dos pares** electrónicos en el átomo central. Estructura **lineal**. (180$^{\circ}$)
 
-Centro: Tres pares. Estructura triangular plana (120$^{\circ}$)
+**Tres pares** electrónicos en el átomo central. Estructura **triangular plana** (120$^{\circ}$)
 
-Derecha: Cuatro pares. Estructura tetraédrica (109,5$^{\circ}$)
+**Cuatro pares** electrónicos en el átomo central. Estructura **tetraédrica** (109,5$^{\circ}$)
 
 <!--
 ##tikz id=tipos_geometria sep=2em
 \begin{tikzpicture}[scale=1] 
 
-% Geometria lineal
+% =========================================================================
+% 1. GEOMETRÍA LINEAL (Ángulo de 180°)
+% =========================================================================
 \node (C1) at (-7, 0.5) {}; 
-\node [label={[label distance=1cm]-90:\textbf{lineal}}] (O1) at (-6.5, 0.5) {} ; 
+\node [label={[font=\bfseries, label distance=0.8cm]90:lineal}] (O1) at (-6.5, 0.5) {} ;
 \node (C2) at (-6, 0.5) {}; 
-\shade [ball color=blue!75] (C1) circle (0.15);  
-\shade [ball color=red!75] (O1) circle (0.15); 
-\shade [ball color=blue!75] (C2) circle (0.15);  
-\draw (C1) -- (O1) -- (C2);
 
-% Geometria triangular plana
-\node (C1) at (-3, 0.1) {}; 
-\node [label={[label distance=1cm]-90:\textbf{triangular plana}}] (O1) at (-2.5, 0.5) {}; 
-\node (C2) at (-2.5, 1.1) {}; 
-\node (C3) at (-2, 0.1) {}; 
-\shade [ball color=blue!75] (C1) circle (0.15);  
-\shade [ball color=red!75] (O1) circle (0.15); 
-\shade [ball color=blue!75] (C2) circle (0.15);  
-\shade [ball color=blue!75] (C3) circle (0.15); 
-\draw (C1) -- (O1) -- (C3);
-\draw (O1) -- (C2);
+% Enlaces químicos
+\draw [thick] (C1) -- (O1) -- (C2);
 
-% Geometria tetraedrica
-\node (C1) at (1, 0.1) {}; 
-\node [label={[label distance=1cm]-90:\textbf{tetráedrica}}] (O1) at (1.5, 0.5) {}; 
-\node (C2) at (1.5, 1.1) {}; 
-\node (C3) at (2, 0.3) {}; 
-\node (C4) at (1.8, -0.1) {};
+% Arco e indicación del ángulo de 180 grados
+\draw [red, thick, ->] (-6.7, 0.5) arc (180:0:0.2);
+\node [red, font=\footnotesize\bfseries] at (-6.5, 0.9) {180$^{\circ}$};
+
+% Esferas de los átomos
 \shade [ball color=blue!75] (C1) circle (0.15);  
 \shade [ball color=red!75] (O1) circle (0.15); 
 \shade [ball color=blue!75] (C2) circle (0.15);  
-\shade [ball color=blue!75] (C3) circle (0.13); 
-\shade [ball color=blue!75] (C4) circle (0.15); 
-\draw (C1) -- (O1) -- (C3);
-\draw (O1) -- (C2);
-\draw (O1) -- (C4);
+
+
+% =========================================================================
+% 2. GEOMETRÍA TRIANGULAR PLANA (Ángulo de 120°)
+% =========================================================================
+\node (C3) at (-3, 0.1) {}; 
+\node [label={[font=\bfseries, label distance=0.8cm]90:triangular plana}] (O2) at (-2.5, 0.5) {}; 
+\node (C4) at (-2.5, 1.1) {}; 
+\node (C5) at (-2, 0.1) {}; 
+
+% Enlaces químicos
+\draw [thick] (C3) -- (O2) -- (C5);
+\draw [thick] (O2) -- (C4);
+
+% Arco e indicación del ángulo de 120 grados (entre enlace izquierdo e inferior derecho)
+\draw [blue, thick, ->] (-2.7, 0.26) to[out=320, in=220] (-2.3, 0.26);
+\node [blue, font=\footnotesize\bfseries] at (-2.5, 0.0) {120$^{\circ}$};
+
+% Esferas de los átomos
+\shade [ball color=blue!75] (C3) circle (0.15);  
+\shade [ball color=red!75] (O2) circle (0.15); 
+\shade [ball color=blue!75] (C4) circle (0.15);  
+\shade [ball color=blue!75] (C5) circle (0.15); 
+
+
+% =========================================================================
+% 3. GEOMETRÍA TETRAÉDRICA (Ángulo de 109.5°)
+% =========================================================================
+\node (C6) at (1, 0.1) {}; 
+\node [label={[font=\bfseries, label distance=0.8cm]90:tetráedrica}] (O3) at (1.5, 0.5) {}; 
+\node (C7) at (1.5, 1.1) {}; 
+\node (C8) at (2, 0.3) {}; 
+\node (C9) at (1.8, -0.1) {};
+
+% Enlaces químicos (Corregidos para enlazar los 4 átomos al centro O3)
+\draw [thick] (C6) -- (O3);
+\draw [thick] (C7) -- (O3);
+\draw [thick] (C8) -- (O3);
+\draw [thick] (C9) -- (O3);
+
+% Arco e indicación del ángulo tetraédrico de 109.5 grados
+\draw [purple, thick, ->] (1.2, 0.26) to[out=110, in=200] (1.5, 0.8);
+\node [purple, font=\footnotesize\bfseries] at (0.8, 0.7) {109,5$^{\circ}$};
+
+% Esferas de los átomos
+\shade [ball color=blue!75] (C6) circle (0.15);  
+\shade [ball color=red!75] (O3) circle (0.15); 
+\shade [ball color=blue!75] (C7) circle (0.15);  
+\shade [ball color=blue!70!black!80] (C8) circle (0.13); % Fondo (más oscuro)
+\shade [ball color=blue!75] (C9) circle (0.15);
 
 \end{tikzpicture}
 -->
 
-![...](imagenes/tema02/tipos_geometria.svg){style="display: block; margin: 0 auto; width: 15%"}
+![...](imagenes/tema02/tipos_geometria.svg){style="display: block; margin: 0 auto; width: 80%"}
 
 Otros:
 
-Cinco pares: Bipirámide trigonal (120 ◦ / 90 ◦)
+Cinco pares: Bipirámide trigonal (120$^{\circ}$ / 90$^{\circ}$)
 
-Seis pares: Octaédrica (90 ◦)
+Seis pares: Octaédrica (90$^{\circ}$)
+
+<!--
+##tikz id=tipos_geometria2 sep=2em
+\begin{tikzpicture}[scale=1] 
+
+% =========================================================================
+% 1. GEOMETRÍA BIPIRÁMIDE TRIGONAL (Centro en X=5)
+% =========================================================================
+\node (O1) at (5, 0.5) {}; 
+\node [label={[font=\bfseries, label distance=0.8cm]-90:bipirámide trigonal}] at (5, 4.5) {}; 
+
+% Átomos axiales
+\node (C1) at (5, 2.3) {}; 
+\node (C2) at (5, -1.3) {}; 
+
+% Átomos ecuatoriales (Base: 180°, 45° y -45°)
+\node (C3) at (3.65, 0.50) {}; 
+\node (C4) at (6.00, 0.05) {}; 
+\node (C5) at (6.00, 0.95) {}; 
+
+% Enlaces químicos principales
+\draw [thick] (C1) -- (O1) -- (C2);
+\draw [thick] (C3) -- (O1) -- (C4);
+\draw [thick] (O1) -- (C5);
+
+% Triángulo de la base
+\draw [dashed, gray, thick] (C3) -- (C4);
+\draw [dashed, gray, thick] (C4) -- (C5);
+\draw [dashed, gray, thick] (C5) -- (C3);
+
+% Ángulo de 90 grados (Axial - Ecuatorial)
+\draw [red, thick] (5.0, 0.8) -- (4.7, 0.8) -- (4.7, 0.5);
+\node [red, font=\footnotesize\bfseries] at (4.4, 0.9) {90$^{\circ}$};
+
+% Ángulo de 120 grados (Ecuatorial - Ecuatorial)
+\draw [blue, thick, ->] (5.6, 0.25) to[out=45, in=315] (5.6, 0.75);
+\node [blue, font=\footnotesize\bfseries] at (6.2, 0.5) {120$^{\circ}$};
+
+% Renderizado de los átomos
+\shade [ball color=red!75] (O1) circle (0.16); 
+\shade [ball color=blue!75] (C1) circle (0.15); 
+\shade [ball color=blue!75] (C2) circle (0.15); 
+\shade [ball color=blue!75] (C3) circle (0.15); 
+\shade [ball color=blue!75] (C4) circle (0.15); 
+\shade [ball color=blue!70!black!80] (C5) circle (0.12);
 
 
-**Pasoso para establecer la geometría**
+% =========================================================================
+% 2. GEOMETRÍA OCTAÉDRICA (Desplazada a la derecha, Centro en X=12)
+% =========================================================================
+\node (O2) at (12, 0.5) {}; 
+\node [label={[font=\bfseries, label distance=0.8cm]-90:octaédrica}] at (12, 4.5) {}; 
+
+% Átomos axiales (Eje vertical en X=12)
+\node (C7) at (12, 2.3) {}; 
+\node (C8) at (12, -1.3) {}; 
+
+% Átomos ecuatoriales (Plano cuadrado desplazado +7 unidades en X)
+\node (C9)  at (10.80, 0.90) {};  % Fondo izquierda (3.80 + 7)
+\node (C10) at (10.80, 0.10) {};  % Frente izquierda (3.80 + 7)
+\node (C11) at (13.20, 0.10) {};  % Frente derecha   (6.20 + 7)
+\node (C12) at (13.20, 0.90) {};  % Fondo derecha    (6.20 + 7)
+
+% Enlaces químicos principales
+\draw [thick] (C7) -- (O2) -- (C8);
+\draw [thick] (C9) -- (O2) -- (C11);
+\draw [thick] (C10) -- (O2) -- (C12);
+
+% Base cuadrada con líneas discontinuas
+\draw [dashed, gray, thick] (C9)  -- (C10);
+\draw [dashed, gray, thick] (C10) -- (C11);
+\draw [dashed, gray, thick] (C11) -- (C12);
+\draw [dashed, gray, thick] (C12) -- (C9);
+
+% Ángulo de 90 grados (Axial - Ecuatorial)
+\draw [red, thick] (12.0, 0.8) -- (12.2, 0.77) -- (12.2, 0.47);
+\node [red, font=\footnotesize\bfseries] at (12.5, 0.8) {90$^{\circ}$};
+
+% Ángulo de 90 grados en la base cuadrada
+\draw [blue, thick, ->] (11.5, 0.38) to[out=310, in=200] (12.3, 0.42);
+\node [blue, font=\footnotesize\bfseries] at (11.9, 0.15) {90$^{\circ}$};
+
+% Renderizado de los átomos 
+\shade [ball color=red!75] (O2) circle (0.16); 
+\shade [ball color=blue!75] (C7) circle (0.15); 
+\shade [ball color=blue!75] (C8) circle (0.15); 
+
+% Frente
+\shade [ball color=blue!75] (C10) circle (0.15); 
+\shade [ball color=blue!75] (C11) circle (0.15); 
+
+% Fondo
+\shade [ball color=blue!70!black!80] (C9)  circle (0.12); 
+\shade [ball color=blue!70!black!80] (C12) circle (0.12);
+
+\end{tikzpicture}
+-->
+
+![...](imagenes/tema02/tipos_geometria2.svg){style="display: block; margin: 0 auto; width: 70%"}
+
+**Pasos para establecer la geometría**
 
 1. Obtener la estructura de Lewis para la molécula correspondiente.
    
