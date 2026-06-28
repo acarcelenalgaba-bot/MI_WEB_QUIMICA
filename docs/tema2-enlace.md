@@ -281,177 +281,137 @@ En ellos se representan por puntos (o aspas) los electrones de la capa de valenc
 
 De esta manera es fácil visualizar los electrones compartidos y cómo ambos átomos quedan con **ocho electrones** (**estructura de gas noble**), lo que se conoce como **regla del octeto**.
 
-$\ce{H2}{:}$   $\chemfig{[,0.6] \charge{0=\.}{H} \hspace{0.7em} \charge{180=\.}{H} }$
+<!--
+##chemfig id=cov1 sep=2em
+\schemestart[0, 0.8, 1.5]
+    \chemfig{H_2}{:}
+    \arrow{0}[,0.1]
+    \chemfig{[,0.6] \charge{0=\.}{H} \hspace{0.7em} \charge{180=\.}{H} }
+    \arrow{0}[,0.5] 
+    \chemfig{O_2}{:}
+    \arrow{0}[,0.1]
+    \chemfig{[,0.6] \charge{0=\:,90=\:,270=\:}{O} \hspace{0.7em} \charge{180=\:,90=\:,270=\:}{O} } 
+    \arrow{0}[,0.5] 
+    \chemfig{Cl_2}{:}
+    \arrow{0}[,0.2]
+    \chemfig{[,0.6] \charge{0=\.,90=\:,180=\:,270=\:}{Cl} \hspace{0.7em} \charge{0=\:,90=\:,180=\.,270=\:}{Cl} }
+    \arrow{0}[,0.5] 
+    \chemfig{H_2O}{:}
+    \arrow{0}[,0.1]
+    \chemfig{[,0.6] \charge{0=\.}{H} \hspace{0.7em} \charge{0=\.,90=\:,180=\.,270=\:}{O} \hspace{0.7em} \charge{180=\.}{H} }
+\schemestop
+-->
 
-Para simplificar la escritura los electrones de enlace se representan por
-una raya que une ambos átomos. Los pares no enlazantes se repre-
-sentan por rayas situadas en el símbolo del elemento:
-Como se puede observar, y dependiendo del número de electrones necesario
-para adquirir la deseada estabilidad, los átomos se van a combinar en una u
-otra proporción.
-27ENLACE COVALENTE COORDINADO O DATIVO
-Puede ocurrir que el par que se comparte no esté integrado por un electrón de
-cada uno de los átomos enlazados, sino que ambos electrones sean aportados
-por uno de los átomos.
-En este caso el enlace covalente formado recibe el nombre de enlace cova-
-lente coordinado o dativo y se representa por una flecha que apunta del
-átomo que aporta el par hacia el que lo recibe.
-Aunque teóricamente el enlace dativo se distinga del enlace covalente ordina-
-rio, una vez formado, ambos son indistinguibles.
-Dos de los ejemplos más importantes son:
-H
-H
-N
-
-
-
-
-H
-+
-H+
-=⇒
-H
-H
-N
-H
- +
-
-
-H 
-
-
-HH
-O
-
-
-
-O
-H
-+
-H+
-=⇒
- +
-
-
-H 
-
-
-H
-28OTROS EJEMPLOS DE ENLACES DATIVOS
-29RESONANCIA
-La resonancia (denominada también mesomería) es una herramienta em-
-pleada para representar ciertos tipos de estructuras moleculares. La resonan-
-cia consiste en la combinación lineal de estructuras teóricas de una
-molécula (estructuras resonantes o en resonancia) que no coinciden con la
-estructura real, pero que mediante su combinación, nos acerca más a su es-
-tructura real. El benceno es un ejemplo clásico:
-H
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-H
-C
-C
-H
-H
-C
-C
-H
-H
-H
-C
-C
-C
-C
-H
-H
-C
-C
-H
-
-C
-C
-H
-H
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Se sabe que los enlaces C-C del benceno son todos iguales, de la misma longi-
-tud y energía, intermedias ambas entre las de un enlace doble y uno sencillo.
-Por eso ninguna de las dos fórmulas de Lewis responde bien a su estructura
-real, sino un “híbrido de resonancia” entre ambas.
-30OTROS EJEMPLOS DE RESONANCIA
-S
-S
-O
-
-O
-O
-O
-O
-O
-Dióxido de azufre, SO2
-
-
-
-O
-
-OO
-Ozono, O3
-O-
-N
-
-
-O
-O
-O
-O
-O-O-
-N
-
-N
-
-O
-O
-O
-Anión nitrato, NO3 –
-31DIAGRAMAS DE LEWIS (REGLAS)
+![...](imagenes/tema02/cov1.svg){style="display: block; margin: 0 auto; width: 80%"}
+
+Para simplificar la escritura los electrones de enlace se representan por una raya que une ambos átomos. Los pares no enlazantes se representan por rayas situadas en el símbolo del elemento:
+
+![Texto alternativo](imagenes/tema02/lewis.png){ style="display: block; margin: 0 auto; height: 175px; width: 80%;" }
+
+Como se puede observar, y dependiendo del número de electrones necesario para adquirir la deseada estabilidad, los átomos se van a combinar en una u otra proporción.
+
+**Enlace covalente coordinado o dativo**
+
+Puede ocurrir que el par que se comparte no esté integrado por un electrón de cada uno de los átomos enlazados, sino que ambos electrones sean aportados por uno de los átomos.
+
+En este caso el enlace covalente formado recibe el nombre de enlace **covalente coordinado** o **dativo** y se representa por una flecha que apunta del átomo que aporta el par hacia el que lo recibe.
+
+Aunque teóricamente el enlace dativo se distinga del enlace covalente ordinario, una vez formado, ambos son indistinguibles.
+
+Dos de los ejemplos más importantes son, el ion amonio ($\ce{NH4^+}$) y el ion oxonio ($\ce{H3O^+}$):
+
+<!--
+##chemfig id=enlace_dativo sep=2em
+\schemestart[0, 0.8, 1.5]
+	\subscheme{
+		\chemfig{[,1] \charge{0=\:}{N}(-[:180]H)(-[:-90]H)(-[:90]H)} \hspace{0.2em} + \hspace{0.2em} \chemfig{H^+} $\Longrightarrow$ $\left[ \chemfig{[,1] N(-[:180]H)(-[:-90]H)(-[:90]H)} \hspace{0.1em} \rightarrow \hspace{0.1em} \chemfig{H^+} \right]$ \chemabove[20pt]{}{\hspace{.1cm}{+}} 
+        }
+        \hspace{6em}
+    \subscheme{
+		\chemfig{[,1] \charge{0=\:,180=\:}{O}(-[:-90]H)(-[:90]H)} \hspace{0.2em} + \hspace{0.2em} \chemfig{H^+} $\Longrightarrow$ $\left[ \hspace{0.5em} \chemfig{[,1] \charge{180=\:}{O}(-[:-90]H)(-[:90]H)} \hspace{0.1em} \rightarrow \hspace{0.1em} \chemfig{H^+} \right]$ \chemabove[20pt]{}{\hspace{.1cm}{+}} 
+    }
+\schemestop
+-->
+
+![...](imagenes/tema02/enlace_dativo.svg){style="display: block; margin: 0 auto; width: 80%"}
+
+
+**Otros ejemplos de enlaces dativos**
+
+![Texto alternativo](imagenes/tema02/dativo.png){ style="display: block; margin: 0 auto; height: 250px; width: 100%;" }
+
+**Resonancia**
+
+La **resonancia** (denominada también **mesomería**) es una herramienta empleada para representar ciertos tipos de estructuras moleculares. La resonancia **consiste en la combinación lineal de estructuras teóricas de una molécula** (estructuras resonantes o en resonancia) que no coinciden con la estructura real, pero que mediante su combinación, nos acerca más a su estructura real. El benceno es un ejemplo clásico:
+
+<!--
+##chemfig id=resonancia_benceno sep=2em
+\schemestart[0, 0.8, 1.5]
+	\subscheme{
+		\chemfig{C*6((-H)=C(-H)-C(-H)=C(-H)-C(-H)=C(-H)-)} 
+        \hspace{4em}
+		\arrow{<->}[0,1] 
+        \hspace{4em}
+		\chemfig{C*6((-H)-C(-H)=C(-H)-C(-H)=C(-H)-C(-H)=)}
+		}
+\schemestop
+-->
+
+![...](imagenes/tema02/resonancia_benceno.svg){style="display: block; margin: 0 auto; width: 65%"}
+
+Se sabe que los enlaces C-C del benceno son todos iguales, de la misma longitud y energía, intermedias ambas entre las de un enlace doble y uno sencillo.
+
+Por eso ninguna de las dos fórmulas de Lewis responde bien a su estructura real, sino un “**híbrido de resonancia**” entre ambas.
+
+**Otros ejemplos de resonancia**
+
+<!--
+##chemfig id=resonancia2 sep=2em
+\schemestart
+\chemname[2em]{ \chemfig{[,1] \charge{135=\|,315=\|}{O}=[:30]\charge{90=\|}{S}-[::-60]\charge{45=\|,225=\|,315=\|}{O}} \hspace{1cm} $\leftrightarrow$ \hspace{1cm}
+\chemfig{[,1] \charge{135=\|,225=\|,315=\|}{O}-[:30]\charge{90=\|}{S}=[::-60]\charge{45=\|,225=\|}{O}} }{Dioxido de azufre}  \hspace{3cm}
+
+\chemname[2em]{ \chemfig{[,1] \charge{135=\|,315=\|}{O}=[:30]\charge{90=\|}{O}-[::-60]\charge{45=\|,225=\|,315=\|}{O}} \hspace{1cm} $\leftrightarrow$ \hspace{1cm}
+\chemfig{[,1] \charge{135=\|,225=\|,315=\|}{O}-[:30]\charge{90=\|}{O}=[::-60]\charge{45=\|,225=\|}{O}} }{Ozono}
+\schemestop
+-->
+
+![...](imagenes/tema02/resonancia2.svg){style="display: block; margin: 0 auto; width: 90%"}
+
+<!--
+##chemfig id=nitrato sep=2em
+\schemestart
+\chemleft[\hspace{0.5em}\chemfig{[,1] \charge{135=\:,225=\:,315=\:}{O}-[:30]N(=[:90]\charge{45=\:,135=\:}{O})(-[:-30]\charge{45=\:,225=\:,315=\:}{O})}\hspace{0.5em} \chemright]\chemabove[33pt]{}{\hspace{.4cm}{-}}
+\hspace{0.5em} \arrow{<->}[0,0.7] \hspace{0.5em}
+\chemleft[\hspace{0.5em}\chemfig{[,1] \charge{135=\:,315=\:}{O}=[:30]N(-[:90]\charge{0=\:,90=\:,180=\:}{O})(-[:-30]\charge{45=\:,225=\:,315=\:}{O})}\hspace{0.5em} \chemright]\chemabove[33pt]{}{\hspace{.4cm}{-}}  
+\hspace{0.5em} \arrow{<->}[0,0.7] \hspace{0.5em}
+\chemleft[\hspace{0.5em}\chemfig{[,1] \charge{135=\:,225=\:,315=\:}{O}-[:30]N(-[:90]\charge{0=\:,90=\:,180=\:}{O})(=[:-30]\charge{45=\:,225=\:}{O})}\hspace{0.5em} \chemright]\chemabove[33pt]{}{\hspace{.1cm}{-}}
+\schemestop
+-->
+
+![...](imagenes/tema02/nitrato.svg){style="display: block; margin: 0 auto; width: 70%"}
+
+$\ce{\hspace{6cm} Anión \; nitrato{,} NO3^-}$
+
+**Reglas para generar el diagrama de Lewis**
+
 Hay algunas reglas sencillas para diseñar las estructuras de Lewis de moléculas
 algo más complejas:
+
 1. Colocamos los átomos de la molécula de la forma más simétrica posible.
-2. Determinamos los electrones disponibles en la capa externa de cada uno de
-los átomos (electrones de valencia): EV.
-1. Calculamos el total de electrones que caben en la capa de valencia de todos
-los átomos: ET.
-1. El número total de electrones compartidos (EC) se obtiene al restar los
-disponibles de los que caben: EC = ET - EV
-1. Se colocan los EC enlazando los átomos.
-2. El resto de los electrones se colocan como pares no compartidos para com-
-pletar el octeto de los átomos.
-32APLICACIÓN AL CASO DEL H2 CO3
+
+2. Determinamos los electrones disponibles en la capa externa de cada uno de los átomos (electrones de valencia): EV.
+   
+3. Calculamos el total de electrones que caben en la capa de valencia de todos los átomos: ET.
+
+4. El número total de electrones compartidos (EC) se obtiene al restar los disponibles de los que caben: EC = ET - EV
+
+5. Se colocan los EC enlazando los átomos.
+   
+6. El resto de los electrones se colocan como pares no compartidos para completar el octeto de los átomos.
+
+**Ejemplo de aplicacion: $\ce{H2CO3}$**
+
 Elemento
 C
 O
@@ -477,22 +437,18 @@ O
 C
 O
 H
-33EXCEPCIONES A LA REGLA DEL OCTETO (I)
-Los átomos de los elementos del tercer periodo en adelante no obe-
-decen la regla del octeto en muchos de sus compuestos y se rodean de
-más de ocho electrones (“octeto expandido”).
-La razón es que estos elementos poseen orbitales 3d vacíos, cuya energía no es
-demasiado alta y que pueden ser ocupados para compartir pares electrónicos:
-34EXCEPCIONES A LA REGLA DEL OCTETO (II)
-Otros elementos de número atómico bajo, que también forman enlaces cova-
-lentes, al contrario que los anteriores, forman un “octeto incompleto”, sin
-llegar a tener los ocho electrones en la última capa. Es el caso del Be, B, Al.
-F
-B
-F
-F
-Como veremos más adelante, el hecho de que el boro tenga orbitales atómicos
-vacíos va a dar propiedades ácidas al BF3 .
+
+**Excepciones a la regla del Octeto**
+
+Los átomos de los elementos del tercer periodo en adelante no obedecen la regla del octeto en muchos de sus compuestos y se rodean de más de ocho electrones (“octeto expandido”).
+
+La razón es que estos elementos poseen orbitales 3d vacíos, cuya energía no es demasiado alta y que pueden ser ocupados para compartir pares electrónicos:
+
+Otros elementos de número atómico bajo, que también forman enlaces covalentes, al contrario que los anteriores, forman un “octeto incompleto”, sin llegar a tener los ocho electrones en la última capa. Es el caso del Be, B, Al.
+
+
+Como veremos más adelante, el hecho de que el boro tenga orbitales atómicos vacíos va a dar propiedades ácidas al $\ce{BF3}$.
+
 35GEOMETRÍA DE LAS MOLÉCULAS. MÉTODO RPECV.
 Las siglas RPECV hacen referencia a “repulsiones entre los pares elec-
 trónicos de la capa de valencia”.
