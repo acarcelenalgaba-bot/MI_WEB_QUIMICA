@@ -46,7 +46,7 @@ compilar_fichero() {
             cat << TEX > temp_chem.tex
 \documentclass[tikz,border=2mm]{standalone}
 \usepackage{chemfig}
-\usepackage{tikz}
+\usepackage{chemmacros}
 \usetikzlibrary{shapes,snakes}
 \setchemfig{atom sep=$TAMANO}
 \begin{document}

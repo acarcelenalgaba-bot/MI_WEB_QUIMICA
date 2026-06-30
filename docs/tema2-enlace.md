@@ -683,33 +683,21 @@ Para la molécula $\ce{C2H4}$ deduzca la estructura de Lewis, nombre y dibuje su
 
 <!--
 ##chemfig id=lewis_eteno sep=2em
-% Configuramos el tamaño y estilo de los puntos de los electrones
-\setcharge{
-    macro = \small\ensuremath{\bullet},
-    extra sep = 3.5pt,
-    circle radius = 0.5pt
-}
-
-% Diagrama de Lewis del Eteno
 \chemfig{
-    % Carbono de la izquierda con sus dos Hidrógenos (posicionados a -60° y -120°)
-    \charge{30=\bullet, 60=\bullet, 300=\bullet, 330=\bullet}{C}
-    % Enlaces C-H representados por puntos (sin línea sólida)
-    -[:-60,0.6,,,draw=none] \charge{120=\bullet}{H}
-    -[:-120,0.6,,,draw=none] \charge{60=\bullet}{H}
-    % Espacio central entre los dos Carbonos (el doble enlace se representa con 4 puntos)
-    -[:0,1.2,,,draw=none] 
-    % Carbono de la derecha con sus dos Hidrógenos (posicionados a -60° y 60°)
-    \charge{150=\bullet, 210=\bullet, 60=\bullet, 300=\bullet}{C}
-    -[:-60,0.6,,,draw=none] \charge{120=\bullet}{H}
-    -[:60,0.6,,,draw=none] \charge{240=\bullet}{H}
+    \charge{135=\:, 225=\:, 0=\:}{C}
+    (-[:135,0.7,,,draw=none]H)
+    (-[:225,0.7,,,draw=none]H)
+    -[0,0.7,,,draw=none]
+    \charge{45=\:, 315=\:, 180=\:}{C}
+    (-[:45,0.7,,,draw=none]H)
+    (-[:315,0.7,,,draw=none]H)
 }
 -->
 
 ![...](imagenes/tema02/lewis_eteno.svg){style="display: block; margin: 0 auto; width: 15%"}
 
-Sobre cada carbono hay tres pares enlazantes (el enlace doble cuenta como
-un solo par) que se repelerán con la misma intensidad. Presentarán, por tanto
+Sobre cada carbono hay tres pares enlazantes (**el enlace doble cuenta como
+un solo par**) que se repelerán con la misma intensidad. Presentarán, por tanto
 una estructura triangular plana con ángulos de 120$^{\circ}$.
 
 <!--
@@ -721,17 +709,20 @@ una estructura triangular plana con ángulos de 120$^{\circ}$.
 
 **Polaridad de los enlaces covalentes**
 
-En física se llama dipolo eléctrico a un sistema de dos cargas de signo opuesto e igual magnitud cercanas entre sí.
+En física se llama **dipolo eléctrico** a un sistema de dos cargas de signo opuesto e igual magnitud cercanas entre sí.
 
-Se define el momento dipolar eléctrico como una magnitud vectorial con módulo igual al producto de la carga q por la distancia que las separa d, cuya dirección va de la carga negativa a la positiva:
+Se define el **momento dipolar eléctrico** como una magnitud vectorial con módulo igual al producto de la carga q por la distancia que las separa d, cuya dirección va de la carga negativa a la positiva:
 
-p = q· d
+$\ce{\vec{p} = q \cdot \vec{d}}$
+{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 150px; margin: 20px auto; display: block; background: #f9f7fb" }
 
-Teóricamente en un enlace covalente los pares de electrones deberían compartirse por igual (digamos a un 50 %). Sin embargo esto solo es cierto cuando los elementos que se enlazan son exactamente iguales o de electronegatividad muy parecida. En caso contrario, el elemento más electronegativo “tira” más del par de enlace “quedándose con más electrones”.
+Teóricamente en un enlace covalente los pares de electrones deberían compartirse por igual (digamos a un 50 %). Sin embargo esto solo es cierto cuando los elementos que se enlazan son exactamente iguales o de electronegatividad muy parecida. En caso contrario, el **elemento más electronegativo** “**tira” más del par de enlace** “quedándose con más electrones”.
 
-De esta manera éste átomo adquiere cierta carga negativa (aunque no llega a ser de una unidad -lo que se correspondería con un enlace iónico-), y el menos electronegativo queda con cierta carga positiva. En los extremos del enlace aparecen cargas eléctricas de signo opuesto. Es lo que se llama un dipolo. Se dice que el enlace está polarizado.
+De esta manera éste átomo adquiere cierta carga negativa (aunque no llega a ser de una unidad -lo que se correspondería con un enlace iónico-), y el menos electronegativo queda con cierta carga positiva. En los extremos del enlace aparecen cargas eléctricas de signo opuesto. Es lo que se llama un **dipolo**. Se dice que el **enlace está polarizado**.
 
-ENLACE COVALENTE... → ...IÓNICO
+![...](imagenes/tema02/dipolo.png){style="display: block; margin: 0 auto; width: 25%"}
+
+**ENLACE COVALENTE... → ...IÓNICO**
 
 El enlace covalente “puro” existe, por tanto, solo cuando los elementos enlazados son idénticos (moléculas homonucleares).
 
@@ -743,21 +734,34 @@ Realmente podríamos considerar el enlace iónico como un caso extremo de enlace
 
 Si consideramos las uniones del cloro con todos los elementos de su mismo período tendríamos:
 
+![...](imagenes/tema02/covalente_ionico.png){style="display: block; margin: 0 auto; width: 70%"}
+
 **Polaridad de las moléculas**
 
 Puesto que el momento dipolar es una magnitud vectorial, la suma de varios momentos dipolares puede ser cero. Esto implica que una molécula puede tener enlaces polares pero en conjunto ser apolar al anularse los respectivos momentos dipolares en función de su geometría:
 
-**Molécula de $\ce{CO2}$**. Aunque los dos enlaces CO son polares, la molécula, en conjunto, es **apolar**, ya que el momento dipolar resultante es nulo.
+**Molécula de $\ce{CO2}$**. Aunque los dos enlaces CO son polares, la molécula, en conjunto, es **apolar**, ya que el momento dipolar total resultante es nulo.
 
-**Molécula de $\ce{H2O}$**. Los momentos dipolares de los dos enlaces H-O se suman para dar un momento dipolar total no nulo. La molécula es polar.
+**Molécula de $\ce{H2O}$**. Los momentos dipolares de los dos enlaces H-O se suman para dar un momento dipolar total no nulo. La molécula es **polar**.
+
+![...](imagenes/tema02/polaridad1.png){style="display: block; margin: 0 auto; width: 70%"}
 
 **Teoría del enlace de valencia (TEV)**
 
-La **Teoría de Enlace de Valencia** fue desarrollada en 1927 por Walter Heitler (1904-1981) y Fritz London (1900-1954) y supone que los orbitales atómicos se solapan en una zona donde se localizan los electrones del enlace, para ello es necesario que los átomos tengan electrones desapareados.
+La **teoría del enlace de valencia** fue desarrollada en 1927 por Walter Heitler (1904-1981) y Fritz London (1900-1954) y **supone que los orbitales atómicos se solapan en una zona donde se localizan los electrones del enlace**, para ello es **necesario** que los átomos tengan **electrones desapareados**.
 
-En algunos casos, esta teoría supone que electrones que estaban apareados tienen que desaparearse.
+En algunos casos, **esta teoría supone que electrones que estaban apareados tienen que desaparearse**.
 
 Así se explican las valencias anómalas de algunos átomos por desapareamiento de electrones que pasan a ocupar orbitales vacíos del mismo nivel electrónico.
+
+Ejemplo de los estados de oxidación del cloro:
+
+<!--
+##chemfig id=eo_cloro sep=2em
+\begin{center} \textbf{Cloro} \; con \; valencia \; \textcolor{red}{1} \; \electron{[Ar]}{} \; \electron{\ce{3s^2}}{\updwn}\quad \electron{\ce{3p^5}}{\updwn\updwn\up} \quad \electron{\ce{3d^0}}{\emp\emp\emp\emp\emp} \end{center}
+-->
+
+![...](imagenes/tema02/eo_cloro.svg){style="display: block; margin: 0 auto; width: 15%"}
 
 **Enlaces $\sigma$ (Sigma) y $\pi$ (pi)**
 
