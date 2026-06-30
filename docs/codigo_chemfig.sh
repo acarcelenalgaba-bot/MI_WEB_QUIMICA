@@ -42,10 +42,11 @@ compilar_fichero() {
             cat << TEX > temp_chem_$ID.tex
 \documentclass[tikz,border=2mm]{standalone}
 \usepackage{chemfig}
+\usepackage{xcolor}
+\usepackage{chemformula}
 \usepackage{chemmacros}
 \chemsetup{modules={orbital}}
-\usetikzlibrary{shapes,snakes}
-\usepackage{xcolor}
+\usetikzlibrary{shapes,decorations.pathmorphing}
 \setchemfig{atom sep=$TAMANO}
 \begin{document}
 $CONTENIDO_FINAL
