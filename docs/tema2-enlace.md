@@ -757,17 +757,104 @@ Así se explican las valencias anómalas de algunos átomos por desapareamiento 
 Ejemplo de los estados de oxidación del cloro:
 
 <!--
-##latex id=eo_cloro sep=2em
-\begin{center} \textbf{Cloro} \; con \; valencia \; \textcolor{red}{1} \; \electron{[Ar]}{} \; \electron{\ce{3s^2}}{\updwn}\quad \electron{\ce{3p^5}}{\updwn\updwn\up} \quad \electron{\ce{3d^0}}{\emp\emp\emp\emp\emp} \end{center}
+##tikz id=eo_cloro sep=2em
+\begin{tikzpicture}[
+    box/.style={rectangle, draw, minimum size=6.5mm, inner sep=0pt, font=\small},
+    % Definimos macros cortas para los espines de colores
+    uR/.style={font=\small\color{red}} % Estilo para texto rojo si fuera necesario,
+]
+    % Atajo manual directo usando \textcolor{red} dentro de las cajas:
+    % \textcolor{red}{$\uparrow$} -> Flecha roja hacia arriba
 
-\begin{center} \textbf{Cloro} \; con \; valencia \; \textcolor{red}{3} \; \electron{[Ar]}{} \; \electron{\ce{3s^2}}{\updwn}\quad \electron{\ce{3p^4}}{\updwn\up\up} \quad \electron{\ce{3d^1}}{\up\emp\emp\emp\emp} \end{center}
+    % =========================================================================
+    % FILA 1: VALENCIA 1 (y = 0)
+    % =========================================================================
+    \node[anchor=west] (texto1) at (0,0) {\textbf{Cloro} con valencia 1: [Ar]};
 
-\begin{center} \textbf{Cloro} \; con \; valencia \; \textcolor{red}{5} \; \electron{[Ar]}{} \; \electron{\ce{3s^2}}{\updwn}\quad \electron{\ce{3p^3}}{\up\up\up} \quad \electron{\ce{3d^2}}{\up\up\emp\emp\emp} \end{center}
+    \node[box, right=0.6cm of texto1] (s1) {$\uparrow\downarrow$};
+    \node[below=3pt of s1, font=\footnotesize] {3s};
 
-\begin{center} \textbf{Cloro} \; con \; valencia \; \textcolor{red}{7} \; \electron{[Ar]}{} \; \electron{\ce{3s^1}}{\up}\quad \electron{\ce{3p^3}}{\up\up\up} \quad \electron{\ce{3d^3}}{\up\up\up\emp\emp} \end{center}
+    \node[box, right=0.5cm of s1] (p1_1) {$\uparrow\downarrow$};
+    \node[box, right=0mm of p1_1] (p1_2) {$\uparrow\downarrow$};
+    \node[box, right=0mm of p1_2] (p1_3) {\textcolor{red}{$\uparrow$}}; % Desapareado en rojo
+    \node[below=3pt of p1_2, font=\footnotesize] {3p};
+
+    \node[box, right=0.5cm of p1_3] (d1_1) {};
+    \node[box, right=0mm of d1_1] (d1_2) {};
+    \node[box, right=0mm of d1_2] (d1_3) {};
+    \node[box, right=0mm of d1_3] (d1_4) {};
+    \node[box, right=0mm of d1_4] (d1_5) {};
+    \node[below=3pt of d1_3, font=\footnotesize] {3d};
+
+
+    % =========================================================================
+    % FILA 2: VALENCIA 3 (y = -1.5)
+    % =========================================================================
+    \node[anchor=west] (texto3) at (0,-1.5) {\textbf{Cloro} con valencia 3: [Ar]};
+
+    \node[box, right=0.6cm of texto3] (s3) {$\uparrow\downarrow$};
+    \node[below=3pt of s3, font=\footnotesize] {3s};
+
+    \node[box, right=0.5cm of s3] (p3_1) {$\uparrow\downarrow$};
+    \node[box, right=0mm of p3_1] (p3_2) {\textcolor{red}{$\uparrow$}}; % Desapareado en rojo
+    \node[box, right=0mm of p3_2] (p3_3) {\textcolor{red}{$\uparrow$}}; % Desapareado en rojo
+    \node[below=3pt of p3_2, font=\footnotesize] {3p};
+
+    \node[box, right=0.5cm of p3_3] (d3_1) {\textcolor{red}{$\uparrow$}}; % Promovido en rojo
+    \node[box, right=0mm of d3_1] (d3_2) {};
+    \node[box, right=0mm of d3_2] (d3_3) {};
+    \node[box, right=0mm of d3_3] (d3_4) {};
+    \node[box, right=0mm of d3_4] (d3_5) {};
+    \node[below=3pt of d3_3, font=\footnotesize] {3d};
+
+
+    % =========================================================================
+    % FILA 3: VALENCIA 5 (y = -3.0)
+    % =========================================================================
+    \node[anchor=west] (texto5) at (0,-3) {\textbf{Cloro} con valencia 5: [Ar]};
+
+    \node[box, right=0.6cm of texto5] (s5) {$\uparrow\downarrow$};
+    \node[below=3pt of s5, font=\footnotesize] {3s};
+
+    \node[box, right=0.5cm of s5] (p5_1) {\textcolor{red}{$\uparrow$}}; % Desapareado en rojo
+    \node[box, right=0mm of p5_1] (p5_2) {\textcolor{red}{$\uparrow$}}; % Desapareado en rojo
+    \node[box, right=0mm of p5_2] (p5_3) {\textcolor{red}{$\uparrow$}}; % Desapareado en rojo
+    \node[below=3pt of p5_2, font=\footnotesize] {3p};
+
+    \node[box, right=0.5cm of p5_3] (d5_1) {\textcolor{red}{$\uparrow$}}; % Promovido en rojo
+    \node[box, right=0mm of d5_1] (d5_2) {\textcolor{red}{$\uparrow$}}; % Promovido en rojo
+    \node[box, right=0mm of d5_2] (d5_3) {};
+    \node[box, right=0mm of d5_3] (d5_4) {};
+    \node[box, right=0mm of d5_4] (d5_5) {};
+    \node[below=3pt of d5_3, font=\footnotesize] {3d};
+
+
+    % =========================================================================
+    % FILA 4: VALENCIA 7 (y = -4.5)
+    % =========================================================================
+    \node[anchor=west] (texto7) at (0,-4.5) {\textbf{Cloro} con valencia 7: [Ar]};
+
+    \node[box, right=0.6cm of texto7] (s7) {\textcolor{red}{$\uparrow$}}; % Desapareado/Promovido en rojo
+    \node[below=3pt of s7, font=\footnotesize] {3s};
+
+    \node[box, right=0.5cm of s7] (p7_1) {\textcolor{red}{$\uparrow$}}; % Desapareado en rojo
+    \node[box, right=0mm of p7_1] (p7_2) {\textcolor{red}{$\uparrow$}}; % Desapareado en rojo
+    \node[box, right=0mm of p7_2] (p7_3) {\textcolor{red}{$\uparrow$}}; % Desapareado en rojo
+    \node[below=3pt of p7_2, font=\footnotesize] {3p};
+
+    \node[box, right=0.5cm of p7_3] (d7_1) {\textcolor{red}{$\uparrow$}}; % Promovido en rojo
+    \node[box, right=0mm of d7_1] (d7_2) {\textcolor{red}{$\uparrow$}}; % Promovido en rojo
+    \node[box, right=0mm of d7_2] (d7_3) {\textcolor{red}{$\uparrow$}}; % Promovido en rojo
+    \node[box, right=0mm of d7_3] (d7_4) {};
+    \node[box, right=0mm of d7_4] (d7_5) {};
+    \node[below=3pt of d7_3, font=\footnotesize] {3d};
+
+\end{tikzpicture}
 -->
 
-![...](imagenes/tema02/eo_cloro.svg){style="display: block; margin: 0 auto; width: 100%"}
+![...](imagenes/tema02/eo_cloro.svg){style="display: block; margin: 0 auto; width: 60%"}
+
+**Tipos de enlaces:** 
 
 **Enlaces $\sigma$ (Sigma) y $\pi$ (pi)**
 

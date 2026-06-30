@@ -42,11 +42,21 @@ compilar_fichero() {
             cat << TEX > temp_chem_$ID.tex
 \documentclass[tikz,border=2mm]{standalone}
 \usepackage{chemfig}
+\usepackage{ragged2e}
+\usepackage[skins]{tcolorbox}
+\usepackage{wrapfig}
+\usepackage{longfbox}
+\usepackage{array}
+\usepackage{color, colortbl,xcolor}
+\usepackage{tikz}
+\usetikzlibrary{shapes,snakes}
 \usepackage{xcolor}
-\usepackage{chemformula}
-\usepackage{chemmacros}
-\chemsetup{modules={orbital}}
-\usetikzlibrary{shapes,decorations.pathmorphing}
+
+
+% Cargar soporte para fórmulas de forma limpia
+\usepackage{mhchem}
+\usepackage{modiagram}
+
 \setchemfig{atom sep=$TAMANO}
 \begin{document}
 $CONTENIDO_FINAL
@@ -69,7 +79,7 @@ TEX
     done
 
     # Limpieza de temporales de esta ronda
-    rm -f temp_*
+#    rm -f temp_*
 }
 
 # 1. Compilación inicial de todos los ficheros que existan al arrancar

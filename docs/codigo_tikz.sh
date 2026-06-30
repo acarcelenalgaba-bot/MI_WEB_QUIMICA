@@ -42,19 +42,19 @@ compilar_fichero() {
             fi
 
             # Generar el archivo temporal de LaTeX incluyendo librerías críticas de texturas y formas
-            cat << TEX > temp_tikz.tex
+            cat << TEX > temp_tikz_$ID.tex
 \documentclass[tikz,border=2mm]{standalone}
-\usetikzlibrary{shapes,patterns}
+\usetikzlibrary{shapes,patterns,positioning}
 \begin{document}
 $CONTENIDO_FINAL
 \end{document}
 TEX
             
             # Compilar
-            pdflatex -interaction=nonstopmode temp_tikz.tex > temp_compile.log 2>&1
+            pdflatex -interaction=nonstopmode temp_tikz_$ID.tex > temp_compile.log 2>&1
             
-            if [ -f temp_tikz.pdf ]; then
-                pdf2svg temp_tikz.pdf "$CARPETA_DESTINO/$ID.svg" 2>/dev/null
+            if [ -f temp_tikz_$ID.pdf ]; then
+                pdf2svg temp_tikz_$ID.pdf "$CARPETA_DESTINO/$ID.svg" 2>/dev/null
                 echo "✅ Generado con éxito: $CARPETA_DESTINO/$ID.svg"
                 rm -f "$CARPETA_DESTINO/${ID}_error.log"
             else
