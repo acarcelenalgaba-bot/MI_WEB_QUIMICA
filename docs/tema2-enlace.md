@@ -487,8 +487,8 @@ Estructuras que hacen mínimas las repulsiones entre pares de enlace:
 \draw [thick] (C1) -- (O1) -- (C2);
 
 % Arco e indicación del ángulo de 180 grados
-\draw [red, thick, ->] (-6.7, 0.5) arc (180:0:0.2);
-\node [red, font=\footnotesize\bfseries] at (-6.5, 0.9) {180$^{\circ}$};
+\draw [red, thick, ->] (-6.8, 0.5) arc (180:-0.1:0.3);
+\node [red, font=\footnotesize\bfseries] at (-6.5, 1) {180$^{\circ}$};
 
 % Esferas de los átomos
 \shade [ball color=blue!75] (C1) circle (0.15);  
@@ -552,9 +552,9 @@ Estructuras que hacen mínimas las repulsiones entre pares de enlace:
 
 Otros:
 
-Cinco pares: Bipirámide trigonal (120$^{\circ}$ / 90$^{\circ}$)
+**Cinco pares** electrónicos en el átomo central: **Bipirámide trigonal** (120$^{\circ}$ / 90$^{\circ}$)
 
-Seis pares: Octaédrica (90$^{\circ}$)
+**Seis pares** electrónicos en el átomo central: **Octaédrica** (90$^{\circ}$)
 
 <!--
 ##tikz id=tipos_geometria2 sep=2em
@@ -664,185 +664,173 @@ Seis pares: Octaédrica (90$^{\circ}$)
 3. Considerar, inicialmente, la estructura que minimiza las repulsiones entre pares.
 
 4. Considerar las posibles deformaciones que pueda originar en la estructura inicial las repulsiones debidas a pares no enlazantes, más fuertes que las de los pares enlazantes. La intensidad de repulsión entre pares decrece según:
+   
+    <center>
+    <div style="background-color: #e6f7ff; border-left: 5px solid #1890ff; padding: 10px 15px; border-radius: 4px; text-align: left; display: inline-block;">
+        No enlazante - no enlazante (mayor repulsión) <br>
+        No enlazante - enlazante <br>
+        Enlazante - enlazante (menor repulsión)
+    </div>
+    </center>
 
-* No enlazante - no enlazante (mayor repulsión)
-* No enlazante - enlazante
-* Enlazante - enlazante (menor repulsión)
+**Ejemplo de geometría**
 
-EJEMPLO GEOMETRÍA
-Para la molécula C2 H4 deduzca la estructura de Lewis, nombre y dibuje su
-geometría molecular e indique los ángulos de enlace aproximados.
-Solución:
-Diagrama de Lewis:
+Para la molécula $\ce{C2H4}$ deduzca la estructura de Lewis, nombre y dibuje su geometría molecular e indique los ángulos de enlace aproximados.
+
+**Solución:**
+
+**Diagrama de Lewis:**
+
+<!--
+##chemfig id=lewis_eteno sep=2em
+% Configuramos el tamaño y estilo de los puntos de los electrones
+\setcharge{
+    macro = \small\ensuremath{\bullet},
+    extra sep = 3.5pt,
+    circle radius = 0.5pt
+}
+
+% Diagrama de Lewis del Eteno
+\chemfig{
+    % Carbono de la izquierda con sus dos Hidrógenos (posicionados a -60° y -120°)
+    \charge{30=\bullet, 60=\bullet, 300=\bullet, 330=\bullet}{C}
+    % Enlaces C-H representados por puntos (sin línea sólida)
+    -[:-60,0.6,,,draw=none] \charge{120=\bullet}{H}
+    -[:-120,0.6,,,draw=none] \charge{60=\bullet}{H}
+    % Espacio central entre los dos Carbonos (el doble enlace se representa con 4 puntos)
+    -[:0,1.2,,,draw=none] 
+    % Carbono de la derecha con sus dos Hidrógenos (posicionados a -60° y 60°)
+    \charge{150=\bullet, 210=\bullet, 60=\bullet, 300=\bullet}{C}
+    -[:-60,0.6,,,draw=none] \charge{120=\bullet}{H}
+    -[:60,0.6,,,draw=none] \charge{240=\bullet}{H}
+}
+-->
+
+![...](imagenes/tema02/lewis_eteno.svg){style="display: block; margin: 0 auto; width: 15%"}
+
 Sobre cada carbono hay tres pares enlazantes (el enlace doble cuenta como
 un solo par) que se repelerán con la misma intensidad. Presentarán, por tanto
-una estructura triangular plana con ángulos de 120 ◦.
-H
-H
-C
-H
-C
-H
-39POLARIDAD DE LOS ENLACES COVALENTES
-En física se llama dipolo eléctrico a un sistema de dos cargas de signo opuesto e
-igual magnitud cercanas entre sí.
-Se define el momento dipolar eléctrico como una magnitud vectorial con módulo
-igual al producto de la carga q por la distancia que las separa d, cuya dirección va de la carga negativa a la positiva:
-p = q· d
-Teóricamente en un enlace covalente los pares de electrones deberían compartirse por
-igual (digamos a un 50 %). Sin embargo esto solo es cierto cuando los elementos que
-se enlazan son exactamente iguales o de electronegatividad muy parecida. En caso
-contrario, el elemento más electronegativo “tira” más del par de enlace “quedándose
-con más electrones”.
-De esta manera éste átomo adquiere cierta carga negativa (aun-
-que no llega a ser de una unidad -lo que se correspondería con
-un enlace iónico-), y el menos electronegativo queda con cierta
-carga positiva. En los extremos del enlace aparecen cargas eléc-
-tricas de signo opuesto. Es lo que se llama un dipolo. Se dice
-que el enlace está polarizado.
-40ENLACE COVALENTE... → ...IÓNICO
-El enlace covalente “puro” existe, por tanto, solo cuando los elementos enla-
-zados son idénticos (moléculas homonucleares).
-Ejemplos: O2 , H2 , N2 ...
-En el resto de los casos (moléculas heteronucleares) el enlace covalente siempre
-estará más o menos polarizado. Tendrá cierto porcentaje de iónico.
-Realmente podríamos considerar el enlace iónico como un caso extremo de
-enlace covalente en el cual el enlace se ha polarizado al extremo hasta llegar
-a la separación total de cargas.
-Si consideramos las uniones del cloro con todos los elementos de su mismo
-período tendríamos:
-41POLARIDAD DE LAS MOLÉCULAS
-Puesto que el momento dipolar es una magnitud vectorial, la suma de varios
-momentos dipolares puede ser cero. Esto implica que una molécula puede
-tener enlaces polares pero en conjunto ser apolar al anularse los respectivos
-momentos dipolares en función de su geometría:
-Molécula de CO2 . Aunque los dos enlaces CO
-son polares, la molécula, en conjunto, es apo-
-lar, ya que el momento dipolar resultante es
-nulo.
-Molécula de H2 O. Los momentos dipolares de
-los dos enlaces H-O se suman para dar un mo-
-mento dipolar total no nulo. La molécula es
-polar.
-42TEORÍA DEL ENLACE DE VALENCIA (TEV)
-La Teoría de Enlace de Valencia fue desarrollada en 1927 por Walter Heitler (1904-1981)
-y Fritz London (1900-1954) y supone que los orbitales atómicos se solapan en una
-zona donde se localizan los electrones del enlace, para ello es necesario que los
-átomos tengan electrones desapareados.
-En algunos casos, esta teoría supone que electrones que estaban apareados tienen
-que desaparearse.
-Así se explican las valencias anómalas de algunos átomos por desapareamiento de electrones
-que pasan a ocupar orbitales vacíos del mismo nivel electrónico.
-Cloroconvalencia1
-Cloroconvalencia3
-Cloroconvalencia5
-Cloroconvalencia7
-↑↓↑↓ ↑↓ ↑
-[Ar]3 s23 p5
-[Ar]3 s2[Ar]3 s2[Ar]3 s1
-↑↓
-↑↓
-↑
-↑↓ ↑
-3 d0
-↑
-↑
-3 p4
-↑
-↑
-3 d1
-↑
-↑
-↑
-3 p3
-↑
-↑
-3 p3
-3 d2
-↑
-↑
-↑
-↑
-3 d3
-43ENLACES σ (SIGMA) Y π (PI)
-Si los orbitales que se solapan son los más sencillos, tipos s y p, se pueden
-considerar dos tipos de enlaces:
-Enlaces σ: se forman por solapamiento (acercamiento y superposición), de
-orbitales s con s, s con p y p con p (frontal, sobre el mismo eje).
-Enlaces π: se forman por solapamiento lateral, es decir, sobre ejes paralelos,
-de orbitales p.
-44HIBRIDACIÓN DE ORBITALES ATÓMICOS
-La teoría de hibridación de orbitales atómicos fue propuesta en 1931 por L.
-Pauling como una modificación de la TEV, para hacer frente a disparidades
-halladas en el cálculo teórico de parámetros moleculares (distancias de enlace,
-ángulos de enlace,...) al aplicar la TEV con los valores obtenidos experimen-
-talmente para los mismos parámetros.
-Una de las moléculas que manifiesta esta discrepancia es la de metano.
-La configuración del C es 1 s2 2 s2 2 p2 , por lo que puede formar cuatro enlaces
-covalentes promocionando un electrón del orbital 2s al orbital 2p vacío y así
-tener 4 electrones desapareados:
-C:
-2 s2 2 px1 py1 pz0
-→
-2 s1 2 px1 py1 pz1 ;
-H:
-1 s1
-El problema es que según la geometría de los orbitales s y p, los cuatro en-
-laces σ del metano no serían iguales: el que se formara por solapamiento del
-orbital 2s del C con el 1s del H sería diferente de los otros tres, formados por
-solapamiento de los 2p del C son el 1s del H.
-45HIBRIDACIÓN SP3
-La explicación dada por Pauling consiste en admitir la formación de cuatro
-orbitales atómicos híbridos equivalentes a partir del orbital 2s y los tres orbi-
-tales p del carbono, llamados sp3 , conteniendo cada uno de ellos un electrón
-desapareado.
-En esta hibridación los orbitales forman ángulos de 109,5 ◦.
-Al solaparse frontalmente con los correspondientes orbitales 1s de los hidró-
-genos, se obtienen cuatro enlaces σ equivalentes orientados de la forma
-esperada.
-46EJEMPLOS SP3
-Además del metano, todos los compuestos orgánicos en los que el carbono
-presenta cuatro enlaces simples, tienen hibridación sp3 .
-Otros ejemplos importantes son el agua, amoniaco, ión amonio, etc.
-47HIBRIDACIÓN SP2
-Se define como la combinación de un orbital s y dos p, para formar 3 orbitales
-híbridos, llamados sp2 ,que se disponen en un plano formando ángulos de 120 ◦.
-Los átomos que forman hibridaciones sp2 pueden formar compuestos con en-
-laces dobles. Forman ángulos de 120 ◦ y sus moléculas son de forma plana.
-Los enlaces dobles están compuestos por un enlace σ y un enlace π.
-En estos casos un electrón del orbital 2s se mezcla sólo con dos de los orbi-
-tales 2p: surge al unirse el orbital s con dos orbitales p; por consiguiente, se
-producen tres nuevos orbitales sp2 , y queda un orbital p sin hibridar:
-2 s1 2 px1 py1 pz1
-→
-(sp2 )1 (sp2 )1 (sp2 )1 pz1
-48EJEMPLOS SP2
-Además de todos los compuestos orgánicos en los que el carbono presenta
-un doble enlace (en ellos los orbitales p que no han hibridado se solapan
-lateralmente para dar el enlace π en el enlace doble), también presentan esta
-hibridación el aluminio en sus haluros, el azufre en el SO2 , etc.
+una estructura triangular plana con ángulos de 120$^{\circ}$.
 
-HIBRIDACIÓN SP
+<!--
+##chemfig id=geometria_eteno sep=2em
+\chemfig{[,1] H-[:-60]C(-[:-120]H)=C(-[:-60]H)-[:60]H} 
+-->
+
+![...](imagenes/tema02/geometria_eteno.svg){style="display: block; margin: 0 auto; width: 15%"}
+
+**Polaridad de los enlaces covalentes**
+
+En física se llama dipolo eléctrico a un sistema de dos cargas de signo opuesto e igual magnitud cercanas entre sí.
+
+Se define el momento dipolar eléctrico como una magnitud vectorial con módulo igual al producto de la carga q por la distancia que las separa d, cuya dirección va de la carga negativa a la positiva:
+
+p = q· d
+
+Teóricamente en un enlace covalente los pares de electrones deberían compartirse por igual (digamos a un 50 %). Sin embargo esto solo es cierto cuando los elementos que se enlazan son exactamente iguales o de electronegatividad muy parecida. En caso contrario, el elemento más electronegativo “tira” más del par de enlace “quedándose con más electrones”.
+
+De esta manera éste átomo adquiere cierta carga negativa (aunque no llega a ser de una unidad -lo que se correspondería con un enlace iónico-), y el menos electronegativo queda con cierta carga positiva. En los extremos del enlace aparecen cargas eléctricas de signo opuesto. Es lo que se llama un dipolo. Se dice que el enlace está polarizado.
+
+ENLACE COVALENTE... → ...IÓNICO
+
+El enlace covalente “puro” existe, por tanto, solo cuando los elementos enlazados son idénticos (moléculas homonucleares).
+
+Ejemplos: $\ce{O2}$, $\ce{H2}$, $\ce{N2}$...
+
+En el resto de los casos (moléculas heteronucleares) el enlace covalente siempre estará más o menos polarizado. Tendrá cierto porcentaje de iónico.
+
+Realmente podríamos considerar el enlace iónico como un caso extremo de enlace covalente en el cual el enlace se ha polarizado al extremo hasta llegar a la separación total de cargas.
+
+Si consideramos las uniones del cloro con todos los elementos de su mismo período tendríamos:
+
+**Polaridad de las moléculas**
+
+Puesto que el momento dipolar es una magnitud vectorial, la suma de varios momentos dipolares puede ser cero. Esto implica que una molécula puede tener enlaces polares pero en conjunto ser apolar al anularse los respectivos momentos dipolares en función de su geometría:
+
+**Molécula de $\ce{CO2}$**. Aunque los dos enlaces CO son polares, la molécula, en conjunto, es **apolar**, ya que el momento dipolar resultante es nulo.
+
+**Molécula de $\ce{H2O}$**. Los momentos dipolares de los dos enlaces H-O se suman para dar un momento dipolar total no nulo. La molécula es polar.
+
+**Teoría del enlace de valencia (TEV)**
+
+La **Teoría de Enlace de Valencia** fue desarrollada en 1927 por Walter Heitler (1904-1981) y Fritz London (1900-1954) y supone que los orbitales atómicos se solapan en una zona donde se localizan los electrones del enlace, para ello es necesario que los átomos tengan electrones desapareados.
+
+En algunos casos, esta teoría supone que electrones que estaban apareados tienen que desaparearse.
+
+Así se explican las valencias anómalas de algunos átomos por desapareamiento de electrones que pasan a ocupar orbitales vacíos del mismo nivel electrónico.
+
+**Enlaces $\sigma$ (Sigma) y $\pi$ (pi)**
+
+Si los orbitales que se solapan son los más sencillos, tipos s y p, se pueden considerar dos tipos de enlaces:
+
+**Enlaces $\sigma$**: se forman por solapamiento (acercamiento y superposición), de orbitales s con s, s con p y p con p (frontal, sobre el mismo eje).
+
+**Enlaces $\pi$**: se forman por solapamiento lateral, es decir, sobre ejes paralelos, de orbitales p.
+
+**Hibridación de orbitales atómicos**
+
+La teoría de hibridación de orbitales atómicos fue propuesta en 1931 por L. Pauling como una modificación de la TEV, para hacer frente a disparidades halladas en el cálculo teórico de parámetros moleculares (distancias de enlace, ángulos de enlace,...) al aplicar la TEV con los valores obtenidos experimentalmente para los mismos parámetros.
+
+Una de las moléculas que manifiesta esta discrepancia es la de metano.
+
+La configuración del C es 1 s2 2 s2 2 p2 , por lo que puede formar cuatro enlaces covalentes promocionando un electrón del orbital 2s al orbital 2p vacío y así tener 4 electrones desapareados:
+
+C: 2 s2 2 px1 py1 pz0 → 2 s1 2 px1 py1 pz1 ;
+
+H: 1 s1
+
+El problema es que según la geometría de los orbitales s y p, los cuatro enlaces σ del metano no serían iguales: el que se formara por solapamiento del orbital 2s del C con el 1s del H sería diferente de los otros tres, formados por solapamiento de los 2p del C son el 1s del H.
+
+**Hibridación $\ce{sp^3}$**
+La explicación dada por Pauling consiste en admitir la formación de cuatro orbitales atómicos híbridos equivalentes a partir del orbital 2s y los tres orbitales p del carbono, llamados $\ce{sp3}$, conteniendo cada uno de ellos un electrón desapareado.
+
+En esta hibridación los orbitales forman ángulos de 109,5$^{\circ}$.
+
+Al solaparse frontalmente con los correspondientes orbitales 1s de los hidrógenos, se obtienen cuatro enlaces σ equivalentes orientados de la forma esperada.
+
+**Ejemplos $\ce{sp^3}$**
+
+Además del metano, todos los compuestos orgánicos en los que el carbono presenta cuatro enlaces simples, tienen hibridación $\ce{sp^3}$.
+
+Otros ejemplos importantes son el agua, amoniaco, ión amonio, etc.
+
+**Hibridación $\ce{sp^2}$**
+
+Se define como la combinación de un orbital s y dos p, para formar 3 orbitales híbridos, llamados $\ce{sp^2}$,que se disponen en un plano formando ángulos de 120$^{\circ}$.
+
+Los átomos que forman hibridaciones $\ce{sp^2}$s pueden formar compuestos con enlaces dobles. Forman ángulos de 120$^{\circ}$ y sus moléculas son de forma plana.
+
+Los enlaces dobles están compuestos por un enlace $\ce{\sigma}$ y un enlace $\ce{\pi}$.
+
+En estos casos un electrón del orbital 2s se mezcla sólo con dos de los orbitales 2p: surge al unirse el orbital s con dos orbitales p; por consiguiente, se producen tres nuevos orbitales $\ce{sp^2}$, y queda un orbital p sin hibridar:
+
+2 s1 2 px1 py1 pz1 → (sp2 )1 (sp2 )1 (sp2 )1 pz1
+
+**EJEMPLOS $\ce{sp^2}$**
+
+Además de todos los compuestos orgánicos en los que el carbono presenta un doble enlace (en ellos los orbitales p que no han hibridado se solapan lateralmente para dar el enlace π en el enlace doble), también presentan esta hibridación el aluminio en sus haluros, el azufre en el $\ce{SO2}$, etc.
+
+**Hibridación sp**
 
 Se da con la combinación de un orbital s y otro p, para formar 2 orbitales híbridos, llamados sp, que se disponen linealmente, formando ángulos de 180 $^{\circ}$.
 
 Los átomos que forman hibridaciones sp pueden formar compuestos con enlaces triples. Forman ángulos de 180$^{\circ}$ y sus moléculas son de forma lineal.
 
-Los enlaces triples están compuestos por un enlace σ y dos enlaces π.
+Los enlaces triples están compuestos por un enlace $\ce{\sigma}$ y dos enlaces $\ce{\pi}$.
 
 En estos casos un electrón del orbital 2s se mezcla sólo con uno de los orbitales 2p: surge al unirse el orbital s con un orbitales p; por consiguiente, se producen dos nuevos orbitales sp, y quedan dos orbitales p sin hibridar. Para el carbono:
 
 2 s1 2 px1 py1 pz1 → (sp)1 (sp)1 py1 pz1
 
-EJEMPLOS SP
+**Ejemplos sp**
 
 Además de todos los compuestos orgánicos en los que el carbono presenta un triple enlace enlace (en ellos los orbitales p que no han hibridado se solapan lateralmente para dar dos enlaces π en el triple enlace), también presenta esta hibridación el carbono en el $\ce{CO2}$ y en todos los que como en esa molécula, hay dos dobles enlaces en el mismo carbono.
 
 También presentan esta hibridación los haluros del berilio.
 
-RESUMEN HIBRIDACIÓN
+**Resumen Hibridación**
 
-EJEMPLO GEOMETRÍA (II)
+**Ejemplo de geometría**
 
 “Para la molécula $\ce{C2H4}$ deduzca la estructura de Lewis, nombre y dibuje su geometría molecular e indique los ángulos de enlace aproximados”
 
@@ -865,55 +853,42 @@ Las interacciones de no enlace se suelen dividir tradicionalmente en dos grupos:
 
 **FUERZAS DE VAN DER WAALS**
 
-La fuerzas de van der Waals son fuerzas de tipo
-electrostático (entre cargas de signo distinto).
-No es difícil de entender que existirán interacciones de
-este tipo entre las moléculas polares (HCl, por ejemplo).
-Son las llamadas interacciones dipolo- dipolo (fuerzas de Keeson).
-Sin embargo existen fuerzas de van der Waals, incluso cuando las moléculas no son
-polares.
-Unas veces estas interacciones se deben a que las moléculas polares inducen dipolos
-en las no polares, estableciéndose interacciones dipolo-dipolo inducido (fuerzas
-de Debye). Estas interacciones son las que ocurren, por ejemplo, en una mezcla de
-HCl (polar) y CH4 (no polar).
-55FUERZAS DE VAN DER WAALS (II)
-Aún si no existen dipolos permanentes pueden existir fuerzas de van der Waals
-debido a la aparición de dipolos instantáneos.
+La fuerzas de van der Waals son fuerzas de tipo electrostático (entre cargas de signo distinto). No es difícil de entender que existirán interacciones de este tipo entre las moléculas polares (HCl, por ejemplo).
+
+Son las llamadas **interacciones dipolo-dipolo** (fuerzas de Keeson).
+
+Sin embargo existen fuerzas de van der Waals, incluso cuando las moléculas no son polares.
+
+Unas veces estas interacciones se deben a que las moléculas polares inducen dipolos en las no polares, estableciéndose interacciones dipolo-dipolo inducido (fuerzas de Debye). 
+
+Estas interacciones son las que ocurren, por ejemplo, en una mezcla de HCl (polar) y $\ce{CH4}$ (no polar).
+
+Aún si no existen dipolos permanentes pueden existir fuerzas de van der Waals debido a la aparición de dipolos instantáneos.
+
 La formación de dipolos instantáneos en moléculas no polares es un efecto cuántico.
-Recordemos que los electrones se sitúan alrededor de los núcleos formando una nube
-de probabilidad (orbital). Puede ocurrir que en determinado instante la distribución
-de probabilidad de los electrones no sea simétrica, existiendo una mayor probabilidad
-de encontrar al electrón en un extremo que en el otro, lo que provoca la aparición
-instantánea de cargas parciales.
-Se forman dipolos instantáneos.
-Estos dipolos pueden provocar la aparición de dipolos inducidos en moléculas pró-
-ximas provocando una interacción entre dipolos instantáneos y dipolos in-
-ducidos (fuerzas de London)
-56FUERZAS DE VAN DER WAALS (III)
-Las fuerzas de van der Waals son de corto alcance (disminuyen rápidamente al
-aumentar la distancia) y la interacción se produce a una distancia de equilibrio en
-la que la atracción entre dipolos iguala a la fuerza de repulsión entre las nubes de
-electrones.
-Las interacciones de van der Waals son importantes cuando los átomos
-son grandes, debido a que son más fácilmente polarizables.
-El enlace covalente es, aproximadamente, 5000 veces más estable que una interacción
-de van der Waals.
+
+Recordemos que los electrones se sitúan alrededor de los núcleos formando una nube de probabilidad (orbital). Puede ocurrir que en determinado instante la distribución de probabilidad de los electrones no sea simétrica, existiendo una mayor probabilidad de encontrar al electrón en un extremo que en el otro, lo que provoca la aparición instantánea de cargas parciales.
+
+Se forman **dipolos instantáneos**.
+
+Estos dipolos pueden provocar la aparición de dipolos inducidos en moléculas próximas provocando una interacción entre dipolos instantáneos y dipolos inducidos (**fuerzas de London**)
+
+Las fuerzas de van der Waals son de corto alcance (disminuyen rápidamente al aumentar la distancia) y la interacción se produce a una distancia de equilibrio en la que la atracción entre dipolos iguala a la fuerza de repulsión entre las nubes de electrones.
+
+Las interacciones de van der Waals son importantes cuando los átomos son grandes, debido a que son más fácilmente polarizables.
+
+El enlace covalente es, aproximadamente, 5000 veces más estable que una interacción de van der Waals.
+
 Algunos ejemplos interesantes:
-Las interacciones entre los planos del grafito son fuerzas de van der Waals.
-El yodo es una sustancia sólida a temperatura ambiente debido a
-interacciones de van der Waals. Las interacciones entre las moléculas de I2
-son del tipo dipolo instantáneo-dipolo inducido. El gran tamaño de los
-átomos de yodo facilita la polarización de las moléculas.
-57ENLACE DE HIDRÓGENO
-Aunque el llamado “enlace de hidrógeno” no llega a la categoría de enlace (es
-veinte veces más débil que un enlace covalente), y se estudia como un tipo de in-
-teracción entre las moléculas, es de gran importancia ya que juega un papel muy
-importante en química y biología.
-El enlace de hidrógeno es una interacción entre moléculas debida a la
-polaridad de los enlaces covalentes y se da entre el átomo de hidrógeno,
-cargado positivamente, y un átomo electronegativo pequeño como el oxí-
-geno, nitrógeno o flúor.
-El átomo de oxígeno de una molécula de agua tiene una carga parcial negativa que
-es atraída por la carga parcial positiva del hidrógeno de una molécula vecina. De
-esta manera ambas moléculas quedan “unidas” mediante el átomo de hidrógeno que
-hace de “puente” entre ambas.
+
+- Las interacciones entre los planos del grafito son fuerzas de van der Waals.
+
+- El yodo es una sustancia sólida a temperatura ambiente debido a interacciones de van der Waals. Las interacciones entre las moléculas de $\ce{I2}$ son del tipo dipolo instantáneo-dipolo inducido. El gran tamaño de los átomos de yodo facilita la polarización de las moléculas.
+
+**ENLACE DE HIDRÓGENO**
+
+Aunque el llamado “enlace de hidrógeno” no llega a la categoría de enlace (es veinte veces más débil que un enlace covalente), y se estudia como un tipo de interacción entre las moléculas, es de gran importancia ya que juega un papel muy importante en química y biología.
+
+El enlace de hidrógeno es una interacción entre moléculas debida a la polaridad de los enlaces covalentes y se da entre el átomo de hidrógeno, cargado positivamente, y un átomo electronegativo pequeño como el oxígeno, nitrógeno o flúor.
+
+El átomo de oxígeno de una molécula de agua tiene una carga parcial negativa que es atraída por la carga parcial positiva del hidrógeno de una molécula vecina. De esta manera ambas moléculas quedan “unidas” mediante el átomo de hidrógeno que hace de “puente” entre ambas.
