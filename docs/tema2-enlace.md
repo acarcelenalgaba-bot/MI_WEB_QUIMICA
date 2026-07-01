@@ -880,65 +880,126 @@ $\ce{\hspace{4cm} C{:} \; 2s^2 2p_x^1 2p_y^1 2p_z^0 \; \rightarrow \; 2s^1 2p_x^
 
 $\ce{\hspace{4cm} H{:} \; 1s^1}$
 
+![...](imagenes/tema02/metano_sinhibridar.png){style="display: block; margin: 0 auto; width: 65%"}
+
 El problema es que según la geometría de los orbitales s y p, los cuatro enlaces σ del metano no serían iguales: el que se formara por solapamiento del orbital 2s del C con el 1s del H sería diferente de los otros tres, formados por solapamiento de los 2p del C son el 1s del H.
 
 **Hibridación $\ce{sp^3}$**
 
-La explicación dada por Pauling consiste en admitir la formación de cuatro orbitales atómicos híbridos equivalentes a partir del orbital 2s y los tres orbitales p del carbono, llamados $\ce{sp3}$, conteniendo cada uno de ellos un electrón desapareado.
+La explicación dada por Pauling consiste en admitir la formación de cuatro **orbitales atómicos híbridos** equivalentes a partir del orbital 2s y los tres orbitales p del carbono, llamados $\ce{sp^3}$, conteniendo cada uno de ellos un electrón desapareado.
+
+![...](imagenes/tema02/metano_hibridado.png){style="display: block; margin: 0 auto; width: 50%"}
 
 En esta hibridación los orbitales forman ángulos de 109,5$^{\circ}$.
 
-Al solaparse frontalmente con los correspondientes orbitales 1s de los hidrógenos, se obtienen cuatro enlaces σ equivalentes orientados de la forma esperada.
+Al solaparse frontalmente con los correspondientes orbitales 1s de los hidrógenos, se obtienen **cuatro enlaces σ** equivalentes orientados de la forma esperada.
+
+![...](imagenes/tema02/hibridacion_sp3.png){style="display: block; margin: 0 auto; width: 50%; border: 1px solid #333;"}
 
 **Ejemplos $\ce{sp^3}$**
 
-Además del metano, todos los compuestos orgánicos en los que el carbono presenta cuatro enlaces simples, tienen hibridación $\ce{sp^3}$.
+Además del metano, todos los compuestos orgánicos en los que el carbono presenta cuatro enlaces simples (etano, propano, butano, pentano...), tienen hibridación $\ce{sp^3}$.
 
-Otros ejemplos importantes son el agua, amoniaco, ión amonio, etc.
+Otros ejemplos importantes son el agua ($\ce{H2O}$), amoniaco ($\ce{NH3}$), ión amonio ($\ce{NH4^+}$), etc.
+
+![...](imagenes/tema02/ejemplos_sp3.png){style="display: block; margin: 0 auto; width: 60%"}
 
 **Hibridación $\ce{sp^2}$**
 
-Se define como la combinación de un orbital s y dos p, para formar 3 orbitales híbridos, llamados $\ce{sp^2}$,que se disponen en un plano formando ángulos de 120$^{\circ}$.
+Se define como la combinación de **un orbital s** y **dos p**, para formar 3 orbitales híbridos, llamados $\ce{sp^2}$,que se disponen en un plano formando ángulos de 120$^{\circ}$.
 
-Los átomos que forman hibridaciones $\ce{sp^2}$s pueden formar compuestos con enlaces dobles. Forman ángulos de 120$^{\circ}$ y sus moléculas son de forma plana.
+Los átomos que forman hibridaciones $\ce{sp^2}$s pueden formar compuestos con enlaces dobles. Forman ángulos de 120$^{\circ}$ y sus moléculas son de **forma plana**.
 
 Los enlaces dobles están compuestos por un enlace $\ce{\sigma}$ y un enlace $\ce{\pi}$.
 
 En estos casos un electrón del orbital 2s se mezcla sólo con dos de los orbitales 2p: surge al unirse el orbital s con dos orbitales p; por consiguiente, se producen tres nuevos orbitales $\ce{sp^2}$, y queda un orbital p sin hibridar:
 
-2 s1 2 px1 py1 pz1 → (sp2 )1 (sp2 )1 (sp2 )1 pz1
+$\ce{\hspace{6cm} 2s^1 2p_x^1 2p_y^1 2p_z^1 \hspace{1cm} \longrightarrow \hspace{0.5cm} (sp^2)^1 (sp^2)^1 (sp^2)^1 2p_z^1}$
+
+![...](imagenes/tema02/hibridacion_sp2.png){style="display: block; margin: 0 auto; width: 50%"}
 
 **EJEMPLOS $\ce{sp^2}$**
 
-Además de todos los compuestos orgánicos en los que el carbono presenta un doble enlace (en ellos los orbitales p que no han hibridado se solapan lateralmente para dar el enlace π en el enlace doble), también presentan esta hibridación el aluminio en sus haluros, el azufre en el $\ce{SO2}$, etc.
+Además de todos los compuestos orgánicos en los que el carbono presenta un doble enlace, eteno, propeno, buteno,... (en ellos los orbitales p que no han hibridado se solapan lateralmente para dar el enlace π en el enlace doble), también presentan esta hibridación el aluminio en sus haluros, el azufre en el $\ce{SO2}$, el boro en el $\ce{BF3}$, etc.
+
+![...](imagenes/tema02/ejemplos_sp2.png){style="display: block; margin: 0 auto; width: 55%; border: 1px solid #333;"}
 
 **Hibridación sp**
 
-Se da con la combinación de un orbital s y otro p, para formar 2 orbitales híbridos, llamados sp, que se disponen linealmente, formando ángulos de 180 $^{\circ}$.
+Se da con la combinación de **un orbital s** y **otro p**, para formar 2 orbitales híbridos, llamados **sp**, que se **disponen linealmente**, formando ángulos de 180$^{\circ}$.
 
-Los átomos que forman hibridaciones sp pueden formar compuestos con enlaces triples. Forman ángulos de 180$^{\circ}$ y sus moléculas son de forma lineal.
+Los átomos que forman hibridaciones sp pueden formar compuestos con enlaces triples. Forman ángulos de 180$^{\circ}$ y sus moléculas son de **forma lineal**.
 
 Los enlaces triples están compuestos por un enlace $\ce{\sigma}$ y dos enlaces $\ce{\pi}$.
 
-En estos casos un electrón del orbital 2s se mezcla sólo con uno de los orbitales 2p: surge al unirse el orbital s con un orbitales p; por consiguiente, se producen dos nuevos orbitales sp, y quedan dos orbitales p sin hibridar. Para el carbono:
+En estos casos un electrón del orbital 2s se mezcla sólo con uno de los orbitales 2p: surge al unirse el orbital s con un orbital p; por consiguiente, se producen dos nuevos orbitales sp, y quedan dos orbitales p sin hibridar. 
 
-2 s1 2 px1 py1 pz1 → (sp)1 (sp)1 py1 pz1
+Para el carbono sería:
+
+$\ce{\hspace{6cm} 2s^1 2p_x^1 2p_y^1 2p_z^1 \hspace{1cm} \longrightarrow \hspace{1cm} (sp)^1 (sp)^1 p_y^1 p_z^1}$
+
+![...](imagenes/tema02/hibridacion_sp.png){style="display: block; margin: 0 auto; width: 50%"}
 
 **Ejemplos sp**
 
-Además de todos los compuestos orgánicos en los que el carbono presenta un triple enlace enlace (en ellos los orbitales p que no han hibridado se solapan lateralmente para dar dos enlaces π en el triple enlace), también presenta esta hibridación el carbono en el $\ce{CO2}$ y en todos los que como en esa molécula, hay dos dobles enlaces en el mismo carbono.
+Además de todos los compuestos orgánicos en los que el carbono presenta un triple enlace, etino, propino,... (en ellos los orbitales p que no han hibridado se solapan lateralmente para dar dos enlaces π en el triple enlace), también presenta esta hibridación el carbono en el $\ce{CO2}$ y en todos los que como en esa molécula, hay dos dobles enlaces en el mismo carbono.
 
 También presentan esta hibridación los haluros del berilio.
 
+![...](imagenes/tema02/ejemplos_sp.png){style="display: block; margin: 0 auto; width: 65%"}
+
 **Resumen Hibridación**
+
+![...](imagenes/tema02/resumen_hibridacion.png){style="display: block; margin: 0 auto; width: 70%"}
+
 
 **Ejemplo de geometría**
 
-“Para la molécula $\ce{C2H4}$ deduzca la estructura de Lewis, nombre y dibuje su geometría molecular e indique los ángulos de enlace aproximados”
+Anteriormente se vió el siguiente ejercicio:
 
-En aquel momento se resolvió según la teoría de la repulsión de los pares electrónicos de valencia, pero se puede razonar igualmente por la teoría de los orbitales híbridos, como se acaba de ver.
+Para la molécula $\ce{C2H4}$ deduzca la estructura de Lewis, nombre y dibuje su geometría molecular e indique los ángulos de enlace aproximados.
 
-En realidad ambas explicaciones son válidas y llevan a los mismos resultados.
+**1. Estructura de Lewis**
+
+Para dibujar la estructura de Lewis, seguimos estos pasos:
+
+Contar los electrones de valencia:
+
+Carbono ($\ce{C}$): Grupo 14 $\rightarrow 4 \text{ e}^- \cdot 2 = 8 \text{ e}^-$
+
+Hidrógeno ($\ce{H}$): Grupo 1 $\rightarrow 1 \text{ e}^- \cdot 4 = 4 \text{ e}^-$
+
+Total de electrones de valencia = 12.
+
+Electrones totales = $\ce{8 \cdot 2 + 2 \cdot 2 = 20}$.
+
+Cantidad de enlaces que se formaran: $\ce{ET - EV = 20 - 12 = 8 (4 enlaces posibles)}$
+
+Los dos átomos de carbono se enlazan entre sí y los cuatro hidrógenos se distribuyen equitativamente (dos en cada carbono). Tras formar los enlaces simples iniciales ($\ce{C-C}$ y cuatro $\ce{C-H}$), gastamos 5 pares (10 electrones). El par restante se coloca como un doble enlace entre los dos carbonos para que ambos completen su octeto.
+
+![...](imagenes/tema02/lewis_eteno.svg){style="display: block; margin: 0 auto; width: 15%"}
+
+**2. Hibridación, Geometría Molecular y Ángulos de Enlace**
+
+Para determinar la geometría alrededor de cada átomo de carbono, analizamos su entorno:
+
+Densidades electrónicas (regiones de carga): Cada carbono está rodeado por 3 regiones de alta densidad electrónica (2 enlaces simples $\ce{C-H}$ y 1 enlace doble $\ce{C-C}$).
+
+**Hibridación**: Al tener 3 regiones, la teoría de hibridación indica que cada carbono presenta una hibridación $\ce{sp^2}$. Esto deja un orbital $p$ puro sin hibridar en cada carbono para formar el enlace pi ($\pi$) del doble enlace.
+
+**Nombre de la Geometría**
+
+La disposición espacial que minimiza la repulsión de tres regiones de electrones es **trigonal plana**. 
+
+Como la molécula tiene dos centros idénticos coplanares, toda la molécula de eteno es plana.
+
+**Ángulos de Enlace**
+
+En una geometría trigonal plana ideal, los ángulos son de $120^\circ$. Sin embargo, la mayor repulsión del doble enlace ($\ce{C=C}$) frente a los enlaces simples ($\ce{C-H}$) abre ligeramente ese ángulo:
+
+Ángulo $\ce{H-C-H}$: Aproximadamente $\ce{117,4}^\circ$ (un poco menor de $\ce{120}^\circ$).
+
+Ángulo $\ce{H-C=C}$: Aproximadamente $\ce{121,3}^\circ$ (un poco mayor de $\ce{120}^\circ$).
 
 Se recomienda en principio utilizar el método RPECV que parece más sencillo, a no ser que explícitamente se pida razonarlo a partir de la teoría de orbitales híbridos.
 
@@ -979,7 +1040,7 @@ Las fuerzas de van der Waals son de corto alcance (disminuyen rápidamente al au
 
 Las interacciones de van der Waals son importantes cuando los átomos son grandes, debido a que son más fácilmente polarizables.
 
-El enlace covalente es, aproximadamente, 5000 veces más estable que una interacción de van der Waals.
+El enlace covalente es, aproximadamente, 5000 veces más estable que una interacción de Van der Waals.
 
 Algunos ejemplos interesantes:
 

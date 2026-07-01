@@ -45,6 +45,9 @@ compilar_fichero() {
             cat << TEX > temp_tikz_$ID.tex
 \documentclass[tikz,border=2mm]{standalone}
 \usetikzlibrary{shapes,patterns,positioning}
+\usepackage{tikz}
+\usepackage{tikzorbital}
+\usepackage{tikz-3dplot}
 \begin{document}
 $CONTENIDO_FINAL
 \end{document}
