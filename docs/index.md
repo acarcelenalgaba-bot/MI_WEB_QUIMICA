@@ -13,7 +13,7 @@ Utiliza el siguiente índice para acceder directamente a cada unidad didáctica:
     *   *Contenido:* Enlace iónico (Ciclo de Born-Haber), enlace metálico, enlace covalente (Lewis, RPECV, Hibridación) y fuerzas intermoleculares.
 
 ### 🔥 Bloque 2: Energética y Cinética Química
-*   **[Tema 3: Termoquímica](tema3-termoquimica.md)** *(Pendiente de redactar)*
+*   **[Tema 3: Termoquímica](tema3-termoquimica.md)**
     *   *Contenido:* Primer principio, entalpías de reacción y formación, Ley de Hess, entropía y espontaneidad de Gibbs ($\Delta G$).
 *   **[Tema 4: Cinética Química](tema4-cinetica.md)** *(Pendiente de redactar)*
     *   *Contenido:* Ecuación de velocidad, orden de reacción, factores que afectan a la velocidad y teoría de colisiones.
@@ -21,7 +21,7 @@ Utiliza el siguiente índice para acceder directamente a cada unidad didáctica:
 ### ⚖️ Bloque 3: Equilibrio Químico y Reactividad
 *   **[Tema 5: Equilibrio Químico General](tema5-equilibrio.md)** *(Pendiente de redactar)*
     *   *Contenido:* Ley de acción de masas ($K_c$ y $K_p$), grado de disociación ($\alpha$) y Principio de Le Chatelier.
-*   **[Tema 6: Reacciones de Transferencia de Protones (Ácido-Base)](tema6-acidobase.md)** *(Pendiente de redactar)*
+*   **[Tema 6: Reacciones de Transferencia de Protones (Ácido-Base)](tema6-acido_base.md)** *(Pendiente de redactar)*
     *   *Contenido:* Concepto de pH, teorías de Brønsted-Lowry, fuerza de ácidos/bases y reacciones de neutralización.
 *   **[Tema 7: Reacciones de Transferencia de Electrones (Redox)](tema7-redox.md)** *(Pendiente de redactar)*
     *   *Contenido:* Ajuste por el método del ion-electrón, celdas galvánicas (pilas) y estequiometría de la electrólisis (Leyes de Faraday).
