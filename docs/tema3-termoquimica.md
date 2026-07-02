@@ -320,81 +320,122 @@ Si **multiplicamos la ecuación por un número**, **también se multiplica** la 
 
 **Diagrama entálpico**: **representación gráfica** de la variación de entalpía entre los reactivos y los productos en una **reacción química**.
 
-<style>
-  th, td { width: 50%; } /* Opcional: divide las dos columnas a partes iguales (50% cada una) */
-</style>
-| Reacción endotérmica | Reacción exotérmica |
-| :---: | :---: |
-| <img src="../imagenes/tema03/td11_1.png" style="width: 90%; height: 225px; border: 1px solid #333;"> | <img src="../imagenes/tema03/td11_2.png" style="width: 90%; height: 225px; border: 1px solid #333;"> |
-| $\ce{H_{productos} > H_{reactivos} \rightarrow \Delta H_r > 0}$ | $\ce{H_{productos} < H_{reactivos} \rightarrow \Delta H_r < 0}$ |
+<div style="display: flex; width: 100%; border: 1px solid #ddd; font-family: sans-serif;">
+
+  <div style="flex: 1; width: 50%; border-right: 1px solid #ddd; display: flex; flex-direction: column;">
+    <div style="background-color: #f2f2f2; font-weight: bold; text-align: center; padding: 10px; border-bottom: 1px solid #ddd;">
+      Reacción endotérmica
+    </div>
+    <div style="height: 300px; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
+      <img src="../imagenes/tema03/td11_1.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    </div>
+    <div style="display: flex; justify-content: center; align-items: center; height: 25px;">
+        H<sup>productos</sup> &nbsp; > &nbsp; H<sub>reactivos</sub> &nbsp; &nbsp; &rarr; &nbsp; &nbsp; &Delta; H<sub>r</sub> &nbsp; > 0
+    </div>
+  </div>
+
+  <div style="flex: 1; width: 50%; border-right: 1px solid #ddd; display: flex; flex-direction: column;">
+    <div style="background-color: #f2f2f2; font-weight: bold; text-align: center; padding: 10px; border-bottom: 1px solid #ddd;">
+      Reacción exotérmica
+    </div>
+    <div style="height: 300px; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
+      <img src="../imagenes/tema03/td11_2.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    </div>
+    <div style="display: flex; justify-content: center; align-items: center; height: 25px;">
+        H<sup>productos</sup> &nbsp; < &nbsp; H<sub>reactivos</sub> &nbsp; &nbsp; &rarr; &nbsp; &nbsp; &Delta; H<sub>r</sub> &nbsp; < 0
+    </div>
+  </div>
+
+</div>
 
 ## **04. Cálculo de Entalpías**
 
-Para averiguar la \Delta Hr de un proceso hay varios métodos:
+Para averiguar la entalpía de reacción, $\ce{\Delta H_r}$ de un proceso hay varios métodos:
 
-1. Experimental
+1. A partir de la **determinacion experimental**
+2. A partir de las **entalpías de formación**
+3. A partir de la **ley de Hess**
+4. A partir de las **entalpías de enlace**<br>
 
-2. A partir de la Ley de Hess
 
-3. A partir de las entalpías de formación
-
-4. A partir de las entalpías de enlace
-
-5. Determinación experimental:
+**1. Cálculo a partir de la determinación experimental**:
 
 El calorímetro contiene una masa de agua a cierta T, en la cual, o se produce la reacción, o está en contacto con el recipiente donde ésta ocurre.
 
-La \Delta Hr será absorbida o liberada por el agua del calorímetro, lo que hace variar su T.
+La $\ce{\Delta H_r}$ será absorbida o liberada por el agua del calorímetro, lo que hace variar su T.
+
 Como el sistema es adiabático:
 
-Qreacción + Qagua = 0 \; \rightarrow \; Qreacción = - Qagua
+$\ce{Q_{reacción} + Q_{agua} = 0 \; \rightarrow \; Q_{reacción} = - Q_{agua}}$
 
-Qagua = m \cdot cagua \cdot \Delta T
+$\ce{Q_{agua} = m \cdot c_{agua} \cdot \Delta T}$
+{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 250px; margin: 20px auto; display: block; background: #f9f7fb" }
 
 La reacción calienta el agua, y también los componentes del calorímetro. El calor invertido en esto es específico de cada calorímetro y debe tenerse en cuenta, o se cometerá un error de medición.
 
-**\Delta HR a partir de entalpías estándar de formación**
+![...](imagenes/tema03/td12.png){style="display: block; margin: left; width: 25%; height: 300px; border: 1px solid #333;"}
 
-La \Delta Hr podría calcularse: Hproductos - Hreactivos , pero no es posible medir el valor absoluto de H de una sustancia, solo valores relativos con respecto a una referencia arbitraria:
+**2. Cálculo de la $\ce{\Delta H_R}$ a partir de entalpías estándar de formación ($\ce{\Delta H^{\circ}_f}$)**
 
-El punto de referencia para la H, es la entalpía estándar de formación (\Delta H^{\circ}f ) de cualquier elemento, en su forma más estable (a 1 atm y 25 ^{\circ} C), que es cero. 
+La entalpía de reacción, $\ce{\Delta H_r}$ podría calcularse: $\ce{H_{productos} - H_{reactivos}}$, pero no es posible medir el valor absoluto de H de una sustancia, solo valores relativos con respecto a una referencia arbitraria:
 
-\Delta H^{\circ}f (C, grafito) = 0 y \Delta H^{\circ}f (C, diamante) = 1,90 kJ/mol
+El **punto de referencia** para la H, **es la entalpía estándar de formación** ($\ce{\Delta H^{\circ}_f}$) de **cualquier elemento**, en su forma más estable (a 1 atm y 25 $^{\circ}$C), que es **cero**. 
 
-Entalpía estándar de formación \Delta H^{\circ}f de un compuesto: calor asociado a la formación de 1 mol de compuesto a partir de sus elementos a una presión de 1 atm
+$\ce{\Delta H^{\circ}_f}$ (C, grafito) = 0 y $\ce{\Delta H^{\circ}_f}$ (C, diamante) = 1,90 kJ/mol
+
+La definición de la **entalpía estándar de formación** $\ce{\Delta H^{\circ}_f}$ de un compuesto sería el calor asociado a la formación de 1 mol de compuesto a partir de sus elementos a una presión de 1 atm.
 
 A partir de las entalpías de formación estándar es posible obtener entalpías de reacción:
 
-\Delta H^{\circ}reacción = n \cdot \Delta H^{\circ}f (productos) - m \cdot \Delta H^{\circ}f (reactivos)
+$\ce{\Delta H^{\circ}_{reacción} = \sum n \cdot \Delta H^{\circ}_f (productos) - \sum m \cdot \Delta H^{\circ}_f (reactivos)}$
+{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 600px; margin: 20px auto; display: block; background: #f9f7fb" }
 
-n, m = coeficientes estequiométricos de productos y reactivos; El estado estándar se designa con el símbolo «^{\circ} », y especifica una T, que utiliza valores de \Delta H^{\circ}f a 25 ^{\circ}C
+$\ce{n, m =}$ coeficientes estequiométricos de productos y reactivos; el estado estándar se designa con el símbolo «$^{\circ}$», y especifica una T, que utiliza valores de $\ce{\Delta H^{\circ}_f}$ a 25 $^{\circ}$C
 
-**\Delta Hr a partir de \Delta H^{\circ}f**
+Las entalpías de formación estándar están tabuladas, a 25 $^{\circ}$C
 
-Las entalpías de formación estándar están tabuladas, a 25 ^{\circ}C
+![...](imagenes/tema03/td13.png){style="display: block; margin: left; width: 80%; height: 400px; border: 1px solid #333;"}
 
-**Ley de Hess**
+**3. Cálculo a partir de la ley de Hess**
+
 La variación de entalpía que se produce cuando ocurre una determinada reacción es la misma tanto si ésta se produce en una sola etapa, como en varias etapas.
 
-Cuando una reacción química puede expresarse como suma algebraica de otras, su \Delta H reacción es igual a la misma suma algebraica de las \Delta H de las reacciones parciales.
+Cuando una reacción química puede expresarse como suma algebraica de otras, su $\ce{\Delta H}$ reacción es igual a la misma suma algebraica de las $\ce{\Delta H}$ de las reacciones parciales.
+
+![...](imagenes/tema03/td14.png){style="display: block; margin: left; width: 60%; height: 250px; border: 1px solid #333;"}
 
 **Ejercicio de la ley de Hess**
 
 Halla la entalpía de formación del amoniaco a partir de las siguientes ecuaciones:
 
-1) 2 H2 (g) + N2 (g) \; \rightarrow \; N2 H4 (g) \Delta H1 = 95,4 kJ
+$\ce{1) 2 H2 (g) + N2 (g) \rightarrow N2H4 (g) \hspace{1.4cm} \Delta H^{\circ}_1 = + 95,4 kJ}$
 
-2) N2 H4 (g) + H2 (g) \; \rightarrow \; 2 NH3 (g) \Delta H2 = - 187,6 kJ
+$\ce{2) N2H4 (g) + H2 (g) \rightarrow 2 NH3 (g) \hspace{1cm} \Delta H^{\circ}_2 = - 187,6 kJ}$
 
-Aplicando la ley de Hess: 
+**Solución**:
 
-si sumamos las dos reacciones dadas obtenemos la ecuación buscada, pero en ella se forman 2 mol de NH3 por lo tanto: 
+La entalpía de reacción (formación del $\ce{NH3}$) que nos piden es de la siguiente reacción: 
 
-La entalpía de formación del NH3 sería: - 92,2/2 = - 46,1 kJ/mol
+$\ce{\hspace{3cm} 3 H2 (g) + N2 (g) \rightarrow 2 NH3 (g) \hspace{1.4cm} \Delta H^{\circ}_r = ?}$
 
-La ley de Hess permite tratar las ecuaciones termoquímicas como ecuaciones algebraicas, pudiendo sumarlas, restarlas o multiplicarlas por un número, junto a los calores de reacción correspondientes.
+Aplicando la ley de Hess, si sumamos las dos reacciones dadas obtenemos la ecuación buscada. 
 
-**Entalpía de enlace**
+$$
+\begin{aligned}
+&\text{Etapa 1.} \quad \ce{2 H2 (g) + N2 (g) \rightarrow \cancel{\ce{N2H4}} (g)} \hspace{1.4cm} \Delta \ce{H}^{\circ}_1 = + 95,4 \text{ kJ} \\[0.3cm]
+&\text{Etapa 2.} \quad \ce{\cancel{\ce{N2H4}} (g) + H2 (g) \rightarrow 2 NH3 (g)} \hspace{1cm} \Delta \ce{H}^{\circ}_2 = - 187,6 \text{ kJ} \\[0.2cm]
+\hline \\[-0.05cm]
+&\text{Reacción} \quad \ce{3 H2 (g) + N2 (g) \rightarrow 2 NH3 (g)} 
+\end{aligned}
+$$
+
+$\ce{\Delta H^{\circ}_{reacción} = \Delta H^{\circ}_1 + \Delta H^{\circ}_2 = + 95,4 kJ + (- 187,6 kJ) = - 92,2 kJ }$
+
+Pero en ella se forman 2 mol de $\ce{NH3}$ por lo tanto, la entalpía de formación del $\ce{NH3}$ sería: $\ce{- 92,2 / 2 = - 46,1 kJ/mol}$
+
+La ley de Hess permite tratar las ecuaciones termoquímicas como ecuaciones algebraicas, pudiendo sumarlas, restarlas o multiplicarlas por un número, junto a las entalpías de reacción correspondientes.
+
+**4. Cáculo a partir de la entalpía de enlace**
 
 La entalpía de enlace es un valor medio de la energía que se requiere para romper 1 mol de dichos enlaces.
 
