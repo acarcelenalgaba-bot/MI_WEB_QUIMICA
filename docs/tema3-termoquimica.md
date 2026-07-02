@@ -348,7 +348,7 @@ Si **multiplicamos la ecuación por un número**, **también se multiplica** la 
 
 </div>
 
-## **04. Cálculo de Entalpías**
+## **04. Cálculo de entalpías**
 
 Para averiguar la entalpía de reacción, $\ce{\Delta H_r}$ de un proceso hay varios métodos:
 
@@ -422,8 +422,8 @@ Aplicando la ley de Hess, si sumamos las dos reacciones dadas obtenemos la ecuac
 
 $$
 \begin{aligned}
-&\text{Etapa 1.} \quad \ce{2 H2 (g) + N2 (g) \rightarrow \cancel{\ce{N2H4}} (g)} \hspace{1.4cm} \Delta \ce{H}^{\circ}_1 = + 95,4 \text{ kJ} \\[0.3cm]
-&\text{Etapa 2.} \quad \ce{\cancel{\ce{N2H4}} (g) + H2 (g) \rightarrow 2 NH3 (g)} \hspace{1cm} \Delta \ce{H}^{\circ}_2 = - 187,6 \text{ kJ} \\[0.2cm]
+&\text{Etapa 1.} \quad \ce{2 H2 (g) + N2 (g) \rightarrow \cancel{\ce{N2H4}} (g)} \hspace{1.4cm} \Delta \ce{H}^{\circ}_1 = + 95,4 \text{ kJ} \\[0.1cm]
+&\text{Etapa 2.} \quad \ce{\cancel{\ce{N2H4}} (g) + H2 (g) \rightarrow 2 NH3 (g)} \hspace{1cm} \Delta \ce{H}^{\circ}_2 = - 187,6 \text{ kJ} \\[0.1cm]
 \hline \\[-0.05cm]
 &\text{Reacción} \quad \ce{3 H2 (g) + N2 (g) \rightarrow 2 NH3 (g)} 
 \end{aligned}
@@ -437,73 +437,106 @@ La ley de Hess permite tratar las ecuaciones termoquímicas como ecuaciones alge
 
 **4. Cáculo a partir de la entalpía de enlace**
 
-La entalpía de enlace es un valor medio de la energía que se requiere para romper 1 mol de dichos enlaces.
+La **entalpía de enlace** es un **valor medio de la energía** que se requiere para romper **1 mol de dichos enlaces**.
 
-Cuanto mayor sea la energía de enlace, más fuerte y más estable será dicho enlace.
+Cuanto **mayor** sea la **energía de enlace**, **más fuerte y más estable** será dicho enlace.
 
-Una reacción consiste en una reordenación de los átomos de los reactivos para formar los productos. Esto supone la ruptura de ciertos enlaces y la formación de otros nuevos.
+Una **reacción** consiste en una **reordenación de los átomos** de los reactivos para formar los productos. Esto supone la **ruptura de ciertos enlaces** y la **formación de otros nuevos**.
 
-La energía intercambiada en ese proceso de ruptura y formación de enlaces es otra forma de determinar “aproximadamente” la entalpía de una reacción \Delta Hr:
+La energía intercambiada en ese proceso de ruptura y formación de enlaces es otra forma de determinar “aproximadamente” la entalpía de una reacción $\ce{\Delta H_r}$:
 
-\Delta H^{\circ}reacción = (energía de enlaces rotos) - (energía de enlaces formados)
+$\ce{\Delta H^{\circ}_{reacción} = \sum (energía de enlaces rotos) - \sum (energía de enlaces formados)}$
+{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 700px; margin: 20px auto; display: block; background: #f9f7fb" }
+
+![...](imagenes/tema03/td15.png){style="display: block; margin: 0 auto; width: 70%; border: 1px solid #333;"}
 
 **Ejercicio de la entalpía de enlace**
 
 Calcula la entalpía estándar de la reacción de combustión del metanol:
 
-CH3 OH + 3/2 O2 \; \rightarrow \; CO2 + 2 H2 O
+$\ce{\hspace{5cm} CH3OH + 3/2 O2 \rightarrow CO2 + 2 H2O}$
 
-a partir de los datos de entalpías de enlace (kJ/mol): C–H = 414; C–O = 352; O=O = 498; O–H = 460; C=O = 745
+a partir de los datos de entalpías de enlace (kJ/mol): $\ce{C-H = 414; C-O = 352; O=O = 498; O-H = 460; C=O = 745}$
 
-Enlaces que se rompen:
+**Solución**:
 
-- tres C-H
-- un C-O
-- 3/2 O=O
+<!--
+##latex id=combustion_metanol sep=2em
+\schemestart[0, 0.8, 1.5]
+	\subscheme{
+		\chemfig{C(-[2]H)(-[4]H)(-[6]H)-O-H} 
+        \hspace{2em}
+		+ \hspace{2em} 3/2
+        \hspace{1em}
+		\chemfig{O = O}
+        \hspace{2em}
+		\arrow{->}[0,1] 
+        \hspace{2em}
+    \chemfig{O = C = O} 
+        \hspace{2em}
+    + \hspace{2em} 2 
+      \hspace{1em}
+    \chemfig{H - O - H} 
+		}
+\schemestop
+-->
 
-Enlaces que se forman:
-- dos C=O
-- tres O-H
+![...](imagenes/tema03/combustion_metanol.svg){style="display: block; margin: 0 auto; width: 100%"}
+
+$$
+\begin{array}{ll}
+\textbf{Enlaces que se rompen} & \textbf{Enlaces que se forman} \\
+\ce{3 enlaces C-H} & \ce{dos enlaces C=O} \\
+\ce{1 enlace C-O} & \ce{cuatro enlaces O-H} \\
+\ce{1 enlace O-H} & \\
+\ce{3/2 enlace O=O} & \\
+\end{array}
+$$
 
 Aplicando la expresión:
 
-\Delta H^{\circ}reacción = (energía de enlaces rotos) - (energía de enlaces formados)
-\Delta H^{\circ}reacción = (3 mol \cdot 414 kJ/mol + 352 kJ + (2 mol \cdot 745 kJ/mol + 3 mol \cdot 460 kJ/mol)
-3 2 mol \cdot 498 kJ/mol) - \Delta H^{\circ}reacción = - 529 kJ
+$\ce{\Delta H^{\circ}_{reacción} = \sum (energía de enlaces rotos) - \sum (energía de enlaces formados)}$
 
-## **05. Segundo Principio y Entropía**
+$\ce{\Delta H^{\circ}_{reacción} = (3 mol \cdot 414 kJ/mol + 1 mol \cdot  352 kJ/mol + 1 mol \cdot 460 kJ/mol + }$ 
 
-LA ESPONTANEIDAD DE LOS PROCESOS
+$\ce{\hspace{2cm} + 3/2 mol \cdot 498 kJ/mol) - (2 mol \cdot 745 kJ/mol + 4 mol \cdot 460 kJ/mol)}$
+
+$\ce{\Delta H^{\circ}_{reacción} = - 529 kJ }$
+
+## **05. Segundo principio y Entropía**
 
 El primer principio establece que cuando un sistema experimenta una transformación, se cumple que:
 
-\Delta U = Q + W
+$\ce{\hspace{3cm} \Delta U = Q + W}$
 
 La energía total se conserva, pero hay procesos:
 
-- Espontáneos: se producen sin ninguna intervención externa
+- **Espontáneos**: se producen sin ninguna intervención externa
 
-- No espontáneos: se dan gracias a una acción externa continua
+- **No espontáneos**: se dan gracias a una acción externa continua
 
 En principio, puede parecer que solo los procesos exotérmicos son espontáneos, pero hay procesos endotérmicos que también lo son.
 
-Para predecir en qué sentido un sistema va a evolucionar de forma espontánea, el primer principio no es suficiente, solo \Delta H no sirve para determinar la espontaneidad, necesitamos una nueva magnitud física: **ENTROPÍA**
+Para predecir en qué sentido un sistema va a evolucionar de forma espontánea, el primer principio no es suficiente, solo $\ce{\Delta H}$ no sirve para determinar la espontaneidad, necesitamos una nueva magnitud física: **ENTROPÍA**
 
 **Concepto de entropía: S**
 
-La entropía mide el grado de desorden de un sistema a nivel molecular
+La **entropía** mide el **grado de desorden de un sistema a nivel molecular**
 
 - Es una magnitud extensiva y función de estado
 
 - Se mide en J/K
 
-- Sgas > Slíquido >Ssólido
+- $\ce{S_{gas} > S_{líquido} >S_{sólido}}$
 
-- La entropía de un sistema aumenta con la Temperatura.
+- La entropía de un sistema aumenta con la temperatura.
 
 Cuando un sistema intercambia energía con el entorno, la variación de entropía, depende del calor intercambiado y de la temperatura a la que se produce el intercambio.
 
-\Delta s = Q T
+$\ce{\Delta S = \dfrac {Q}{T} }$
+{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 110px; margin: 20px auto; display: block; background: #f9f7fb" }
+
+![...](imagenes/tema03/td17.png){style="display: block; margin: 0 auto; width: 70%; border: 1px solid #333;"}
 
 **Segundo principio de la termodinámica**
 
@@ -511,93 +544,139 @@ Cuando un sistema intercambia energía con el entorno, la variación de entropí
 
 - Conecta la entropía y la espontaneidad de un proceso
 
-Un sistema evoluciona de forma espontánea si la entropía del universo aumenta con esa transformación.
+Un **sistema evoluciona de forma espontánea** si la **entropía del universo aumenta** con esa transformación.
 
-\Delta Suniverso > 0
+$\ce{\Delta S_{universo} > 0 }$
+{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 180px; margin: 20px auto; display: block; background: #f9f7fb" }
 
-\Delta Suniverso = \Delta Ssistema + \Delta Sentorno
+$\ce{\hspace{6cm} \Delta S_{universo} = \Delta S_{sistema} + \Delta S_{entorno}}$
 
-El gas se distribuye uniformemente entre ambos matraces; pero NO se da el proceso inverso: que un gas encerrado en 2 matraces se concentre espontáneamente en uno solo.
+![...](imagenes/tema03/td18.png){style="display: block; margin: 0 auto; width: 90%; border: 1px solid #333;"}
+
+El **gas se distribuye uniformemente** entre ambos matraces; pero **NO se da el proceso inverso**: que un gas encerrado en 2 matraces se concentre espontáneamente en uno solo.
 
 **La entropía y el segundo principio**
 
-\Delta Suniverso = \Delta Ssistema + \Delta Sentorno
+$\ce{\Delta S_{universo} = \Delta S_{sistema} + \Delta S_{entorno}}$
+{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 300px; margin: 20px auto; display: block; background: #f9f7fb" }
 
-Reacción endotérmica
+**Reacción exotérmica**
 
-Reacción exotérmica
+![...](imagenes/tema03/td21.png){style="display: block; margin: 0 auto; width: 50%; border: none;"}
 
-- La espontaneidad de los procesos exotérmicos depende de cómo varíe la \Delta S del sistema.
+- La **espontaneidad** de los procesos **exotérmicos** depende de cómo varíe la $\ce{\Delta S}$ del **sistema**.
 
-- La espontaneidad de los procesos endotérmicos depende de cómo varíe la \Delta S del entorno.
+**Reacción endotérmica**
+
+<div style="display: flex; width: 100%; border: none; font-family: sans-serif;">
+
+  <div style="flex: 1; width: 50%; border-right: 1px solid #ddd; display: flex; flex-direction: column;">
+    <div style="height: 300px; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: none;">
+      <img src="../imagenes/tema03/td19.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    </div>
+  </div>
+
+  <div style="flex: 1; width: 50%; border-right: none; display: flex; flex-direction: column;">
+    <div style="height: 300px; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: none;">
+      <img src="../imagenes/tema03/td20.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    </div>
+  </div>
+</div>
+
+- La **espontaneidad** de los procesos **endotérmicos** depende de cómo varíe la $\ce{\Delta S}$ del **entorno**.
 
 **Variacción de entropía en una reacción**
 
-El tercer principio de la Termodinámica establece que:
-La entropía de una sustancia pura (elemento o compuesto) que se halle como un cristal perfecto a 0 K es cero
+El **tercer principio** de la Termodinámica establece que:
 
-La entropía nunca puede ser negativa ya que 0 K es la temperatura más baja posible y a cualquier otra S > 0
+La **entropía de una sustancia pura** (elemento o compuesto) que se halle como un cristal perfecto a **0 K es cero**
 
-Si puede haber \Delta S < 0
+La **entropía nunca puede ser negativa** ya que 0 K es la temperatura más baja posible y a cualquier otra S > 0
 
-A partir de las tablas de entropías molares de las sustancias en condiciones estándar S^{\circ} , la \Delta S^{\circ} de una reacción se calcula:
+Si puede haber $\ce{\Delta S < 0}$
 
-\Delta S^{\circ}reacción = np \cdot S^{\circ} (productos) - nr \cdot S^{\circ} (reactivos)
+A partir de las tablas de entropías molares de las sustancias en condiciones estándar $\ce{S^{\circ}}$, la $\ce{\Delta S^{\circ}}$ de una reacción se calcula:
 
-aA + bB \; \rightarrow \; cC + dD
+$\ce{\Delta S^{\circ}_{reacción} = \sum n_p \cdot S^{\circ} (productos) - \sum n_r \cdot S^{\circ} (reactivos)}$
+{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 550px; margin: 20px auto; display: block; background: #f9f7fb" }
 
-\Delta S^{\circ} reacción =[c \cdot S^{\circ} (C) + d \cdot S^{\circ} (D)] - [a \cdot S^{\circ} (A) + b \cdot S^{\circ} (B)]
+![...](imagenes/tema03/td22.png){style="display: block; margin: 0 auto; width: 30%; border: 1px solid #333;"}
+
+Para una reacción genérica dada sería:
+
+$\ce{\hspace{5cm} a A + b B \rightarrow \; c C + d D}$
+
+$\ce{\hspace{2cm} \Delta S^{\circ}_{reacción} =[c \cdot S^{\circ} (C) + d \cdot S^{\circ} (D)] - [a \cdot S^{\circ} (A) + b \cdot S^{\circ} (B)]}$
 
 a, b, c y d están en mol
 
-**Sign de la \Delta S de una reacción**
+**Cómo averiguar el signo de la $\ce{\Delta S}$ de una reacción**
 
-¿Cómo predecir el signo de la \Delta S de una reacción?
+Para predecir el signo de la $\ce{\Delta S}$ de una reacción si el **número de partículas de gas** es mayor en los productos que en los reactivos $\ce{\Delta S > 0}$; si es menor $\ce{\Delta S < 0}$ y si no varía $\ce{\Delta S = 0}$
 
-Si el número de partículas de gas es mayor en los productos que en los reactivos
+$\ce{C (s) +  \color{blue}{1/2 O2 (g)} \rightarrow \color{blue}{CO (g)} \hspace{2.3cm} \Delta S^{\circ} > 0}$
 
-\Delta S > 0; si es menor \Delta S < 0 y si no varía \Delta S = 0
+$\ce{CaCO3 (s) \rightarrow CaO (s) + \color{blue}{CO2 (g)} \hspace{1cm} \Delta S^{\circ} > 0}$
 
-CO (g) \; \rightarrow \; C (s) + 12 O2 (g) \Delta S^{\circ} > 0
-CaCO3 (s) \; \rightarrow \; CaO (s) + CO2 (g) \Delta S^{\circ} > 0
-PCl3 (g) + Cl2 (g) \; \rightarrow \; PCl5 (g) \Delta S^{\circ} < 0
+$\ce{\color{blue}{PCl3 (g)} + \color{blue}{Cl2 (g)} \rightarrow \color{blue}{PCl5 (g)} \hspace{1.6cm} \Delta S^{\circ} < 0 }$
 
 ## **06. Espontaneidad y Energía Libre**
    
 **Energía libre de Gibbs**
 
-Para salvar la dificultad de tener que determinar la \Delta Suniverso para poder saber si una reacción es o no espontánea, se introduce una nueva magnitud: la energía libre de Gibbs (G)
+Para salvar la dificultad de tener que determinar la $\ce{\Delta S_{universo}}$ para poder saber si una reacción es o no espontánea, se introduce una nueva magnitud: la **energía libre de Gibbs** (**G**)
 
-G = H - T\cdotS
+$\ce{\hspace{5cm} G = H - T \cdot S}$
 
-Es una función de estado y en el S.I se mide en Julios (J)
+Es una función de estado y en el S.I. se mide en **Julios** (J)
 
 T = temperatura en K. No podemos conocer su valor absoluto pero si su variación, que en condiciones de p y T constantes es:
 
-\Delta G = \Delta H - T \cdot \Delta S
+$\ce{\Delta G = \Delta H - T \cdot \Delta S}$
+{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 200px; margin: 20px auto; display: block; background: #f9f7fb" }
 
-Un proceso es espontáneo si \Delta G < 0
+<span style="color: red; font-size: 1.2em;">&#10071;</span> Un **proceso es espontáneo** si $\ce{\Delta G < 0}$
 
-Si \Delta G > 0 el proceso no es espontáneo
+Si $\ce{\Delta G > 0}$ el proceso **no es espontáneo**
 
-Si \Delta G = 0 el sistema está en equilibrio
+Si $\ce{\Delta G = 0}$ el sistema está en **equilibrio**
+
+**Variacion de la energía libre de Gibbs en una reacción química**
+
+Se puede calcular a partir de la variación de entalpía estándar de reacción  y de la variación de entropía estándar de la reacción:
+
+$\ce{\Delta G^{\circ}_r = \Delta H^{\circ}_r - T \cdot \Delta S^{\circ}_r}$
+{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 230px; margin: 20px auto; display: block; background: #f9f7fb" }
+
+También se puede hallar a partir de las energías libres de formación de reactivos y productos, usando la ley de Hess.
+
+$\ce{\Delta G^{\circ}_r = \sum n_p \cdot \Delta G^{\circ}_f (productos) - \sum n_r \cdot \Delta G^{\circ}_f (reactivos)}$
+{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 550px; margin: 20px auto; display: block; background: #f9f7fb" }
+
+Para la reacción: $\quad \ce{\text{a} A + \text{b} B \rightarrow \text{c} C + \text{d} D}$
+
+$\ce{\hspace{2cm} \Delta G^{\circ}_r = (c \cdot \Delta G^{\circ}_f C + d \cdot \Delta G^{\circ}_f D) - (a \cdot \Delta G^{\circ}_f A + b \cdot \Delta G^{\circ}_f B)}$
+
+Cuanto más negativo es el valor de la energia libre de Gibbs, más estable es la especie química formada y más espontánea es la reacción.
+
+La energía libre de Gibbs estándar de formación de un elemento químico en su estado más estable (natural) es 0, al igual que ocurría con la entalpía estandar de formación ($\ce{N2(g)}$, $\ce{Br2(l)}$, Fe(s)...)
 
 **Espontaneidad de las reacciones**
 
-\Delta G = \Delta H - T \cdot \Delta S
+Partiendo de la ecuación de la energía libre de Gibbs, $\ce{\Delta G = \Delta H - T \cdot \Delta S}$, se puede deducir que:
 
-- Si en una reacción exotérmica (\Delta H < 0) se produce un aumento de la entropía (\Delta S > 0), tendremos que \Delta G < 0 y, por tanto, el proceso es espontáneo.
+- Si en una **reacción exotérmica** ($\ce{\Delta H < 0}$) se produce un aumento de la entropía ($\ce{\Delta S > 0}$), tendremos que $\ce{\Delta G < 0}$ y, por tanto, el proceso es **espontáneo**.
   
-- Pero hay reacciones en las que los términos entálpico (\Delta H) y entrópico (T \cdot \Delta S) están enfrentados; en estos casos, decide el valor de la temperatura, T, a la que se realiza el proceso, ya que va a determinar si (T \cdot \Delta S) es más o menos negativo y por tanto si favorece o no la espontaneidad de la reacción.
+- Pero hay reacciones en las que los términos entálpico ($\ce{\Delta H}$) y entrópico ($\ce{T \cdot \Delta S}$) están enfrentados; en estos casos, decide el valor de la temperatura, $\ce{T}$, a la que se realiza el proceso, ya que va a determinar si ($\ce{T \cdot \Delta S}$) es más o menos negativo y por tanto si favorece o no la espontaneidad de la reacción.
 
 Por ejemplo, el carbonato de amonio se descompone desprendiendo un fuerte olor a amoniaco, según la reacción:
 
-(NH4 )2 CO3 (s) \; \rightarrow \; NH4 HCO3 (s) + NH3 (g) \Delta H = 40,2 kJ
+$\ce{\hspace{2cm} (NH4)2CO3 (s) \rightarrow NH4HCO3 (s) + NH3 (g) \hspace{1cm} \Delta H = 40,2 kJ}$
 
-Esta reacción es endotérmica (\Delta H > 0) y transcurre con un aumento de la entropía (\Delta S > 0), luego solo será espontánea (\Delta G < 0) a temperaturas altas; cuando se cumpla que: 
-
-|T \cdot \Delta S| > |\Delta H|
+Esta reacción es endotérmica ($\ce{\Delta H > 0}$) y transcurre con un aumento de la entropía ($\ce{\Delta S > 0}$), luego solo será **espontánea** ($\ce{\Delta G < 0}$) a **temperaturas altas**; cuando se cumpla que: $\ce{|T \cdot \Delta S| > |\Delta H|}$
 
 **Evaluación de la espontaneidad**
 
 Influencia de la temperatura en la espontaneidad de una reacción química:
+
+![...](imagenes/tema03/td23.png){style="display: block; margin: 0 auto; width: 90%; border: 1px solid #333;"}
