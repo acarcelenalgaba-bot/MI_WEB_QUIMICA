@@ -1,6 +1,6 @@
 # 🧪 Química de 2º de Bachillerato
 
-¡Bienvenido/a a tu plataforma de apuntes de Química! Aquí encontrarás todo el temario oficial desarrollado paso a paso, con fórmulas interactivas, tablas de tendencias y consejos clave orientados para el examen de la **PAU**.
+¡Bienvenido/a a tu plataforma de apuntes de Química! Aquí encontrarás todo el temario oficial desarrollado paso a paso, con fórmulas, tablas de tendencias y consejos clave orientados para el examen de la **PAU**.
 
 Utiliza el siguiente índice para acceder directamente a cada unidad didáctica:
 
