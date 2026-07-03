@@ -190,68 +190,63 @@ $\ce{k = \dfrac {9 \cdot 10^{-5}}{0,015 \cdot 0,0025} = 2,4 \; mol^{-1}\cdot l\c
 
 Se llama **mecanismo de reacción** al proceso a través del cual transcurre una reacción.
 
-Una reacción es elemental cuando el transcurso de la misma puede representarse mediante una sola ecuación estequiométrica, es decir, se realiza en una sola etapa.
+Una reacción es **elemental** cuando el transcurso de la misma puede representarse mediante una sola ecuación estequiométrica, es decir, se realiza en una sola etapa.
 
-En las reacciones elementales (y solo en ellas) se denomina molecularidad al número de moléculas que intervienen en el proceso. En ellas, los órdenes de reacción coinciden con los coeficientes estequiométricos.
+En las reacciones **elementales** (y solo en ellas) se denomina **molecularidad** al **número de moléculas que intervienen** en el proceso. En ellas, los **órdenes de reacción** coinciden con los **coeficientes estequiométricos**.
 
-Supongamos que la reacción A + 2 B → AB2 es elemental.
+Supongamos que la reacción $\ce{A + 2 B \rightarrow AB2}$ es elemental.
 
-En este caso v = k \cdot [A]1 \cdot [B]2 , y significa que se produce en un solo choque
-de tres moléculas: una de A y dos de B.
+En este caso $\ce{\textrm{v} = k \cdot [A]^1 \cdot [B]^2}$, y significa que se produce en un solo choque de tres moléculas: una de A y dos de B.
 
-Una reacción es compleja cuando el transcurso de la misma se representa por varias ecuaciones estequiométricas, las cuales representan varias etapas.
+Una reacción es **compleja** cuando el transcurso de la misma se representa por **varias ecuaciones estequiométricas**, las cuales representan **varias etapas**.
 
-Supongamos ahora que para la reacción global
+Supongamos ahora que para la reacción global $\ce{\quad A + 2 B \rightarrow AB2}$
 
-A + 2 B → AB2
+La ecuación cinética es: $\ce{\textrm{v} = k \cdot [A]^1 \cdot [B]^1}$, como vemos, los órdenes de reacción no coinciden con los coeficientes estequiométricos. Eso es una **pista** para saber que la **reacción es compleja** y transcurre a través de **varias etapas**, que podrían ser:
 
-La ecuación cinética es: v = k[A]1 \cdot [B]1 , como vemos, los órdenes de reacción no coinciden con los coeficientes estequiométricos. Eso es una pista para saber que la reacción es compleja y transcurre a través de varias etapas, que podrían ser:
+$$\ce{A + B \rightarrow AB \quad \quad \quad Etapa 1}$$
 
-A + B → AB
-
-AB + B → AB2
-
-1 a etapa
-2 a etapa
+$$\ce{AB + B \rightarrow AB2 \quad \quad  Etapa 2}$$ 
 
 Si por ejemplo la 1ª etapa es la más lenta, será ella la que determine la velocidad total de la reacción, presentando la ecuación de velocidad de orden total 2 (1+1) vista anteriormente.
 
-A la etapa lenta, que determina la velocidad de reacción, se la conoce como “etapa limitante”.
+A la **etapa lenta**, que **determina la velocidad de reacción**, se la conoce como “**etapa limitante**”.
 
 **Ejemplo de mecanismo**
 
-Para la reacción de oxidación del bromuro de hidrógeno, si el proceso se verificara en una sola etapa, la velocidad vendría dada por la expresión:
+Para la reacción de oxidación del bromuro de hidrógeno:
 
-v = k \cdot [HBr]4 \cdot [O2 ]
-4 HBr (g) + O2 (g) → 2 Br2 (g) + 2 H2 O (g)
+$$\ce{4 HBr (g) + O2 (g) \rightarrow 2 Br2 (g) + 2 H2O (g)}$$
 
-Sin embargo, se ha obtenido experimentalmente un orden de reacción dos para la velocidad: 
+Si el proceso se verificara en una sola etapa, la velocidad vendría dada por la expresión: $\ce{\textrm{v} = k \cdot [HBr]^4 \cdot [O2]}$
 
-v = k \cdot [HBr] \cdot [O2 ]
+Sin embargo, se ha obtenido experimentalmente un orden de reacción dos para la ecuación de velocidad: 
 
-Si el proceso se realizara según la ecuación de reacción sería necesario el choque simultáneo de cuatro moléculas de HBr y una de O2 , cosa prácticamente imposible. Por eso se ha propuesto un mecanismo en varias etapas:
+$$\ce{\textrm{v} = k \cdot [HBr] \cdot [O2]}$$
 
-HBr + O2 → HBrOO
-HBrOO + HBr → 2 HBrO
-2 (HBrO + HBr → H2 O + Br2 )
-lenta
-rápida
-rápida
+Si el proceso se realizara según la ecuación de reacción sería necesario el choque simultáneo de cuatro moléculas de HBr y una de $\ce{O2}$, cosa prácticamente imposible. Por eso se ha propuesto un mecanismo en varias etapas:
+ 
+$$\ce{HBr + O2 \rightarrow HBrOO \hspace{3.2cm} \textbf{lenta}}$$
+
+$$\ce{ HBrOO + HBr \rightarrow 2 HBrO \hspace{2.3cm} rápida}$$
+
+$$\ce{ 2 HBrO + 2 HBr \rightarrow 2 H2O + 2 Br2 \hspace{0.8cm} rápida}$$
 
 Se observa que en todos los procesos son necesarios dos moléculas para verificarse y que la primera reacción de la cadena es lenta, determinando por tanto la velocidad global de la reacción.
 
 ## **4. Teoría de las colisiones**
 
-En una reacción química se rompen enlaces de las moléculas de reactivos y se forman nuevos enlaces, dando lugar a las moléculas de los productos. Este proceso implica que las moléculas reaccionantes entren en contacto, es decir, choquen. Esta idea constituye la base de las distintas teorías de las reacciones químicas.
+En una **reacción química** se rompen enlaces de las moléculas de reactivos y se forman nuevos enlaces, dando lugar a las moléculas de los productos. Este **proceso** implica que **las moléculas reaccionantes entren en contacto**, es decir, **choquen**. Esta idea constituye la base de las distintas teorías de las reacciones químicas.
 
-La teoría de colisiones fue enunciada por Lewis en 1918.
+La **teoría de colisiones** fue enunciada por Lewis en 1918.
 
 Según esta teoría para que las moléculas de dos reactivos reaccionen se debe producir un choque entre ellas. Ahora bien, dos moléculas pueden chocar entre si y no dar lugar a reacción alguna. Para que esto ocurra, el choque sea eficaz, debe cumplirse además:
 
-1. Que las moléculas posean suficiente energía cinética, para que al chocar puedan romperse algunos enlaces. Las moléculas que cumplen esta condición se dice que están activadas y la energía mínima requerida se deno mina energía de activación.
+1. Que las **moléculas posean** **suficiente energía cinética**, para que al chocar puedan romperse algunos enlaces. Las **moléculas** que cumplen esta condición se dice que están **activadas** y la **energía mínima** requerida se denomina **energía de activación**.
    
-2. Que el choque se verifique en una orientación adecuada, para que sea eficaz.
+2. Que el **choque** se verifique en una **orientación adecuada**, para que sea eficaz.
 
+![...](imagenes/tema04/cq3.png){style="display: block; margin: 0 auto; width: 60%; border: 1px solid #333;"}
 
 En el dibujo de arriba se aprecian dos tipos de choque:
 
@@ -264,44 +259,84 @@ En el dibujo de arriba se aprecian dos tipos de choque:
 
 Esta teoría, complementaria a la de las colisiones, admite que la reacción transcurre con la formación de un complejo molecular en el cual aún no se han roto los enlaces de las moléculas reaccionantes y tampoco se han formado los enlaces de los compuestos resultantes.
 
-A ese estado se le llama estado de transición, y al complejo molecular, complejo activado.
+A ese estado se le llama **estado de transición**, y al complejo molecular, **complejo activado**.
 
 En el ejemplo de abajo (sustitución del I por OH para dar metanol a partir de yodometano) se especifica el complejo activado entre corchetes.
 
+<!--
+##latex id=yodometano sep=2em
+\schemestart[0, 0.8, 1.5]
+    \chemfig{H\charge{45:2pt=$\ominus$}{O}} + \ce{CH3I} \; $\longrightarrow$ \; $\left[ \quad \chemfig{[,1] \charge{35:6pt=$\delta\oplus$}{C}(-[:180,1.25,,,dotted]H\charge{45:4pt=$\delta\ominus$}{O})(-[:230]H)(-[:310]H)(-[:90]H)(-[:0,1.25,,,dotted]\charge{45:6pt=$\delta\ominus$}{I}) } \quad \quad \right]^{\verteq} $ \; $\rightarrow$ \; \ce{HOCH3} + \chemfig{\charge{45:2pt=$\ominus$}{I} \;}
+\schemestop
+-->
+
+![...](imagenes/tema04/yodometano.svg){style="display: block; margin: 0 auto; width: 60%"}
+
 El complejo activado es muy inestable debido a la alta Ep que contiene (Energía de activación proveniente de la Ec de las moléculas reaccionantes), y tiende a evolucionar a un estado de menor energía, desprendiendo ésta.
 
-Según sea el valor de la energía desprendida, con respecto a la energía de activación, tendremos un proceso exotérmico o endotérmico.
+Según sea el valor de la energía desprendida, con respecto a la energía de activación, tendremos un proceso **exotérmico** o **endotérmico**.
+
+![...](imagenes/tema04/cq5.png){style="display: block; margin: 0 auto; height: 300px ;width: 80%; border: 1px solid #333;"}
 
 **Energía de activación**
 
 En 1899 Arrhenius propuso un interpretación cuantitativa de la variación de la velocidad de reacción con la temperatura. Propuso para la constante específica de velocidad la siguiente expresión:
 
--Ea
-k = A \cdot eR\cdotT
+<div class="arithmatex-box" style="
+    width: fit-content;
+    margin: 20px auto;
+    background-color: #f0f7ff; 
+    border: 1px solid #0056b3;
+    padding: 0px 10px; 
+    border-radius: 6px; 
+    box-shadow: 0 5px 15px rgba(0, 86, 179, 0.15);
+">
+$$\ce{k = A \cdot e^{ $\frac {\ce{-Ea}}{\ce{R \cdot T}}$ } }$$
+</div>
 
-siendo R la constante de los gases, A una constante llamada factor de frecuencia y Ea la energía de activación.
+siendo **R** la **constante de los gases**, **A** una constante llamada **factor de frecuencia** y **Ea** la **energía de activación**.
 
 Esta ecuación puede interpretarse de acuerdo con la teoría del complejo activado.
 
-El factor de frecuencia A mide el número de choques con la orientación adecuada, mientras que e RT determina la fracción de moléculas que superan la energía de activación.
+El **factor de frecuencia A** mide el **número de choques con la orientación adecuada**, mientras que $\text{e}^{ \frac {\ce{-Ea}}{\ce{R \cdot T}} }$ determina la **fracción de moléculas que superan la energía de activación**.
 
 ## **6. Influencia de la temperatura en la velocidad de reacción**
 
 La ecuación de Arrhenius es coherente con lo observado experimentalmente: la velocidad de las reacciones químicas aumenta con la temperatura. Lógico, ya que al aumentar T, aumenta la energía cinética media, (Ecm) de las moléculas, con lo que aumentará el número de choques eficaces.
 
+![...](imagenes/tema04/cq6.png){style="display: block; margin: 0 auto; height: 300px ;width: 80%; border: 1px solid #333;"}
+
 **Efecto de la temperatura en la velocidad de una reacción**
 
-La gráfica muestra cómo el número de moléculas que tienen una determinada energía de activación disminuye a medida que la energía de activación aumenta. A temperatura más alta (curva roja), la proporción de moléculas con la energía suficiente para producir colisiones eficaces es más alta.
+La gráfica muestra cómo el número de moléculas que tienen una determinada energía de activación disminuye a medida que la energía de activación aumenta. A **temperatura más alta** (curva roja), la **proporción de moléculas con la energía suficiente** para producir colisiones eficaces es **más alta**.
+
+![...](imagenes/tema04/cq7.png){style="display: block; margin: 0 auto; height: 300px ;width: 80%; border: 1px solid #333;"}
 
 **Constante de velocidad a diferentes temperaturas**
 
 Si tomamos logaritmos en la ecuación de Arrhenius:
 
-Que expresada para dos temperaturas diferentes T1 y T2 :
+$$\ce{ln k = ln A - \dfrac {\ce{Ea}}{\ce{R \cdot T}}}$$
+
+Que expresada para dos temperaturas diferentes $\ce{T_1}$ y $\ce{T_2}$:
+
+$$\ce{ln \; k1 = ln \; A - $\dfrac {\ce{E_a}}{\ce{R*T1}}$} \hspace{3cm} \ce{ln \; k2 = ln \; A - $\dfrac {\ce{E_a}}{\ce{R*T2}}$}$$
 
 Si las restamos miembro a miembro:
 
-Ecuación que nos permite calcular las energías de activación de una reacción química si conocemos las constantes de velocidad a diferentes temperaturas.
+<div class="arithmatex-box" style="
+    width: fit-content;
+    margin: 20px auto;
+    background-color: #f0f7ff; 
+    border: 1px solid #0056b3;
+    padding: 0px 10px; 
+    border-radius: 6px; 
+    box-shadow: 0 5px 15px rgba(0, 86, 179, 0.15);
+">
+$$\ce{ln \; \dfrac {\ce{k2}}{\ce{k1}} = - \dfrac {\ce{E_a}}{\ce{R}} * $\left( \dfrac {\ce{1}}{\ce{T2}} - \dfrac {\ce{1}}{\ce{T1}} \right)$ }$$
+</div>
+
+Ecuación que nos permite **calcular la energía de activación de una reacción química** si conocemos las constantes de velocidad a diferentes temperaturas.
 
 **Influencia de la concentración y la presión**
 
@@ -309,55 +344,59 @@ De acuerdo con la teoría de colisiones, para que se produzca una reacción quí
 
 Este hecho viene recogido en la expresión de la ecuación de velocidad, ya que ésta es proporcional a las concentraciones elevadas a su orden de reacción.
 
-v = k \cdot [A]α \cdot [B]β
+$$\ce{\textrm{v} = k \cdot [A]^{\alpha} \cdot [B]^{\beta}}$$
 
-En reacciones entre gases si aumentamos la presión también aumentaremos los choques entre las moléculas y con ello la velocidad de reacción.
+En **reacciones entre gases** si **aumentamos la presión** también **aumentaremos** los choques entre las moléculas y con ello **la velocidad de reacción**.
 
-En aquellas reacciones donde se aplica un exceso de reactivo, aunque no se consiga aumentar la cantidad total de producto, se consigue un aumento de velocidad al haber una mayor concentración de reactivo.
+En aquellas **reacciones** donde se **aplica un exceso de reactivo**, aunque no se consiga aumentar la cantidad total de producto, se consigue un **aumento de velocidad** al haber una **mayor concentración de reactivo**.
 
 **Efecto del grado de división de los reactivos**
 
-En las reacciones heterogéneas, donde los reactivos están en diferentes fases, la reacción se produce en la superficie de contacto. En estos casos la velocidad de reacción dependerá del área de dicha superficie.
+En las **reacciones heterogéneas**, donde los **reactivos** están en **diferentes fases**, la reacción se produce en la superficie de contacto. En estos casos **la velocidad de reacción dependerá del área de dicha superficie**.
 
-En el caso de un reactivo sólido, la velocidad aumentará cuanto mayor sea el grado de división. Así las reacciones pueden ser muy rápidas si los reactivos sólidos están finamente divididos.
+En el caso de un **reactivo sólido**, la **velocidad** **aumentará** cuanto **mayor** sea el **grado de división**. Así las reacciones pueden ser muy rápidas si los reactivos sólidos están finamente divididos.
 
-Las condiciones más propicias para que una reacción sea rápida es que se verifique entre gases o en disolución, ya que entonces la división alcanza su grado máximo.
+Las condiciones más propicias para que **una reacción sea rápida** es que se verifique entre **gases** o en **disolución**, ya que entonces la **división** alcanza su **grado máximo**.
 
 **Catálisis**
 
-Un catalizador es una sustancia que, incluso en cantidades muy pequeñas, modifica mucho la velocidad de una reacción, sin sufrir ella misma ninguna alteración química permanente. Este fenómeno se denomina catálisis.
+Un **catalizador** es una sustancia que, incluso en cantidades muy pequeñas, **modifica mucho la velocidad de una reacción**, sin sufrir ella misma ninguna alteración química permanente. Este fenómeno se denomina **catálisis**.
 
-Aunque el catalizador no se consume en la reacción tiene un papel activo en la misma, ya que cambia el mecanismo de la reacción, proporcionando un mecanismo de reacción cuya energía de activación es menor.
+Aunque **el catalizador no se consume en la reacción** tiene un papel activo en la misma, ya que **cambia el mecanismo de la reacción**, proporcionando un mecanismo de reacción cuya **energía de activación es menor**.
+
+![...](imagenes/tema04/cq8.png){style="display: block; margin: 0 auto; height: 300px ;width: 70%; border: 1px solid #333;"}
 
 **- Catálisis homogénea**
 
-Cuando un catalizador se encuentra en la misma fase que los reactivos, se habla de catálisis homogénea.
+Cuando un **catalizador** se encuentra en la** misma fase que los reactivos**, se habla de **catálisis homogénea**.
 
 Ejemplo: la descomposición del peróxido de hidrógeno transcurre lentamente, en condiciones normales; sin embargo cuando se le añade yoduro de potasio en disolución, ocurre a gran velocidad.
 
-H2 O2 (aq) → H2 O (l) + 12 O2 (g)
+$$\ce{H2O2 (aq) \rightarrow H2O (l) + 1/2 O2 (g)}$$
 
-Es necesario indicar que un catalizador disminuye la energía de activación también de la reacción inversa, pero no alteran en absoluto los valores de la entalpía y energía libre de la reacción. Por tanto no altera el equilibrio químico, tan sólo disminuye el tiempo en alcanzar ese equilibrio.
+Es necesario indicar que **un catalizador disminuye la energía de activación** también de la reacción inversa, pero no alteran en absoluto los valores de la entalpía y energía libre de la reacción. Por tanto **no altera el equilibrio químico**, tan **sólo disminuye el tiempo en alcanzar ese equilibrio**.
 
 **Catálisis heterogénea**
 
-En muchos procesos, sobre todo industriales, el catalizador se encuentra en una fase distinta a la de los reactivos. Se habla entonces de catálisis heterogénea.
+En muchos procesos, sobre todo industriales, el **catalizador** se encuentra en una **fase distinta a la de los reactivos**. Se habla entonces de **catálisis heterogénea**.
 
 En las reacciones catalizadas por catalizadores en estado sólido se produce la adsorción de las moléculas reactivas en unos puntos denominados puntos activos. Una vez las moléculas han quedado adsorbidas se produce una relajación de los enlaces y el choque con orientación adecuada de moléculas de los otros reactivos. Posteriormente se produce la desorción de los productos de reacción quedando el punto activo del catalizador libre para catalizar nuevamente el proceso.
 
+![...](imagenes/tema04/cq9.png){style="display: block; margin: 0 auto; height: 200px ;width: 80%; border: 1px solid #333;"}
+
 Los catalizadores heterogéneos pueden ser metales de transición finamente divididos, óxidos de dichos metales o zeolitas. Este tipo de catalizadores son muy específicos, así para unos mismos reactivos el cambio de catalizador da lugar a la formación de productos diferentes.
 
-Ciertas sustancias, llamadas venenos, interfieren e inutilizan los catalizadores, bastando pequeñas cantidades de veneno para que el catalizador pierda su efectividad.
+Ciertas sustancias, llamadas **venenos**, **interfieren** e **inutilizan los catalizadores**, bastando pequeñas cantidades de veneno para que el **catalizador pierda su efectividad**.
 
 **Catálisis enzimática**
 
-Las reacciones bioquímicas están catalizados por sustancias denominadas enzimas. Las enzimas son proteínas de elevado peso molecular y con una conformación determinada.
+Las **reacciones bioquímicas** están **catalizados** por sustancias denominadas **enzimas**. Las enzimas son proteínas de elevado peso molecular y con una conformación determinada.
 
-En la catálisis enzimática el reactivo, llamado sustrato, encaja perfectamente en un punto específico de la superficie de la enzima, tal como una llave a la cerradura. Una vez unida al sustrato la enzima cambia su configuración rompiendo así los enlaces del sustrato, produciéndose la reacción y liberándose los productos.
+En la catálisis enzimática **el reactivo**, llamado **sustrato**, **encaja perfectamente** en un punto específico de la superficie de la enzima, tal como una **llave a la cerradura**. Una vez unida al sustrato la enzima cambia su configuración rompiendo así los enlaces del sustrato, produciéndose la reacción y liberándose los productos.
 
-Las enzimas presentan una gran especificidad tanto respecto a los sustratos como a los productos. Esto es, cada enzima se une a un determinado sustrato y no a otro, a su vez cada enzima da lugar a unos determinados productos.
+Las **enzimas presentan** una **gran especificidad** tanto respecto a los sustratos como a los productos. Esto es, cada enzima se une a un determinado sustrato y no a otro, a su vez cada enzima da lugar a unos determinados productos.
 
-Las enzimas presentan además una elevada actividad.
+Las enzimas presentan además una **elevada actividad**.
 
 ---
 
