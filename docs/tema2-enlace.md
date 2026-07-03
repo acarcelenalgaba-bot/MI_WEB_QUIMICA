@@ -22,11 +22,11 @@ El mínimo de energía se corresponderá, por tanto, con la agrupación más est
 
 **Enlace metálico**: Las **unidades estructurales básicas** enlazadas son **átomos con carga positiva** (modelo de "nube electrónica"). Los átomos se mantienen unidos mediante electrones deslocalizados que se sitúan entre los cationes.
 
-**TIPOS DE SÓLIDOS**.
+**Tipos de sólidos**.
 
 Básicamente podemos encontrar varios tipos de sólidos, según sea el enlace: sólidos **iónicos**, sólidos de red **covalente**, sólidos **metálicos** y sólidos **moleculares**.
 
-**SÓLIDOS IÓNICOS**. 
+**Sólidos iónicos**. 
 
 Las **unidades estructurales básicas** de estos compuestos son **iones** (aniones y cationes) unidos mediante enlaces iónicos.
 
@@ -36,7 +36,7 @@ Ejemplos de sólidos iónicos son el cloruro de sodio (NaCl), la fluorita ($\ce{
 
 ![Texto alternativo](imagenes/tema02/enlace_ionico.png){ style="display: block; margin: 0 auto; height: 250px; width: 45%;" }
 
-**SÓLIDOS DE RED COVALENTE**
+**Sólidos de red covalente**
 
 Las **unidades estructurales** son **átomos neutros que se unen entre si mediante enlaces covalentes** formando una estructura tridimensional o red. Los enlaces covalentes son muy fuertes (incluso más que los iónicos), razón por la que los compuestos de red covalente presentan una elevada dureza. Ejemplos de sólidos covalentes: diamante, silicatos, grafito...
 
@@ -54,7 +54,7 @@ La unión entre las láminas es muy débil, siendo por tanto muy fáciles de sep
 
 ![Texto alternativo](imagenes/tema02/grafito.png){ style="display: block; margin: 0 auto; height: 250px; width: 45%;" }
 
-**SÓLIDOS METÁLICOS**
+**Sólidos metálicos**
 
 Las **unidades estructurales** son **iones positivos de metales** entre los que se sitúan electrones prácticamente libres formando una especie de "gas o nube electrónica".
 
@@ -64,7 +64,7 @@ Los **metales** son **ejemplos típicos** de este tipo.
 
 ![Texto alternativo](imagenes/tema02/red_metalica.gif){ style="display: block; margin: 0 auto; height: 250px; width: 45%;" }
 
-**SÓLIDOS MOLECULARES**
+**Sólidos moleculares**
 
 Las **unidades básicas** son **moléculas**, pero existen fuerzas entre ellas (intermoleculares) suficientes para unir (aunque débilmente) a las moléculas formando una estructura típica de sólidos.
 
@@ -88,7 +88,7 @@ En realidad este proceso se realiza simultáneamente en un número enorme de át
 
 En los **compuestos iónicos no se puede hablar de moléculas individuales**, sino de grandes agregados. Por tanto, en los compuestos iónicos, la **fórmula no** podemos decir que **represente una molécula**. Solamente indica la proporción en la que los iones se encuentran combinados.
 
-Ejemplos:
+**Ejemplos**:
 
 KCl. La relación de iones $\ce{K^+}$ e iones $\ce{Cl^-}$ es 1:1 (hay el mismo número de ambos).
 
@@ -118,7 +118,7 @@ Es obvio que se necesita muy buena visión espacial para distinguir las celdilla
 
 ![Texto alternativo](imagenes/tema02/ab2.png){ style="display: block; margin: 0 auto; height: 250px; width: 65%;" }
 
-**FORMACIÓN DE SÓLIDOS IÓNICOS Y ENERGÍA**
+**Formación de sólidos iónicos y energía**
 
 Tomemos como ejemplo el NaCl. Si partimos de Na y Cl en sus estados normales, Na (s) y $\ce{Cl2}$ (g), para que se produzca la reacción global:
 
@@ -140,11 +140,11 @@ La **energía reticular** es la **energía que se desprende al formarse un mol d
 
 Un **cristal iónico** será, por tanto **más estable** (más duro, menos soluble, de mayor punto de fusión...), cuanto **mayor** sea su **energía reticular**.
 
-**CICLO DE BORN-HABER**
+**Ciclo de born-haber**
 
 Una **forma de calcular la energía reticular**, $\ce{U_r}$ se puede hacer mediante un **balance energético**:
 
-![Texto alternativo](imagenes/tema02/ciclo.png){ style="display: block; margin: 0 auto; height: 150px; width: 35%;" }
+![Texto alternativo](imagenes/tema02/ciclo.png){ style="display: block; margin: 0 auto; height: 225px; width: 50%;" }
 
 La suma de los procesos parciales coincide con el proceso de combinación químico directo, por ello podemos concluir que la suma de sus variaciones energéticas coincidirá con la de la reacción global:
 
@@ -154,7 +154,7 @@ con lo que:
 
 $\ce{Ur = \Delta H_f - \Delta H_{sub} - EI - \dfrac {1}{2} \Delta H_{dis} - AE}$
 
-**ENERGÍA RETICULAR**
+**Energía reticular**
 
 El **cálculo de la energía reticular** se puede hacer también a partir de la **ecuación de Born-Landé**:
 
@@ -168,7 +168,7 @@ En el fondo es la fórmula de la energía potencial eléctrica modificada, y lo 
 $\ce{U \propto \dfrac {z_1 \cdot z_2 }{d_0} }$
 { style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 150px; margin: 20px auto; display: block; background: #f9f7fb" }
 
-**PROPIEDADES DE LOS COMPUESTOS IÓNICOS**
+**Propiedades de los compuestos iónicos**
 
 A **temperatura ambiente**, son **sólidos cristalinos** como revela su estructura muy ordenada y compacta.
 
@@ -184,7 +184,7 @@ En **estado sólido no conducen la electricidad**, ya que los iones están fuert
 
 ## **4. Enlace metálico**
 
-**ENLACE METÁLICO (MODELO DE GAS ELECTRÓNICO)**
+**Enlace metálico (modelo de gas electrónico)**
 
 El modelo más sencillo de enlace metálico se basa en una de las propiedades características de los metales: su baja electronegatividad (ceden electrones con facilidad).
 
@@ -196,7 +196,7 @@ Esta nube electrónica hace de “colchón” entre las cargas positivas impidie
 
 ![Texto alternativo](imagenes/tema02/nube.png){ style="display: block; margin: 0 auto; height: 250px; width: 55%;" }
 
-**ENLACE METÁLICO (TEORÍA DE BANDAS)**
+**Enlace metálico (teoría de bandas)**
 
 El modelo de la **teoría de bandas**, supone que, al estar tan cerca los átomos de los metales unos de otros, sus orbitales de valencia se superponen entre sí, dando lugar a un conjunto de orbitales muy parecidos que constituyen lo que se llama “**banda de niveles energéticos**”.
 
@@ -222,7 +222,7 @@ La diferencia de energía, (distancia entre bandas) disminuye cuando descendemos
 
 ![Texto alternativo](imagenes/tema02/tipos.png){ style="display: block; margin: 0 auto; height: 350px; width: 65%;" }
 
-**PROPIEDADES DE LOS METALES**
+**Propiedades de los metales**
 
 En los metales tampoco se forman moléculas individuales. La situación es muy parecida a la encontrada en el caso de los compuestos iónicos. Sus propiedades son:
 
@@ -261,7 +261,7 @@ Las **moléculas** son las **unidades básicas de los compuestos covalentes**.
 
 ![Texto alternativo](imagenes/tema02/covalente2.png){ style="display: block; margin: 0 auto; height: 175px; width: 90%;" }
 
-**PROPIEDADES DE SUSTANCIAS COVALENTES MOLECULARES**
+**Propiedades de sustancias covalentes moleculares**
 
 Las **unidades estructurales** básicas son las **moléculas**.
 
@@ -462,7 +462,7 @@ Los **enlaces múltiples** se **tratan**, a efectos repulsivos, **como si fueran
 
 La existencia de **pares no enlazantes** sobre los átomos altera la geometría molecular, ya que su **efecto repulsivo es mayor** que el de los **enlazantes**.
 
-**MÉTODO RPECV**
+**Método RPECV**
 
 Estructuras que hacen mínimas las repulsiones entre pares de enlace:
 
@@ -723,7 +723,7 @@ De esta manera éste átomo adquiere cierta carga negativa (aunque no llega a se
 
 ![...](imagenes/tema02/dipolo.png){style="display: block; margin: 0 auto; width: 25%"}
 
-**ENLACE COVALENTE... → ...IÓNICO**
+**Enlace covalente... → ...iónico**
 
 El enlace covalente “puro” existe, por tanto, solo cuando los elementos enlazados son idénticos (moléculas homonucleares).
 
@@ -884,7 +884,7 @@ Otros ejemplos importantes son el agua ($\ce{H2O}$), amoniaco ($\ce{NH3}$), ión
 
 Se define como la combinación de **un orbital s** y **dos p**, para formar 3 orbitales híbridos, llamados $\ce{sp^2}$,que se disponen en un plano formando ángulos de 120$^{\circ}$.
 
-Los átomos que forman hibridaciones $\ce{sp^2}$s pueden formar compuestos con enlaces dobles. Forman ángulos de 120$^{\circ}$ y sus moléculas son de **forma plana**.
+Los átomos que forman hibridaciones $\ce{sp^2}$ pueden formar compuestos con enlaces dobles. Forman ángulos de 120$^{\circ}$ y sus moléculas son de **forma plana**.
 
 Los enlaces dobles están compuestos por un enlace $\ce{\sigma}$ y un enlace $\ce{\pi}$.
 
@@ -894,7 +894,7 @@ $\ce{\hspace{6cm} 2s^1 2p_x^1 2p_y^1 2p_z^1 \hspace{1cm} \longrightarrow \hspace
 
 ![...](imagenes/tema02/hibridacion_sp2.png){style="display: block; margin: 0 auto; width: 50%"}
 
-**EJEMPLOS $\ce{sp^2}$**
+**Ejemplos $\ce{sp^2}$**
 
 Además de todos los compuestos orgánicos en los que el carbono presenta un doble enlace, eteno, propeno, buteno,... (en ellos los orbitales p que no han hibridado se solapan lateralmente para dar el enlace π en el enlace doble), también presentan esta hibridación el aluminio en sus haluros, el azufre en el $\ce{SO2}$, el boro en el $\ce{BF3}$, etc.
 
@@ -935,7 +935,7 @@ Anteriormente se vió el siguiente ejercicio:
 
 Para la molécula $\ce{C2H4}$ deduzca la estructura de Lewis, nombre y dibuje su geometría molecular e indique los ángulos de enlace aproximados.
 
-**1. Estructura de Lewis**
+**a. Estructura de Lewis**
 
 Para dibujar la estructura de Lewis, seguimos estos pasos:
 
@@ -955,7 +955,7 @@ Los dos átomos de carbono se enlazan entre sí y los cuatro hidrógenos se dist
 
 ![...](imagenes/tema02/lewis_eteno.svg){style="display: block; margin: 0 auto; width: 13%"}
 
-**2. Hibridación, Geometría Molecular y Ángulos de Enlace**
+**b. Hibridación, Geometría Molecular y Ángulos de Enlace**
 
 Para determinar la geometría alrededor de cada átomo de carbono, analizamos su entorno:
 
@@ -1024,18 +1024,18 @@ Son las llamadas **interacciones moleculares** (ya que a menudo se dan entre mol
 
 Las interacciones de no enlace se suelen dividir tradicionalmente en dos grupos:
 
-- **Fuerzas de van der Waals**
+- **Fuerzas de Van der Waals**
 - **Enlaces de hidrógeno**
 
-**FUERZAS DE VAN DER WAALS**
+**1. Fuerzas de Van der Waals**
 
-La **fuerzas de van der Waals** son fuerzas de **tipo electrostático** (entre **cargas de signo distinto**). No es difícil de entender que existirán interacciones de este tipo entre las **moléculas polares** (HCl, por ejemplo).
+La **fuerzas de Van der Waals** son fuerzas de **tipo electrostático** (entre **cargas de signo distinto**). No es difícil de entender que existirán interacciones de este tipo entre las **moléculas polares** (HCl, por ejemplo).
 
 ![...](imagenes/tema02/keeson.png){style="display: block; margin: 0 auto; width: 35%"}
 
 Son las llamadas **interacciones dipolo-dipolo** (fuerzas de Keeson).
 
-Sin embargo **existen fuerzas de van der Waals**, incluso cuando las **moléculas son apolares**.
+Sin embargo **existen fuerzas de Van der Waals**, incluso cuando las **moléculas son apolares**.
 
 Unas veces estas interacciones se deben a que las **moléculas polares inducen dipolos** en las no polares, estableciéndose **interacciones dipolo-dipolo inducido** (fuerzas de Debye). 
 
@@ -1043,7 +1043,7 @@ Estas interacciones son las que ocurren, por ejemplo, en una mezcla de $\ce{HCl}
 
 ![...](imagenes/tema02/debye.png){style="display: block; margin: 0 auto; width: 70%"}
 
-Aún **si no existen dipolos permanentes** pueden existir fuerzas de van der Waals debido a la aparición de **dipolos instantáneos**.
+Aún **si no existen dipolos permanentes** pueden existir fuerzas de Van der Waals debido a la aparición de **dipolos instantáneos**.
 
 La formación de dipolos instantáneos en moléculas no polares es un efecto cuántico.
 
@@ -1067,7 +1067,7 @@ Algunos ejemplos interesantes:
 
 - El yodo es una sustancia sólida a temperatura ambiente debido a interacciones de Van der Waals. Las interacciones entre las moléculas de $\ce{I2}$ son del tipo dipolo instantáneo-dipolo inducido. El gran **tamaño de los átomos de yodo** facilita la polarización de las moléculas.
 
-**ENLACE DE HIDRÓGENO**
+**2. Enlace de hidrógeno**
 
 Aunque el llamado “**enlace de hidrógeno**” no llega a la categoría de enlace (es **veinte veces más débil que un enlace covalente**), y se estudia como un **tipo de interacción** entre las **moléculas**, es de gran importancia ya que juega un papel muy importante en química y biología.
 

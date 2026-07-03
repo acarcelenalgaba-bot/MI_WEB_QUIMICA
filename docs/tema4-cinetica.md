@@ -6,7 +6,7 @@ Para que una reacción química tenga lugar no sólo es necesario que esté favo
 
 En algunos casos interesa acelerar las reacciones químicas, como en los procesos industriales de fabricación de productos. En otras ocasiones interesa retardar los procesos, como en la conservación de alimentos.
 
-La cinética química estudia la velocidad a la que ocurren las reacciones químicas y los factores, las leyes y teorías que la determinan.
+La **cinética química** estudia la velocidad a la que ocurren las reacciones químicas y los factores, las leyes y teorías que la determinan.
 
 En este tema estudiaremos la velocidad en la que ocurren las reacciones, los factores que modifican dicha velocidad y las teorías que permiten explicar dichos factores. Veremos los distintos tipos de catalizadores y su mecanismo de actuación, así como algunas de sus aplicaciones industriales.
 
@@ -16,18 +16,21 @@ En una reacción química los reactivos desaparecen progresivamente en el transc
 
 Utilizando la concentración como medida de la cantidad de sustancia se define la velocidad de reacción como la variación de concentración de reactivo o producto por unidad de tiempo.
 
-Para una reacción genérica expresada por:
-
-a A + b B −→ c C + d D
+Para una reacción genérica expresada por: $\ce{\quad \quad \text{a A + b B} \rightarrow \text{c C + d D}}$
 
 definimos la velocidad de reacción como:
 
-vA = −
-d[A]
-dt
-vB = −
-d[B]
-dt
+<div class="arithmatex-box" style="
+    width: fit-content;
+    margin: 20px auto;
+    background-color: #f0f7ff; 
+    border: 1px solid #0056b3;
+    padding: 0px 10px; 
+    border-radius: 6px; 
+    box-shadow: 0 5px 15px rgba(0, 86, 179, 0.15);
+">
+$$\ce{\textrm{v}_A = - \dfrac {\ce{d[A]}}{\ce{dt}}} \hspace{1.5cm} \ce{\textrm{v}_B = - \dfrac {\ce{d[B]}}{\ce{dt}}}$$
+</div>
 
 Puesto que los reactivos desaparecen será negativa y por tanto la definición implica un valor positivo de la velocidad de reacción.
 
