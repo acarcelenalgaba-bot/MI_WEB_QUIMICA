@@ -680,3 +680,7 @@ Esta reacción es endotérmica ($\ce{\Delta H > 0}$) y transcurre con un aumento
 Influencia de la temperatura en la espontaneidad de una reacción química:
 
 ![...](imagenes/tema03/td23.png){style="display: block; margin: 0 auto; width: 90%; border: 1px solid #333;"}
+
+---
+
+[Descargar Tema 3 en PDF](../pdfs/tema3-termoquimica/tema3-termoquimica.pdf){ .md-button .md-button--primary }

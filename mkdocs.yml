@@ -44,7 +44,7 @@ markdown_extensions:
 plugins:
   - search
   - kroki
-  - pdf-with-js
+#  - pdf-with-js
 
 extra_javascript:
   - javascripts/mathjax.js
@@ -56,7 +56,7 @@ extra_css:
 nav:
   - Inicio: index.md
   - Tema 1 - Estructura atómica: tema1-estructura.md
-  - Tema 2 - Enlace Químico: tema2-enlace.md
+  - Tema 2 - Enlace químico: tema2-enlace.md
   - Tema 3 - Termoquímica: tema3-termoquimica.md
   - Tema 4 - Cinética química: tema4-cinetica.md
   - Tema 5 - Equilibrio químico: tema5-equilibrio.md

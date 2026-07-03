@@ -1076,3 +1076,7 @@ El **enlace de hidrógeno es una interacción entre moléculas debida a la polar
 El átomo de oxígeno de una molécula de agua tiene una carga parcial negativa que es atraída por la carga parcial positiva del hidrógeno de una molécula vecina. De esta manera ambas moléculas quedan “unidas” mediante el átomo de hidrógeno que hace de “puente” entre ambas.
 
 ![...](imagenes/tema02/enlace_hidrogeno.png){style="display: block; margin: 0 auto; width: 70%"}
+
+---
+
+[Descargar Tema 2 en PDF](../pdfs/tema2-enlace/tema2-enlace.pdf){ .md-button .md-button--primary }
