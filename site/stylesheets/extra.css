@@ -1,0 +1,62 @@
+:root {
+  /* Amplía el ancho de la rejilla principal al máximo */
+  --md-grid-width: 100%; 
+}
+
+/* Fuerza al contenedor principal a usar todo el espacio */
+.md-main__inner {
+  max-width: 100%;
+}
+
+/* Quita el límite de ancho al bloque donde escribes la teoría y las tablas */
+.md-content {
+  max-width: 100% !important;
+}
+
+/* Opcional: Si quieres que las tablas ocupen también el 100% del nuevo ancho */
+.md-content table {
+  display: table;
+  width: 100%;
+}
+
+/* Cambiar el fondo y el texto de la cabecera de las tablas */
+.md-typeset table thead tr {
+    background-color: #f4f5f5; /* Sustituye por el color hexadecimal que quieras (este es un tono teal) */
+}
+
+.md-typeset table thead tr th {
+    color: #0f0e0e; /* Color del texto de la cabecera (Blanco) */
+    font-weight: bold;
+}
+
+@media print {
+    @page { 
+        size: A4;            
+        margin-top: 2cm !important;   
+        margin-bottom: 2cm !important;
+        margin-left: 2.5cm !important;    
+        margin-right: 2.5cm !important; 
+    }
+
+    html, body, .md-container, .md-main, .md-main__inner, .md-content, .md-content__inner, article {
+        display: block !important;
+        position: relative !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: visible !important;
+    }
+
+    img, p:has(img), .arithmatex-box {
+        break-inside: avoid !important;
+        page-break-inside: avoid !important;
+    }
+}
+
+/* Centrar de forma automática todas las imágenes del documento */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -30,21 +30,27 @@
 }
 
 @media print {
-    /* Evita que el contenido se oculte o colapse en una sola página */
-    .md-content, 
-    .md-content__inner, 
-    article, 
-    body, 
-    html {
-        overflow: visible !important;
-        height: auto !important;
-        max-height: none !important;
-        display: block !important;
+    @page { 
+        size: A4;            
+        margin-top: 2cm !important;   
+        margin-bottom: 2cm !important;
+        margin-left: 2.5cm !important;    
+        margin-right: 2.5cm !important; 
     }
 
-    /* Evita saltos de página huérfanos dentro de los temas */
-    h1, h2, h3 {
-        page-break-after: avoid;
+    html, body, .md-container, .md-main, .md-main__inner, .md-content, .md-content__inner, article {
+        display: block !important;
+        position: relative !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: visible !important;
+    }
+
+    img, p:has(img), .arithmatex-box {
+        break-inside: avoid !important;
+        page-break-inside: avoid !important;
     }
 }
 

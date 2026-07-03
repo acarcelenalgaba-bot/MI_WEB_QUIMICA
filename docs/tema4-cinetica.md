@@ -36,28 +36,66 @@ Puesto que los reactivos desaparecen será negativa y por tanto la definición i
 
 En las curvas de la figura se observa cómo la pendiente de la recta tangente a la curva correspondiente al reactivo A es negativa, mientras la pendiente de la curva del producto C es positiva.
 
+![...](imagenes/tema04/cq1.png){style="display: block; margin: 0 auto; width: 90%; border: 1px solid #333;"}
+
 La velocidad de una reacción en un instante dado es igual a la pendiente de la recta tangente a la curva concentración-tiempo, en el punto correspondiente a ese instante.
 
-En el S.I. las unidades de la velocidad de reacción son mol · l−1 · s−1
+En el S.I. las **unidades** de la **velocidad de reacción** son 
+
+<div class="arithmatex-box" style="
+    width: fit-content;
+    font-weight: bold;
+    margin: 20px auto;
+    background-color: #f0f7ff; 
+    border: 1px solid #0056b3;
+    padding: 0px 10px; 
+    border-radius: 6px; 
+    box-shadow: 0 5px 15px rgba(0, 86, 179, 0.15);
+">
+$$\ce{mol \cdot l^{-1} \cdot s^{-1}}$$
+</div>
 
 Definida de esta manera, y dado el ajuste de la reacción, se hace evidente que estas velocidades no son iguales, dado que dependen del coeficiente estequiométrico, pudiendo afirmarse:
 
+<div class="arithmatex-box" style="
+    width: fit-content;
+    margin: 20px auto;
+    background-color: #f0f7ff; 
+    border: 1px solid #0056b3;
+    padding: 0px 10px; 
+    border-radius: 6px; 
+    box-shadow: 0 5px 15px rgba(0, 86, 179, 0.15);
+">
+$$\ce{\textrm{v} = - \dfrac {\ce{1}}{\ce{a}} * \dfrac {\ce{d[A]}}{\ce{dt}} = - \dfrac {\ce{1}}{\ce{b}} * \dfrac {\ce{d[B]}}{\ce{dt}} =  \dfrac {\ce{1}}{\ce{c}} * \dfrac {\ce{d[C]}}{\ce{dt}} = \dfrac {\ce{1}}{\ce{d}} * \dfrac {\ce{d[D]}}{\ce{dt}}}$$
+</div>
 
-La velocidad de reacción se obtiene experimentalmente. A partir de las velocidades iniciales de reacción para los reactivos y variando sus concentraciones iniciales, se puede determinar la expresión matemática que relaciona la velocidad con las concentraciones. Esta expresión se conoce como ley diferencial de velocidad o ecuación de velocidad.
+**Ecuación de velocidad**
 
-v = k · [A]α · [B]β
+La velocidad de reacción se obtiene experimentalmente. A partir de las velocidades iniciales de reacción para los reactivos y variando sus concentraciones iniciales, se puede determinar la expresión matemática que relaciona la velocidad con las concentraciones. Esta expresión se conoce como **ley diferencial de velocidad** o **ecuación de velocidad**.
 
-Los exponentes α y β se denominan órdenes parciales de reacción.
+<div class="arithmatex-box" style="
+    width: fit-content;
+    margin: 20px auto;
+    background-color: #f0f7ff; 
+    border: 1px solid #0056b3;
+    padding: 0px 10px; 
+    border-radius: 6px; 
+    box-shadow: 0 5px 15px rgba(0, 86, 179, 0.15);
+">
+$$\ce{\textrm{v} = k * [A]^{\alpha} * [B]^{\beta}}$$
+</div>
 
-La suma α + β se llama orden total de reacción.
+Los exponentes $\alpha$ y $\beta$ se denominan **órdenes parciales** de reacción.
 
-Aunque en algunas reacciones simples α y β podrían coincidir con los coeficientes estequimétricos, en general no es así, y deben determinarse experimentalmente.
+La **suma** $\alpha$ + $\beta$ se llama **orden total** de reacción.
 
-La constante k se denomina constante de velocidad. Su valor es característico de cada reacción y depende de la temperatura de reacción. Las unidades de la constante deben deducirse de la expresión experimental obtenida para la velocidad de reacción.
+Aunque en algunas reacciones simples $\alpha$ y $\beta$ podrían coincidir con los coeficientes estequimétricos, en general no es así, y deben determinarse experimentalmente.
 
-EJEMPLO. PAU MADRID
+La constante k se denomina **constante de velocidad**. Su valor es característico de cada reacción y depende de la temperatura de reacción. Las unidades de la constante deben deducirse de la expresión experimental obtenida para la velocidad de reacción.
 
-La velocidad de la reacción A + 2 B −→ C en fase gaseosa sólo depende de la temperatura y de la concentración de A, de tal manera que si se duplica la concentración de A la velocidad de reacción también se duplica.
+**Ejemplo. PAU Madrid**
+
+La velocidad de la reacción $\ce{A + 2 B \rightarrow C}$ en fase gaseosa sólo depende de la temperatura y de la concentración de A, de tal manera que si se duplica la concentración de A la velocidad de reacción también se duplica.
 
 a) Justifica para qué reactivo cambia más deprisa la concentración.
 
@@ -69,83 +107,88 @@ d) Justifica cómo afecta a la velocidad de reacción una disminución de volume
 
 **SOLUCIÓN**
 
-a) Justifica para qué reactivo cambia más deprisa la concentración: 
+a) Justifica para qué reactivo cambia más deprisa la concentración.
 
 Puesto que de la estequiometría de la reacción se desprende que por cada mol de A que reacciona se consumen 2 moles de B, para éste reactivo se produce un cambio de concentración más rápido.
 
-b) Indica los órdenes parciales respecto de A y B y escribe la ecuación cinética: 
+b) Indica los órdenes parciales respecto de A y B y escribe la ecuación cinética.
 
 Si la velocidad de reacción sólo depende de la concentración del reactivo A, aparte de también depender de la temperatura, y se duplica su valor al duplicar la concentración de A, el orden de reacción respecto a éste reactivo es 1. La ecuación cinética de la reacción es: 
 
-v = k · [A].
+$$\ce{\textrm{v} = k \cdot [A]}$$
 
+c) Indica las unidades de la velocidad de reacción y de la constante cinética.
 
-c) Indica las unidades de la velocidad de reacción y de la constante cinética:
-
-Las unidades de la velocidad de reacción son mol · L−1 · s−1 . Despejando de
-la ecuación cinética la constante de velocidad, sustituyendo las variables que
+Las unidades de la velocidad de reacción son $\ce{mol \cdot L^{-1} \cdot s^{-1}}$. Despejando de la ecuación cinética la constante de velocidad, sustituyendo las variables que
 se conocen por sus unidades y operando, se obtienen las unidades de dicha
 constante:
 
-k = v [A] = mol · L−1 · s−1 /  mol · L−1 = s−1
+$$\ce{k = \dfrac {\ce{\textrm{v}}}{\ce{[A]}} = \dfrac {\ce{mol * L^{-1} * s^{-1}}}{\ce{mol * L^{-1}}} = s^{-1}}$$
 
 
-d) Justifica cómo afecta a la velocidad de reacción una disminución de volumen a temperatura constante:
+d) Justifica cómo afecta a la velocidad de reacción una disminución de volumen a temperatura constante.
 
 Si la temperatura se mantiene constante, la velocidad de reacción depende únicamente de la concentración de A, y como al disminuir el volumen se produce un aumento de la concentración de este reactivo, la velocidad de la reacción experimenta un aumento de valor.
 
 **OTRO EJEMPLO**
 
-En la reacción 2 NO+2 H2  N2 +2 H2 O, a 1100 K, se obtuvieron los siguientes datos:
+En la reacción $\ce{2 NO + 2 H2 \rightarrow N2 + 2 H2O}$, a 1100 K, se obtuvieron los siguientes datos:
+
+![...](imagenes/tema04/cq2.png){style="display: block; margin: 0 auto; width: 70%; border: 1px solid #333;"}
 
 Calcula el orden de reacción y el valor de la constante de velocidad.
 
 **Solución**:
 
-En este tipo de ejercicios en los que se nos presentan en una tabla datos de concentraciones iniciales y de velocidades para diferentes esperimentos hemos de comparar, de dos en dos, experiencias en las que cambia la concentración de uno de los reactivos mientras que la del otro permanece constante.
+En este tipo de ejercicios en los que se nos presentan en una tabla datos de concentraciones iniciales y de velocidades para diferentes experimentos hemos de comparar, de dos en dos, experiencias en las que cambia la concentración de uno de los reactivos mientras que la del otro permanece constante.
 
-Así, entre las experiencias 1 y 2 la concentración de H2 permanece constante y cambia la de NO, por lo que de ahí podremos sacar el orden de reacción respecto del NO.
+Así, entre las experiencias 1 y 2 la concentración de $\ce{H2}$ permanece constante y cambia la de $\ce{NO}$, por lo que de ahí podremos sacar el orden de reacción respecto del $\ce{NO}$.
 
-Se ve que al triplicar la concentración de NO se triplica la velocidad, por lo que el orden de NO será 1.
+Se ve que al triplicar la concentración de $\ce{NO}$ se triplica la velocidad, por lo que el orden de $\ce{NO}$ será 1.
 
 El razonamiento anterior se puede hacer matemáticamente.
 
-La ecuación de velocidad será:
-
-v = k · [NO]α · [H2 ]β
+La ecuación de velocidad genérica será: $\ce{\quad \textrm{v} = k \cdot [NO]^{\alpha} \cdot [H2]^{\beta}}$
 
 Sustituyendo los datos de las dos primeras experiencias:
 
-3 · 10 −5 = k · (0,005) α · (0,0025) β
-(1)
-9 · 10 −5 = k · (0,015) α · (0,0025) β
-(2)
+$\ce{3\cdot10^{-5} = k \cdot (0,005)^{\alpha} \cdot (0,0025)^{\beta} \quad \quad (1)}$
+
+$\ce{9\cdot10^{-5} = k \cdot (0,015)^{\alpha} \cdot (0,0025)^{\beta} \quad \quad (2)}$
 
 Dividiendo 2 entre 1:
-3 = 3 α. De donde
-α =1
 
-Lo mismo se hace para averiguar el valor de β usando las experiencias 2 y 3:
+$\ce{\dfrac {(2)}{(1)} \quad \quad \dfrac {9\cdot10^{-5}}{3\cdot10^{-5}} = \dfrac {k \cdot (0,015)^{\alpha} \cdot (0,0025)^{\beta}}{k \cdot (0,005)^{\alpha} \cdot (0,0025)^{\beta}} }$
 
-9 · 10 −5 = k · (0,015) α · (0,0025) β
-(2)
-3,6 · 10 −4 = k · (0,015) α · (0,010) β
-(3)
+Se obtiene $\ce{3 = 3^{\alpha}}$ de donde se deduce que $\ce{\alpha \; = 1}$
 
-Dividiendo 3 entre 2:4 = 4 β . De donde
+Lo mismo se hace para averiguar el valor de $\beta$ usando las experiencias 2 y 3:
 
-El orden total será:α + β = 1 + 1 = 2;
-β =1
-v = k · [NO] · [H2 ]
+$\ce{9\cdot10^{-5} = k \cdot (0,015)^{\alpha} \cdot (0,0025)^{\beta} \quad \quad (2)}$
 
-La constante k que nos piden la podemos obtener de cualquiera de las tres
-experiencias sustituyendo los valores y despejando.
-Por ejemplo, de la segunda: 9 · 10 −5 = k · (0,015) 1 · (0,0025) 1; despejando
-k = 2,4.
+$\ce{3,6\cdot10^{-4} = k \cdot (0,015)^{\alpha} \cdot (0,010)^{\beta} \quad \quad (3)}$
+
+Dividiendo 3 entre 2:
+
+$\ce{\dfrac {(3)}{(2)} \quad \quad \dfrac {3,6\cdot10^{-4}}{9\cdot10^{-5}} = \dfrac {k \cdot (0,015)^{\alpha} \cdot (0,010)^{\beta}}{k \cdot (0,015)^{\alpha} \cdot (0,0025)^{\beta}} }$
+
+Se obtiene $\ce{4 = 4^{\beta}}$ de donde se deduce que $\ce{\beta \; = 1}$
+
+El orden total será: $\ce{\quad \alpha \; + \beta \; = 1 + 1 = 2}$
+
+Y la ecuación de velociadad será: $\ce{\quad \textrm{v} = k \cdot [NO] \cdot [H2]}$
+
+La constante k que nos piden la podemos obtener de cualquiera de las tres experiencias sustituyendo los valores y despejando.
+
+Por ejemplo, de la segunda: 
+
+$\ce{9 \cdot 10^{-5} = k \cdot (0,015)^1 \cdot (0,0025)^1}$; despejando
+
+$\ce{k = \dfrac {9 \cdot 10^{-5}}{0,015 \cdot 0,0025} = 2,4 \; mol^{-1}\cdot l\cdot s^{-1}}$
 
 ## **3. Mecanismo de reacción**
 
-Se llama mecanismo de reacción al proceso a través del cual transcurre una reacción.
+Se llama **mecanismo de reacción** al proceso a través del cual transcurre una reacción.
 
 Una reacción es elemental cuando el transcurso de la misma puede representarse mediante una sola ecuación estequiométrica, es decir, se realiza en una sola etapa.
 
@@ -153,7 +196,7 @@ En las reacciones elementales (y solo en ellas) se denomina molecularidad al nú
 
 Supongamos que la reacción A + 2 B → AB2 es elemental.
 
-En este caso v = k · [A]1 · [B]2 , y significa que se produce en un solo choque
+En este caso v = k \cdot [A]1 \cdot [B]2 , y significa que se produce en un solo choque
 de tres moléculas: una de A y dos de B.
 
 Una reacción es compleja cuando el transcurso de la misma se representa por varias ecuaciones estequiométricas, las cuales representan varias etapas.
@@ -162,7 +205,7 @@ Supongamos ahora que para la reacción global
 
 A + 2 B → AB2
 
-La ecuación cinética es: v = k[A]1 · [B]1 , como vemos, los órdenes de reacción no coinciden con los coeficientes estequiométricos. Eso es una pista para saber que la reacción es compleja y transcurre a través de varias etapas, que podrían ser:
+La ecuación cinética es: v = k[A]1 \cdot [B]1 , como vemos, los órdenes de reacción no coinciden con los coeficientes estequiométricos. Eso es una pista para saber que la reacción es compleja y transcurre a través de varias etapas, que podrían ser:
 
 A + B → AB
 
@@ -179,12 +222,12 @@ A la etapa lenta, que determina la velocidad de reacción, se la conoce como “
 
 Para la reacción de oxidación del bromuro de hidrógeno, si el proceso se verificara en una sola etapa, la velocidad vendría dada por la expresión:
 
-v = k · [HBr]4 · [O2 ]
+v = k \cdot [HBr]4 \cdot [O2 ]
 4 HBr (g) + O2 (g) → 2 Br2 (g) + 2 H2 O (g)
 
 Sin embargo, se ha obtenido experimentalmente un orden de reacción dos para la velocidad: 
 
-v = k · [HBr] · [O2 ]
+v = k \cdot [HBr] \cdot [O2 ]
 
 Si el proceso se realizara según la ecuación de reacción sería necesario el choque simultáneo de cuatro moléculas de HBr y una de O2 , cosa prácticamente imposible. Por eso se ha propuesto un mecanismo en varias etapas:
 
@@ -233,8 +276,8 @@ Según sea el valor de la energía desprendida, con respecto a la energía de ac
 
 En 1899 Arrhenius propuso un interpretación cuantitativa de la variación de la velocidad de reacción con la temperatura. Propuso para la constante específica de velocidad la siguiente expresión:
 
-−Ea
-k = A · eR·T
+-Ea
+k = A \cdot eR\cdotT
 
 siendo R la constante de los gases, A una constante llamada factor de frecuencia y Ea la energía de activación.
 
@@ -253,33 +296,10 @@ La gráfica muestra cómo el número de moléculas que tienen una determinada en
 **Constante de velocidad a diferentes temperaturas**
 
 Si tomamos logaritmos en la ecuación de Arrhenius:
-ln k = ln A −
-Ea
-R·T
 
 Que expresada para dos temperaturas diferentes T1 y T2 :
 
-ln k1 = ln A −
-Ea
-R · T1
-ln k2 = ln A −
-Ea
-R · T2
-
 Si las restamos miembro a miembro:
-
-k
-E
-ln 2 = − a ·
-k1
-R
-
-1
-1
-−
-T2
-T1
-
 
 Ecuación que nos permite calcular las energías de activación de una reacción química si conocemos las constantes de velocidad a diferentes temperaturas.
 
@@ -289,7 +309,7 @@ De acuerdo con la teoría de colisiones, para que se produzca una reacción quí
 
 Este hecho viene recogido en la expresión de la ecuación de velocidad, ya que ésta es proporcional a las concentraciones elevadas a su orden de reacción.
 
-v = k · [A]α · [B]β
+v = k \cdot [A]α \cdot [B]β
 
 En reacciones entre gases si aumentamos la presión también aumentaremos los choques entre las moléculas y con ello la velocidad de reacción.
 
@@ -339,3 +359,6 @@ Las enzimas presentan una gran especificidad tanto respecto a los sustratos como
 
 Las enzimas presentan además una elevada actividad.
 
+---
+
+[Descargar Tema 4 en PDF](../pdfs/tema4-cinetica/tema4-cinetica.pdf){ .md-button .md-button--primary }
