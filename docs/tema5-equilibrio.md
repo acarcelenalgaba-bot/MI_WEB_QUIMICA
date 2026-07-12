@@ -154,7 +154,7 @@ $$
 
 1) Existe controversia sobre si $\ce{Kc}$ y $\ce{Kp}$ tienen dimensiones o son adimensionales. Para una justificación de esta postura ver el artículo de J. Quílez-Pardo y A. Quílez-Díaz publicado en Anales de Química (2013) http://bit.ly/18kte1L
 
-**$\ce{\textbf{Kc}}$ y Q (COCIENTE DE REACCIÓN)**
+**$\ce{\textbf{Kc}}$ y Q (Cociente de reacción)**
 
 Se define el **cociente de reacción**, **Q**, como una expresión análoga a $\ce{Kc}$ pero en la que las concentraciones (en mol/L) no son las de equilibrio (representadas aquí con el subíndice "0"), tenemos:
 
@@ -330,121 +330,110 @@ $$\ce{p_i = \chi_i \cdot P_T}$$
 </div>
 
 
-**Constante de equilibrio en función de las presiones parciales ($\ce{Kp}$)**
+**Constante de equilibrio en función de las presiones parciales ($\ce{\textbf{Kp}}$)**
 
-En las reacciones en las que intervengan únicamente gases es más có-
-modo medir presiones que concentraciones, por eso se define la constante de
-equilibrio $\ce{Kp}$ en función de las presiones parciales:
-a A (g) + b B (g) \leftrightarrows  c C (g) + d D (g)
-$\ce{Kp}$ =
-pCc \cdot pDd
-pAa \cdot pBb
-Donde:
-pA = presión parcial del componente A
-pB = presión parcial del componente B
-pC = presión parcial del componente C
-pD = presión parcial del componente D
+En las reacciones en las que intervengan únicamente gases es más cómodo medir presiones que concentraciones, por eso se define la **constante de equilibrio** $\ce{Kp}$ en función de las **presiones parciales**:
 
-**RELACIÓN ENTRE $\ce{Kp}$ y $\ce{Kc}$**
+$$\ce{\textrm{a} A (g) + \textrm{b} B (g) \leftrightarrows \textrm{c} C (g) + \textrm{d} D (g)}$$
 
-Para la reacción general: a A (g) + b B (g) \leftrightarrows  c C (g) + d D (g)
-Usando la ecuación de los gases podemos relacionar la presión parcial y la
-concentración (en mol/L) de cada componente:
-pA \cdot V = n A \cdot R \cdot T
-pA = cA \cdot R \cdot T = [A] \cdot R \cdot T
-pA =
-nA
-\cdot R \cdot T = cA \cdot R \cdot T
-V
-[A] = concentración de A en
-mol
-L
+<div class="arithmatex-box" style="
+    width: fit-content;
+    font-weight: bold;
+    margin: 20px auto;
+    background-color: #f0f7ff; 
+    border: 1px solid #0056b3;
+    padding: 0px 10px; 
+    border-radius: 2px; 
+    box-shadow: 0 5px 15px rgba(0, 86, 179, 0.15);
+">
+$$\ce{Kp = \dfrac {\ce{p_C^c \cdot p_D^d}}{\ce{ p_A^a \cdot p_B^b}} }$$
+</div>
+
+
+donde, $\ce{p_A}$ = presión parcial del componente A; $\ce{p_B}$ = presión parcial del componente B; $\ce{p_C}$ = presión parcial del componente C; $\ce{p_D}$ = presión parcial del componente D
+
+**Relación entre $\ce{Kp}$ y $\ce{Kc}$**
+
+Para la reacción general: $\ce{\quad \quad \textrm{a} A (g) + \textrm{b} B (g) \leftrightarrows \textrm{c} C (g) + \textrm{d} D (g)}$
+
+Usando la ecuación de los gases podemos relacionar la presión parcial y la concentración (en mol/L) de cada componente:
+
+$$\ce{p_A \cdot V = n_A \cdot R \cdot T \hspace{1.5cm} p_A = \dfrac {\ce{n_A}}{\ce{V}} \cdot R \cdot T = c_A \cdot R \cdot T }$$
+
+$$\ce{p_A = c_A \cdot R \cdot T = [A] \cdot R \cdot T \hspace{1.5cm} [A] = concentraci\acute{\ce{o}}n  de  A  en  \dfrac {\ce{mol}}{\ce{L}} }$$
+
 Por tanto:
-$\ce{Kp}$ =
-[PC ]c \cdot [PD ]d
-[C]c \cdot [D]d (RT)c \cdot (RT)d
-[C]c \cdot [D]d
-=
-\cdot
-=
-\cdot (RT)(c+d)-(a+b)
-a
-b
-a
-b
-a
-b
-[PA ] \cdot [PB ]
-[A] \cdot [B] (RT) \cdot (RT)
-[A]a \cdot [B]b
-$\ce{Kp}$ = $\ce{Kc}$ \cdot (R \cdot T)∆n
-∆n = incremento del número de moles gaseosos
 
-EJEMPLO 3
+$$\ce{K_P = \dfrac {\ce{[P_C]^c \cdot [P_D]^d}}{\ce{[P_A]^a \cdot [P_B]^b}} = \dfrac {\ce{[C]^c \cdot [D]^d}}{\ce{[A]^a \cdot [B]^b}} \cdot \dfrac {\ce{(RT)^c \cdot (RT)^d}}{\ce{(RT)^a \cdot (RT)^b}} = \dfrac {\ce{[C]^c \cdot [D]^d}}{\ce{[A]^a \cdot [B]^b}} \cdot (RT)^{(c+d)-(a+b)} }$$
 
-En un recipiente de 2,0 L, en el que previamente se ha realizado el vacío, se introducen 1,5
-moles de PCl5 (g), 0,5 moles de PCl3 (g) y 1,0 mol de Cl2 (g). La mezcla se calienta a 200
-◦
-C, alcanzándose el equilibrio:
-PCl3 (g) + Cl2 (g) \leftrightarrows  PCl5 (g)
-Si en el equilibrio el número total de moles de gas es 2,57 calcule los valores de $\ce{Kp}$ y $\ce{Kc}$ a
-200 ◦C.
-DATO: R = 0,082 atm \cdot L \cdot K-1 \cdot mol-1
-Solución: Comprobamos si el sistema se encuentra en el equilibrio en las condiciones (inicia-
-les) dadas en el enunciado. Para ello calculamos el número de moles gaseosos y comparamos
-con los que existen en el equilibrio.
-(ntot )0 = (1,5 + 0,5 + 1,0) moles = 3,0 moles (gaseosos)
-Como en el equilibrio existen 2,57 moles de gas, deducimos que el sistema no está en equili-
-brio. Evolucionará hacia el equilibrio disminuyendo el número de moles gaseosos, lo
-que se conseguirá si reaccionan PCl3 y Cl2 para dar PCl5 (disminuye el número de moles
-gaseosos)
-Moles
-Iniciales
-Reaccionan/se forman
-Equilibrio
-PCl3
-0,5
-x
-0,5 - x
-Cl2
-1,0
-x
-1,0 - x
-PCl5
-1,5
-x
-1,5 + x
+<div class="arithmatex-box" style="
+    width: fit-content;
+    font-weight: bold;
+    margin: 20px auto;
+    background-color: #f0f7ff; 
+    border: 1px solid #0056b3;
+    padding: 0px 10px; 
+    border-radius: 2px; 
+    box-shadow: 0 5px 15px rgba(0, 86, 179, 0.15);
+">
+$$\ce{Kp = Kc \cdot (R \cdot T)^{\Delta n}}$$
+</div>
 
-EJEMPLO 3 (continuación)
+$\Delta$n = incremento del número de moles gaseosos
+
+**Ejemplo 3**
+
+En un recipiente de 2,0 L, en el que previamente se ha realizado el vacío, se introducen 1,5 moles de $\ce{PCl5}$ (g), 0,5 moles de $\ce{PCl3}$ (g) y 1,0 mol de $\ce{Cl2}$ (g). La mezcla se calienta a 200 $^{\circ}$C, alcanzándose el equilibrio: 
+
+$$\ce{PCl3 (g) + Cl2 (g) \leftrightarrows  PCl5 (g)}$$
+
+Si en el equilibrio el número total de moles de gas es 2,57 calcule los valores de $\ce{Kp}$ y $\ce{Kc}$ a 200 $^{\circ}$C.
+
+DATO: $\ce{R = 0,082 atm \cdot L \cdot K^{-1} \cdot mol^{-1}}$
+
+**Solución**: 
+
+Comprobamos si el sistema se encuentra en el equilibrio en las condiciones (iniciales) dadas en el enunciado. Para ello calculamos el número de moles gaseosos y comparamos con los que existen en el equilibrio.
+
+$\ce{(n_{tot})_0 = (1,5 + 0,5 + 1,0) moles = 3,0 moles (gaseosos)}$
+
+Como en el equilibrio existen 2,57 moles de gas, deducimos que el sistema no está en equilibrio. Evolucionará hacia el equilibrio disminuyendo el número de moles gaseosos, lo que se conseguirá si reaccionan $\ce{PCl3}$ y $\ce{Cl2}$ para dar $\ce{PCl5}$ (disminuye el número de moles gaseosos)
+
+$$
+\begin{array}{|l|c|c|c|}
+\hline
+\ce{Moles} & \ce{PCl3} & \ce{Cl2} & \ce{PCl5} \\ 
+\hline
+\ce{Iniciales} & \ce{0,5} & \ce{1,0} & \ce{1,5} \\ 
+\hline
+\ce{Reaccionan/se forman} & \ce{- x} & \ce{- x} & \ce{+ x} \\ 
+\hline
+\ce{Equilibrio} & \ce{0,5 - x} & \ce{1,0 - x} & \ce{1,5 + x} \\
+\hline
+\end{array}
+$$
 
 En el equilibrio se debe de cumplir:
-ntot = (0,5 - x) + (1,0 - x) + (1,5 + x) = 2,57
-Por tanto: x = 0,43 moles
-Y para el equilibrio:
-0,5 - 0,43 mol
-= 0,035 moles \cdot L-1
-2,0 L
-1,0 - 0,43 mol
-[Cl2 ] =
-= 0,285 moles \cdot L-1
-2,0 L
-1,5 + 0,43 mol
-[PCl5 ] =
-= 0,965 moles \cdot L-1
-2,0 L
-[PCl5 ]
-(0,965 moles \cdot L-1 )
-$\ce{Kc}$ =
-=
-= 96,7 moles-1 \cdot L
-[PCl3 ] \cdot [Cl2 ]
-(0,035 moles \cdot L-1 ) \cdot (0,285 moles \cdot L-1 )
-[PCl3 ] =
-Y ahora calculamos $\ce{Kp}$, sabiendo que ∆n = -1
-$\ce{Kp}$ = $\ce{Kc}$ \cdot (RT)∆n = 96,7 moles-1 \cdot L \cdot (0,082 atm \cdot L \cdot K-1 \cdot mol-1 \cdot 473 K)-1 = 2,49 atm
--1
 
-**EJEMPLO 4**
+$$\ce{n_{tot} = (0,5 - x) + (1,0 - x) + (1,5 + x) = 2,57}$$
+
+Por tanto: $\ce{\quad x = 0,43 moles}$
+
+Y para el equilibrio:
+
+$\ce{[PCl3] = \dfrac {\ce{n_{PCl_3}}}{\ce{V}} = \dfrac {\ce{0,5 - x}}{\ce{2,0 L}} = \dfrac {\ce{0,5 - 0,43  mol}}{\ce{2,0  L}} = 0,035  moles \cdot L^{-1}}$ 
+
+$\ce{[Cl2] = \dfrac {\ce{n_{Cl_2}}}{\ce{V}}  = \dfrac {\ce{1,0 - x}}{\ce{2,0 L}} = \dfrac {\ce{1,0 - 0,43  mol}}{\ce{2,0  L}} = 0,285  moles \cdot L^{-1}}$
+
+$\ce{[PCl5] = \dfrac {\ce{n_{PCl_5}}}{\ce{V}}  = \dfrac {\ce{1,5 + x}}{\ce{2,0 L}} = \dfrac {\ce{1,5 + 0,43  mol}}{\ce{2,0  L}} = 0,965  moles \cdot L^{-1}}$
+
+$\ce{Kc = \dfrac {\ce{[PCl5]}}{\ce{[PCl3] \cdot [Cl2]}} = \dfrac {\ce{0,965  moles \cdot L^{-1}}}{\ce{(0,035  moles \cdot L^{-1}) \cdot (0,285  moles \cdot L^{-1})}} = \boxed{\ce{96,7 }} }$
+
+Y ahora calculamos $\ce{Kp}$, sabiendo que $\ce{\Delta n = 1 - 2 = -1}$
+
+$\ce{Kp = Kc \cdot (RT)^{\Delta n} = 96,7  moles^{-1} \cdot L \cdot ( 0,082  atm \cdot L \cdot K^{-1} \cdot mol^{-1} \cdot 473 K)^{-1} = \boxed{\ce{2,49 }} }$
+
+**Ejemplo 4**
 
 En un matraz de 1,75 L, en el que previamente se ha realizado el vacío, se introducen 0,1
 moles de CO (g) y 1 mol de COCl2 (g). A continuación se establece el equilibrio a 668 K:
@@ -530,7 +519,7 @@ Y $\ce{Kc}$ :
 $\ce{Kc}$ = $\ce{Kp}$ \cdot (RT)-´n
 $\ce{Kc}$ = 0,163 atm-1 \cdot (0,082 atm \cdot L \cdot K-1 \cdot mol-1 \cdot 668 K) = 8,93 mol-1 \cdot L
 
-**RELACIÓN ENTRE $\ce{Kc}$ Y EL GRADO DE DISOCIACIÓN**
+**Relación entre $\ce{kc}$ y el grado de disociación**
 
 Una de las aplicaciones importantes de $\ce{Kc}$ es el cálculo del rendimiento de una
 reacción quimica, es decir, el grado de desplazamiento hacia los productos.
@@ -548,111 +537,72 @@ Hay que avisar que en este contexto, “disociación” puede no coincidir exact
 mente con una separación en dos partes de una sustancia, sino que en general,
 se refiere al grado de reacción.
 
-## **FACTORES QUE INFLUYEN EN EL EQUILIBRIO. PRINCIPIO DE LE CHATELIER**
+## **3. Factores que influyen en el equilibrio. Principio de Le Chatelier**
 
-Una vez establecido el equilibrio en un sistema, este se puede ver alterado
-debido a la influencia de condiciones externas, entonces el sistema evolu-
-cionará para volver a restablecer el equilibrio.
+Una vez establecido el equilibrio en un sistema, este se puede ver alterado debido a la influencia de condiciones externas, entonces el sistema evolucionará para volver a restablecer el equilibrio.
+
 Según el principio de Le Chatelier (1884):
-"Si un sistema en equilibrio es perturbado (se modifican alguno
-de los factores que influyen en el mismo: temperatura, presión o
-concentración), evolucionará en el sentido de anular (contrarrestar)
-la perturbación introducida hasta alcanzar de nuevo el equilibrio"
+"Si un sistema en equilibrio es perturbado (se modifican alguno de los factores que influyen en el mismo: temperatura, presión o concentración), evolucionará en el sentido de anular (contrarrestar) la perturbación introducida hasta alcanzar de nuevo el equilibrio"
 
-**EFECTO DE LA TEMPERATURA**
+**Efecto de la temperatura**
 
-Es la única variable que, además de influir en el equilibrio, modifica
-el valor de su constante.
-Si una vez alcanzado el equilibrio se aumenta la temperatura, el sistema se
-opone a ese aumento de temperatura desplazándose en el sentido que absorba
-calor, es decir, en el sentido endotérmico.
+Es la única variable que, además de influir en el equilibrio, modifica el valor de su constante.
+
+Si una vez alcanzado el equilibrio se aumenta la temperatura, el sistema se opone a ese aumento de temperatura desplazándose en el sentido que absorba calor, es decir, en el sentido endotérmico.
+
 Por ejemplo, en la reacción
-N2 (g) + 3 H2 (g) \leftrightarrows  2 NH3 (g)
-∆H = - 92 kJ
-Si aumentamos la temperatura el sistema se desplazará hacia la
-izquierda (sentido endotérmico), y si la disminuimos hacia la derecha
-(sentido exotérmico).
+N2 (g) + 3 H2 (g) \leftrightarrows  2 NH3 (g) ∆H = - 92 kJ
 
-**EFECTO DE LA PRESIÓN Y EL VOLUMEN**
+Si aumentamos la temperatura el sistema se desplazará hacia la izquierda (sentido endotérmico), y si la disminuimos hacia la derecha (sentido exotérmico).
 
-La variación de presión en el equilibrio influye solo si en el mismo
-intervienen especies en estado gaseoso o disueltas y hay variación en
-el número de moles, ya que si ∆n = 0, no tiene ninguna influencia las
-variaciones en la presión.
-Si aumenta la presión, el sistema se desplazará hacia donde haya me-
-nor número de moles gaseosos –según la estequiometría de la reacción-
-para así contrarrestar el efecto de la disminución del volumen y viceversa.
-En el ejemplo de la síntesis del amoníaco visto en la diapositiva anterior, si
-aumentamos la presión total, disminuirá el volumen, y el equilibrio se despla-
-zará hacia donde menos moles de gas haya, es decir, hacia la formación de
-amoníaco.
+**Efecto de la presión y el volumen**
 
-**EFECTO DE LAS CONCENTRACIONES**
+La variación de presión en el equilibrio influye solo si en el mismo intervienen especies en estado gaseoso o disueltas y hay variación en el número de moles, ya que si ∆n = 0, no tiene ninguna influencia las variaciones en la presión.
 
-Las variaciones de concentración no afectan a la constante de equi-
-librio.
-Por eso mismo, cuando modificamos una concentración, por ejemplo, retiran-
-do el amoníaco que se va formando a partir de nitrógeno e hidrógeno, para
-mantener constante el valor de $\ce{Kc}$
+Si aumenta la presión, el sistema se desplazará hacia donde haya menor número de moles gaseosos -según la estequiometría de la reacción- para así contrarrestar el efecto de la disminución del volumen y viceversa.
+
+En el ejemplo de la síntesis del amoníaco visto en la diapositiva anterior, si aumentamos la presión total, disminuirá el volumen, y el equilibrio se desplazará hacia donde menos moles de gas haya, es decir, hacia la formación de amoníaco.
+
+**Efecto de las concentraciones**
+
+Las variaciones de concentración no afectan a la constante de equilibrio.
+
+Por eso mismo, cuando modificamos una concentración, por ejemplo, retirando el amoníaco que se va formando a partir de nitrógeno e hidrógeno, para mantener constante el valor de $\ce{Kc}$
+
 $\ce{Kc}$ =
 [NH3 ]2
 [N2 ] \cdot [H2 ]3
+
 el equilibrio se desplaza hacia la derecha, disminuyendo así también las con-
 centraciones de N2 y H2 .
 
-**SÍNTESIS DEL AMONÍACO**
+**Síntesis del amoníaco**
 
-Se trata de un buen ejemplo que combina los diferentes aspectos de la Ley de
-Le Chatelier.
-Es una reacción muy lenta, puesto que tiene una elevada energía de activación
-consecuencia de la estabilidad del N2 .
-La solución al problema fue utilizar un catalizador (óxido de hierro) y au-
-mentar la presión (entre 150-300 atm), ya que esto favorece la formación del
-producto. Aunque termodinámicamente la reacción transcurre mejor a bajas
-temperaturas, esta síntesis se realiza a altas temperaturas (400-500 ◦C) para
-favorecer la energía cinética de las moléculas y aumentar así la velocidad de
-reacción. Además se va retirando el amoníaco a medida que se va produciendo
-para favorecer todavía más la síntesis de productos.
+Se trata de un buen ejemplo que combina los diferentes aspectos de la ley de Le Chatelier.
 
-## **REACCIONES DE PRECIPITACIÓN: EQUILIBRIOS HETEROGÉNEOS SÓLIDO-LÍQUIDO**
+Es una reacción muy lenta, puesto que tiene una elevada energía de activación consecuencia de la estabilidad del N2 .
 
-Las reacciones de precipitación son aquellas que tie-
-nen lugar entre iones en disolución para formar sus-
-tancias insolubles. A la sustancia que aparece se le llama
-precipitado, de ahí el nombre de estas reacciones. Noso-
-tros nos limitaremos a estudiar casos de compuestos iónicos
-disueltos en agua
-Cuando ha aparecido un precipitado y por lo tanto tene-
-mos un sólido en el fondo del recipiente, se establece un
-equilibrio entre el sólido y sus iones. Por ejemplo, si
-tenemos yoduro de plomo precipitado en el fondo de un re-
-cipiente en el que tenemos agua e iones Pb2+ e I – , se establece el equilibrio:
+La solución al problema fue utilizar un catalizador (óxido de hierro) y aumentar la presión (entre 150-300 atm), ya que esto favorece la formación del producto. Aunque termodinámicamente la reacción transcurre mejor a bajas temperaturas, esta síntesis se realiza a altas temperaturas (400-500 ◦C) para favorecer la energía cinética de las moléculas y aumentar así la velocidad de reacción. Además se va retirando el amoníaco a medida que se va produciendo para favorecer todavía más la síntesis de productos.
+
+## **4. Reacciones de precipitación: equilibrios heterogéneos sólido-líquido**
+
+Las reacciones de precipitación son aquellas que tienen lugar entre iones en disolución para formar sustancias insolubles. A la sustancia que aparece se le llama **precipitado**, de ahí el nombre de estas reacciones. Nosotros nos limitaremos a estudiar casos de compuestos iónicos disueltos en agua.
+
+Cuando ha aparecido un precipitado y por lo tanto tenemos un sólido en el fondo del recipiente, se establece un equilibrio entre el sólido y sus iones. Por ejemplo, si tenemos yoduro de plomo precipitado en el fondo de un recipiente en el que tenemos agua e iones Pb2+ e I – , se establece el equilibrio:
+
 PbI2 (s) \leftrightarrows  Pb2+ (ac) + 2 I- (ac)
-Como ocurre en todos los equilibrios, aparentemente no ocurre nada, pues las cantidades
-sólidas y en disolución no varían, pero se trara de un proceso dinámico, en el que constante-
-mente está disolviéndose sólido y precipitando éste. Para comprender mejor estos procesos
-debemos repasar el concepto de solubilidad.
 
-**SOLUBILIDAD**
+Como ocurre en todos los equilibrios, aparentemente no ocurre nada, pues las cantidades sólidas y en disolución no varían, pero se trara de un proceso dinámico, en el que constantemente está disolviéndose sólido y precipitando éste. Para comprender mejor estos procesos debemos repasar el concepto de solubilidad.
 
-Cuando echamos una pequeña cantidad de sólido
-al agua, si éste se disuelve decimos que tenemos
-una disolución diluída. Si seguimos añadiendo
-más sólido y se sigue disolviendo, la disolución se
-vuelve concentrada. Llega un momento en que
-ya no se puede disolver más sólido aunque sigamos
-añadiendo. Decimos que la disolución se ha satu-
-rado.
-Una disolución saturada, por lo tanto, es aquella que ya no admite más
-soluto. Pues bien, a la concentración de una disolución saturada de un deter-
-minado compuesto se le llama solubilidad de dicho compuesto. La solubilidad
-depende de la temperatura, por ello en las tablas de solubilidad se especifica
-la temperatura a la que está medida (habitualmente 20 ◦C).
-Podemos hablar de sustancias solubles e insolubles, pero es relativo, aunque
-sea poco, todas se disuelven algo. Por decir un número podemos considerar
-poco solubles a las sustancias con solubilidades menores de 0,01 mol/L.
+**Solubilidad**
 
-**SOLUBILIDAD Y TEMPERATURA**
+Cuando echamos una pequeña cantidad de sólido al agua, si éste se disuelve decimos que tenemos una disolución diluída. Si seguimos añadiendo más sólido y se sigue disolviendo, la disolución se vuelve concentrada. Llega un momento en que ya no se puede disolver más sólido aunque sigamos añadiendo. Decimos que la disolución se ha saturado.
+
+Una disolución saturada, por lo tanto, es aquella que ya no admite más soluto. Pues bien, a la concentración de una disolución saturada de un determinado compuesto se le llama solubilidad de dicho compuesto. La solubilidad depende de la temperatura, por ello en las tablas de solubilidad se especifica la temperatura a la que está medida (habitualmente 20 ◦C).
+
+Podemos hablar de sustancias solubles e insolubles, pero es relativo, aunque sea poco, todas se disuelven algo. Por decir un número podemos considerar poco solubles a las sustancias con solubilidades menores de 0,01 mol/L.
+
+**Solubilidad y temperatura**
 
 El aumento de temperatura proporciona una energía al cristal que favorece las
 vibraciones de los iones y resulta más sencillo al disolvente vencer las fuerzas
@@ -662,41 +612,39 @@ aumento en la solubilidad, pero de muy diferente manera en unos y otros.
 Aunque no es de este tema, recordad sin embargo que la solubilidad de los
 gases disminuye con la temperatura.
 
-**ESPONTANEIDAD DE LAS DISOLUCIONES**
+**Espontaneidad de las disoluciones**
 
-Recordemos que un proceso es espontáneo si la energía libre de Gibbs, ∆G, de valor
-∆G=∆H - T \cdot ∆S es negativa.
-En cuanto al factor energético, ∆G, para ver si es positivo o negativo habremos de comparar
-la energía reticular del cristal con la energía de solvatación. Por ejemplo, para el cloruro de
-litio:
+Recordemos que un proceso es espontáneo si la energía libre de Gibbs, ∆G, de valor ∆G=∆H - T \cdot ∆S es negativa.
+
+En cuanto al factor energético, ∆G, para ver si es positivo o negativo habremos de comparar la energía reticular del cristal con la energía de solvatación. Por ejemplo, para el cloruro de litio:
+
 LiCl (s) → Li+ (g) + Cl – (g)
 Li+ (g) + Cl – (g) → Li+ (ac) + Cl – (ac)U = 827,6 kJ/mol
 Esolvatación = - 882 kJ/mol
 LiCl (s) → Li+ (ac) + Cl – (ac)Edisolución = - 54,4 kJ/mol
-El hecho de ser globalmente un proceso exotérmico favorece la espontaneidad de la disolu-
-ción de la sal. A medida que se acrecienta el carácter covalente de un compuesto se dificulta
-la solvatación y por ello la solubilidad. Recordemos además cómo influían el radio iónico y
-la carga de los iones en el valor de la energía reticular y por lo tanto en la solubilidad de
-las sustancias iónicas.
-Pero hay sustancias, como el NH4 Cl, que aunque su disolución es endotérmica, sin embargo
-es espontánea. Eso ocurre porque el factor entrópico es siempre favorable a la disolución,
-ya que el desorden aumenta mucho y por lo tanto T \cdot ∆S > 0.
-El conjunto de ambos factores determinará la solubilidad mayor o menor de una sustancia
-iónica.
 
-**PRODUCTO DE SOLUBILIDAD**
+El hecho de ser globalmente un proceso exotérmico favorece la espontaneidad de la disolución de la sal. A medida que se acrecienta el carácter covalente de un compuesto se dificulta la solvatación y por ello la solubilidad. Recordemos además cómo influían el radio iónico y la carga de los iones en el valor de la energía reticular y por lo tanto en la solubilidad de las sustancias iónicas.
 
-Como decíamos, en el caso de sales poco solubles, una pequeña parte se encuentra disociada
-en sus iones, mientras que la mayor parte permanece en estado sólido, estableciéndose
-un equilibrio dinámico entre la parte disuelta y la fase sólida o precipitado.
+Pero hay sustancias, como el NH4 Cl, que aunque su disolución es endotérmica, sin embargo es espontánea. Eso ocurre porque el factor entrópico es siempre favorable a la disolución, ya que el desorden aumenta mucho y por lo tanto T \cdot ∆S > 0.
+
+El conjunto de ambos factores determinará la solubilidad mayor o menor de una sustancia iónica.
+
+**Producto de solubilidad**
+
+Como decíamos, en el caso de sales poco solubles, una pequeña parte se encuentra disociada en sus iones, mientras que la mayor parte permanece en estado sólido, estableciéndose un equilibrio dinámico entre la parte disuelta y la fase sólida o precipitado.
+
 Para un equilibrio general del tipo:
-AxBy (s) \leftrightarrows  x A+ (ac) + y B- (ac)
-Podemos escribir la expresión de la constante de equilibrio correspondiente que se reducirá
-al producto de las concentraciones de los iones en disolución.
-La constante para este tipo de equilibrios recibe el nombre de constante del producto
-de solubilidad o, simplemente, producto de solubilidad:
+
+$\ce{AxBy (s) \leftrightarrows  x A^+ (ac) + y B^- (ac)}$
+
+Podemos escribir la expresión de la constante de equilibrio correspondiente que se reducirá al producto de las concentraciones de los iones en disolución.
+
+La constante para este tipo de equilibrios recibe el nombre de constante del producto de solubilidad o, simplemente, producto de solubilidad:
+
 $\ce{Kp}$S = [A+ ]x \cdot [B- ]y
+
 Ejemplos:
+
 AgCl (s) \leftrightarrows  Ag+ (ac) + Cl – (ac)$\ce{Kp}$S = [Ag+ ] \cdot [Cl- ]
 PbI2 (s) \leftrightarrows  Pb2+ (ac) + 2 I – (ac)$\ce{Kp}$S = [Pb2+ ] \cdot [I- ]2
 BaSO4 (s) \leftrightarrows  Ba2+ (ac) + SO42 – (ac)$\ce{Kp}$S = [Ba2+ ] \cdot [SO42- ]
@@ -704,19 +652,23 @@ CoCO3 (s) \leftrightarrows  Co2+ (ac) + CO32 – (ac)$\ce{Kp}$S = [Co2+ ] \cdot 
 Fe(OH)3 (s) \leftrightarrows  Fe3+ (ac) + 3 OH – (ac)$\ce{Kp}$S = [Fe3+ ] \cdot [OH- ]3
 PbS (s) \leftrightarrows  Pb2+ (ac) + S2 – (ac)$\ce{Kp}$S = [Pb2+ ] \cdot [S2- ]
 
-**RELACIÓN ENTRE $\ce{Kp}$S Y SOLUBILIDAD**
+**Relación entre $\ce{Kp}$s y solubilidad**
 
-La constante del producto de solubilidad se puede relacionar fácilmente con la (muy peque-
-ña) solubilidad de los compuestos.
+La constante del producto de solubilidad se puede relacionar fácilmente con la (muy pequeña) solubilidad de los compuestos.
+
 Si suponemos que la solubilidad del AgCl es s (moles/L), podemos escribir:
 AgCl (s) \leftrightarrows  Ag+ (ac) + Cl- (ac)
 $\ce{Kp}$S = [Ag+ ] \cdot [Cl- ] = s \cdot s = s2
+
 Análogamente:
+
 PbI2 (s) \leftrightarrows  Pb2+ (ac) + 2 I- (ac)
 $\ce{Kp}$S = [Pb2+ ] \cdot [I- ]2 = s \cdot (2 s)2 = 4 s3
 Fe(OH)3 (s) \leftrightarrows  Fe3+ (ac) + 3 OH- (ac)
 $\ce{Kp}$S = [Fe3+ ] \cdot [OH- ]3 = s \cdot (3 s)3 = 27 s4
+
 Son muy frecuentes los ejercicios en los que a partir de s hay que calcular $\ce{Kp}$S o viceversa.
+
 Veamos un par de ejemplos.
 
 **EJEMPLO 1**
@@ -724,7 +676,9 @@ Veamos un par de ejemplos.
 La solubilidad del cloruro de plata en agua es de 1,92 \cdot 10 -4 g de compuesto por 100 mL
 de disolución. Calcule la constante de solubilidad del cloruro de plata.
 DATOS: Masas atómicas: Ag = 107,8 u; Cl = 35,5 u
-SOLUCIÓN:
+
+**Solución**:
+
 El equilibrio de solubilidad para el cloruro de plata lo escribiremos en la forma:
 AgCl (s) \leftrightarrows  Ag+ (ac) + Cl- (ac)
 A partir de la expresión de la constante del producto de solubilidad podemos establecer la
@@ -741,15 +695,17 @@ Expresemos la solubilidad dada en moles/L:
 Por tanto la constante del producto de solubilidad para el cloruro de plata valdrá:
 $\ce{Kp}$S = [Ag+ ] \cdot [Cl- ] = s \cdot s = s2 = (1,34 \cdot 10 -5)2 (mol \cdot L-1 )2 = 1,80 \cdot 10 -10 (mol \cdot L-1 )2
 
-**EJEMPLO 2**
+**Ejemplo 2**
 
 Se añaden 10 mg de carbonato de estroncio sólido, SrCO3 (s), a 2 L de agua pura.
 Calcule la cantidad de SrCO3 (s) que queda sin disolver. Suponga que no hay variación de
 volumen al añadir el sólido al agua.
 DATOS: Masas atómicas: Sr = 87,6 u; C = 12 u; O = 16 u. $\ce{Kp}$S (SrCO3 ) = 5,6 \cdot 10 -10
-SOLUCIÓN:
-A partir de la expresión de la constante del producto de solubilidad podemos calcular la
-solubilidad del carbonato de estroncio:
+
+**Solución**:
+
+A partir de la expresión de la constante del producto de solubilidad podemos calcular la solubilidad del carbonato de estroncio:
+
 SrCO3 (s) \leftrightarrows  Sr2+ (ac) + CO32- (ac)
 $\ce{Kp}$S = [Sr2+ ] \cdot [CO32- ] = s \cdot s = s2
 s=
@@ -757,62 +713,78 @@ s=
 $\ce{Kp}$S =
 q
 5,6 \cdot 10 -10 (mol \cdot L-1 )2 = 2,4 \cdot 10 -5 mol \cdot L-1
+
 Luego los gramos de carbonato de estroncio disueltos en 2 L de agua serán:
+
 2 L\cdot
 2,4 \cdot 10 -5 mol 147,6 g SrCO3
 \cdot
 = 7,1 \cdot 10 -3 g SrCO3 = 7,1 mg SrCO3
 1L
 1 mol
+
 Luego quedan sin disolver:
+
 (10 - 7,1) mg SrCO3 = 2,9 mg SrCO3
 38$\ce{Kp}$S y Q
-La constante de solubilidad está relacionada con las concentraciones máximas de los iones en
-disolución, de tal manera que si definimos (de forma análoga a como se hizo en el tratamiento
-de la constante de equilibrio) un producto de concentraciones (producto iónico) análogo
-al producto de solubilidad, pero con concentraciones que no sean las correspondientes al
-equilibrio:
-Q = [A]0x \cdot [B]0y
-...comparando Q con $\ce{Kp}$S podemos determinar si existirá precipitación o no:
-Si Q < $\ce{Kp}$S
-No habrá precipitado. La disolución no está saturada y puede disolver
-más compuesto.
-Si Q = $\ce{Kp}$S
-La disolución está saturada. Existirá precipitado y una pequeña
-parte de la sustancia se encuentra disuelta y en equilibrio con la fase sólida.
-Si Q > $\ce{Kp}$S
-Estamos por encima del punto de saturación de la disolución. Solo
-se disolverá sustancia hasta que la disolución se sature. El resto se depositará en el fondo .
 
-**EJEMPLO 3**
+La constante de solubilidad está relacionada con las concentraciones máximas de los iones en disolución, de tal manera que si definimos (de forma análoga a como se hizo en el tratamiento de la constante de equilibrio) un producto de concentraciones (producto iónico) análogo al producto de solubilidad, pero con concentraciones que no sean las correspondientes al equilibrio:
+
+Q = [A]0x \cdot [B]0y
+
+...comparando Q con $\ce{Kp}$S podemos determinar si existirá precipitación o no:
+
+Si Q < $\ce{Kp}$S
+
+No habrá precipitado. La disolución no está saturada y puede disolver más compuesto.
+Si Q = $\ce{Kp}$S
+
+La disolución está saturada. Existirá precipitado y una pequeña parte de la sustancia se encuentra disuelta y en equilibrio con la fase sólida.
+
+Si Q > $\ce{Kp}$S
+
+Estamos por encima del punto de saturación de la disolución. Solo se disolverá sustancia hasta que la disolución se sature. El resto se depositará en el fondo.
+
+**Ejemplo 3**
 
 Indique, de forma razonada, si se formará precipitado en una disolución que contenga las
 siguientes concentraciones: [Ca2+ ] = 0,0037 ; [CO32- ] = 0,0068.
 DATO: $\ce{Kp}$S = 2,8 \cdot 10 -9
-SOLUCIÓN:
+
+**Solución**:
+
 El equilibrio de solubilidad para el carbonato de calcio es:
+
 CaCO3 (s) \leftrightarrows  Ca2+ (ac) + CO32- (ac)
+
 La expresión de la constante del producto de solubilidad será:
 $\ce{Kp}$S = [Ca2+ ] \cdot [CO32- ] = 2,8 \cdot 10 -9 (mol \cdot L- )2
+
 El producto iónico correspondiente a las concentraciones dadas en el enunciado será:
 Q = [Ca2+ ]0 \cdot [CO32- ]0 = 3,7 \cdot 10 -3 \cdot 6,8 \cdot 10 -3 = 2,5 \cdot 10 -5 (mol \cdot L-1 )2
+
 Como Q > $\ce{Kp}$S se formará precipitado.
 
 **EJEMPLO 4**
 
-Si mezclamos 10,0 mL de una disolución acuosa de BaCl2 0,10 M con 40,0 mL de una
-disolución acuosa de Na2 SO4 0,025 M.
+Si mezclamos 10,0 mL de una disolución acuosa de BaCl2 0,10 M con 40,0 mL de una disolución acuosa de Na2 SO4 0,025 M.
 a) Determine si se formará precipitado de BaSO4 .
-b) Calcule las concentraciones de Ba2+ (ac) y SO42- (ac) en la disolución después de pro-
-ducirse la precipitación.
+b) Calcule las concentraciones de Ba2+ (ac) y SO42- (ac) en la disolución después de producirse la precipitación.
+
 Dato: $\ce{Kp}$S (BaSO4 ) = 1,1 \cdot 10 -10
-SOLUCIÓN:
+
+**Solución**:
+
 El equilibrio de solubilidad para el sulfato de bario lo escribiremos en la forma:
+
 BaSO4 (s) \leftrightarrows  Ba2+ (ac) + SO42- (ac)
+
 La expresión de la constante del producto de solubilidad será:
+
 $\ce{Kp}$S = [Ba2+ ] \cdot [SO42- ]
-Los moles de Ba2+ y SO42- presentes en cada una de las disoluciones que se van a mezclar
-son:
+
+Los moles de Ba2+ y SO42- presentes en cada una de las disoluciones que se van a mezclar son:
+
 I) Disolución de BaCl2 (sal soluble en agua):
 2+
 X
@@ -870,14 +842,16 @@ q
 √
 s = $\ce{Kp}$S = 1,1 \cdot 10 -10 (mol \cdot L-1 )2 = 1,1 \cdot 10 -5 mol \cdot L-1
 
-**DISOLUCIÓN DE PRECIPITADOS (I)**
+**Disolución de precipitados**
 
 Una vez formados los precipitados pueden disolverse (desaparición de la fase
 sólida) desplazando el equilibrio de solubilidad hacia la derecha. De manera
 general lo conseguiremos haciendo que alguno de los iones en disolución sea
 retirado de la misma. La forma de hacerlo depende del equilibrio considerado.
 Veamos algunos ejemplos.
-I) Disolución de hidróxidos.
+
+**I) Disolución de hidróxidos.**
+
 Los hidróxidos insolubles se disuelven añadiendo ácido, ya que el OH- se
 combina con los iones H3 O+ (catión oxonio) formados a partir de los protones
 procedentes de la ionización del ácido:
@@ -885,8 +859,8 @@ Mg(OH) (s)\leftrightarrows  Mg2+ (ac) + 2 OH- (ac)
 +
 2 H 3 O+ → 4 H 2 O
 
-II) Disolución de sales procedentes de ácidos débiles (carbonatos, la mayor
-parte de los sulfuros, cromatos...)
+**II) Disolución de sales procedentes de ácidos débiles (carbonatos, la mayor parte de los sulfuros, cromatos...)**
+
 Estas sales se disuelven también al añadir ácido a la disolución ya que se forma el ácido
 débil del cual provienen. Este método es especialmente efectivo en el caso de los carbonatos,
 ya que el ácido carbónico formado es muy inestable y se descompone de forma inmediata
@@ -907,15 +881,11 @@ formarse el complejo [Ag(NH3 )2 ]+ , el catión Ag+ es retirado de la disolució
 AgCl (s) \leftrightarrows  Ag+ (ac) + Cl- (ac)
 Ag+ (ac) + NH3 (ac) \leftrightarrows  [Ag(NH3 )2 ]+ (ac)
 
-**EFECTO DEL IÓN COMÚN**
+## **5. Efecto del ión común**
 
-De la definición de producto de solubilidad se deduce que, al aumentar la
-concentración de uno de los iones que forman el precipitado, la concentración
-del otro debe disminuir con el objetivo de que $\ce{Kp}$S permanezca constante.
-Es el efecto conocido como “ión común”, que es de gran utilidad para el
-análisis químico, y concretamente para reducir la solubilidad de muchos pre-
-cipitados, o para precipitar totalmente un ión usando un exceso de agente
-precipitante. Veámoslo con un ejemplo.
+De la definición de producto de solubilidad se deduce que, al aumentar la concentración de uno de los iones que forman el precipitado, la concentración del otro debe disminuir con el objetivo de que $\ce{Kp}$S permanezca constante.
+
+Es el efecto conocido como “**ión común**”, que es de gran utilidad para el análisis químico, y concretamente para reducir la solubilidad de muchos precipitados, o para precipitar totalmente un ión usando un exceso de agente precipitante. Veámoslo con un ejemplo.
 
 **Ejemplo 5**
 
