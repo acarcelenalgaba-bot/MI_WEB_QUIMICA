@@ -900,7 +900,7 @@ a) El producto de solubilidad.
 
 b) La solubilidad del $\ce{PbI2}$ a esa temperatura en una disolución 0,1 M de KI.
 
-Masas atómicas: I = 127; Pb = 207
+Masas atómicas: $\ce{I = 127; Pb = 207}$
 
 **Solución**:
 
@@ -908,7 +908,7 @@ El apartado a) ya sabemos hacerlo. Lo novedoso es el b.
 
 El equilibrio es: $\ce{\quad PbI2 (s) \leftrightarrows  Pb^{2+} (ac) + 2 I- (ac)}$
 
-Si tuviéramos solo $\ce{PbI2}$ la concentración de yoduro sería justo el doble que la de plomo (II), pero como tenemos KI, que es totalmente soluble, en este caso [$\ce{I-}$] = 0,1 M (se desprecia por irrelevante la pequeña cantidad de iones yoduro provenientes de la sal insoluble). Así que podemos calcular la [$\ce{Pb^{2+}}$] en estas nuevas condiciones (el dato de $\ce{Kps}$ está calculado en el apartado a) $\ce{Kps = 1,37 \cdot 10^{-8}}$:
+Si tuviéramos solo $\ce{PbI2}$ la concentración de yoduro sería justo el doble que la de plomo (II), pero como tenemos KI, que es totalmente soluble, en este caso $\ce{[I-] = 0,1 M}$ (se desprecia por irrelevante la pequeña cantidad de iones yoduro provenientes de la sal insoluble). Así que podemos calcular la [$\ce{Pb^{2+}}$] en estas nuevas condiciones (el dato de $\ce{Kps}$ está calculado en el apartado a) $\ce{Kps = 1,37 \cdot 10^{-8}}$:
 
 $\ce{ Kps = [Pb^{2+}] \cdot [I^-]^2 \quad \rightarrow \quad [Pb^{2+}] = \dfrac {\ce{Kps}}{\ce{[I^-]^2}} = \dfrac {\ce{1,37 \cdot 10^{-8}}}{\ce{0,1^2}} = 1,37 \cdot 10^{-6} \; mol \cdot L^{-1} }$
 
