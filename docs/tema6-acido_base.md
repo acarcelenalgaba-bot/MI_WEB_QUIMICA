@@ -2,7 +2,7 @@
 
 
 
-## **1: Introducción**
+## **1. Introducción**
 
 El título del tema, **"Reacciones de transferencia de protones"**, hace referencia a las definiciones de ácido y base que vamos a manejar:
 
@@ -13,14 +13,14 @@ De ahí que cualquier reacción ácido-base será una reacción de transferencia
 
 
 
-## **2: Propiedades Generales de Ácidos y Bases (Definición Histórica)**
+## **2. Propiedades Generales de Ácidos y Bases (Definición Histórica)**
 
 ### **Ácidos**
 * Tienen sabor agrio (como el vinagre o el limón).
 * Son corrosivos para la piel.
 * Enrojecen ciertos colorantes vegetales (como el papel de tornasol).
 * Las disoluciones concentradas destruyen la materia orgánica.
-* Atacan a los metales activos desprendiendo hidrógeno gaseoso ($H_2$).
+* Atacan a los metales activos desprendiendo hidrógeno gaseoso ($\ce{H_2}$).
 * Neutralizan los efectos de las bases.
 * En disolución acuosa, conducen la corriente eléctrica (son electrolitos).
 
@@ -35,67 +35,71 @@ De ahí que cualquier reacción ácido-base será una reacción de transferencia
 
 
 
-## **3: Los Ácidos y Bases como Electrolitos**
+## **3. Los Ácidos y Bases como Electrolitos**
 
 Arrhenius, químico sueco, llamó **electrolito** a cualquier sustancia que al disolverse en agua condujese la electricidad. 
 
 Propuso que estas sustancias, al disolverse, se disociaban en dos partes cargadas eléctricamente con signos opuestos:
+
 * A la partícula con carga positiva la llamó **catión**.
+
 * A la partícula con carga negativa la llamó **anión**.
 
 Dado que los ácidos y las bases conducen la electricidad al disolverse en agua, estableció que dichas sustancias eran electrolitos. Esto posibilitó el desarrollo del primer modelo teórico para explicar la naturaleza de los ácidos y las bases.
 
 
 
-## **4: Definición de Arrhenius de Ácido y Base**
+## **4. Definición de Arrhenius de Ácido y Base**
 
-Arrhenius propuso que el catión que se producía cuando se disolvía un ácido en agua era siempre el mismo: el **ión hidrógeno** ($H^+$) [o ión hidronio, $H_3O^+$], y que las propiedades de los ácidos se debían precisamente a la presencia de dichos iones.
+Arrhenius propuso que el catión que se producía cuando se disolvía un ácido en agua era siempre el mismo: el **ión hidrógeno** ($\ce{H^+}$) [o ión hidronio, $\ce{H_3O^+}$], y que las propiedades de los ácidos se debían precisamente a la presencia de dichos iones.
 
-Asimismo, propuso que cuando se disolvía una base en agua, se producía siempre el **ión hidróxido** ($OH^-$), lo que daba a las bases sus propiedades características. De ahí sus definiciones:
+Asimismo, propuso que cuando se disolvía una base en agua, se producía siempre el **ión hidróxido** ($\ce{OH^-}$), lo que daba a las bases sus propiedades características. De ahí sus definiciones:
 
-* **Ácido:** Toda sustancia que, en disolución acuosa, se disocia produciendo iones hidrógeno (protones, $H^+$):
-    $$HA \xrightarrow{H_2O} H^+ + A^-$$
+* **Ácido:** Toda sustancia que, en disolución acuosa, se disocia produciendo iones hidrógeno (protones, $\ce{H^+}$):
+  
+    $$\ce{HA \xrightarrow{\ce{H2O}} H^+ + A^-}$$
 
-* **Base:** Toda sustancia que, en disolución acuosa, se disocia produciendo aniones hidróxido ($OH^-$):
-    $$BOH \xrightarrow{H_2O} B^+ + OH^-$$
+* **Base:** Toda sustancia que, en disolución acuosa, se disocia produciendo aniones hidróxido ($\ce{OH^-}$):
+  
+    $$\ce{BOH \xrightarrow{\ce{H2O}} B^+ + OH^-}$$
 
 Esta teoría interpretaba correctamente el comportamiento de la mayoría de ácidos y bases en disolución acuosa, pero presentaba algunas limitaciones importantes.
 
 
 
-## **5: Limitaciones de la Teoría de Arrhenius**
+## **5. Limitaciones de la Teoría de Arrhenius**
 
 Son básicamente dos:
 
 1.  **Restricción al disolvente:** Su teoría estaba restringida exclusivamente a disoluciones acuosas, dejando fuera a otro tipo de procesos que transcurren en otros disolventes o que no transcurren en disolución.
-2.  **Sustancias sin grupo hidróxido:** Existen sustancias que son claramente básicas, como el amoníaco ($NH_3$) o los carbonatos (ión carbonato, $CO_3^{2-}$), que no contienen el grupo $OH^-$ en su estructura y que, por lo tanto, no encajaban en su definición clásica de base.
+2.  **Sustancias sin grupo hidróxido:** Existen sustancias que son claramente básicas, como el amoníaco ($\ce{NH_3}$) o los carbonatos (ión carbonato, $\ce{CO_3^{2-}}$), que no contienen el grupo $OH^-$ en su estructura y que, por lo tanto, no encajaban en su definición clásica de base.
 
 
 
-## 6: Teoría Ácido-Base de Brønsted-Lowry
+## **6. Teoría Ácido-Base de Brønsted-Lowry**
 
 Las limitaciones de la teoría de Arrhenius fueron superadas por la propuesta del químico danés Johannes Nicolaus Brønsted y el inglés Thomas Martin Lowry, quienes en 1923, de forma independiente, propusieron una nueva definición:
 
-* **Ácido:** Toda sustancia capaz de ceder protones ($H^+$).
-* **Base:** Toda sustancia capaz de aceptar protones ($H^+$).
+* **Ácido:** Toda sustancia capaz de ceder protones ($\ce{H^+}$).
+* **Base:** Toda sustancia capaz de aceptar protones ($\ce{H^+}$).
 
-Esta teoría es válida para cualquier disolvente, aunque en este curso sobreentenderemos que el disolvente empleado siempre es el agua ($H_2O$).
+Esta teoría es válida para cualquier disolvente, aunque en este curso sobreentenderemos que el disolvente empleado siempre es el agua ($\ce{H_2O}$).
 
 
 
-## 7: Resumen de la Teoría de Brønsted-Lowry
+## **7. Resumen de la Teoría de Brønsted-Lowry**
 
-La gran ventaja de este modelo es que elimina la necesidad de la presencia obligatoria del ión $OH^-$ para justificar la basicidad. Por ejemplo, el comportamiento básico del amoníaco ($NH_3$) en agua se explica de la siguiente manera:
+La gran ventaja de este modelo es que elimina la necesidad de la presencia obligatoria del ión $OH^-$ para justificar la basicidad. Por ejemplo, el comportamiento básico del amoníaco ($\ce{NH_3}$) en agua se explica de la siguiente manera:
 
-$$NH_3 + H_2O \rightleftharpoons NH_4^+ + OH^-$$
+$$\ce{NH_3 + H_2O \rightleftharpoons NH_4^+ + OH^-}$$
 
-Aquí, el $NH_3$ actúa como base (acepta un protón) y el $H_2O$ actúa como ácido (cede un protón).
+Aquí, el $\ce{NH_3}$ actúa como base (acepta un protón) y el $H_2O$ actúa como ácido (cede un protón).
 
 *(Nota: Aunque la teoría de Brønsted y Lowry fue ampliada posteriormente por la teoría de Lewis, durante el resto del tema utilizaremos preferentemente el modelo de Brønsted-Lowry).*
 
 
 
-## 8: Ácidos y Bases de Lewis
+## **8. Ácidos y Bases de Lewis**
 
 El químico estadounidense Gilbert N. Lewis, en 1938, amplió la definición de ácido y base de la siguiente manera:
 
@@ -106,47 +110,48 @@ La diferencia clave radica en la estructura electrónica: el ácido debe tener s
 
 La reacción de un ácido con una base de Lewis da como resultado un compuesto de adición mediante la formación de un **enlace covalente coordinado o dativo**.
 
-* **Ejemplos de ácidos de Lewis:** $BF_3$, $AlCl_3$, $Fe^{3+}$, $H^+$.
+* **Ejemplos de ácidos de Lewis:** $\ce{BF_3}$, $\ce{AlCl_3}$, $\ce{Fe^{3+}}$, $\ce{H^+}$.
 * Estos ácidos son catalizadores sumamente importantes en muchas reacciones de química orgánica (como la halogenación de benceno o la alquilación de Friedel-Crafts).
 
 
 
-## 9: Pares Ácido-Base Conjugados
+## **9. Pares Ácido-Base Conjugados**
 
-Cuando un ácido ($HA$) cede un protón, produce un anión ($A^-$):
+Cuando un ácido ($\ce{HA}$) cede un protón, produce un anión ($\ce{A^-}$):
 
-$$HA \rightleftharpoons H^+ + A^-$$
+$$\ce{HA \rightleftharpoons H^+ + A^-}$$
 
-El anión $A^-$, por su parte, posee la capacidad de capturar un protón para regenerar el ácido de partida:
+El anión $\ce{A^-}$, por su parte, posee la capacidad de capturar un protón para regenerar el ácido de partida:
 
-$$A^- + H^+ \rightleftharpoons HA$$
+$$\ce{A^- + H^+ \rightleftharpoons HA}$$
 
-Dado que el anión $A^-$ puede captar un protón, se comporta como una base. Por ello, decimos que **$A^-$ es la base conjugada del ácido $HA$**. Ambos constituyen un **par ácido-base conjugado** ($HA / A^-$).
+Dado que el anión $\ce{A^-}$ puede captar un protón, se comporta como una base. Por ello, decimos que **$\ce{A^-}$ es la base conjugada del ácido $\ce{HA}$**. Ambos constituyen un **par ácido-base conjugado** ($\ce{HA / A^-}$).
 
-El mismo razonamiento se puede hacer a partir de una base ($B$) que captura un protón para dar su ácido conjugado ($BH^+$):
+El mismo razonamiento se puede hacer a partir de una base ($\ce{B}$) que captura un protón para dar su ácido conjugado ($\ce{BH^+}$):
 
-$$B + H^+ \rightleftharpoons BH^+$$
+$$\ce{B + H^+ \rightleftharpoons BH^+}$$
 
-Donde **$BH^+$ es el ácido conjugado de la base $B$**.
+Donde **$\ce{BH^+}$ es el ácido conjugado de la base $\ce{B}$**.
 
 
 
-## 10: Reacciones Ácido-Base (Brønsted y Lowry)
+## **10: Reacciones Ácido-Base (Brønsted y Lowry)**
 
 Bajo esta teoría, es evidente que si un ácido (I) cede un protón es porque hay una base (II) presente que lo acepta. Por ello, las reacciones ácido-base son reacciones de transferencia de protones, y el proceso global se representa así:
 
-$$\text{Ácido}_1 + \text{Base}_2 \rightleftharpoons \text{Base conjugada}_1 + \text{Ácido conjugado}_2$$
-$$HA + B \rightleftharpoons A^- + BH^+$$
+$$\ce{\text{Ácido}_1 + \text{Base}_2 \rightleftharpoons \text{Base conjugada}_1 + \text{Ácido conjugado}_2}$$
+
+$$\ce{HA + B \rightleftharpoons A^- + BH^+}$$
 
 La doble flecha indica que se trata de un equilibrio químico que puede estar desplazado hacia un lado o hacia el otro según la fuerza relativa de las especies.
 
 Es muy frecuente que la sustancia que complete la reacción ácido-base actúe como disolvente (el agua):
 
-$$HA + H_2O \rightleftharpoons A^- + H_3O^+$$
+$$\ce{HA + H_2O \rightleftharpoons A^- + H_3O^+}$$
 
 
 
-## 11: Concepto de Anfótero o Anfolito
+## 11. Concepto de Anfótero o Anfolito
 
 Las sustancias **anfóteras** (o anfolitos) son aquellas moléculas o iones que pueden actuar tanto como donantes o como aceptores de protones. Es decir, según el medio en el que se encuentren, mostrarán un comportamiento ácido o básico.
 
@@ -160,7 +165,7 @@ Las sustancias **anfóteras** (o anfolitos) son aquellas moléculas o iones que 
 
 
 
-## 12: Ejercicios de Autoevaluación I
+## 12. Ejercicios de Autoevaluación I
 
 ### 1. Indica la base conjugada de las siguientes especies cuando actúan como ácidos. Nómbralas:
 * $H_2O \rightarrow$ **Base conjugada:** $OH^-$ (ión hidróxido)
@@ -191,7 +196,7 @@ Las sustancias **anfóteras** (o anfolitos) son aquellas moléculas o iones que 
 
 
 
-## 13: Fuerza de Ácidos y Bases
+## 13. Fuerza de Ácidos y Bases
 
 * Un **ácido es fuerte** si tiene una elevada tendencia a ceder protones (disociación prácticamente completa).
 * Un **ácido es débil** si tiene poca tendencia a ceder protones (disociación parcial, se establece un equilibrio).
@@ -202,7 +207,7 @@ La fuerza de un ácido o una base es una medida cuantitativa que depende de su c
 
 
 
-## 14: Ácidos Fuertes
+## 14. Ácidos Fuertes
 
 Los ácidos fuertes más habituales en el laboratorio son el ácido clorhídrico ($HCl$), el ácido sulfúrico ($H_2SO_4$) y el ácido nítrico ($HNO_3$). En un segundo término encontramos el ácido perclórico ($HClO_4$) o el ácido yodhídrico ($HI$).
 
@@ -221,7 +226,7 @@ $$[H_3O^+] = C_{\text{ácido\_inicial}}$$
 
 
 
-## 15: Bases Fuertes
+## 15. Bases Fuertes
 
 Los hidróxidos de los metales alcalinos (Grupo 1: $LiOH$, $NaOH$, $KOH$...) y alcalinotérreos (Grupo 2: $Ca(OH)_2$, $Ba(OH)_2$...) son bases fuertes debido a que son compuestos iónicos que se disocian completamente en sus iones al disolverse en agua.
 
@@ -236,7 +241,7 @@ Por convención, decimos que el $NaOH$, $KOH$ o el $Ca(OH)_2$ son bases fuertes,
 
 
 
-## 16: Ácidos y Bases Débiles
+## 16. Ácidos y Bases Débiles
 
 La inmensa mayoría de los ácidos y bases de la naturaleza son débiles. Al disolverse en agua no se disocian de forma completa, por lo que en el estado de equilibrio coexisten las moléculas neutras sin disociar junto a los iones producidos.
 
@@ -245,7 +250,7 @@ La inmensa mayoría de los ácidos y bases de la naturaleza son débiles. Al dis
 
 
 
-## 17: Constante de Disociación de un Ácido Débil ($K_a$)
+## 17. Constante de Disociación de un Ácido Débil ($K_a$)
 
 Para un ácido débil genérico ($HA$) en disolución acuosa, se establece el siguiente equilibrio:
 
@@ -261,7 +266,7 @@ $$K_a = K_c \cdot [H_2O] = \frac{[A^-][H_3O^+]}{[HA]}$$
 
 
 
-## 18: Constante de Disociación de una Base Débil ($K_b$)
+## 18. Constante de Disociación de una Base Débil ($K_b$)
 
 Para una base débil genérica ($B$) en disolución acuosa, el equilibrio correspondiente es:
 
@@ -277,7 +282,7 @@ $$K_b = K_c \cdot [H_2O] = \frac{[BH^+][OH^-]}{[B]}$$
 
 
 
-## 19: $K_a$, $K_b$ y la Fortaleza de Ácidos y Bases
+## 19. $K_a$, $K_b$ y la Fortaleza de Ácidos y Bases
 
 Los valores numéricos de las constantes de acidez o basicidad indican de forma directa la fuerza relativa de las especies:
 
@@ -318,7 +323,7 @@ Por tanto, en el equilibrio:
 
 
 
-## 21: Producto Iónico del Agua ($K_w$)
+## 21. Producto Iónico del Agua ($K_w$)
 
 El agua pura no es un aislante eléctrico absoluto; conduce débilmente la electricidad. Esto se debe a que experimenta un proceso de autoionización, comportándose simultáneamente como ácido y base débil:
 
@@ -335,7 +340,7 @@ Este producto es una constante termodinámica. Por tanto, se cumple en **cualqui
 
 
 
-## 22: Disoluciones Ácidas, Básicas y Neutras
+## 22. Disoluciones Ácidas, Básicas y Neutras
 
 A partir de la relación de autoionización, podemos clasificar las disoluciones acuosas a $25^\circ\text{C}$:
 
@@ -347,7 +352,7 @@ A partir de la relación de autoionización, podemos clasificar las disoluciones
 
 
 
-## 23: Concepto de pH
+## 23. Concepto de pH
 
 Trabajar habitualmente con potencias de base 10 de exponentes negativos tan pequeños resulta incómodo. Para simplificar estos cálculos, Sørensen introdujo en 1909 el concepto de **pH** (potencial de hidrógeno):
 
@@ -361,7 +366,7 @@ De esta manera, la escala de pH a $25^\circ\text{C}$ clasifica las disoluciones 
 
 
 
-## 24: Concepto de pOH
+## 24. Concepto de pOH
 
 De forma análoga al pH, se define el **pOH** como el logaritmo cambiado de signo de la concentración de iones hidróxido ($OH^-$):
 
@@ -380,7 +385,7 @@ $$\text{pH} + \text{pOH} = 14$$
 
 
 
-## 25: Medida del pH
+## 25. Medida del pH
 
 El pH de una disolución se puede medir experimentalmente en el laboratorio mediante dos métodos principales:
 
@@ -389,7 +394,7 @@ El pH de una disolución se puede medir experimentalmente en el laboratorio medi
 
 
 
-## 26: Relación entre las Constantes $K_a$ y $K_b$ de un Par Conjugado
+## 26. Relación entre las Constantes $K_a$ y $K_b$ de un Par Conjugado
 
 La constante de acidez de un ácido ($HA$) y la de su base conjugada ($A^-$) están ligadas de manera matemática por medio del producto iónico del agua ($K_w$):
 
@@ -413,7 +418,7 @@ Esto demuestra que **cuanto más fuerte es un ácido (mayor $K_a$), más débil 
 
 
 
-## 27: Relación entre $pK_a$ y $pK_b$
+## 27. Relación entre $pK_a$ y $pK_b$
 
 Si tomamos el logaritmo negativo ($-\log$) a ambos lados de la ecuación $K_a \cdot K_b = K_w$, obtenemos:
 
@@ -425,7 +430,7 @@ $$\text{p}K_a + \text{p}K_b = 14$$
 
 
 
-## 28: Algunas Constantes de Acidez comunes ($25^\circ\text{C}$)
+## 28. Algunas Constantes de Acidez comunes ($25^\circ\text{C}$)
 
 | Ácido | Fórmula | Constante de Acidez ($K_a$) | $\text{p}K_a$ |
 | : | :: | :: | :: |
@@ -437,7 +442,7 @@ $$\text{p}K_a + \text{p}K_b = 14$$
 
 
 
-## 29: Ejercicios de Autoevaluación II
+## 29. Ejercicios de Autoevaluación II
 
 **ATENCIÓN:** En la resolución de problemas de ácidos y bases débiles con concentraciones de uso habitual en el laboratorio, se pueden realizar con seguridad las aproximaciones $[HA]_{\text{equi}} \approx C_0$ si el grado de disociación es muy bajo. Como regla práctica general, esto se cumple cuando la constante de acidez/basicidad es menor que $10^{-4}$ ($K < 10^{-4}$). Si no se cumple esta condición, se debe resolver rigurosamente la ecuación completa de segundo grado.
 
@@ -471,7 +476,7 @@ Dependiendo de las proporciones estequiométricas añadidas de reactivos, se pue
 
 
 
-## 31: Ejemplos de Reacciones de Neutralización
+## 31. Ejemplos de Reacciones de Neutralización
 
 1.  **Ácido fuerte + Base fuerte:**
     $$HCl + NaOH \rightarrow NaCl + H_2O$$
@@ -487,7 +492,7 @@ Dependiendo de las proporciones estequiométricas añadidas de reactivos, se pue
 
 
 
-## 32: Hidrólisis de Sales
+## 32. Hidrólisis de Sales
 
 Cuando una sal se disuelve en agua, se disocia por completo en sus cationes y aniones constituyentes. No obstante, el pH de la disolución resultante no siempre es neutro (pH = 7).
 
@@ -500,7 +505,7 @@ Para predecir el comportamiento, se debe disociar correctamente la sal y analiza
 
 
 
-## 33: Hidrólisis Básica
+## 33. Hidrólisis Básica
 
 Se produce cuando los aniones procedentes de la disociación de una sal que deriva de un **ácido débil** actúan como bases de Brønsted-Lowry, captando protones del agua y liberando iones hidróxido ($OH^-$) al medio.
 
@@ -518,7 +523,7 @@ Como resultado de este equilibrio, se genera un exceso de iones hidróxido ($OH^
 
 
 
-## 34: Hidrólisis Básica — Cianuro de Potasio ($KCN$)
+## 34. Hidrólisis Básica — Cianuro de Potasio ($KCN$)
 
 La sal se disocia por completo en agua:
 
@@ -536,7 +541,7 @@ La liberación de $OH^-$ desplaza el pH por encima de 7.
 
 
 
-## 35: Hidrólisis Ácida
+## 35. Hidrólisis Ácida
 
 Se produce cuando los cationes procedentes de la disociación de una sal que deriva de una **base débil** actúan como ácidos de Brønsted-Lowry, cediendo protones al agua, lo que aumenta la concentración de iones hidronio ($H_3O^+$) y reduce el pH.
 
@@ -553,7 +558,7 @@ Al generarse un exceso de iones hidronio ($H_3O^+$), **el pH de la disolución r
 
 
 
-## 36: Sales que no sufren Hidrólisis
+## 36. Sales que no sufren Hidrólisis
 
 Las sales neutras que proceden simultáneamente de un **ácido fuerte** y una **base fuerte** (cloruros, nitratos, sulfatos o percloratos de metales alcalinos como el sodio o el potasio) no sufren ningún fenómeno de hidrólisis en agua.
 
@@ -567,7 +572,7 @@ Ninguno de los dos iones altera el equilibrio de autoionización del agua, por l
 
 
 
-## 37: Sales de Ácido Débil y Base Débil
+## 37. Sales de Ácido Débil y Base Débil
 
 En este tipo de sales, tanto el catión como el anión sufren hidrólisis en agua de forma simultánea. El pH final de la disolución dependerá de la fuerza relativa de los electrolitos débiles precursores de la sal:
 
@@ -577,7 +582,7 @@ En este tipo de sales, tanto el catión como el anión sufren hidrólisis en agu
 
 
 
-## 38: Ejercicios de Autoevaluación III
+## 38. Ejercicios de Autoevaluación III
 
 ### Ejercicio propuesto:
 Clasifica de forma cualitativa (ácido, básico o neutro) el comportamiento en disolución acuosa de las siguientes sales, escribiendo las ecuaciones químicas correspondientes:
@@ -589,7 +594,7 @@ Clasifica de forma cualitativa (ácido, básico o neutro) el comportamiento en d
 
 
 
-## 39: Volumetrías de Neutralización
+## 39. Volumetrías de Neutralización
 
 La **volumetría** (o valoración ácido-base) es una técnica cuantitativa de análisis químico que permite determinar la concentración desconocida de un analito en disolución midiendo de manera precisa el volumen consumido de un reactivo valorante de concentración conocida.
 
@@ -606,7 +611,7 @@ La **volumetría** (o valoración ácido-base) es una técnica cuantitativa de a
 
 
 
-## 41: Punto de Equivalencia en la Neutralización
+## 41. Punto de Equivalencia en la Neutralización
 
 El **punto de equivalencia** es el instante teórico de la valoración en el que se han mezclado las cantidades estequiométricas exactas de reactivos (ácido y base), completándose la reacción química de neutralización.
 
@@ -616,7 +621,7 @@ Se puede determinar de forma instrumental midiendo de forma continua la variaci�
 
 
 
-## 42: Cálculos en el Punto de Equivalencia
+## 42. Cálculos en el Punto de Equivalencia
 
 En el punto de equivalencia de cualquier reacción de neutralización, se cumple de manera rigurosa la ley de equivalencia química:
 
@@ -632,7 +637,7 @@ Donde:
 
 
 
-## 43: Indicadores Ácido-Base
+## 43. Indicadores Ácido-Base
 
 Un **indicador ácido-base** es un ácido o base orgánica débil cuya forma molecular protonada ($HIn$) y su forma ionizada conjugada ($In^-$) presentan coloraciones intensas y marcadamente diferentes bajo la luz visible:
 
@@ -644,7 +649,7 @@ Para una valoración, se debe seleccionar un indicador cuyo rango de viraje coin
 
 
 
-## 44: Ejercicio Resuelto de Valoración
+## 44. Ejercicio Resuelto de Valoración
 
 **Problema:** Se valoran $25,0 \text{ mL}$ de una disolución de ácido sulfúrico ($H_2SO_4$) de concentración desconocida empleando una disolución patrón de hidróxido de sodio ($NaOH$) de concentración $0,12 \text{ M}$. Si se requieren exactamente $30,0 \text{ mL}$ de la base para alcanzar el viraje del indicador, calcula la molaridad del ácido.
 
@@ -666,7 +671,7 @@ La concentración de la disolución de ácido sulfúrico es de **$0,072 \text{ M
 
 
 
-## 45: Ejercicios de Autoevaluación IV
+## 45. Ejercicios de Autoevaluación IV
 
 ### Ejercicios propuestos:
 1.  Calcula el volumen de disolución de hidróxido de potasio ($KOH$) $0,15 \text{ M}$ necesario para neutralizar por completo $50,0 \text{ mL}$ de una disolución de ácido clorhídrico ($HCl$) $0,20 \text{ M}$.  
@@ -676,7 +681,7 @@ La concentración de la disolución de ácido sulfúrico es de **$0,072 \text{ M
 
 
 
-## 46: Estudio Cualitativo de las Disoluciones Amortiguadoras (I)
+## 46. Estudio Cualitativo de las Disoluciones Amortiguadoras (I)
 
 En el agua pura, la adición de una cantidad minúscula de un ácido o una base fuerte altera drásticamente el pH del medio debido a la ausencia de sistemas de compensación.
 
@@ -688,7 +693,7 @@ La adición de una pequeña gota de ácido provocó un descenso drástico de 4 u
 
 
 
-## 47: Estudio Cualitativo de las Disoluciones Amortiguadoras (II)
+## 47. Estudio Cualitativo de las Disoluciones Amortiguadoras (II)
 
 Las **disoluciones amortiguadoras** (también conocidas como tampones, reguladoras o *buffers*) son aquellas disoluciones cuyo pH permanece prácticamente constante frente a la dilución o la adición de cantidades moderadas de ácidos o bases fuertes.
 
@@ -699,7 +704,7 @@ Se preparan disolviendo conjuntamente en proporciones similares:
 
 
 
-## 48: Estudio Cualitativo de las Disoluciones Amortiguadoras (III)
+## 48. Estudio Cualitativo de las Disoluciones Amortiguadoras (III)
 
 Analicemos de forma cuantitativa el sistema constituido por ácido acético ($CH_3COOH$) y acetato de sodio ($CH_3COONa$):
 
@@ -718,7 +723,7 @@ En este sistema amortiguador se cumple que:
 
 
 
-## 49: Ecuación de Henderson-Hasselbalch
+## 49. Ecuación de Henderson-Hasselbalch
 
 A partir de las aproximaciones de la anterior, podemos despejar $[H_3O^+]$ de la constante $K_a$:
 
@@ -752,7 +757,7 @@ $$\text{pH} = \text{p}K_a + \log\left(\frac{[\text{Sal\_conjugada}]}{[\text{Áci
 
 
 
-## 51: Importancia Biológica de los Sistemas Amortiguadores
+## 51. Importancia Biológica de los Sistemas Amortiguadores
 
 En el interior de los organismos vivos se producen continuamente de forma metabólica ácidos orgánicos resultantes de procesos como la respiración celular o el catabolismo de macromoléculas.
 
@@ -764,7 +769,7 @@ Mantener de forma estricta el pH de los fluidos intra y extracelulares es un req
 
 
 
-## 52: Tampones Fisiológicos de la Sangre
+## 52. Tampones Fisiológicos de la Sangre
 
 Los tampones biológicos principales que operan en los líquidos corporales son el tampón fosfato ($H_2PO_4^- / HPO_4^{2-}$), el tampón proteínas (incluyendo la hemoglobina) y el sistema **carbonato-bicarbonato**.
 
@@ -775,7 +780,7 @@ Los tampones biológicos principales que operan en los líquidos corporales son 
 
 
 
-## 53: El Sistema Tampón Carbónico-Bicarbonato en Sangre
+## 53. El Sistema Tampón Carbónico-Bicarbonato en Sangre
 
 El principal amortiguador del medio extracelular sanguíneo es el sistema constituido por el ácido carbónico ($H_2CO_3$) y el ión bicarbonato ($HCO_3^-$). Se describe mediante la siguiente cadena de equilibrios acoplados:
 
@@ -783,7 +788,7 @@ $$CO_{2\text{ (disuelto)}} + H_2O \rightleftharpoons H_2CO_3 \rightleftharpoons 
 
 
 
-## 54: Control por Compensación Respiratoria
+## 54. Control por Compensación Respiratoria
 
 Dado que el dióxido de carbono ($CO_2$) es un gas volátil, ofrece un mecanismo anatómico inmejorable para regular los equilibrios químicos del plasma sanguíneo por vía respiratoria:
 
