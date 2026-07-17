@@ -56,11 +56,11 @@ extra_css:
 nav:
   - Inicio: index.md
   - Tema 1 - Estructura atómica: tema1-estructura.md
-  - Tema 2 - Enlace químico: tema2-enlace.md
-  - Tema 3 - Termoquímica: tema3-termoquimica.md
-  - Tema 4 - Cinética química: tema4-cinetica.md
-  - Tema 5 - Equilibrio químico: tema5-equilibrio.md
-  - Tema 6 - Ácido-base: tema6-acido_base.md
-  - Tema 7 - Reacciones redox: tema7-redox.md
-  - Tema 8 - Química Orgánica: tema8-organica.md
-  - Tema 9 - Polímeros orgánicos: tema9-polimeros.md
+#  - Tema 2 - Enlace químico: tema2-enlace.md
+#  - Tema 3 - Termoquímica: tema3-termoquimica.md
+#  - Tema 4 - Cinética química: tema4-cinetica.md
+#  - Tema 5 - Equilibrio químico: tema5-equilibrio.md
+#  - Tema 6 - Ácido-base: tema6-acido_base.md
+#  - Tema 7 - Reacciones redox: tema7-redox.md
+#  - Tema 8 - Química Orgánica: tema8-organica.md
+#  - Tema 9 - Polímeros orgánicos: tema9-polimeros.md
