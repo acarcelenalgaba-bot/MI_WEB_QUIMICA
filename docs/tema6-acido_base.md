@@ -89,11 +89,11 @@ Esta teoría es válida para cualquier disolvente, aunque en este curso sobreent
 
 ## **7. Resumen de la Teoría de Brønsted-Lowry**
 
-La gran ventaja de este modelo es que elimina la necesidad de la presencia obligatoria del ión $OH^-$ para justificar la basicidad. Por ejemplo, el comportamiento básico del amoníaco ($\ce{NH_3}$) en agua se explica de la siguiente manera:
+La gran ventaja de este modelo es que elimina la necesidad de la presencia obligatoria del ión $\ce{OH^-}$ para justificar la basicidad. Por ejemplo, el comportamiento básico del amoníaco ($\ce{NH_3}$) en agua se explica de la siguiente manera:
 
 $$\ce{NH_3 + H_2O \rightleftharpoons NH_4^+ + OH^-}$$
 
-Aquí, el $\ce{NH_3}$ actúa como base (acepta un protón) y el $H_2O$ actúa como ácido (cede un protón).
+Aquí, el $\ce{NH_3}$ actúa como base (acepta un protón) y el $\ce{H_2O}$ actúa como ácido (cede un protón).
 
 *(Nota: Aunque la teoría de Brønsted y Lowry fue ampliada posteriormente por la teoría de Lewis, durante el resto del tema utilizaremos preferentemente el modelo de Brønsted-Lowry).*
 
