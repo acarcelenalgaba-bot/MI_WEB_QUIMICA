@@ -155,44 +155,43 @@ $$\ce{HA + H_2O \rightleftharpoons A^- + H_3O^+}$$
 
 Las sustancias **anfóteras** (o anfolitos) son aquellas moléculas o iones que pueden actuar tanto como donantes o como aceptores de protones. Es decir, según el medio en el que se encuentren, mostrarán un comportamiento ácido o básico.
 
-* **Ejemplos:** El agua ($H_2O$), el ión bicarbonato ($HCO_3^-$) y los aminoácidos (que poseen un grupo ácido carboxílico y un grupo amino en su estructura).
+* **Ejemplos:** El agua ($\ce{H_2O}$), el ión bicarbonato ($\ce{HCO_3^-}$) y los aminoácidos (que poseen un grupo ácido carboxílico y un grupo amino en su estructura).
 
 ### Comportamiento del agua:
-* **Frente a un ácido (como el $HCl$):** El agua se comporta como una **base**:
-    $$HCl + H_2O \rightarrow Cl^- + H_3O^+$$
-* **Frente a una base (como el $NH_3$):** El agua se comporta como un **ácido**:
-    $$NH_3 + H_2O \rightleftharpoons NH_4^+ + OH^-$$
+* **Frente a un ácido (como el $\ce{HCl}$):** El agua se comporta como una **base**: $\ce{\quad \quad HCl + H_2O \rightarrow Cl^- + H_3O^+}$
+
+* **Frente a una base (como el $\ce{NH_3}$):** El agua se comporta como un **ácido**: $\ce{\quad \quad NH_3 + H_2O \rightleftharpoons NH_4^+ + OH^-}$
 
 
 
 ## 12. Ejercicios de Autoevaluación I
 
 ### 1. Indica la base conjugada de las siguientes especies cuando actúan como ácidos. Nómbralas:
-* $H_2O \rightarrow$ **Base conjugada:** $OH^-$ (ión hidróxido)
-* $NH_4^+ \rightarrow$ **Base conjugada:** $NH_3$ (amoníaco)
-* $HCO_3^- \rightarrow$ **Base conjugada:** $CO_3^{2-}$ (ión carbonato)
-* $HSO_4^- \rightarrow$ **Base conjugada:** $SO_4^{2-}$ (ión sulfato)
+* $\ce{H_2O \rightarrow}$ **Base conjugada:** $\ce{OH^-}$ (ión hidróxido)
+* $\ce{NH_4^+ \rightarrow}$ **Base conjugada:** $\ce{NH_3}$ (amoníaco)
+* $\ce{HCO_3^- \rightarrow}$ **Base conjugada:** $\ce{CO_3^{2-}}$ (ión carbonato)
+* $\ce{HSO_4^- \rightarrow}$ **Base conjugada:** $\ce{SO_4^{2-}}$ (ión sulfato)
 
 ### 2. Indica el ácido conjugado de las siguientes especies cuando actúan como bases:
-* $NH_3 \rightarrow$ **Ácido conjugado:** $NH_4^+$ (ión amonio)
-* $H_2O \rightarrow$ **Ácido conjugado:** $H_3O^+$ (ión hidronio)
-* $OH^- \rightarrow$ **Ácido conjugado:** $H_2O$ (agua)
-* $CO_3^{2-} \rightarrow$ **Ácido conjugado:** $HCO_3^-$ (ión hidrógenocarbonato o bicarbonato)
-* $HCO_3^- \rightarrow$ **Ácido conjugado:** $H_2CO_3$ (ácido carbónico)
+* $\ce{NH_3 \rightarrow}$ **Ácido conjugado:** $\ce{NH_4^+}$ (ión amonio)
+* $\ce{H_2O \rightarrow}$ **Ácido conjugado:** $\ce{H_3O^+}$ (ión hidronio)
+* $\ce{OH^- \rightarrow}$ **Ácido conjugado:** $\ce{H_2O}$ (agua)
+* $\ce{CO_3^{2-} \rightarrow}$ **Ácido conjugado:** $\ce{HCO_3^-}$ (ión hidrógenocarbonato o bicarbonato)
+* $\ce{HCO_3^- \rightarrow}$ **Ácido conjugado:** $\ce{H_2CO_3}$ (ácido carbónico)
 
 ### 3. Completa las siguientes reacciones ácido-base e identifica los pares conjugados (Ácido I / Base I y Ácido II / Base II):
-1.  $$HF + H_2O \rightleftharpoons F^- + H_3O^+$$
-    * Ácido I: $HF$, Base conjugada I: $F^-$
-    * Base II: $H_2O$, Ácido conjugado II: $H_3O^+$
-2.  $$NH_3 + H_2O \rightleftharpoons NH_4^+ + OH^-$$
-    * Ácido I: $H_2O$, Base conjugada I: $OH^-$
-    * Base II: $NH_3$, Ácido conjugado II: $NH_4^+$
-3.  $$HCO_3^- + OH^- \rightleftharpoons CO_3^{2-} + H_2O$$
-    * Ácido I: $HCO_3^-$, Base conjugada I: $CO_3^{2-}$
-    * Base II: $OH^-$, Ácido conjugado II: $H_2O$
-4.  $$CH_3COOH + NH_3 \rightleftharpoons CH_3COO^- + NH_4^+$$
-    * Ácido I: $CH_3COOH$, Base conjugada I: $CH_3COO^-$
-    * Base II: $NH_3$, Ácido conjugado II: $NH_4^+$
+1.  $$\ce{HF + H_2O \rightleftharpoons F^- + H_3O^+}$$
+    * Ácido I: $HF$, Base conjugada I: $\ce{F^-}$
+    * Base II: $H_2O$, Ácido conjugado II: $\ce{H_3O^+}$
+2.  $$\ce{NH_3 + H_2O \rightleftharpoons NH_4^+ + OH^-}$$
+    * Ácido I: $\ce{H_2O}$, Base conjugada I: $\ce{OH^-}$
+    * Base II: $\ce{NH_3}$, Ácido conjugado II: $\ce{NH_4^+}$
+3.  $$\ce{HCO_3^- + OH^- \rightleftharpoons CO_3^{2-} + H_2O}$$
+    * Ácido I: $\ce{HCO_3^-}$, Base conjugada I: $\ce{CO_3^{2-}}$
+    * Base II: $\ce{OH^-}$, Ácido conjugado II: $\ce{H_2O}$
+4.  $$\ce{CH_3COOH + NH_3 \rightleftharpoons CH_3COO^- + NH_4^+}$$
+    * Ácido I: $\ce{CH_3COOH}$, Base conjugada I: $\ce{CH_3COO^-}$
+    * Base II: $\ce{NH_3}$, Ácido conjugado II: $\ce{NH_4^+}$
 
 
 
@@ -200,7 +199,7 @@ Las sustancias **anfóteras** (o anfolitos) son aquellas moléculas o iones que 
 
 * Un **ácido es fuerte** si tiene una elevada tendencia a ceder protones (disociación prácticamente completa).
 * Un **ácido es débil** si tiene poca tendencia a ceder protones (disociación parcial, se establece un equilibrio).
-* Una **base es fuerte** si tiene una gran tendencia a aceptar protones (o disociarse liberando $OH^-$ totalmente).
+* Una **base es fuerte** si tiene una gran tendencia a aceptar protones (o disociarse liberando $\ce{OH^-}$ totalmente).
 * Una **base es débil** si muestra poca tendencia a captar protones.
 
 La fuerza de un ácido o una base es una medida cuantitativa que depende de su constante de equilibrio al reaccionar con el disolvente de referencia (habitualmente el agua).
@@ -209,29 +208,33 @@ La fuerza de un ácido o una base es una medida cuantitativa que depende de su c
 
 ## 14. Ácidos Fuertes
 
-Los ácidos fuertes más habituales en el laboratorio son el ácido clorhídrico ($HCl$), el ácido sulfúrico ($H_2SO_4$) y el ácido nítrico ($HNO_3$). En un segundo término encontramos el ácido perclórico ($HClO_4$) o el ácido yodhídrico ($HI$).
+Los ácidos fuertes más habituales en el laboratorio son el ácido clorhídrico ($\ce{HCl}$), el ácido sulfúrico ($\ce{H_2SO_4}$) y el ácido nítrico ($\ce{HNO_3}$). En un segundo término encontramos el ácido perclórico ($\ce{HClO_4}$) o el ácido yodhídrico ($\ce{HI}$).
 
 En disolución acuosa diluida, consideramos que están totalmente ionizados (disociados al 100 %):
 
-$$HCl + H_2O \rightarrow Cl^- + H_3O^+$$
-$$HNO_3 + H_2O \rightarrow NO_3^- + H_3O^+$$
+$$\ce{HCl + H_2O \rightarrow Cl^- + H_3O^+}$$
+
+$$\ce{HNO_3 + H_2O \rightarrow NO_3^- + H_3O^+}$$
 
 Se utiliza una **única flecha** para indicar que la reacción es irreversible (disociación completa). En estos casos se cumple que:
 
-$$[H_3O^+] = C_{\text{ácido\_inicial}}$$
+$$\ce{[H_3O^+] = C_{\text{ácido inicial}}}$$
 
-* **Ejemplo:** Si disolvemos $0,15 \text{ mol}$ de $HCl$ en agua hasta completar $1 \text{ L}$ de disolución, se cumple que:
-    $$[H_3O^+] = [Cl^-] = 0,15 \text{ M}$$
-    $$\text{pH} = -\log(0,15) \approx 0,82$$
+* **Ejemplo:** Si disolvemos 0,15 mol de $\ce{HCl}$ en agua hasta completar 1 L de disolución, se cumple que:
+  
+    $$\ce{[H3O^+] = [Cl^-] = 0,15 \text{ M}}$$
+
+    $$\ce{\text{pH} = - \log \ (0,15) \approx 0,82}$$
 
 
 
 ## 15. Bases Fuertes
 
-Los hidróxidos de los metales alcalinos (Grupo 1: $LiOH$, $NaOH$, $KOH$...) y alcalinotérreos (Grupo 2: $Ca(OH)_2$, $Ba(OH)_2$...) son bases fuertes debido a que son compuestos iónicos que se disocian completamente en sus iones al disolverse en agua.
+Los hidróxidos de los metales alcalinos (Grupo 1: $\ce{LiOH}$, $\ce{NaOH}$, $\ce{KOH}$...) y alcalinotérreos (Grupo 2: $\ce{Ca(OH)2}$, $\ce{Ba(OH)2}$...) son bases fuertes debido a que son compuestos iónicos que se disocian completamente en sus iones al disolverse en agua.
 
 * **Ejemplo de disociación del $NaOH$:**
-    $$NaOH \xrightarrow{H_2O} Na^+ + OH^-$$
+  
+    $$\ce{NaOH \xrightarrow{H_2O} Na^+ + OH^-}$$
 
 En disolución, la especie química que actúa realmente como base de Brønsted-Lowry es el **ión hidróxido** ($OH^-$), ya que capta con gran avidez un protón del medio para dar una molécula de agua:
 
