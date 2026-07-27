@@ -134,8 +134,7 @@ $$\ce{B + H^+ \rightleftharpoons BH^+}$$
 Donde **$\ce{BH^+}$ es el ácido conjugado de la base $\ce{B}$**.
 
 
-
-## **10: Reacciones Ácido-Base (Brønsted y Lowry)**
+## **10. Reacciones Ácido-Base (Brønsted y Lowry)**
 
 Bajo esta teoría, es evidente que si un ácido (I) cede un protón es porque hay una base (II) presente que lo acepta. Por ello, las reacciones ácido-base son reacciones de transferencia de protones, y el proceso global se representa así:
 
@@ -149,7 +148,25 @@ Es muy frecuente que la sustancia que complete la reacción ácido-base actúe c
 
 $$\ce{HA + H_2O \rightleftharpoons A^- + H_3O^+}$$
 
+Por **ejemplo**, considera la reacción que involucra el ácido acético ($\ce{CH3-COOH}$) y el agua ($\ce{H2O}$):
 
+$$\ce{CH3-COOH + H2O \rightleftharpoons CH3-COO^- + H3O^+}$$
+
+- El ácido acético dona un protón para convertirse en acetato ($\ce{CH3-COO^-}$), su base conjugada.
+  
+- El agua acepta un protón para convertirse en ión hidronio ($\ce{H3O+}$), su ácido conjugado.
+
+Así, $\ce{CH3-COOH}$ y $\ce{CH3-COO^-}$ son un par ácido-base conjugado, $\ce{H2O}$ y $\ce{H3O+}$ y son otro par ácido-base conjugado.
+
+Otro **ejemplo** tendriamos si consideramos la reacción que involucra el amoniaco ($\ce{NH3}$) y el agua ($\ce{H2O}$):
+
+$$\ce{NH3 + H2O \rightleftharpoons NH4^+ + OH^-}$$
+
+- El amoniaco capta un protón para convertirse en ion amonio ($\ce{NH4^+}$), su ácido conjugado.
+  
+- El agua cede un protón para convertirse en ión hidróxido ($\ce{OH-}$), su ácido conjugado.
+
+Así, $\ce{NH3}$ y $\ce{NH4^+}$ son un par base-ácido conjugado, $\ce{H2O}$ y $\ce{OH-}$ y son otro par ácido-base conjugado.
 
 ## 11. Concepto de Anfótero o Anfolito
 
@@ -161,7 +178,6 @@ Las sustancias **anfóteras** (o anfolitos) son aquellas moléculas o iones que 
 * **Frente a un ácido (como el $\ce{HCl}$):** El agua se comporta como una **base**: $\ce{\quad \quad HCl + H_2O \rightarrow Cl^- + H_3O^+}$
 
 * **Frente a una base (como el $\ce{NH_3}$):** El agua se comporta como un **ácido**: $\ce{\quad \quad NH_3 + H_2O \rightleftharpoons NH_4^+ + OH^-}$
-
 
 
 ## 12. Ejercicios de Autoevaluación I
