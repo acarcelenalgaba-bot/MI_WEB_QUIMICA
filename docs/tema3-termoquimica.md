@@ -175,7 +175,7 @@ Cuando aumenta o disminuye la energía de un sistema, se dice que ha habido una 
 Trabajo realizado por una fuerza: fuerza por el desplazamiento de su punto de aplicación y por el coseno del ángulo que forman las direcciones de la fuerza y el desplazamiento.
 
 $\ce{W = F \cdot \Delta x \cdot cos \alpha}$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 200px; margin: 20px auto; display: block; background: #fcede6" }
+{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #fcede6" }
 
 Unidad de trabajo en S.I: **julio** (**J**)
 
@@ -201,7 +201,7 @@ $$
 $$
 
 $\ce{W = - p \cdot \Delta V}$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 200px; margin: 20px auto; display: block; background: #fcede6" }
+{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #fcede6" }
 
 ![...](imagenes/tema03/td8.png){style="display: block; margin: left; width: 50%; height: 275px; border: 1px solid #333;"}
 
@@ -209,7 +209,7 @@ $\ce{W = - p \cdot \Delta V}$
 
 - En un proceso de compresión: $\ce{\Delta V < 0 \; \rightarrow \; W > 0}$ trabajo hecho sobre el sistema.
 
-## **02. Principios de la Termodinámica**
+## **2. Principios de la Termodinámica**
 
 **Primer principio de la termodinámica**
 
@@ -222,7 +222,7 @@ No puede conocerse $\ce{U}$ en valor absoluto, pero si sus variaciones, $\ce{\De
 La variación de la energía interna de un sistema es igual a la suma del calor y del trabajo, intercambiado con el entorno.
 
 $\ce{\Delta U = W + Q}$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 200px; margin: 20px auto; display: block; background: #fcede6" }
+{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #fcede6" }
 
 - $\ce{\Delta U > 0}$, si absorbe calor, $\ce{+Q}$, o si se hace un trabajo sobre él, $\ce{+W}$ (compresión).
 
@@ -250,7 +250,7 @@ $$
 $$
 
 $\ce{\Delta U = Q_\text{v}}$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 110px; margin: 20px auto; display: block; background: #fcede6" }
+{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #fcede6" }
 
 Si $\ce{Qv > 0}$, reacción endotérmica, recibe calor del entorno y $\ce{\Delta U > 0}$
 
@@ -263,7 +263,7 @@ Calor que se absorbe o se desprende en la reacción, $\ce{Q_\text{p}}$ (calor a 
 $$\ce{\Delta U = Q + W = Q - p \cdot \Delta V}$$
 
 $\ce{Q_\text{p} = \Delta U + p \cdot \Delta V}$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 210px; margin: 20px auto; display: block; background: #fcede6" }
+{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #fcede6" }
 
 Para expresar la transferencia de calor entre el sistema y el entorno en procesos a p = cte se suele utilizar una nueva magnitud, la **entalpía**, **H**: $\ce{\quad H = U + p \cdot V}$
 
@@ -274,7 +274,7 @@ $\ce{Q_\text{p} = (U_2 + p \cdot V_2) - (U_1 + p \cdot V_1) = H_2 - H_1}$
 $\ce{p = cte \; \rightarrow \; p_1 = p_2 \hspace{2cm} Q_\text{p} = H_2 - H_1 = \Delta H}$
 
 $\ce{Q_\text{p} = \Delta H}$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 110px; margin: 20px auto; display: block; background: #fcede6" }
+{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #fcede6" }
 
 Reacción **endotérmica**: $\ce{\quad Q_\text{p} > 0 \; \rightarrow \; H_{productos} > H_{reactivos} \; \rightarrow \; \Delta H > 0}$
 
@@ -298,9 +298,9 @@ $\ce{\hspace{5cm} Q_\text{p} = Q_\text{V} + \Delta n \cdot R \cdot T \; \rightar
 
 En reacciones con $\ce{\Delta n = 0}$ como, $\ce{H2 (g) + F2 (g) \rightarrow 2 HF (g) \; \rightarrow \; \Delta U = \Delta H}$
 
-## **03. Procesos físicos y entalpía**
+## **3. Procesos físicos y entalpía**
 
-**Entalpía de reacción \Delta H**
+**Entalpía de reacción $\ce{\Delta H}$**
 
 **Energía intercambiada** en forma de calor a **presión constante** cuando los reactivos se han transformado en los productos.
 
@@ -348,7 +348,7 @@ Si **multiplicamos la ecuación por un número**, **también se multiplica** la 
 
 </div>
 
-## **04. Cálculo de entalpías**
+## **4. Cálculo de entalpías**
 
 Para averiguar la entalpía de reacción, $\ce{\Delta H_r}$ de un proceso hay varios métodos:
 
@@ -369,11 +369,11 @@ Como el sistema es adiabático:
 $\ce{Q_{reacción} + Q_{agua} = 0 \; \rightarrow \; Q_{reacción} = - Q_{agua}}$
 
 $\ce{Q_{agua} = m \cdot c_{agua} \cdot \Delta T}$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 250px; margin: 20px auto; display: block; background: #f9f7fb" }
+{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #f9f7fb" }
 
 La reacción calienta el agua, y también los componentes del calorímetro. El calor invertido en esto es específico de cada calorímetro y debe tenerse en cuenta, o se cometerá un error de medición.
 
-![...](imagenes/tema03/td12.png){style="display: block; margin: left; width: 25%; height: 300px; border: 1px solid #333;"}
+![...](imagenes/tema03/td12.png){style="display: block; margin: left; width: 20%; height: 330px; border: 1px solid #333;"}
 
 **2. Cálculo de la $\ce{\Delta H_R}$ a partir de entalpías estándar de formación ($\ce{\Delta H^{\circ}_f}$)**
 
@@ -388,7 +388,7 @@ La definición de la **entalpía estándar de formación** $\ce{\Delta H^{\circ}
 A partir de las entalpías de formación estándar es posible obtener entalpías de reacción:
 
 $\ce{\Delta H^{\circ}_{reacción} = \sum n \cdot \Delta H^{\circ}_f (productos) - \sum m \cdot \Delta H^{\circ}_f (reactivos)}$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 600px; margin: 20px auto; display: block; background: #f9f7fb" }
+{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #f9f7fb" }
 
 $\ce{n, m =}$ coeficientes estequiométricos de productos y reactivos; el estado estándar se designa con el símbolo «$^{\circ}$», y especifica una T, que utiliza valores de $\ce{\Delta H^{\circ}_f}$ a 25 $^{\circ}$C
 
@@ -446,7 +446,7 @@ Una **reacción** consiste en una **reordenación de los átomos** de los reacti
 La energía intercambiada en ese proceso de ruptura y formación de enlaces es otra forma de determinar “aproximadamente” la entalpía de una reacción $\ce{\Delta H_r}$:
 
 $\ce{\Delta H^{\circ}_{reacción} = \sum (energía de enlaces rotos) - \sum (energía de enlaces formados)}$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 700px; margin: 20px auto; display: block; background: #f9f7fb" }
+{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #f9f7fb" }
 
 ![...](imagenes/tema03/td15.png){style="display: block; margin: 0 auto; width: 70%; border: 1px solid #333;"}
 
@@ -503,7 +503,7 @@ $\ce{\hspace{2cm} + 3/2 mol \cdot 498 kJ/mol) - (2 mol \cdot 745 kJ/mol + 4 mol 
 
 $\ce{\Delta H^{\circ}_{reacción} = - 529 kJ }$
 
-## **05. Segundo principio y Entropía**
+## **5. Segundo principio y Entropía**
 
 El primer principio establece que cuando un sistema experimenta una transformación, se cumple que:
 
@@ -534,7 +534,7 @@ La **entropía** mide el **grado de desorden de un sistema a nivel molecular**
 Cuando un sistema intercambia energía con el entorno, la variación de entropía, depende del calor intercambiado y de la temperatura a la que se produce el intercambio.
 
 $\ce{\Delta S = \dfrac {Q}{T} }$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 110px; margin: 20px auto; display: block; background: #f9f7fb" }
+{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #f9f7fb" }
 
 ![...](imagenes/tema03/td17.png){style="display: block; margin: 0 auto; width: 70%; border: 1px solid #333;"}
 
@@ -547,7 +547,7 @@ $\ce{\Delta S = \dfrac {Q}{T} }$
 Un **sistema evoluciona de forma espontánea** si la **entropía del universo aumenta** con esa transformación.
 
 $\ce{\Delta S_{universo} > 0 }$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 180px; margin: 20px auto; display: block; background: #f9f7fb" }
+{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #f9f7fb" }
 
 $\ce{\hspace{6cm} \Delta S_{universo} = \Delta S_{sistema} + \Delta S_{entorno}}$
 
@@ -558,7 +558,7 @@ El **gas se distribuye uniformemente** entre ambos matraces; pero **NO se da el 
 **La entropía y el segundo principio**
 
 $\ce{\Delta S_{universo} = \Delta S_{sistema} + \Delta S_{entorno}}$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 300px; margin: 20px auto; display: block; background: #f9f7fb" }
+{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #f9f7fb" }
 
 **Reacción exotérmica**
 
@@ -598,7 +598,7 @@ Si puede haber $\ce{\Delta S < 0}$
 A partir de las tablas de entropías molares de las sustancias en condiciones estándar $\ce{S^{\circ}}$, la $\ce{\Delta S^{\circ}}$ de una reacción se calcula:
 
 $\ce{\Delta S^{\circ}_{reacción} = \sum n_p \cdot S^{\circ} (productos) - \sum n_r \cdot S^{\circ} (reactivos)}$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 550px; margin: 20px auto; display: block; background: #f9f7fb" }
+{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #f9f7fb" }
 
 ![...](imagenes/tema03/td22.png){style="display: block; margin: 0 auto; width: 30%; border: 1px solid #333;"}
 
@@ -620,7 +620,7 @@ $\ce{CaCO3 (s) \rightarrow CaO (s) + \color{blue}{CO2 (g)} \hspace{1cm} \Delta S
 
 $\ce{\color{blue}{PCl3 (g)} + \color{blue}{Cl2 (g)} \rightarrow \color{blue}{PCl5 (g)} \hspace{1.6cm} \Delta S^{\circ} < 0 }$
 
-## **06. Espontaneidad y Energía Libre**
+## **6. Espontaneidad y Energía Libre**
    
 **Energía libre de Gibbs**
 
@@ -633,7 +633,7 @@ Es una función de estado y en el S.I. se mide en **Julios** (J)
 T = temperatura en K. No podemos conocer su valor absoluto pero si su variación, que en condiciones de p y T constantes es:
 
 $\ce{\Delta G = \Delta H - T \cdot \Delta S}$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 200px; margin: 20px auto; display: block; background: #f9f7fb" }
+{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #f9f7fb" }
 
 <span style="color: red; font-size: 1.2em;">&#10071;</span> Un **proceso es espontáneo** si $\ce{\Delta G < 0}$
 
@@ -646,12 +646,12 @@ Si $\ce{\Delta G = 0}$ el sistema está en **equilibrio**
 Se puede calcular a partir de la variación de entalpía estándar de reacción  y de la variación de entropía estándar de la reacción:
 
 $\ce{\Delta G^{\circ}_r = \Delta H^{\circ}_r - T \cdot \Delta S^{\circ}_r}$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 230px; margin: 20px auto; display: block; background: #f9f7fb" }
+{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #f9f7fb" }
 
 También se puede hallar a partir de las energías libres de formación de reactivos y productos, usando la ley de Hess.
 
 $\ce{\Delta G^{\circ}_r = \sum n_p \cdot \Delta G^{\circ}_f (productos) - \sum n_r \cdot \Delta G^{\circ}_f (reactivos)}$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 550px; margin: 20px auto; display: block; background: #f9f7fb" }
+{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #f9f7fb" }
 
 Para la reacción: $\quad \ce{\text{a} A + \text{b} B \rightarrow \text{c} C + \text{d} D}$
 
