@@ -544,6 +544,7 @@ Para predecir el comportamiento, se debe disociar correctamente la sal y analiza
 Se produce cuando los aniones procedentes de la disociación de una sal que deriva de un **ácido débil** actúan como bases de Brønsted-Lowry, captando protones del agua y liberando iones hidróxido ($\ce{OH^-}$) al medio.
 
  **Ejemplo**: Acetato de sodio ($\ce{CH3-COONa}$)
+
 La sal se disocia completamente en agua:
 
 $$\ce{CH3-COONa \xrightarrow{\ce{H2O}} CH3-COO^- + Na^+}$$
@@ -557,7 +558,7 @@ $$\ce{CH3-COO^- + H2O \rightleftharpoons CH3-COOH + OH^-}$$
 
 Como resultado de este equilibrio, se genera un exceso de iones hidróxido ($\ce{OH^-}$) en la disolución. Por consiguiente, el **pH de la disolución de acetato de sodio será mayor que 7 (básico)**.
 
-**Hidrólisis Básica — Cianuro de Potasio ($\textbf{KCN}$)**
+ **Ejemplo**: Cianuro de Potasio ($\ce{KCN}$)
 
 La sal se disocia por completo en agua:
 
@@ -747,12 +748,12 @@ $$\ce{Ka = \frac{[CH_3COO^-][H3O^+]}{[CH_3COOH]}}$$
 
 En este sistema amortiguador se cumple que:
 
-* La concentración del anión $\ce{[CH_3COO^-]}$ proviene de forma casi exclusiva de la disolución total de la sal de sodio, ya que la aportación del ácido débil es insignificante. Además, el ión común desplaza el equilibrio del ácido hacia los reactivos (efecto de ión común).
+* La concentración del anión $\ce{[CH_3COO^-]}$ proviene de forma casi exclusiva de la disolución total de la sal de sodio, ya que la aportación del ácido débil es insignificante. Además, el ión común desplaza el equilibrio del ácido hacia los reactivos (**efecto de ión común**).
 * La concentración de $\ce{[CH_3COOH]}$ en el equilibrio se mantiene prácticamente idéntica a su concentración inicial de preparación.
 
-**Ecuación de Henderson-Hasselbalch**
+### **Ecuación de Henderson-Hasselbalch** {: .caja-subtitulo }
 
-A partir de las aproximaciones de la anterior, podemos despejar $\ce{[H3O^+]}$ de la constante $\ce{Ka}$:
+A partir de las aproximaciones de lo anterior, podemos despejar $\ce{[H3O^+]}$ de la constante $\ce{Ka}$:
 
 $$\ce{[H3O^+] = Ka \cdot \frac{[CH_3COOH]}{[CH_3COO^-]}}$$
 
@@ -760,7 +761,7 @@ De forma general:
 
 $$\ce{[H3O^+] = Ka \cdot \frac{[\text{Ácido}]}{[\text{Sal}]}}$$
 
-Tomando logaritmos negativos a ambos lados de la ecuación, obtenemos la famosa **ecuación de Henderson-Hasselbalch**:
+Tomando logaritmos negativos a ambos lados de la ecuación, obtenemos la **ecuación de Henderson-Hasselbalch**:
 
 <div class="arithmatex-box" style="
     width: fit-content;
@@ -772,7 +773,7 @@ Tomando logaritmos negativos a ambos lados de la ecuación, obtenemos la famosa 
     border-radius: 2px; 
     box-shadow: 0 5px 15px rgba(0, 86, 179, 0.15);
 ">
-$$\ce{\text{pH} = \text{p}Ka + \log\left(\frac{[\text{Sal\_conjugada}]}{[\text{Ácido\_débil}]}\right)}$$
+$$\ce{\text{pH} = \text{p}Ka + \log\left(\frac{[\ce{Sal conjugada}]}{[\text{Ácido débil}]}\right)}$$
 </div>
 
 
@@ -792,9 +793,11 @@ $$\ce{\text{pH} = \text{p}Ka + \log\left(\frac{[\text{Sal\_conjugada}]}{[\text{�
     $$\ce{CH_3COO^- + H^+_{\text{añadido}} \rightarrow CH_3COOH}$$
 
     De este modo, se consumen los protones añadidos impidiendo la variación del pH.
+
 * **Si se añade una base fuerte ($\ce{OH^-}$):** Los iones hidróxido añadidos son neutralizados de inmediato por la reserva del ácido débil ($\ce{CH3COOH}$) para formar agua y ión acetato:
   
     $$\ce{CH3COOH + OH^-_{\text{añadida}} \rightarrow CH3COO^- + H2O}$$
+
     La base fuerte añadida es sustituida por una base sumamente débil ($\ce{CH3COO^-}$), por lo que el pH final apenas experimenta variación.
 
 **Importancia Biológica de los Sistemas Amortiguadores**
