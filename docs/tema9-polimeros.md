@@ -6,6 +6,8 @@
 * Molécula muy grande (macromolécula) constituida por la unión repetida de muchas unidades moleculares pequeñas (**monómeros**), generalmente orgánicas, unidas entre sí por enlaces covalentes y que se forma por **reacciones de polimerización**.
 * La unidad estructural que se repite a lo largo de la cadena polimérica se denomina **unidad repetitiva** o **monómero**. Por ejemplo, a partir del estireno (vinilbenceno) se obtiene el poliestireno:
 
+![...](imagenes/tema09/po1.png){style="display: block; margin: 0 auto; width: 60%; "}
+
 ## **2. Clasificación de los polímeros**
 
 Los **polímeros** pueden clasificarse de muchas maneras:
@@ -31,18 +33,21 @@ Las propiedades físicas de estas moléculas difieren bastante de las propiedade
 
 * Siguen un mecanismo a través de radicales libres "en cadena". Las más típicas son las de formación de polímeros etilénicos, siendo el más sencillo el polietileno:
 
-$$\ce{n \; (CH2 = CH2) \rightarrow -(CH2-CH2)-_n}$$
+$$\ce{n \; (CH2 = CH2) \quad \rightarrow \quad -(CH2-CH2)-{}_\text{n}}$$
 
 * Una vez iniciadas las reacciones que transcurren a través de radicales libres son muy rápidas, adicionándose más de 1000 monómeros por segundo, por lo que en pocos segundos se obtienen macromoléculas de más de un millón de unidades de masa atómica.
 
 ### **Algunos polímeros etilénicos** {: .caja-subtitulo }
 
-**El caucho**
+![...](imagenes/tema09/po2.png){style="display: block; margin: 0 auto; width: 50%; "}
+
+### **El caucho**  {: .caja-subtitulo }
 
 Un caso especial de esta clase de polímeros etilénicos es el **caucho** natural o sintético (el monómero es el "isopreno" o 2-metilbuta-1,3-dieno).
 
 Es interesante saber que el caucho natural (cis-poliisopreno) es el único polímero que se encuentra en la naturaleza constituido por un hidrocarburo. Aunque el caucho natural es muy elástico, los productos fabricados con él tienen el inconveniente de ser quebradizos y ablandarse con el calor. Para mejorar sus propiedades se introdujo (1839, Ch. Goodyear) el proceso de **vulcanización**, consistente en añadir azufre (entre un 3 y un 8 % de la masa total), lo que mejoraba notablemente sus propiedades e hizo que se empezara a utilizar ampliamente. A partir de la primera guerra mundial ya se comenzó a fabricar caucho sintético en muchas variedades.
 
+![...](imagenes/tema09/po3.png){style="display: block; margin: 0 auto; width: 50%; "}
 
 ## **5. Reacciones de condensación**
 
@@ -61,13 +66,22 @@ Como resultado del proceso de polimerización, se obtiene la **fibra**, que en s
 
 * El ácido tereftálico es el 1,4-bencenodioico y el etilenglicol es el etano-1,2-diol:
 
-{style="display: block; margin: 0 auto; width: 80%"}
+##latex id=po4 sep=2em
+\schemestart[0, 0.8, 1.5]
+   \ce{ \chemfig{[,0.6] HOOC- *6(=-=(-COOH)-=-) } \; \; + \; \; HO-CH2-CH2-OH \; \; \rightarrow }
+   \chemfig{[,0.6] ...OC- *6(=-=(-CO-O-CH_2-CH_2-O-CO-(*6(=-=(-CO-)-=-)))-=-)  }
+\schemestop
+-->
 
-{style="display: block; margin: 0 auto; width: 80%"}
+![...](imagenes/tema09/po4.svg){style="display: block; margin: 0 auto; width: 80%"}". Manten las palabras en negrita e imagenes que se utilicen tambien...
 
 **Unidad que se repite:**
 
-{style="display: block; margin: 0 auto; width: 80%"}
+##latex id=po5 sep=2em
+   \setchemfig{chemfig style=red} Unidad que se repite \hspace{0.25cm} \chemfig{[,0.6] ...OC- *6(=-=(-CO-O-CH_2-CH_2-O-)-=-)  }
+-->
+
+![...](imagenes/tema09/po5.svg){style="display: block; margin: 0 auto; width: 80%"}". Manten las palabras en negrita e imagenes que se utilicen tambien...
 
 ### **Poliamidas** {: .caja-subtitulo }
 
