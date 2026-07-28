@@ -35,23 +35,23 @@ El estado de oxidación no tiene porqué ser la carga real que tiene un átomo, 
 
 ### **Cálculo del estado de oxidación (e.o.)** {: .caja-subtitulo }
 
-**La suma de los estados de oxidación de una molécula neutra es siempre 0 y de un ion es igual a su carga eléctrica.**
+**La suma de los estados de oxidación de una molécula neutra es siempre 0.**
 
-Ejemplo de cálculo de estados de oxidación (E.O.):
-
-a) Calcular el estado de oxidación del S en $\ce{ZnSO4}$
+**Ejemplo**: Calcular el estado de oxidación del S en $\ce{ZnSO4}$
 
 Dado que $\ce{E{.}O{.}(Zn) = + 2{;} \hspace{0.25cm} E{.}O{.}(O) = - 2}$, entonces:
 
-$$\ce{+2 + x + 4 * (-2) = 0 \rightarrow \; x(S) = +6}$$
+$$\ce{+2 + x + 4 * (-2) = 0 \rightarrow \; x (S) = +6}$$
 
-b) Calcular el estado de oxidación del Cr en el ión dicromato: $\ce{Cr2O7^{2-}}$
+**La suma de los estados de oxidación de un ion poliatómico es igual a su carga eléctrica.**
 
-$$\ce{2x + 7 * (-2) = -2 \rightarrow x = 6}$$
+**Ejemplo**: Calcular el estado de oxidación del P en el ión fosfato: $\ce{PO4^{3-}}$
+
+$$\ce{x + 4 * (-2) = -3 \rightarrow x (P) = +5}$$
 
 **Si se trata de un ion monoatómico es igual a su carga.** 
 
-$\ce{Na^+}$ es 1, $\ce{\quad Mg^{+2}}$ es 2...
+**Ejemplo**: $\ce{Na^+}$ es 1, $\ce{\quad Mg^{+2}}$ es 2...
 
 ### **Definición de oxidación y reducción** {: .caja-subtitulo }
 
@@ -105,9 +105,9 @@ Muchas de ellas no lo son como las reacciones de neutralización ácido-base; re
 
 Ejemplo de reacción: $\ce{Zn + 2 \; Ag^+ \rightarrow \; Zn^{2+} + 2 \; Ag}$
 
-* Oxidación: $\ce{Zn \; (reductor) \rightarrow \; Zn^{2+} + 2 \; e-}$
+* Oxidación: $\ce{\quad Zn \; (reductor) \rightarrow \; Zn^{2+} + 2 \; e-}$
 
-* Reducción: $\ce{Ag+ \; (oxidante) + 1 \; e- \rightarrow \; Ag}$
+* Reducción: $\ce{\quad Ag+ \; (oxidante) + 1 \; e- \rightarrow \; Ag}$
 
 ¿Y esto es importante?
 
@@ -117,7 +117,7 @@ Ejemplo de reacción: $\ce{Zn + 2 \; Ag^+ \rightarrow \; Zn^{2+} + 2 \; Ag}$
 * Las pilas y baterías.
 
 
-## 2. Ajuste de reacciones red-ox (método del ion-electrón)
+## 2. Ajuste de reacciones redox (método del ion-electrón)
 
 Se basa en la conservación tanto de la masa como de la carga (los electrones que se pierden en la oxidación son los mismos que los que se ganan en la reducción).
 
