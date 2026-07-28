@@ -68,13 +68,20 @@ TEX
             
             if [ -f temp_chem_$ID.pdf ]; then
                 pdf2svg temp_chem_$ID.pdf "$CARPETA_DESTINO/$ID.svg" 2>/dev/null
-                echo "✅ Generada con éxito: $CARPETA_DESTINO/$ID.svg (Tamaño: $TAMANO)"
-                rm -f "$CARPETA_DESTINO/${ID}_error.log"
+                
+                # Comprobamos si REALMENTE se generó el SVG
+                if [ -f "$CARPETA_DESTINO/$ID.svg" ]; then
+                    echo "✅ Generada con éxito: $CARPETA_DESTINO/$ID.svg (Tamaño: $TAMANO)"
+                    rm -f "$CARPETA_DESTINO/${ID}_error.log"
+                else
+                    echo "❌ Error al convertir PDF a SVG para $ID (Verifica pdf2svg)"
+                fi
             else
                 echo "❌ Error al compilar la molécula $ID en la línea $num_linea de $FICHERO"
                 mv temp_compile.log "$CARPETA_DESTINO/${ID}_error.log"
                 echo "   🔍 Log de error en: $CARPETA_DESTINO/${ID}_error.log"
             fi
+
         fi
     done
 

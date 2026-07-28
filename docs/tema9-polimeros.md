@@ -66,6 +66,7 @@ Como resultado del proceso de polimerización, se obtiene la **fibra**, que en s
 
 * El ácido tereftálico es el 1,4-bencenodioico y el etilenglicol es el etano-1,2-diol:
 
+<!--
 ##latex id=po4 sep=2em
 \schemestart[0, 0.8, 1.5]
    \ce{ \chemfig{[,0.6] HOOC- *6(=-=(-COOH)-=-) } \; \; + \; \; HO-CH2-CH2-OH \; \; \rightarrow }
@@ -73,15 +74,16 @@ Como resultado del proceso de polimerización, se obtiene la **fibra**, que en s
 \schemestop
 -->
 
-![...](imagenes/tema09/po4.svg){style="display: block; margin: 0 auto; width: 80%"}". Manten las palabras en negrita e imagenes que se utilicen tambien...
+![...](imagenes/tema09/po4.svg){style="display: block; margin: 0 auto; width: 80%"}".
 
 **Unidad que se repite:**
 
+<!--
 ##latex id=po5 sep=2em
    \setchemfig{chemfig style=red} Unidad que se repite \hspace{0.25cm} \chemfig{[,0.6] ...OC- *6(=-=(-CO-O-CH_2-CH_2-O-)-=-)  }
 -->
 
-![...](imagenes/tema09/po5.svg){style="display: block; margin: 0 auto; width: 80%"}". Manten las palabras en negrita e imagenes que se utilicen tambien...
+![...](imagenes/tema09/po5.svg){style="display: block; margin: 0 auto; width: 80%"}".
 
 ### **Poliamidas** {: .caja-subtitulo }
 
