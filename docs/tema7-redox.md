@@ -1,16 +1,5 @@
 # Tema 7: Reacciones de tranferencia de electrones
 
-## Índice del tema
-* Introducción. Definiciones.
-* Ajuste de reacciones redox. Estequiometría.
-* Electroquímica:
-* Pilas (reacciones redox exotérmicas que convierten energía química en energía eléctrica)
-* Potenciales de electrodo. Tablas de potenciales y su uso.
-* Espontaneidad de las reacciones redox.
-* Electrolisis (reacciones redox endotérmicas que convierten energía eléctrica en energía química)
-* Leyes de Faraday
-* Aplicaciones de la electrolisis.
-
 ## **1. Introducción**
 
 ### **Estado de oxidación (e.o.) (o número de oxidación)** {: .caja-subtitulo }
@@ -97,7 +86,7 @@ Cuidado. No pensemos ahora que todas las reacciones químicas son redox.
 
 Muchas de ellas no lo son como las reacciones de neutralización ácido-base; reacciones de precipitación; reacciones de esterificación; reacciones de polimerización ; reacciones de descomposición ($\ce{CaCO3}$)...
 
-### Oxidantes y reductores {: .caja-subtitulo }
+### **Oxidantes y reductores** {: .caja-subtitulo }
 
 **Oxidante**: Es la sustancia capaz de oxidar a otra (acepta electrones), con lo que ésta se reduce. En general, los **no metales son oxidantes**.
 
@@ -117,7 +106,7 @@ Ejemplo de reacción: $\ce{Zn + 2 \; Ag^+ \rightarrow \; Zn^{2+} + 2 \; Ag}$
 * Las pilas y baterías.
 
 
-## 2. Ajuste de reacciones redox (método del ion-electrón)
+## **2. Ajuste de reacciones redox (método del ion-electrón)**
 
 Se basa en la conservación tanto de la masa como de la carga (los electrones que se pierden en la oxidación son los mismos que los que se ganan en la reducción).
 
@@ -125,7 +114,7 @@ Se trata de escribir las dos semirreacciones que tienen lugar y después igualar
 
 El método tiene una ligera **variación** según la reacción se dé en medio **ácido** o en medio **básico**.
 
-### Ejemplo de ajuste en medio ácido {: .caja-subtitulo }
+### **Ejemplo de ajuste en medio ácido** {: .caja-subtitulo }
 
 1. Formular correctamente las especies químicas:
 
@@ -170,7 +159,7 @@ Cuando las reacciones redox son espontáneas, liberan energía que se puede empl
 
 Las **celdas galvánicas** son unos dispositivos en los cuales la transferencia de electrones (de la semirreacción de oxidación a la semirreacción de reducción) se produce a través de un circuito externo en vez de ocurrir directamente entre los reactivos; de esta manera el flujo de electrones (corriente eléctrica) puede ser utilizado.
 
-### Pila Daniell {: .caja-subtitulo }
+### **Pila Daniell** {: .caja-subtitulo }
 
 Es un buen ejemplo de pila. La reacción es:
 
@@ -188,7 +177,7 @@ La **pila Daniell** consta de una lámina de zinc metálico, Zn (electrodo anód
 
 El funcionamiento de la celda se basa en el principio de que la oxidación de Zn a $\ce{Zn^{2+}}$ y la reducción de $\ce{Cu^{2+}}$ a Cu se puede llevar a cabo simultáneamente, pero en recipientes separados por un puente salino, con la transferencia de electrones, $\ce{e-}$, a través de un alambre conductor metálico externo.
 
-### Los electrodos {: .caja-subtitulo }
+### **Los electrodos** {: .caja-subtitulo }
 
 Las láminas de zinc y cobre son **electrodos**.
 
@@ -214,7 +203,7 @@ Puesto que los electrones tienen carga negativa, adjudicamos un **signo negativo
 
 Por el contrario, los electrones fluyen hacia el cátodo, donde se consumen en la reducción del cobre. En consecuencia, se confiere un **signo positivo al cátodo** porque parece atraer a los electrones negativos.
 
-### El puente salino {: .caja-subtitulo }
+### **El puente salino** {: .caja-subtitulo }
 
 Con el funcionamiento de la celda, la oxidación del Zn introduce iones $\ce{Zn^{2+}}$ adicionales en el compartimento del ánodo. A menos que se proporcione un medio para neutralizar esta carga positiva, no podrá haber más oxidación. De manera similar, la reducción del $\ce{Cu^{2+}}$ en el cátodo deja un exceso de carga negativa en solución en ese compartimento.
 
@@ -225,7 +214,7 @@ Un **puente salino** se compone de un tubo en forma de "U" que contiene una solu
 El electrólito se suele incorporar en un gel para que la solución de electrólito no escurra cuando se invierte el tubo en U.
 
 
-### Fuerza electromotriz {: .caja-subtitulo }
+### **Fuerza electromotriz** {: .caja-subtitulo }
 
 Los electrones fluyen desde el ánodo, de una celda voltaica, hacia el cátodo a causa de una diferencia de energía potencial.
 
@@ -235,7 +224,7 @@ Un **voltio** (V) es la diferencia de potencial que hay entre dos puntos cuando 
 
 La diferencia de potencial entre dos electrodos de una celda voltaica proporciona la "fuerza motriz" que empuja los electrones a través del circuito externo. Por consiguiente, llamamos a esta diferencia de potencial, **fuerza electromotriz** (que causa movimiento de electrones), o **FEM**.
 
-### F.E.M. de una pila {: .caja-subtitulo }
+### **F.E.M. de una pila** {: .caja-subtitulo }
 
 La FEM de una pila, que se denota como $\ce{E_{pila}}$, se conoce como potencial de celda. Puesto que la $\ce{E_{pila}}$ se mide en voltios, solemos referirnos a ella como el voltaje de la celda.
 
@@ -264,7 +253,7 @@ También se pueden indicar las concentraciones:
 
 $$\ce{Zn \; (s) \; \vert{} \; ZnSO4 \; (0,1 \; M) \; \vert{}\vert{} \; CuSO4 \; (0,2 \; M) \; \vert{} \; Cu \; (s)}$$
 
-### Electrodos de gases {: .caja-subtitulo }
+### **Electrodos de gases** {: .caja-subtitulo }
 
 También se pueden construir pilas con **electrodos gaseosos** ($\ce{Cl2}$, $\ce{F2}$, $\ce{H2}$...).
 
@@ -278,7 +267,7 @@ En la figura se muestra concretamente un **electrodo de hidrógeno**.
 
 * $\ce{2 \; H+ + 2 \; e- \rightarrow H2}$ (reducción, como cátodo)
 
-### Potencial de electrodo {: .caja-subtitulo }
+### **Potencial de electrodo** {: .caja-subtitulo }
 
 La FEM total de una pila será la suma de las variaciones de potencial que se producen en los dos electrodos.
 
@@ -338,7 +327,7 @@ A partir de estas tablas podemos saber:
 
 * Determinar el cátodo y el ánodo de una pila, etc.
 
-### $\textbf{E^0}$ y Espontaneidad {: .caja-subtitulo }
+### $\textbf{E^0}$ **y Espontaneidad** {: .caja-subtitulo }
 
 Existe una relación entre el potencial estándar de una reacción y la energía libre estándar de Gibbs que puede servirnos para predecir la espontaneidad, o no, de determinada reacción:
 
@@ -352,7 +341,7 @@ Como vimos antes, $\ce{E^0_{celda} = E^0_{oxi-\acute{\ce{a}}nodo} + E^0_{red-c\a
 
 $$\ce{E^0_{celda} = E^0_{red-c\acute{\ce{a}}todo} - E^0_{red-\acute{\ce{a}}nodo}}$$
 
-### Pilas de combustible {: .caja-subtitulo }
+### **Pilas de combustible** {: .caja-subtitulo }
 
 Las **pilas de combustible** son dispositivos electroquímicos en los cuales un flujo continuo de combustible y oxidante sufren una reacción química controlada que da lugar a los productos y suministra directamente corriente eléctrica a un circuito externo.
 
@@ -408,17 +397,17 @@ Justamente, **las reacciones no espontáneas** que no se pueden llevar a cabo en
 
 Se lleva a cabo en una **cuba electrolítica**.
 
-### Cuba electrolítica {: .caja-subtitulo }
+### **Cuba electrolítica** {: .caja-subtitulo }
 
 Se trata de un recipiente que contiene un electrólito (fundido o en disolución) en el que se sumergen dos electrodos (ánodo y cátodo). Éstos se conectan a una fuente de corriente continua (batería), el ánodo al polo positivo y el cátodo al negativo.
 
 Cuando se conecta la batería en los electrodos se producen las semirreacciones redox:
 
-* $\ce{\acute{\ce{A}}nodo \; ( + ) \; {:} \;\; oxidaci\acute{\ce{o}}n}$
+* $\ce{\acute{\ce{A}}nodo ( + ) {:} \; oxidaci\acute{\ce{o}}n}$
 
-* $\ce{C\acute{\ce{a}}todo \; ( - ) \; {:} \;\; reducci\acute{\ce{o}}n}$
+* $\ce{C\acute{\ce{a}}todo ( - ) {:} \; reducci\acute{\ce{o}}n}$
 
-Para que se produzca la electrólisis la ddp tiene que ser igual o superior a la FEM de la pila que funcionase con los mismos electrodos en sentido inverso.
+Para que se produzca la electrólisis la ddp (diferencial de potencial) tiene que ser igual o superior a la FEM de la pila que funcionase con los mismos electrodos en sentido inverso.
 
 **Aplicaciones**
 
@@ -428,7 +417,7 @@ Para que se produzca la electrólisis la ddp tiene que ser igual o superior a la
 
 * Recubrir objetos metálicos de un baño de otro metal (baño electrolítico), con fines decorativos (plateado, dorado,...) o de protección de objetos metálicos contra la corrosión (galvanizado).
 
-### Producción de $\ce{Na}$ y $\ce{Cl2}$ {: .caja-subtitulo }
+### **Producción de** $\textbf{Na}$ y $\textbf{Cl_2}$ {: .caja-subtitulo }
 
 Si en una cuba electrolítica tenemos NaCl fundido, cuando pase la corriente eléctrica los aniones $\ce{Cl-}$ irán hacia el ánodo (+), y los cationes $\ce{Na+}$ hacia el cátodo (--), y tendrán lugar las reacciones siguientes:
 
@@ -440,7 +429,7 @@ Obteniéndose cloro gas y sodio metálico. De hecho este es el procedimiento usa
 
 Como el potencial de reducción del sodio es de $\ce{- 2,71 \; V}$ y del cloro de $\ce{+1,36 \; V}$, la ddp mínima que habrá que aplicar será de 4,07 V.
 
-### Electrólisis del agua {: .caja-subtitulo }
+### **Electrólisis del agua** {: .caja-subtitulo }
 
 Es posible realizar la electrólisis del agua. Aunque ésta está parcialmente ionizada, para que circule mejor la corriente eléctrica se añade una pequeña cantidad de ácido sulfúrico.
 
@@ -450,7 +439,7 @@ Es posible realizar la electrólisis del agua. Aunque ésta está parcialmente i
 
 $$\textbf{\ce{Proceso \; global{:} \; H2O \rightarrow \dfrac {1}{2} \; O2 + H2}}$$
 
-### Electrólisis de $\ce{NaCl \; (ac)}$ {: .caja-subtitulo }
+### **Electrólisis de** $\textbf{NaCl \; (ac)}$ {: .caja-subtitulo }
 
 En este caso, como el potencial de reducción del hidrógeno ($\ce{0,0 \; V}$) es mayor que el del sodio ($\ce{-2,71 \; V}$), se reducirá el hidrógeno, y se obtendrá cloro e hidrógeno. Las reacciones serán:
 
@@ -487,7 +476,7 @@ $$\ce{n = \dfrac {\ce{Q}}{\ce{a * F}} = \dfrac {\ce{I * t}}{\ce{a * F}}}$$
 
 A veces se pueden conectar varias cubas en serie:
 
-### Corrosión {: .caja-subtitulo }
+### **Corrosión** {: .caja-subtitulo }
 
 La **corrosión** se define como el deterioro de un material a consecuencia de un ataque electroquímico por su entorno.
 
@@ -497,7 +486,7 @@ El proceso de corrosión es **natural y espontáneo**.
 
 Los ejemplos más conocidos son las alteraciones químicas de los metales a causa del aire, como la **herrumbre del hierro y el acero** o la **formación de pátina verde en el cobre y sus aleaciones** (**bronce, latón**).
 
-### Anodización {: .caja-subtitulo }
+### **Anodización** {: .caja-subtitulo }
 
 El **anodizado** es un sistema que se usa para dar a algunos metales una mayor resistencia no solo ante la corrosión, sino también contra la abrasión (desgaste de un material por la acción del rozamiento).
 
@@ -505,7 +494,7 @@ Se le da ese nombre porque **el material a tratar actúa como ánodo** en el pro
 
 A diferencia de la galvanostegia y la galvanoplastia no se trata de recubrir un metal con otro más resistente, sino de cambiar las propiedades superficiales del mismo metal, aumentando intencionadamente el grosor de la capa de óxido que, de forma natural, se forma en su superficie.
 
-### Galvanostegia o galvanoplastia {: .caja-subtitulo }
+### **Galvanostegia o galvanoplastia** {: .caja-subtitulo }
 
 La **galvanostegia** es el recubrimiento de objetos con una delgada capa depositada electrolíticamente.
 

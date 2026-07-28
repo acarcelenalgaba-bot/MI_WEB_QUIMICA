@@ -2,3 +2,100 @@
 
 ## **1. Introducción**
 
+* **Polímeros**: del griego *Polys* (muchos) + *meros* (parte)
+* Molécula muy grande (macromolécula) constituida por la unión repetida de muchas unidades moleculares pequeñas (**monómeros**), generalmente orgánicas, unidas entre sí por enlaces covalentes y que se forma por **reacciones de polimerización**.
+* La unidad estructural que se repite a lo largo de la cadena polimérica se denomina **unidad repetitiva** o **monómero**. Por ejemplo, a partir del estireno (vinilbenceno) se obtiene el poliestireno:
+
+## **2. Clasificación de los polímeros**
+
+Los **polímeros** pueden clasificarse de muchas maneras:
+
+* Según su **composición** (homopolímeros o heteropolímeros)
+* Por su **origen** (naturales o sintéticos)
+* Según su **estructura** (lineales, ramificados, entrecruzados, reticulados)
+* Por su comportamiento frente al calor (**termoplásticos** o **termoestables**)
+* Según la **reacción de polimerización** (adición o condensación). Esta última clasificación es la que más nos interesa.
+
+## **3. Propiedades físicas generales**
+
+Las propiedades físicas de estas moléculas difieren bastante de las propiedades de los monómeros que las constituyen. Las propiedades van a estar influenciadas por la estructura interna, presencia de fuerzas intermoleculares, etc.
+
+* Al ser grandes moléculas, la estructura es generalmente amorfa.
+* Notable plasticidad, elasticidad y resistencia mecánica.
+* Alta resistividad eléctrica.
+* Poco reactivos ante ácidos y bases.
+* Unos son tan duros y resistentes que se utilizan en construcción: PVC, baquelita, etc.
+* Otros pueden ser muy flexibles (polietileno), elásticos (caucho), resistentes a la tensión (nailon), muy inertes (teflón), etc.
+
+## **4. Reacciones de adición**
+
+* Siguen un mecanismo a través de radicales libres "en cadena". Las más típicas son las de formación de polímeros etilénicos, siendo el más sencillo el polietileno:
+
+$$\ce{n \; (CH2 = CH2) \rightarrow -(CH2-CH2)-_n}$$
+
+* Una vez iniciadas las reacciones que transcurren a través de radicales libres son muy rápidas, adicionándose más de 1000 monómeros por segundo, por lo que en pocos segundos se obtienen macromoléculas de más de un millón de unidades de masa atómica.
+
+### **Algunos polímeros etilénicos** {: .caja-subtitulo }
+
+**El caucho**
+
+Un caso especial de esta clase de polímeros etilénicos es el **caucho** natural o sintético (el monómero es el "isopreno" o 2-metilbuta-1,3-dieno).
+
+Es interesante saber que el caucho natural (cis-poliisopreno) es el único polímero que se encuentra en la naturaleza constituido por un hidrocarburo. Aunque el caucho natural es muy elástico, los productos fabricados con él tienen el inconveniente de ser quebradizos y ablandarse con el calor. Para mejorar sus propiedades se introdujo (1839, Ch. Goodyear) el proceso de **vulcanización**, consistente en añadir azufre (entre un 3 y un 8 % de la masa total), lo que mejoraba notablemente sus propiedades e hizo que se empezara a utilizar ampliamente. A partir de la primera guerra mundial ya se comenzó a fabricar caucho sintético en muchas variedades.
+
+
+## **5. Reacciones de condensación**
+
+Los monómeros pueden ser iguales o diferentes, pero tiene cada uno de ellos dos grupos funcionales en los extremos de la molécula, y la unión entre los monómeros supone la eliminación de una molécula pequeña, normalmente agua.
+
+De la misma manera que los dos ejemplos principales vistos en las reacciones orgánicas de condensación son la **formación de ésteres** y **amidas**, en el caso de los polímeros los ejemplos más importantes son la formación de **poliésteres** y **poliamidas** (fibras textiles).
+
+
+### **Poliésteres** {: .caja-subtitulo }
+
+El poliéster termoplástico más conocido es el **PET**. El PET está formado sintéticamente con **etilenglicol** más el ácido tereftálico, produciendo el polímero dacrón o Terylene.
+
+Como resultado del proceso de polimerización, se obtiene la **fibra**, que en sus inicios fue la base para la elaboración de los hilos para coser y que actualmente tiene múltiples aplicaciones.
+
+**Obtención del poliéster**
+
+* El ácido tereftálico es el 1,4-bencenodioico y el etilenglicol es el etano-1,2-diol:
+
+{style="display: block; margin: 0 auto; width: 80%"}
+
+{style="display: block; margin: 0 auto; width: 80%"}
+
+**Unidad que se repite:**
+
+{style="display: block; margin: 0 auto; width: 80%"}
+
+### **Poliamidas** {: .caja-subtitulo }
+
+* En las poliamidas se da la formación de enlaces similares a los peptídicos, donde el grupo amino de un aminoácido se une al grupo ácido del siguiente.
+
+Se trata de una reacción de **condensación**, de moléculas iguales donde en cada enlace tipo amida formado se libera una molécula de agua mediante el OH del ácido y un H del grupo $\ce{NH2}$. El ejemplo más famoso es el **nailon-6,6**:
+
+* **Monómero** (ácido 6-aminohexanoico):
+$$\ce{NH2-CH2-(CH2)4-COOH}$$
+
+
+* **Polímero**:
+$$\ce{...-NH-CH2-(CH2)4-CO-NH-CH2-(CH2)4-CO - ...}$$
+
+
+**Unidad que se repite:**
+
+{style="display: block; margin: 0 auto; width: 80%"}
+
+**Ejemplo de poliamidas**
+
+* El ácido tereftálico (1,4-bencenodioico) junto con p-diaminobenceno dan lugar al **Kevlar**, fibra de elevada resistencia con múltiples usos (paracaídas, sistemas de aterrizaje, blindajes militares, raquetas de tenis, zapatillas deportivas).
+
+{style="display: block; margin: 0 auto; width: 80%"}
+
+{style="display: block; margin: 0 auto; width: 80%"}
+
+**Unidad que se repite:**
+
+{style="display: block; margin: 0 auto; width: 80%"}
+
