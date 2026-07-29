@@ -746,7 +746,7 @@ La liberación de $\ce{OH^-}$ desplaza el pH por encima de 7.
 **Relación de fortaleza**:
 
 * Cuanto más débil sea el ácido de procedencia, más fuerte será su base conjugada y mayor será el pH de la disolución de la sal a igualdad de concentración.
-* Comparativa: $\ce{Ka (CH3-COOH) = 1,8 \cdot 10^{-5}}$ frente a $\ce{Ka (HCN) = 4,9 \cdot 10^{-10}}$. Como el ácido cianhídrico es mucho más débil que el acético, el ión cianuro es una base conjugada mucho más fuerte. Por tanto, el pH de una disolución de $\ce{KCN}$ será sensiblemente mayor que el de una de $\ce{CH3-COONa}$ de la misma concentración.
+* Comparativa: $\ce{Ka (CH3-COOH) = 1,8 \cdot 10^{-5}}$ frente a $\ce{Ka (HCN) = 4,9 \cdot 10^{-10}}$. Como el ácido cianhídrico es mucho más débil que el acético, el ión cianuro es una base conjugada mucho más fuerte. Por tanto, el pH de una disolución de $\ce{KCN}$ será sensiblemente mayor que el de una de $\ce{CH3-COONa}$ de la **misma concentración**.
 
 
 ### **Hidrólisis Ácida** {: .caja-subtitulo }
@@ -785,6 +785,26 @@ En este tipo de sales, tanto el catión como el anión sufren hidrólisis en agu
 * Si $\ce{Ka(\text{ácido}) > Kb(\text{base})}$: El catión se hidroliza en mayor grado que el anión, por lo que la disolución será ligeramente **ácida** ($\text{pH} < 7$). Ejemplo: Nitrito de amonio ($\ce{NH4-NO2}$).
 * Si $\ce{Kb(\text{base}) > Ka(\text{ácido})}$: El anión se hidroliza más, dando lugar a una disolución ligeramente **básica** ($\text{pH} > 7$). Ejemplo: Cianuro de amonio ($\ce{NH4CN}$).
 * Si $\ce{Ka(\text{ácido}) = Kb(\text{base})}$: Los dos procesos de hidrólisis se compensan exactamente, resultando una disolución neutra ($\text{pH} = 7$). Ejemplo: Acetato de amonio ($\ce{CH3-COO-NH4}$).
+
+**Ejemplo**:
+
+$$\ce{NH4NO2 \; (aq) \longrightarrow \; NH4^+ \; (aq) + NO2^- \; (aq) }$$
+
+$$\ce{NH4CN \; (aq) \longrightarrow \; NH4^+ \; (aq) + CN^- \; (aq) }$$
+
+$$\ce{CH3-COONH4 \; (aq) \longrightarrow \; NH4^+ \; (aq) + CH3-COO^- \; (aq) }$$
+
+$$\begin{array}{|l|p{2.5cm}|p{2.5cm}|}  
+\hline  
+\rowcolor[gray]{.95} 
+\ce{Sustancia} & \ce{Ka} & \ce{Kb} \\ 
+\hline   
+\ce{HNO2} & \ce{7,2*10^{-4}} & \ce{-} \\
+\ce{HCN} & \ce{4,9*10^{-9}} & \ce{-} \\
+\ce{CH3-COOH} & \ce{1,8*10^{-5}} & \ce{-} \\
+\ce{NH3} & \ce{-} & \ce{1,8*10^{-5}} \\
+\hline 
+\end{array}$$
 
 **Ejercicios de Autoevaluación**
 
