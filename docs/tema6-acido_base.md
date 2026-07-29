@@ -942,25 +942,25 @@ La concentración de la disolución de ácido sulfúrico es de **$\ce{0,072 \tex
 
 **Ejercicios propuestos:**
 
-1.  Calcula el volumen de disolución de hidróxido de potasio ($\ce{KOH}$) $\ce{0,15 M}$ necesario para neutralizar por completo $\ce{50,0 mL}$ de una disolución de ácido clorhídrico ($\ce{HCl}$) $\ce{0,20 M}$. (**Solución**: $\ce{66,7 mL}$)
+1.  Calcula el volumen de disolución de hidróxido de potasio ($\ce{KOH}$) $\ce{0,15 M}$ necesario para neutralizar por completo $\ce{50,0 mL}$ de una disolución de ácido clorhídrico ($\ce{HCl}$) $\ce{0,20 M}$. (**Solución**: $\textbf{66,7 mL}$)
 
-2.  Determina la concentración de una disolución de $\ce{Ca(OH)2}$ si para valorar $\ce{20,0 mL}$ de la misma se consumen exactamente $\ce{15,0 mL}$ de ácido nítrico ($\ce{HNO3}$) $\ce{0,10 M}$. (**Solución**: $\ce{0,0375 M}$)
+2.  Determina la concentración de una disolución de $\ce{Ca(OH)2}$ si para valorar $\ce{20,0 mL}$ de la misma se consumen exactamente $\ce{15,0 mL}$ de ácido nítrico ($\ce{HNO3}$) $\ce{0,10 M}$. (**Solución**: $\textbf{0,0375 M}$)
    
 3.  El pH de un zumo de limón es 3,4. Suponiendo que el ácido del limón se comporta como un ácido monoprótico (HA) con constante de acidez, $\ce{Ka = 7,4 \cdot 10^{-4}}$, calcule:
    
-    a) La concentración de HA en ese zumo de limón. (**Solución**: $\ce{6,12 \cdot 10^{-4}}$)
+    a) La concentración de HA en ese zumo de limón. (**Solución**: $\boldsymbol{6,12 \cdot 10^{-4}}$)
 
-    b) El volumen de una disolución de hidróxido sódico 0,005 M necesaria para neutralizar 100 mL del zumo de limón. (**Solución**: $\ce{12,24 mL}$)
+    b) El volumen de una disolución de hidróxido sódico 0,005 M necesaria para neutralizar 100 mL del zumo de limón. (**Solución**: $\boldsymbol{12,24} \ \textbf{mL}$)
 
 4. El pH de una disolución de un ácido monoprótico HA es 3,4. Si el grado de disociación del ácido es 0,02. Calcule:
    
-    a) La concentración inicial de ácido. (**Solución**: $\ce{0,0199}$)
+    a) La concentración inicial de ácido. (**Solución**: $\boldsymbol{0,0199}$)
 
-    b) Las concentraciones del ácido y de su base conjugada en el equilibrio. (**Solución**: $\ce{0,0195; 3,98 \cdot 10^{-4}}$)
+    b) Las concentraciones del ácido y de su base conjugada en el equilibrio. (**Solución**: $\boldsymbol{0,0195; 3,98 \cdot 10^{-4}}$)
 
-    c) El valor de la constante de acidez, Ka. (**Solución**: $\ce{8,12 \cdot 10^{-6}}$)
+    c) El valor de la constante de acidez, Ka. (**Solución**: $\boldsymbol{8,12 \cdot 10^{-6}}$)
 
-    d) Los gramos de hidróxido de potasio (KOH) necesarios para neutralizar 50 mL de dicho ácido. (**Solución**: $\ce{0,0558 g}$)
+    d) Los gramos de hidróxido de potasio (KOH) necesarios para neutralizar 50 mL de dicho ácido. (**Solución**: $\boldsymbol{0,0558} \ \textbf{g}$)
 
 ## **13. Estudio Cualitativo de las Disoluciones Amortiguadoras**
 
