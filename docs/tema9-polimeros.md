@@ -58,7 +58,7 @@ De la misma manera que los dos ejemplos principales vistos en las reacciones org
 
 ### **Poliésteres** {: .caja-subtitulo }
 
-El poliéster termoplástico más conocido es el **PET**. El PET está formado sintéticamente con **etilenglicol** más el ácido tereftálico, produciendo el polímero dacrón o Terylene.
+El poliéster termoplástico más conocido es el **PET**. El PET está formado sintéticamente con **etilenglicol** más el **ácido tereftálico**, produciendo el polímero dacrón o Terylene.
 
 Como resultado del proceso de polimerización, se obtiene la **fibra**, que en sus inicios fue la base para la elaboración de los hilos para coser y que actualmente tiene múltiples aplicaciones.
 
@@ -68,22 +68,26 @@ Como resultado del proceso de polimerización, se obtiene la **fibra**, que en s
 
 <!--
 ##latex id=po4 sep=2em
-\schemestart[0, 0.8, 1.5]
-   \ce{ \chemfig{[,0.6] HOOC- *6(=-=(-COOH)-=-) } \; \; + \; \; HO-CH2-CH2-OH \; \; \rightarrow }
-   \chemfig{[,0.6] ...OC- *6(=-=(-CO-O-CH_2-CH_2-O-CO-(*6(=-=(-CO-)-=-)))-=-)  }
+\schemestart[0,1.2,1.5]
+   \chemfig{ HOOC- *6(=-=(-COOH)-=-) }
+   \+
+   \ce{HO-CH2-CH2-OH}
+   \arrow
+   \chemfig{-[:0,0.75]O-CO-*6(=-=(-CO-O-CH_2-CH_2-O-CO-(*6(=-=(-CO-)-=-)))-=-)}
 \schemestop
 -->
 
-![...](imagenes/tema09/po4.svg){style="display: block; margin: 0 auto; width: 80%"}".
+![...](imagenes/tema09/po4.svg){style="display: block; margin: 0 auto; width: 98%"}
 
 **Unidad que se repite:**
 
 <!--
 ##latex id=po5 sep=2em
-   \setchemfig{chemfig style=red} Unidad que se repite \hspace{0.25cm} \chemfig{[,0.6] ...OC- *6(=-=(-CO-O-CH_2-CH_2-O-)-=-)  }
+\setchemfig{atom sep=2em, compound sub-boundary=false}
+\chemfig{-O-CO-*6(=-=(-CO-O-CH_2-CH_2-O-)-=-)}
 -->
 
-![...](imagenes/tema09/po5.svg){style="display: block; margin: 0 auto; width: 80%"}".
+![...](imagenes/tema09/po5.svg){style="display: block; margin: 0 auto; width: 40%"}
 
 ### **Poliamidas** {: .caja-subtitulo }
 
@@ -92,26 +96,51 @@ Como resultado del proceso de polimerización, se obtiene la **fibra**, que en s
 Se trata de una reacción de **condensación**, de moléculas iguales donde en cada enlace tipo amida formado se libera una molécula de agua mediante el OH del ácido y un H del grupo $\ce{NH2}$. El ejemplo más famoso es el **nailon-6,6**:
 
 * **Monómero** (ácido 6-aminohexanoico):
+  
 $$\ce{NH2-CH2-(CH2)4-COOH}$$
 
-
 * **Polímero**:
+
 $$\ce{...-NH-CH2-(CH2)4-CO-NH-CH2-(CH2)4-CO - ...}$$
 
 
 **Unidad que se repite:**
 
-{style="display: block; margin: 0 auto; width: 80%"}
+<!--
+##latex id=po6 sep=2em
+\setchemfig{atom sep=2em, compound sub-boundary=false}
+\chemfig{\phantom{N}-C(=[2]O)-[@{op,.75}]{N}(-[2]H)-{(}CH_2{)_5}-[@{cl,0.25}]} 
+%\polymerdelim[height = 30pt, depth = 5pt, indice = {}]{op}{cl}
+-->
+
+![...](imagenes/tema09/po6.svg){style="display: block; margin: 0 auto; width: 20%"}
+
 
 **Ejemplo de poliamidas**
 
 * El ácido tereftálico (1,4-bencenodioico) junto con p-diaminobenceno dan lugar al **Kevlar**, fibra de elevada resistencia con múltiples usos (paracaídas, sistemas de aterrizaje, blindajes militares, raquetas de tenis, zapatillas deportivas).
 
-{style="display: block; margin: 0 auto; width: 80%"}
+<!--
+##latex id=po7 sep=2em
+\schemestart[0,1.2,1.5]
+   \chemfig{[,0.75] HOOC- *6(=-=(-COOH)-=-) } 
+   \+
+   \chemfig{[,0.75] NH_2- *6(=-=(-NH_2)-=-)}
+   \arrow
+   \chemfig{[,0.75] -C(=[:90]O)-*6(=-=(-C(=[:90]O)-NH-*6(=-=(-NH-C(=[:90]O)-*6(=-=(-C(=[:90]O)-NH-)-=-))-=-))-=-)}
+\schemestop
+-->
 
-{style="display: block; margin: 0 auto; width: 80%"}
+![...](imagenes/tema09/po7.svg){style="display: block; margin: 0 auto; width: 100%"}
 
 **Unidad que se repite:**
 
-{style="display: block; margin: 0 auto; width: 80%"}
+<!--
+##latex id=po8 sep=2em
+\schemestart
+   \chemfig{[,0.75] -C(=[:90]O)-*6(=-=(-C(=[:90]O)-NH-*6(=-=(-NH-)-=-))-=-)}
+\schemestop
+-->
+
+![...](imagenes/tema09/po8.svg){style="display: block; margin: 0 auto; width: 35%"}
 
