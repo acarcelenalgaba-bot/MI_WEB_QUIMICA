@@ -1,7 +1,5 @@
 # Tema 6: Reacciones de transferencia de protones
 
-
-
 ## **1. Introducción**
 
 El título del tema, **"Reacciones de transferencia de protones"**, hace referencia a las definiciones de ácido y base que vamos a manejar:
@@ -11,29 +9,20 @@ El título del tema, **"Reacciones de transferencia de protones"**, hace referen
 
 De ahí que cualquier reacción ácido-base será una reacción de transferencia de protones, en la que el ácido los cede y la base los acepta.
 
-
-
 **Propiedades Generales de Ácidos y Bases (Definición Histórica)**
 
-**Ácidos**
+| Propiedad / Característica | Ácidos | Bases |
+| :--- | :--- | :--- |
+| **Sabor** | Agrio (como el vinagre o el limón). | Amargo. |
+| **Tacto / Contacto** | Corrosivos para la piel. | Suaves (jabonosas) al tacto, pero corrosivas con la piel. |
+| **Indicadores (Tornasol)** | Enrojecen el papel de tornasol. | Dan color azul al papel de tornasol. |
+| **Materia orgánica** | Las disoluciones concentradas la destruyen. | Las disoluciones concentradas la destruyen. |
+| **Reacción con metales** | Atacan metales activos desprendiendo hidrógeno ($\ce{H2}$). | Reaccionan generando precipitados insolubles (hidróxidos). |
+| **Neutralización** | Neutralizan los efectos de las bases. | Neutralizan los efectos de los ácidos. |
+| **Conductividad eléctrica** | Conducen la corriente en disolución acuosa (electrolitos). | Conducen la corriente en disolución acuosa (electrolitos). |
+| | ![...](imagenes/tema06/tp1_1.png){style="display: inline-block; width: 48%; vertical-align: middle;"} | ![...](imagenes/tema06/tp1_2.png){style="display: inline-block; width: 48%; vertical-align: middle;"} |
 
-* Tienen sabor agrio (como el vinagre o el limón).
-* Son corrosivos para la piel.
-* Enrojecen ciertos colorantes vegetales (como el papel de tornasol).
-* Las disoluciones concentradas destruyen la materia orgánica.
-* Atacan a los metales activos desprendiendo hidrógeno gaseoso ($\ce{H_2}$).
-* Neutralizan los efectos de las bases.
-* En disolución acuosa, conducen la corriente eléctrica (son electrolitos).
-
-**Bases**
-
-* Tienen sabor amargo.
-* Son suaves (jabonosas) al tacto, pero corrosivas con la piel.
-* Dan color azul a ciertos colorantes vegetales (como el papel de tornasol).
-* Las disoluciones concentradas destruyen la materia orgánica.
-* Reaccionan con los metales generando precipitados de sólidos insolubles (hidróxidos).
-* Neutralizan los efectos de los ácidos.
-* En disolución acuosa, conducen la corriente eléctrica (son electrolitos).
+## **2. Definición de Arrhenius de Ácido y Base**
 
 **Los Ácidos y Bases como Electrolitos**
 
@@ -47,25 +36,41 @@ Propuso que estas sustancias, al disolverse, se disociaban en dos partes cargada
 
 Dado que los ácidos y las bases conducen la electricidad al disolverse en agua, estableció que dichas sustancias eran electrolitos. Esto posibilitó el desarrollo del primer modelo teórico para explicar la naturaleza de los ácidos y las bases.
 
-
-
-## **2. Definición de Arrhenius de Ácido y Base**
+![...](imagenes/tema06/tp2.png){style="display: block; margin: 0 auto; width: 20%"}
 
 Arrhenius propuso que el catión que se producía cuando se disolvía un ácido en agua era siempre el mismo: el **ión hidrógeno** ($\ce{H^+}$) [o ión hidronio, $\ce{H3O^+}$], y que las propiedades de los ácidos se debían precisamente a la presencia de dichos iones.
 
 Asimismo, propuso que cuando se disolvía una base en agua, se producía siempre el **ión hidróxido** ($\ce{OH^-}$), lo que daba a las bases sus propiedades características. De ahí sus definiciones:
 
-* **Ácido:** Toda sustancia que, en disolución acuosa, se disocia produciendo iones hidrógeno (protones, $\ce{H^+}$):
+<div class="arithmatex-box" style="
+    width: fit-content;
+    margin: 20px 0;
+    background-color: #dcf7fe;
+    border: 1px solid #0056b3;
+    padding: 0px 10px; 
+    border-radius: 2px; 
+    box-shadow: 0 5px 15px rgba(0, 86, 179, 0.15);
+">
+<strong>Ácido:</strong> Toda sustancia que, en disolución acuosa, se disocia produciendo iones hidrógeno (protones, $\ce{H^+}$):
+</div>
   
-    $$\ce{HA \xrightarrow{\ce{H2O}} H^+ + A^-}$$
+$$\ce{HA \xrightarrow{\ce{H2O}} H^+ + A^-}$$
 
-* **Base:** Toda sustancia que, en disolución acuosa, se disocia produciendo aniones hidróxido ($\ce{OH^-}$):
+<div class="arithmatex-box" style="
+    width: fit-content;
+    margin: 20px 0;
+    background-color: #dcf7fe; 
+    border: 1px solid #0056b3;
+    padding: 0px 10px; 
+    border-radius: 2px; 
+    box-shadow: 0 5px 15px rgba(0, 86, 179, 0.15);
+">
+<strong>Base:</strong> Toda sustancia que, en disolución acuosa, se disocia produciendo aniones hidróxido ($\ce{OH^-}$):
+</div>
   
-    $$\ce{BOH \xrightarrow{\ce{H2O}} B^+ + OH^-}$$
+$$\ce{BOH \xrightarrow{\ce{H2O}} B^+ + OH^-}$$
 
 Esta teoría interpretaba correctamente el comportamiento de la mayoría de ácidos y bases en disolución acuosa, pero presentaba algunas limitaciones importantes.
-
-
 
 **Limitaciones de la Teoría de Arrhenius**
 
@@ -74,47 +79,90 @@ Son básicamente dos:
 1.  **Restricción al disolvente:** Su teoría estaba restringida exclusivamente a disoluciones acuosas, dejando fuera a otro tipo de procesos que transcurren en otros disolventes o que no transcurren en disolución.
 2.  **Sustancias sin grupo hidróxido:** Existen sustancias que son claramente básicas, como el amoníaco ($\ce{NH3}$) o los carbonatos (ión carbonato, $\ce{CO3^{2-}}$), que no contienen el grupo $\ce{OH^-}$ en su estructura y que, por lo tanto, no encajaban en su definición clásica de base.
 
-
+![...](imagenes/tema06/tp3.png){style="display: block; margin: 0 auto; width: 20%"}
 
 ## **3. Teoría Ácido-Base de Brønsted-Lowry**
 
 Las limitaciones de la teoría de Arrhenius fueron superadas por la propuesta del químico danés Johannes Nicolaus Brønsted y el inglés Thomas Martin Lowry, quienes en 1923, de forma independiente, propusieron una nueva definición:
 
-* **Ácido:** Toda sustancia capaz de ceder protones ($\ce{H^+}$).
-* **Base:** Toda sustancia capaz de aceptar protones ($\ce{H^+}$).
+<div class="arithmatex-box" style="
+    width: fit-content;
+    margin: 20px 0;
+    background-color: #dcf7fe; 
+    border: 1px solid #0056b3;
+    padding: 0px 10px; 
+    border-radius: 2px; 
+    box-shadow: 0 5px 15px rgba(0, 86, 179, 0.15);
+">
+<strong>Ácido:</strong> Toda sustancia capaz de ceder protones ($\ce{H^+}$)
+</div>
 
-Esta teoría es válida para cualquier disolvente, aunque en este curso sobreentenderemos que el disolvente empleado siempre es el agua ($\ce{H2O}$).
+<div class="arithmatex-box" style="
+    width: fit-content;
+    margin: 20px 0;
+    background-color: #dcf7fe; 
+    border: 1px solid #0056b3;
+    padding: 0px 10px; 
+    border-radius: 2px; 
+    box-shadow: 0 5px 15px rgba(0, 86, 179, 0.15);
+">
+<strong>Base:</strong> Toda sustancia capaz de aceptar protones ($\ce{H^+}$)
+</div>
 
+Esta teoría es válida para cualquier disolvente, aunque en este curso se sobreentenderá que el disolvente empleado siempre es el agua ($\ce{H2O}$).
 
-**Resumen de la Teoría de Brønsted-Lowry**
-
-La gran ventaja de este modelo es que elimina la necesidad de la presencia obligatoria del ión $\ce{OH^-}$ para justificar la basicidad. Por ejemplo, el comportamiento básico del amoníaco ($\ce{NH3}$) en agua se explica de la siguiente manera:
+La gran ventaja de este modelo es que elimina la necesidad de la presencia obligatoria del ión $\ce{OH^-}$ en la estructura de la molécula para justificar la basicidad. Por ejemplo, el comportamiento básico del amoníaco ($\ce{NH3}$) en agua se explica de la siguiente manera:
 
 $$\ce{NH3 + H2O \rightleftharpoons NH4^+ + OH^-}$$
 
 Aquí, el $\ce{NH3}$ actúa como base (acepta un protón) y el $\ce{H2O}$ actúa como ácido (cede un protón).
 
+![...](imagenes/tema06/tp4.png){style="display: block; margin: 0 auto; width: 50%; border: 1px solid #333;"}
+
+### **Resumen de la Teoría de Brønsted-Lowry** {: .caja-subtitulo }
+
+![...](imagenes/tema06/tp5.png){style="display: block; margin: 0 auto; width: 75%"}
+
 *(Nota: Aunque la teoría de Brønsted y Lowry fue ampliada posteriormente por la teoría de Lewis, durante el resto del tema utilizaremos preferentemente el modelo de Brønsted-Lowry).*
 
 
 
-## **4. Ácidos y Bases de Lewis**
+### **Ácidos y Bases de Lewis** {: .caja-subtitulo }
 
 El químico estadounidense Gilbert N. Lewis, en 1938, amplió la definición de ácido y base de la siguiente manera:
 
-* **Ácido:** Toda sustancia que puede aceptar un par de electrones solitarios para formar un enlace.
-* **Base:** Toda sustancia que puede donar un par de electrones solitarios para formar un enlace.
+<div class="arithmatex-box" style="
+    width: fit-content;
+    margin: 20px 0;
+    background-color: #dcf7fe; 
+    border: 1px solid #0056b3;
+    padding: 0px 10px; 
+    border-radius: 2px; 
+    box-shadow: 0 5px 15px rgba(0, 86, 179, 0.15);
+">
+<strong>Ácido:</strong> Toda sustancia que puede aceptar un par de electrones solitarios para formar un enlace
+</div>
+
+<div class="arithmatex-box" style="
+    width: fit-content;
+    margin: 20px 0;
+    background-color: #dcf7fe; 
+    border: 1px solid #0056b3;
+    padding: 0px 10px; 
+    border-radius: 2px; 
+    box-shadow: 0 5px 15px rgba(0, 86, 179, 0.15);
+">
+<strong>Base:</strong> Toda sustancia que puede donar un par de electrones solitarios para formar un enlace
+</div>
 
 La diferencia clave radica en la estructura electrónica: el ácido debe tener su octeto de electrones incompleto (un orbital vacío), mientras que la base debe poseer al menos un par de electrones no compartidos.
 
 La reacción de un ácido con una base de Lewis da como resultado un compuesto de adición mediante la formación de un **enlace covalente coordinado o dativo**.
 
-* **Ejemplos de ácidos de Lewis:** $\ce{BF_3}$, $\ce{AlCl_3}$, $\ce{Fe^{3+}}$, $\ce{H^+}$.
+* **Ejemplos de ácidos de Lewis:** $\ce{BF_3}$, $\ce{AlCl_3}$, $\ce{Fe^{3+}}$, $\ce{Ag^+}$.
 * Estos ácidos son catalizadores sumamente importantes en muchas reacciones de química orgánica (como la halogenación de benceno o la alquilación de Friedel-Crafts).
 
-
-
-**Pares Ácido-Base Conjugados**
+## **4. Pares Ácido-Base Conjugados**
 
 Cuando un ácido ($\ce{HA}$) cede un protón, produce un anión ($\ce{A^-}$):
 
@@ -133,7 +181,7 @@ $$\ce{B + H^+ \rightleftharpoons BH^+}$$
 Donde **$\ce{BH^+}$ es el ácido conjugado de la base $\ce{B}$**.
 
 
-**Reacciones Ácido-Base (Brønsted y Lowry)**
+### **Reacciones Ácido-Base (Brønsted y Lowry)** {: .caja-subtitulo }
 
 Bajo esta teoría, es evidente que si un ácido (I) cede un protón es porque hay una base (II) presente que lo acepta. Por ello, las reacciones ácido-base son reacciones de transferencia de protones, y el proceso global se representa así:
 
@@ -175,9 +223,9 @@ Las sustancias **anfóteras** (o anfolitos) son aquellas moléculas o iones que 
 
  Comportamiento del agua:
 
-* **Frente a un ácido (como el $\ce{HCl}$):** El agua se comporta como una **base**: $\ce{\quad \quad HCl + H2O \rightarrow Cl^- + H3O^+}$
+* **Frente a un ácido (como el $\ce{HCl}$):** El agua se comporta como una **base**. $\ce{\quad \quad HCl + H2O \rightarrow Cl^- + H3O^+}$
 
-* **Frente a una base (como el $\ce{NH3}$):** El agua se comporta como un **ácido**: $\ce{\quad \quad NH3 + H2O \rightleftharpoons NH4^+ + OH^-}$
+* **Frente a una base (como el $\ce{NH3}$):** El agua se comporta como un **ácido**. $\ce{\quad \quad NH3 + H2O \rightleftharpoons NH4^+ + OH^-}$
 
 
 **Ejercicios de Autoevaluación**
@@ -235,7 +283,7 @@ $$\ce{[H3O^+] = C_{\text{ácido inicial}}}$$
 
 Los hidróxidos de los metales alcalinos (Grupo 1: $\ce{LiOH}$, $\ce{NaOH}$, $\ce{KOH}$...) y alcalinotérreos (Grupo 2: $\ce{Ca(OH)2}$, $\ce{Ba(OH)2}$...) son bases fuertes debido a que son compuestos iónicos que se disocian completamente en sus iones al disolverse en agua.
 
-* **Ejemplo de disociación del $\ce{NaOH}$:**
+* **Ejemplo de disociación del $\textbf{NaOH}$:**
   
     $$\ce{NaOH \xrightarrow{\ce{H2O}} Na^+ + OH^-}$$
 
@@ -243,7 +291,7 @@ En disolución, la especie química que actúa realmente como base de Brønsted-
 
 $$\ce{OH^- + H3O^+ \rightarrow 2 H2O}$$
 
-Por convención, decimos que el $\ce{NaOH}$, $\ce{KOH}$ o el $\ce{Ca(OH)2}$ son bases fuertes, aunque en sentido estricto son los proveedores del ión hidróxido libre.
+Por convención, decimos que el $\ce{NaOH}$, $\ce{KOH}$ o el $\ce{Ca(OH)2}$ son bases fuertes, aunque en sentido estricto son los proveedores del ión hidróxido libre ($\ce{OH^-}$).
 
 ### **Ácidos y Bases Débiles** {: .caja-subtitulo }
 
@@ -258,11 +306,11 @@ Para un ácido débil genérico ($\ce{HA}$) en disolución acuosa, se establece 
 
 $$\ce{HA + H2O \rightleftharpoons A^- + H3O^+}$$
 
-La constante de equilibrio ($\ce{Kc}$) se define como:
+Según la ley de acción de masas, la constante de equilibrio ($\ce{Kc}$) se define como:
 
 $$\ce{Kc = \frac{[A^-][H3O^+]}{[HA][H2O]}}$$
 
-Dado que el agua actúa como disolvente y su concentración permanece prácticamente constante ($[\ce{H2O}] \approx 55,5 \text{ M}$), se incluye dentro de la constante de equilibrio, dando lugar a la **constante de acidez ($\ce{Ka}$)**:
+Dado que el agua actúa como disolvente y su concentración permanece prácticamente constante ($[\ce{H2O}] \approx 55,5 \text{ M}$), se incluye dentro de la constante de equilibrio en el primer miembro de la ecuación, dando lugar a la **constante de acidez ($\ce{Ka}$)**:
 
 $$\ce{Ka = Kc \cdot [H2O] = \frac{[A^-][H3O^+]}{[HA]} \quad \rightarrow \quad Ka = \frac{[A^-][H3O^+]}{[HA]} }$$
 
@@ -280,34 +328,91 @@ Integrando la concentración constante del agua en la constante de equilibrio, d
 
 $$\ce{Kb = Kc \cdot [H2O] = \frac{[BH^+][OH^-]}{[B]} \quad \rightarrow \quad  Kb = \frac{[BH^+][OH^-]}{[B]} }$$
 
-**$\ce{\textbf{Ka}}$, $\ce{\textbf{Kb}}$ y la fortaleza de ácidos y bases**
+### **$\ce{\textbf{Ka}}$, $\ce{\textbf{Kb}}$ y la fortaleza de ácidos y bases** {: .caja-subtitulo }
 
-Los valores numéricos de las constantes de acidez o basicidad indican de forma directa la fuerza relativa de las especies:
+Los valores numéricos de las constantes de acidez ($\ce{Ka}$) o basicidad ($\ce{Kb}$) indican de forma directa la fuerza relativa de las especies:
 
-* Un valor **muy pequeño** de la constante ($\ce{Ka \ll 1}$) indica que el equilibrio está muy desplazado hacia los reactivos (ácido muy poco disociado, es decir, muy débil).
+* Un valor **muy pequeño** de la constante ($\ce{Ka \ll 1}$) indica que el equilibrio está muy desplazado hacia los reactivos (ácido muy poco disociado, es decir, ácido muy débil).
 * Un valor **grande** indica un mayor grado de disociación en el equilibrio.
 * En el caso de los **ácidos fuertes** (disociados prácticamente al 100 %), la concentración de reactivo sin disociar en el denominador es casi nula ($\ce{[HA] \rightarrow 0}$), por lo que sus constantes de acidez teóricas tienden a infinito ($\ce{Ka \rightarrow \infty}$).
+
+En los ácidos y bases débiles se define el **grado de disociación**, $\alpha$, como la fracción de moléculas disociadas inicialmente del ácido o de la base que se puede expresar en tanto por uno o en tanto por cien.
+
+<div class="arithmatex-box" style="
+    width: fit-content;
+    font-weight: bold;
+    margin: 20px auto;
+    background-color: #f0f7ff; 
+    border: 1px solid #0056b3;
+    padding: 0px 10px; 
+    border-radius: 2px; 
+    box-shadow: 0 5px 15px rgba(0, 86, 179, 0.15);
+">
+$$\ce{\alpha \ = \dfrac {\ce{x}}{\ce{c_0}} }$$
+</div>
+
+Cuanto más pequeño sea el grado de disociación, más débil será el ácido o la base, teniendo en cuenta que $\alpha \ = 100 \%$ o $\alpha \ = 1$ en los ácidos y bases fuertes. Los valores de Ka pueden establecer una clasificación aproximada de los ácidos según:
+
+| Valores de Ka | $\textbf{Ka > 55}$ | $\textbf{55 > Ka > 10}^{-4}$ | $\textbf{10}^{-4} \textbf{> Ka > 10}^{-14}$ | $\textbf{Ka < 10}^{-14}$ |
+| | | | | |
+| Fuerza del ácido | Fuerte | Intermedio | Débil | Muy débil |
 
 **Ejemplo de cálculo en ácidos débiles**
 
 **Problema:** Calcula la concentración de ión hipoclorito ($\ce{ClO^-}$) e ión hidronio ($\ce{H3O^+}$) de una disolución de ácido hipocloroso ($\ce{HClO}$) de concentración $0,05 \text{ M}$.  
-Dato: $\ce{Ka(HClO) = 3,0 \cdot 10^{-8}}$
+Dato: $\ce{Ka (HClO) = 3,0 \cdot 10^{-8}}$
 
 **Solución**:
 Planteamos la tabla del equilibrio de disociación:
 
-| Especie | Concentración Inicial (M) | Cambio (M) | Concentración en el Equilibrio (M) |
-| : | :: | :: | :: |
-| $\ce{HClO}$ | $\ce{0,05}$ | $\ce{-x}$ | $\ce{0,05 - x}$ |
-| $\ce{H2O}$ | Exceso | — | Exceso |
-| $\ce{ClO^-}$ | $\ce{0}$ | $\ce{+x}$ | $\ce{x}$ |
-| $\ce{H3O^+}$ | $\ce{0}$ | $\ce{+x}$ | $\ce{x}$ |
+<table class="arithmatex" style="border-collapse: collapse; margin: auto; border:0.5px solid #f6f8fa;">
+  <tr style="background:#eee">
+    <td style="border:none; padding:4px;"></td>
+    <td style="border:none; padding:4px;">$\ce{HClO}$</td>
+    <td style="border:none; padding:4px;">$ + \quad $</td>
+    <td style="border:none; padding:4px;">$\ce{H2O}$</td>
+    <td style="border:none; padding:4px;">$\leftrightarrows \quad $</td>
+    <td style="border:none; padding:4px;">$\ce{ClO^-}$</td>
+    <td style="border:none; padding:4px;">$+ \quad $</td>
+    <td style="border:none; padding:4px;">$\ce{H3O^+}$</td>
+  </tr>
+  <tr style="border-bottom: 1px solid #eee;">
+    <td style="border:none; padding:4px;">$\small{\textbf{Concentraciones iniciales}:}$</td>
+    <td style="border:none; padding:4px;">$\ce{0,05}$</td>
+    <td style="border:none; padding:4px;"></td>
+    <td style="border:none; padding:4px;">$\ce{Exceso}$</td>
+    <td style="border:none; padding:4px;"></td>
+    <td style="border:none; padding:4px;">$\ce{-}$</td>
+    <td style="border:none; padding:4px;"></td>
+    <td style="border:none; padding:4px;">$\ce{-}$</td>
+  </tr>
+  <tr style="border-bottom: 1px solid #eee;">
+    <td style="border:none; padding:4px;">$\small{\textbf{Cambio}:}$</td>
+    <td style="border:none; padding:4px;">$\ce{-x}$</td>
+    <td style="border:none; padding:4px;"></td>
+    <td style="border:none; padding:4px;">$\ce{-}$</td>
+    <td style="border:none; padding:4px;"></td>
+    <td style="border:none; padding:4px;">$\ce{+x}$</td>
+    <td style="border:none; padding:4px;"></td>
+    <td style="border:none; padding:4px;">$\ce{+x}$</td>
+  </tr>
+  <tr style="border-bottom: 1px solid #eee;">
+    <td style="border:none; padding:4px;">$\small{\textbf{Concentraciones equilibrio}:}$</td>
+    <td style="border:none; padding:4px;">$\ce{0,05 - x}$</td>
+    <td style="border:none; padding:4px;"></td>
+    <td style="border:none; padding:4px;">$\ce{Exceso}$</td>
+    <td style="border:none; padding:4px;"></td>
+    <td style="border:none; padding:4px;">$\ce{x}$</td>
+    <td style="border:none; padding:4px;"></td>
+    <td style="border:none; padding:4px;">$\ce{x}$</td>
+  </tr>
+</table>
 
 La expresión de la constante de acidez $\ce{Ka}$ es:
 
 $$\ce{Ka = \frac{[ClO^-][H3O^+]}{[HClO]} = \frac{x^2}{0,05 - x} = 3,0 \cdot 10^{-8}}$$
 
-Como la constante de acidez es extremadamente pequeña ($\ce{Ka \ll 10^{-3}}$), podemos realizar la aproximación de que la cantidad disociada es despreciable frente a la inicial ($\ce{0,05 - x \approx 0,05}$):
+Como la constante de acidez es extremadamente pequeña ($\ce{Ka \ll 10^{-4}}$), podemos realizar la aproximación de que la cantidad disociada es despreciable frente a la inicial ($\ce{0,05 - x \approx 0,05}$):
 
 $$\ce{3,0 \cdot 10^{-8} \approx \frac{x^2}{0,05}}$$
 
@@ -319,7 +424,7 @@ Por tanto, en el equilibrio:
 
 * $\ce{[H3O^+] = [ClO^-] \approx 3,87 \cdot 10^{-5} \text{ M}}$
 
-* $\ce{[HClO] = 0,05 - 3,87 \cdot 10^{-5} \approx 0,05 \text{ M}}$ (se confirma que la aproximación es correcta).
+* $\ce{[HClO] = 0,05 - 3,87 \cdot 10^{-5} = 0,04996 M \approx 0,05 \text{ M}}$ (se confirma que la aproximación es correcta).
 
 ## **6. Producto Iónico del Agua (Kw)**
 
@@ -327,16 +432,24 @@ El agua pura no es un aislante eléctrico absoluto; conduce débilmente la elect
 
 $$\ce{2 H2O \rightleftharpoons H3O^+ + OH^-}$$
 
-La constante de este equilibrio de autoionización se conoce como el **producto iónico del agua ($\ce{Kw}$)**:
+Como cualquier equilibrio este proceso vendrá gobernado por una constante
+
+$$\ce{K = \dfrac {\ce{[H3O^+] \cdot [OH^-]}}{\ce{[H2O]^2}} }$$
+
+y puesto que la concentración del agua sin disociar puede considerarse prácticamente constante, se puede englobar en la constante de equilibrio y la nueva constante de este equilibrio de autoionización se conoce como **producto iónico del agua ($\ce{Kw}$)**:
 
 $$\ce{Kw = [H3O^+][OH^-]}$$
 
 * A una temperatura estándar de $25 \ ^\circ \text{C}$ ($298 \text{ K}$), el valor experimental de esta constante es:
     $\ce{\quad Kw = 1,0 \cdot 10^{-14}}$
 
-Este producto es una constante termodinámica. Por tanto, se cumple en **cualquier** disolución acuosa diluida, permitiendo calcular la concentración de un ión si se conoce la del otro.
+Este producto es una constante termodinámica. Por tanto, se cumple en **cualquier** disolución acuosa diluida, permitiendo calcular la concentración de un ión [$\ce{H3O^+}$] si se conoce la del otro $\ce{[OH^-]}$ y viceversa.
 
 ## **7. Disoluciones Ácidas, Básicas y Neutras**
+
+En el agua pura la concentración de iones hidronio y de iones hidróxido es la misma: $\ce{\quad [H3O^+] = [OH^-] = 10^{-7} mol/L}$
+
+Cualquier disolución que cumpla que $\ce{[H3O^+] = 10^{-7} mol/L}$ se dice que es una **disolución neutra**.
 
 A partir de la relación de autoionización, podemos clasificar las disoluciones acuosas a $25 \ ^\circ\text{C}$:
 
@@ -345,8 +458,6 @@ A partir de la relación de autoionización, podemos clasificar las disoluciones
 | **Neutra** | $\ce{[H3O^+] = [OH^-]}$ | $\ce{[H3O^+] = [OH^-] = 1,0 \cdot 10^{-7} \text{ M}}$ |
 | **Ácida** | $\ce{[H3O^+] > [OH^-]}$ | $\ce{[H3O^+] > 1,0 \cdot 10^{-7} \text{ M} > [OH^-]}$ |
 | **Básica** | $\ce{[H3O^+] < [OH^-]}$ | $\ce{[H3O^+] < 1,0 \cdot 10^{-7} \text{ M} < [OH^-]}$ |
-
-
 
 ## **8. Concepto de pH**
 
@@ -362,7 +473,7 @@ Trabajar habitualmente con potencias de base 10 de exponentes negativos tan pequ
     border-radius: 2px; 
     box-shadow: 0 5px 15px rgba(0, 86, 179, 0.15);
 ">
-$$\ce{pH = - \ log [H3O^+] }$$
+$$\ce{pH = - \ log \ [H3O^+] }$$
 </div>
 
 De esta manera, la escala de pH a $25 \ ^\circ\text{C}$ clasifica las disoluciones en:
@@ -371,9 +482,9 @@ De esta manera, la escala de pH a $25 \ ^\circ\text{C}$ clasifica las disolucion
 * **Disolución Neutra:** $\quad \ce{pH = 7}$
 * **Disolución Básica:** $\quad \ce{pH > 7}$
 
-**Concepto de pOH**
+### **Concepto de pOH** {: .caja-subtitulo }
 
-De forma análoga al pH, se define el **pOH** como el logaritmo cambiado de signo de la concentración de iones hidróxido ($OH^-$):
+De forma análoga al pH, se define el **pOH** como el logaritmo cambiado de signo de la concentración de iones hidróxido ($\ce{OH^-}$):
 
 <div class="arithmatex-box" style="
     width: fit-content;
@@ -385,7 +496,7 @@ De forma análoga al pH, se define el **pOH** como el logaritmo cambiado de sign
     border-radius: 2px; 
     box-shadow: 0 5px 15px rgba(0, 86, 179, 0.15);
 ">
-$$\ce{pOH = -\ log [OH^-] }$$
+$$\ce{pOH = -\ log \ [OH^-] }$$
 </div>
 
 En química, el operador matemático **"p"** representa la operación $\ce{- \ log(x)}$ aplicada a cualquier variable.
@@ -411,13 +522,14 @@ Llegamos a la útil e importantísima relación:
 $$\ce{ pH + pOH = 14 }$$
 </div>
 
-**Medida del pH**
+### **Medida del pH** {: .caja-subtitulo }
 
 El pH de una disolución se puede medir experimentalmente en el laboratorio mediante dos métodos principales:
 
 1.  **Indicadores visuales (método cualitativo/semicuantitativo):** Papel indicador universal o disoluciones indicadoras que cambian de color de forma reversible al variar el pH del medio.
 2.  **pH-metro (método cuantitativo):** Un sensor potenciométrico calibrado que mide de forma precisa la diferencia de potencial eléctrico entre un electrodo de vidrio de referencia y la disolución, traduciéndola directamente a unidades de pH.
 
+![...](imagenes/tema06/tp13.png){style="display: block; margin: 0 auto; width: 70%"}
 
 ### **Relación entre las constantes $\textbf{Ka}$ y $\textbf{Kb}$ de un par conjugado** {: .caja-subtitulo }
 
@@ -453,15 +565,17 @@ $$\ce{Ka \cdot Kb = [H3O^+][OH^-] = Kw}$$
 
 Esto demuestra que **cuanto más fuerte es un ácido (mayor $\ce{Ka}$), más débil es su base conjugada (menor $\ce{Kb}$), y viceversa**.
 
+![...](imagenes/tema06/tp14.png){style="display: block; margin: 0 auto; width: 50%"}
+
 **Relación entre $\textbf{pKa}$ y $\textbf{pKb}$**
 
 Si tomamos el logaritmo negativo ($\ce{- \ log}$) a ambos lados de la ecuación $\ce{Ka \cdot Kb = Kw}$, obtenemos:
 
+$$\ce{- log (Ka \cdot Kb) = - log Kw \quad \rightarrow \quad - log Ka - log  Kb = - log Kw}$$
+
 $$\ce{ \text{p}Ka + \text{p}Kb = \text{p}Kw }$$
 
-A una temperatura de $25^\circ\text{C}$ ($298 \text{ K}$), esta relación se resume en:
-
-$$\ce{ \text{p}Ka + \text{p}Kb = 14 }$$
+A una temperatura de $25^\circ\text{C}$ ($298 \text{ K}$), esta relación se resume en: $\ce{\quad \text{p}Ka + \text{p}Kb = 14 }$
 
 **Algunas Constantes de Acidez comunes ($25^\circ\text{C}$)**
 
@@ -479,13 +593,49 @@ $$\ce{ \text{p}Ka + \text{p}Kb = 14 }$$
 **ATENCIÓN:** En la resolución de problemas de ácidos y bases débiles con concentraciones de uso habitual en el laboratorio, se pueden realizar con seguridad las aproximaciones $\ce{[HA]_{\text{equi}} \approx C_0}$ si el grado de disociación es muy bajo. Como regla práctica general, esto se cumple cuando la constante de acidez/basicidad es menor que $\ce{10^{-4}}$ ($\ce{K < 10^{-4}}$). Si no se cumple esta condición, se debe resolver rigurosamente la ecuación completa de segundo grado.
 
 **Ejercicio propuesto**:
-Calcula el pH de una disolución acuosa $0,1 \text{ M}$ de ácido nitroso ($\ce{HNO2}$).  
-Dato: $\ce{Ka(HNO2) = 4,5 \cdot 10^{-4}}$
 
-**Solución aproximada:**
-Como $\ce{Ka}$ está en el límite ($\ce{4,5 \cdot 10^{-4}}$), planteamos la ecuación:
+Calcula el pH de una disolución acuosa $0,1 \text{ M}$ de ácido nitroso ($\ce{HNO2}$).  Dato: $\ce{Ka (HNO2) = 4,5 \cdot 10^{-4}}$
 
-$$\ce{Ka = \frac{x^2}{0,1 - x} = 4,5 \cdot 10^{-4}}$$
+**Solución:**
+
+Planteamos la tabla del equilibrio de disociación:
+
+<table class="arithmatex" style="border-collapse: collapse; margin: auto; border:0.5px solid #f6f8fa;">
+    <tr style="background:#eee">
+        <td style="border:none; padding:4px;"></td>
+        <td style="border:none; padding:4px;">$\ce{HNO2}$</td>
+        <td style="border:none; padding:4px;">$ + \quad $</td>
+        <td style="border:none; padding:4px;">$\ce{H2O}$</td>
+        <td style="border:none; padding:4px;">$\leftrightarrows \quad $</td>
+        <td style="border:none; padding:4px;">$\ce{NO2^-}$</td>
+        <td style="border:none; padding:4px;">$+ \quad $</td>
+        <td style="border:none; padding:4px;">$\ce{H3O^+}$</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #eee;">
+        <td style="border:none; padding:4px;">$\small{\textbf{Concentraciones iniciales}:}$</td>
+        <td style="border:none; padding:4px;">$\ce{0,1}$</td>
+        <td style="border:none; padding:4px;"></td>
+        <td style="border:none; padding:4px;">$\ce{Exceso}$</td>
+        <td style="border:none; padding:4px;"></td>
+        <td style="border:none; padding:4px;">$\ce{-}$</td>
+        <td style="border:none; padding:4px;"></td>
+        <td style="border:none; padding:4px;">$\ce{-}$</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #eee;">
+        <td style="border:none; padding:4px;">$\small{\textbf{Concentraciones equilibrio}:}$</td>
+        <td style="border:none; padding:4px;">$\ce{0,1 - x}$</td>
+        <td style="border:none; padding:4px;"></td>
+        <td style="border:none; padding:4px;">$\ce{Exceso}$</td>
+        <td style="border:none; padding:4px;"></td>
+        <td style="border:none; padding:4px;">$\ce{x}$</td>
+        <td style="border:none; padding:4px;"></td>
+        <td style="border:none; padding:4px;">$\ce{x}$</td>
+    </tr>
+</table>
+
+Como $\ce{Ka}$ está en el límite ($\ce{4,5 \cdot 10^{-4}}$), planteamos y resolvemos la ecuación de segundo grado:
+
+$$\ce{Ka = \frac{[NO2^-] \cdot [H3O^+]}{[HNO2]}  = \frac{x^2}{0,1 - x} = 4,5 \cdot 10^{-4}}$$
 
 $$\ce{x^2 + 4,5 \cdot 10^{-4} \cdot x - 4,5 \cdot 10^{-5} = 0}$$
 
@@ -493,13 +643,29 @@ Resolviendo la ecuación de segundo grado (tomando la raíz positiva):
 
 $$\ce{x = [H3O^+] \approx 6,49 \cdot 10^{-3} \text{ M}}$$
 
-$$\ce{\text{pH} = - \log \ (6,49 \cdot 10^{-3}) \approx 2,19}$$
+$$\ce{\text{pH} = - log \ [H3O^+] =  - \log \ (6,49 \cdot 10^{-3}) \approx 2,19}$$
+
+**Otros ejercicios**:
+
+1. Si en una disolución $\ce{[H3O+] = 6,5 \cdot 10^{-5} mol/L}$, calcula el pH, el pOH y la concentración de iones hidróxido.
+
+
+2. ¿Cuál será el pH de una disolución 0,05 M de ácido benzoico? $\ce{Ka = 6,5 \cdot 10^{-5}}$
+
+
+3. Calcula el pH y el grado de disociación de una disolución de ácido acético 0,015 M. $\ce{Ka = 1,8 \cdot 10^{-4}}$
 
 ## **9. Reacciones de Neutralización**
 
 Tradicionalmente, se denomina **reacción de neutralización** a aquella en la que un ácido reacciona cuantitativamente con una base para producir una sal neutra y agua:
 
-$$\text{Ácido} + \text{Base} \rightarrow \text{Sal} + \text{Agua}$$
+<div style="text-align: center; margin: 15px 0;">
+  <div style="display: inline-block; background-color: #f8f9fa; border: 1px solid #d0d7de; border-radius: 6px; padding: 10px 16px;">
+
+  $$\text{Ácido} + \text{Base} \rightarrow \text{Sal} + \text{Agua}$$
+
+  </div>
+</div>
 
 Dependiendo de las proporciones estequiométricas añadidas de reactivos, se pueden dar tres escenarios diferenciados en el medio final:
 
@@ -527,6 +693,12 @@ Dependiendo de las proporciones estequiométricas añadidas de reactivos, se pue
     $$\ce{HCl + NH3 \rightarrow NH4Cl}$$
 
     *Sal formada: $\ce{NH4Cl}$. Sufre hidrólisis ácida, pH en punto de equivalencia < 7.*
+
+4.  **Ácido débil + Base débil:**
+   
+    $$\ce{CH3-COOH + NH3 \rightarrow CH3-COO-NH4}$$
+
+    *Sal formada: $\ce{CH3-COO-NH4}$. Sufren hidrólisis ambos iones, pH dependerá de la fortaleza de cada ion.*
 
 ## **10. Hidrólisis de Sales**
 

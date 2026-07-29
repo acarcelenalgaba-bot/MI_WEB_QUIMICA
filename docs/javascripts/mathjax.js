@@ -7,9 +7,9 @@ window.MathJax = {
     packages: {'[+]': ['mhchem']} // <-- 1. Añade esto para activar \ce
   },
   options: {
-    ignoreHtmlClass: ".*",
+    ignoreHtmlClass: "tex2jax_ignore|mathjax_ignore",
     // 2. Añadimos 'arithmatex-box' para que lea también nuestra caja customizada
-    processHtmlClass: "arithmatex|arithmatex-box" 
+    processHtmlClass: "arithmatex|arithmatex-box"
   },
   loader: {load: ['[tex]/mhchem']} // <-- 3. Añade esto para cargar mhchem
 };
