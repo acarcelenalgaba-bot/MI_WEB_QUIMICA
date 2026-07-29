@@ -796,9 +796,9 @@ $$\ce{CH3-COONH4 \; (aq) \longrightarrow \; NH4^+ \; (aq) + CH3-COO^- \; (aq) }$
 
 $$\begin{array}{|l|p{2.5cm}|p{2.5cm}|}  
 \hline  
-\rowcolor[gray]{.95} 
+\rowcolor[rgb]{1,0.8,0.8}
 \ce{Sustancia} & \ce{Ka} & \ce{Kb} \\ 
-\hline   
+\hline
 \ce{HNO2} & \ce{7,2*10^{-4}} & \ce{-} \\
 \ce{HCN} & \ce{4,9*10^{-9}} & \ce{-} \\
 \ce{CH3-COOH} & \ce{1,8*10^{-5}} & \ce{-} \\
@@ -809,11 +809,40 @@ $$\begin{array}{|l|p{2.5cm}|p{2.5cm}|}
 **Ejercicios de Autoevaluación**
 
 **Ejercicio propuesto**:
-Clasifica de forma cualitativa (ácido, básico o neutro) el comportamiento en disolución acuosa de las siguientes sales, escribiendo las ecuaciones químicas correspondientes:
 
-1.  **Nitrato de potasio ($\ce{KNO3}$):**
-2.  **Fluoruro de sodio ($\ce{NaF}$):**
-3.  **Cloruro de amonio ($\ce{NH4Cl}$):**
+1. Clasifica de forma cualitativa (ácido, básico o neutro) el comportamiento en disolución acuosa de las siguientes sales, escribiendo las ecuaciones químicas correspondientes:
+   
+    a) Nitrato de potasio ($\ce{KNO3}$):
+
+    b) Fluoruro de sodio ($\ce{NaF}$):
+
+    c) Cloruro de amonio ($\ce{NH4Cl}$):
+
+2. Indica el pH de las disoluciones acuosas de las siguientes sales. Justifica la respuesta:
+   
+    a) Nitrato de amonio
+
+    b) Perclorato potásico
+
+    c) Hidrogenocarbonato de sodio (bicarbonato sódico)
+
+3. Considera las disoluciones acuosas de idéntica concentración de los siguientes compuestos: ácido nítrico, cloruro de amonio, cloruro de sodio y ácido fluorhídrico.
+   
+    a) Deduce si las disoluciones serán ácidas, básicas o neutras.
+
+    b) Ordénalas por orden creciente de pH.
+
+    Datos: $\ce{Ka (HF) = 1,4 \cdot 10^{-4}; Kb (NH3) = 1,8 \cdot 10^{-5} }$.
+
+4. Se preparan disoluciones acuosas de igual concentración de ácido clorhídrico, cloruro de sodio, cloruro amónico e hidróxido de sodio.
+    
+    a) ¿Cuál de ellas tendrá mayor pH?
+
+    b) ¿Qué disolución es neutra?
+
+    c) ¿Qué disolución tendrá menor pH?
+    
+    d) ¿Qué disolución no cambia su pH al diluirla?
 
 ## **11. Volumetrías de Neutralización**
 
@@ -822,25 +851,34 @@ La **volumetría** (o valoración ácido-base) es una técnica cuantitativa de a
 * El **analito** (disolución de concentración desconocida) se coloca habitualmente en un matraz Erlenmeyer.
 * El **agente valorante** (disolución estándar de concentración conocida) se coloca en una bureta graduada.
 
-**Proceso Práctico de Valoración de un Ácido**
+![...](imagenes/tema06/tp16.png){style="display: block; margin: 0 auto; width: 30%; border: 1px solid #0056b3;"}
 
-1.  **Preparación:** Se toma una alícuota medida con precisión del ácido problema (por ejemplo, $20,0 \text{ mL}$) mediante una pipeta y se vierte en un matraz Erlenmeyer. Se añaden unas gotas de un indicador visual adecuado (como la fenolftaleína).
+### **Proceso Práctico de Valoración de un Ácido** {: .caja-subtitulo }
+
+1.  **Preparación:** Se toma un volumen medido con precisión del ácido problema (por ejemplo, $\ce{25,0 mL}$) mediante una pipeta y se vierte en un matraz Erlenmeyer. Se añaden unas gotas de un indicador visual adecuado (como la fenolftaleína).
 2.  **Adición:** Se llena la bureta con la disolución estándar de la base (agente valorante) y se va vertiendo lentamente sobre el matraz Erlenmeyer bajo agitación continua.
 3.  **Finalización:** Se detiene la adición en el instante preciso en el que el indicador experimenta un cambio permanente de color. Este punto práctico se denomina **punto final** de la valoración.
 
-**Punto de Equivalencia en la Neutralización**
+### **Punto de Equivalencia en la Neutralización** {: .caja-subtitulo }
 
 El **punto de equivalencia** es el instante teórico de la valoración en el que se han mezclado las cantidades estequiométricas exactas de reactivos (ácido y base), completándose la reacción química de neutralización.
+
+![...](imagenes/tema06/tp18.png){style="display: block; margin: 0 auto; width: 30%; border: 1px solid #0056b3;"}
 
 Se puede determinar de forma instrumental midiendo de forma continua la variación del pH con un electrodo de pH (pH-metro). En las proximidades del punto de equivalencia, se observa un cambio extremadamente brusco y vertical de la curva de valoración (salto de pH).
 
 * *Importante:* El punto de equivalencia **no siempre coincide con pH = 7**. El pH de equivalencia dependerá exclusivamente de la hidrólisis de la sal formada en la neutralización.
 
-**Cálculos en el Punto de Equivalencia**
+**Ejercicio**: 
+
+Calcular los valores del pH de la mezcla cuando se han añadido a los 50 mL de HCl 0,1 M las siguientes cantidades de NaOH 0,1 M (en
+mL): 0; 25; 45; 49; 49,5; 50; 50,5; 51; 55; 75.
+
+### **Cálculos en el Punto de Equivalencia** {: .caja-subtitulo }
 
 En el punto de equivalencia de cualquier reacción de neutralización, se cumple de manera rigurosa la ley de equivalencia química:
 
-$$\text{Equivalentes de ácido} = \text{Equivalentes de base}$$
+$$\ce{moles H^+ del \text{á}cido} = \ce{moles OH^- de la base}$$
 
 Que podemos expresar en términos de molaridades y volúmenes como:
 
@@ -857,11 +895,12 @@ Que podemos expresar en términos de molaridades y volúmenes como:
 $$\ce{a \cdot M_{\text{ácido}} \cdot V_{\text{ácido}} = b \cdot M_{\text{base}} \cdot V_{\text{base}}}$$
 </div>
 
-
 Donde:
 
 * **$\textbf{a}$** es el número de protones ($\ce{H^+}$) que puede transferir una molécula del ácido (ej. 1 para $\ce{HCl}$, 2 para $\ce{H2SO4}$, 3 para $\ce{H3PO4}$).
 * **$\textbf{b}$** es el número de iones hidróxido ($\ce{OH^-}$) que puede liberar o aceptar una molécula de la base (ej. 1 para $\ce{NaOH}$, 2 para $\ce{Ca(OH)2}$).
+
+En cualquier caso todos los problemas de reacciones de neutralización pueden resolverse siguiendo las pautas típicas de cualquier problema de estequiometría.
 
 ## **12. Indicadores Ácido-Base**
 
@@ -876,9 +915,11 @@ El cambio de color (viraje) se produce en un intervalo estrecho de pH, centrado 
 
 Para una valoración, se debe seleccionar un indicador cuyo rango de viraje coincida con la zona del salto vertical de la curva de valoración (punto de equivalencia).
 
+![...](imagenes/tema06/tp19.png){style="display: block; margin: 0 auto; width: 80%; border: 1px solid #0056b3;"}
+
 **Ejercicio Resuelto de Valoración**
 
-**Problema:** Se valoran $25,0 \text{ mL}$ de una disolución de ácido sulfúrico ($\ce{H2SO4}$) de concentración desconocida empleando una disolución patrón de hidróxido de sodio ($\ce{NaOH}$) de concentración $0,12 \text{ M}$. Si se requieren exactamente $30,0 \text{ mL}$ de la base para alcanzar el viraje del indicador, calcula la molaridad del ácido.
+**Problema:** Se valoran $\ce{25,0 mL}$ de una disolución de ácido sulfúrico ($\ce{H2SO4}$) de concentración desconocida empleando una disolución patrón de hidróxido de sodio ($\ce{NaOH}$) de concentración $\ce{0,12 M}$. Si se requieren exactamente $\ce{30,0 mL}$ de la base para alcanzar el viraje del indicador, calcula la molaridad del ácido.
 
 **Solución**:
 
@@ -901,8 +942,25 @@ La concentración de la disolución de ácido sulfúrico es de **$\ce{0,072 \tex
 
 **Ejercicios propuestos:**
 
-1.  Calcula el volumen de disolución de hidróxido de potasio ($\ce{KOH}$) $0,15 \text{ M}$ necesario para neutralizar por completo $50,0 \text{ mL}$ de una disolución de ácido clorhídrico ($\ce{HCl}$) $0,20 \text{ M}$. $\quad$ (Solución: $66,7 \text{ mL}$).
-2.  Determina la concentración de una disolución de $\ce{Ca(OH)2}$ si para valorar $20,0 \text{ mL}$ de la misma se consumen exactamente $15,0 \text{ mL}$ de ácido nítrico ($\ce{HNO3}$) $0,10 \text{ M}$. $\quad$ (Solución: $0,0375 \text{ M}$).
+1.  Calcula el volumen de disolución de hidróxido de potasio ($\ce{KOH}$) $\ce{0,15 M}$ necesario para neutralizar por completo $\ce{50,0 mL}$ de una disolución de ácido clorhídrico ($\ce{HCl}$) $\ce{0,20 M}$. (**Solución**: $\ce{66,7 mL}$)
+
+2.  Determina la concentración de una disolución de $\ce{Ca(OH)2}$ si para valorar $\ce{20,0 mL}$ de la misma se consumen exactamente $\ce{15,0 mL}$ de ácido nítrico ($\ce{HNO3}$) $\ce{0,10 M}$. (**Solución**: $\ce{0,0375 M}$)
+   
+3.  El pH de un zumo de limón es 3,4. Suponiendo que el ácido del limón se comporta como un ácido monoprótico (HA) con constante de acidez, $\ce{Ka = 7,4 \cdot 10^{-4}}$, calcule:
+   
+    a) La concentración de HA en ese zumo de limón. (**Solución**: $\ce{6,12 \cdot 10^{-4}}$)
+
+    b) El volumen de una disolución de hidróxido sódico 0,005 M necesaria para neutralizar 100 mL del zumo de limón. (**Solución**: $\ce{12,24 mL}$)
+
+4. El pH de una disolución de un ácido monoprótico HA es 3,4. Si el grado de disociación del ácido es 0,02. Calcule:
+   
+    a) La concentración inicial de ácido. (**Solución**: $\ce{0,0199}$)
+
+    b) Las concentraciones del ácido y de su base conjugada en el equilibrio. (**Solución**: $\ce{0,0195; 3,98 \cdot 10^{-4}}$)
+
+    c) El valor de la constante de acidez, Ka. (**Solución**: $\ce{8,12 \cdot 10^{-6}}$)
+
+    d) Los gramos de hidróxido de potasio (KOH) necesarios para neutralizar 50 mL de dicho ácido. (**Solución**: $\ce{0,0558 g}$)
 
 ## **13. Estudio Cualitativo de las Disoluciones Amortiguadoras**
 

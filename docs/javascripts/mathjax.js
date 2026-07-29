@@ -4,14 +4,12 @@ window.MathJax = {
     displayMath: [["\\[", "\\]"], ["$$", "$$"]],
     processEscapes: true,
     processEnvironments: true,
-    packages: {'[+]': ['mhchem']}, // <-- 1. Añade esto para activar \ce
-    packages: {'[+]': ['colortbl']}
+    packages: {'[+]': ['mhchem', 'color', 'colortbl']}, // añade mhchem y color
   },
   options: {
     ignoreHtmlClass: "tex2jax_ignore|mathjax_ignore",
-    // 2. Añadimos 'arithmatex-box' para que lea también nuestra caja customizada
+    // añadimos 'arithmatex-box' para que lea también nuestra caja customizada
     processHtmlClass: "arithmatex|arithmatex-box"
   },
-  loader: {load: ['[tex]/mhchem']},// <-- 3. Añade esto para cargar mhchem
-  loader: {load: ['[tex]/colortbl']},
+  loader: {load: ['[tex]/mhchem', '[tex]/color', '[tex]/colortbl']},
 };
