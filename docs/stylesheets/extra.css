@@ -21,14 +21,17 @@
 
 /* Cambiar el fondo y el texto de la cabecera de las tablas */
 .md-typeset table thead tr {
-    background-color: #f4f5f5; /* Sustituye por el color hexadecimal que quieras (este es un tono teal) */
+    background-color: #f4f5f5;
 }
 
 .md-typeset table thead tr th {
-    color: #0f0e0e; /* Color del texto de la cabecera (Blanco) */
+    color: #0f0e0e;
     font-weight: bold;
 }
 
+/* ==========================================
+   ESTILOS DE IMPRESIÓN (PDF)
+   ========================================== */
 @media print {
     @page { 
         size: A4;            
@@ -38,17 +41,49 @@
         margin-right: 2.5cm !important; 
     }
 
-    html, body, .md-container, .md-main, .md-main__inner, .md-content, .md-content__inner, article {
-        display: block !important;
-        position: relative !important;
+    /* 1. CLAVE: Desbloquear la altura total para permitir TODAS las páginas */
+    html, body, .md-container, .md-main, .md-main__inner, .md-content, article {
+        height: auto !important;
+        min-height: auto !important;
+        max-height: none !important;
+        overflow: visible !important;
+    }
+
+    /* Ocultar elementos de la web que no deben salir en el PDF */
+    .md-header, .md-sidebar, .md-footer, .md-top, .md-nav, .md-tabs, nav.md-path {
+        display: none !important;
+    }
+
+    /* Ajuste limpio del contenido sin romper contenedores internos */
+    .md-content {
         width: 100% !important;
         max-width: 100% !important;
         margin: 0 !important;
         padding: 0 !important;
-        overflow: visible !important;
     }
 
-    img, p:has(img), .arithmatex-box {
+    /* FORZAR VISIBILIDAD DE MATHJAX EN IMPRESIÓN/PDF */
+    mjx-container, .arithmatex, .MathJax {
+        visibility: visible !important;
+        opacity: 1 !important;
+        break-inside: avoid !important;
+        page-break-inside: avoid !important;
+    }
+
+    /* Ecuaciones en línea ($...$) */
+    mjx-container:not([display="true"]) {
+        display: inline-block !important;
+    }
+
+    /* Ecuaciones centradas/en bloque ($$...$$) */
+    mjx-container[display="true"] {
+        display: block !important;
+        margin: 1em auto !important;
+        text-align: center !important;
+    }
+
+    /* Evitar que imágenes, tablas y cajas de ecuaciones se corten entre páginas */
+    img, table, p:has(img), .arithmatex-box {
         break-inside: avoid !important;
         page-break-inside: avoid !important;
     }
@@ -74,9 +109,9 @@ img {
 .caja-subtitulo {
   width: fit-content;
   font-size: 20px !important;
-  background-color: #fbc8bd;       /* Un fondo ligeramente diferente */
-  color: #020f15;                  /* Texto algo más claro */
-  padding: 5px 10px;               /* Un poco más compacto que el H2 */
+  background-color: #fbc8bd;
+  color: #020f15;
+  padding: 5px 10px;
   border-radius: 4px;
   margin-top: 1.2em;
 }
