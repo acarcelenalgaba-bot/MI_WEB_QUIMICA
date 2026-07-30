@@ -91,7 +91,7 @@ Supone que la energía que emite o absorbe un átomo está formada por pequeños
 La energía de cada uno de estos fotones viene dada por:
 
 $\text{E} = h \cdot f$
-{ style="border: 2px solid #e11d48; border-radius: 12px; padding: 15px; text-align: center; max-width: 125px; margin: 20px auto; display: block;" }
+{ style="border: 2px solid #e11d48; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block;" }
 
 donde $f$ es la frecuencia con la que oscila el átomo y $h$ una constante (**constante de Planck**) igual para todos los átomos de valor pequeñísimo:
 $h = 6,626 \cdot 10^{-34}$ J · s
@@ -127,10 +127,10 @@ La energía correspondiente a esa radiación de frecuencia umbral sería la ener
 necesaria para arrancar un electrón del átomo del metal.
 
 $\textbf{Energía radiación} = \textbf{Energía umbral} + \textbf{Energía cinética}$ $\mathbf{e}^{\boldsymbol{-}}$ $\textbf{arrancado}$
-{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; max-width: 900px; margin: 20px auto; display: block;" }
+{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block;" }
 
 $h \cdot f = h \cdot f_0 + E_c$
-{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; max-width: 200px; margin: 20px auto; display: block;" }
+{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block;" }
 
 ### **Espectros atómicos** {: .caja-subtitulo }
 
@@ -158,7 +158,7 @@ Se comprobó que la colocación de sus líneas espectrales obedecían a la ecuac
 empírica, propuesta en **1900** por **J. Rydberg**, donde **m** y **n** son números enteros y $R = 1,097 \cdot 10^{7} \; m^{-1}$ 
 
 $\dfrac {1}{\lambda} = R \cdot \left( \dfrac {1}{m^2} + \dfrac {1}{n^2} \right)$
-{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; max-width: 250px; margin: 20px auto; display: block;" }
+{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block;" }
 
 ## **3. El átomo de Bohr.**
 
@@ -182,8 +182,8 @@ Para una partícula de masa **m** que gire con velocidad **v** describiendo una 
 
 Por ello el segundo postulado puede expresarse así:
 
-$m \cdot r \cdot v = n \cdot \dfrac {h}{2 \pi}$
-{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; max-width: 200px; margin: 20px auto; display: block; background-color: #eae7ec;" }
+$\ce{m \cdot r \cdot v = n \cdot \dfrac {h}{2 \pi}}$
+{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
 
 El número n que determina las órbitas posibles, se denomina **número cuántico principal**. Las órbitas que se correspondan con valores no enteros del número cuántico principal, no existen.
 
@@ -194,7 +194,7 @@ El número n que determina las órbitas posibles, se denomina **número cuántic
 La frecuencia ($f$) del cuanto viene dada por la expresión:
 
 $\boldsymbol{E_2 - E_1 = h \cdot f }$
-{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; max-width: 200px; margin: 20px auto; display: block; background-color: #eae7ec;" }
+{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
 
 donde $h \; (\text{constante de Planck}) = 6,62 \cdot 10^{-34} \; \text{J·s}$
 
@@ -231,7 +231,7 @@ ${\hspace{2cm} r = n^2 \cdot \dfrac {h^2}{4 \pi^2 \cdot m \cdot k \cdot e^2} \hs
 Todo lo de dentro del paréntesis son constantes conocidas, y operando queda: ${\hspace{1cm} r = n^2 \cdot 5,3 \cdot 10^{-11} }$  
 
 $\boldsymbol{r = n^2 \cdot a }$
-{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; max-width: 200px; margin: 20px auto; display: block; background-color: #eae7ec;" }
+{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
 
 Es decir, la primera órbita del átomo de hidrógeno tendrá un radio de $r_1 = 5,3 \cdot 10^{-11} \; m$
 
@@ -265,7 +265,7 @@ en eV, nos queda:
 $${E = - \dfrac {13,6}{n^2} \; eV }$$
 
 $\boldsymbol{E = - \dfrac {A}{n^2} }$
-{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; max-width: 200px; margin: 20px auto; display: block; background-color: #eae7ec;" }
+{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
 
 El **electronvoltio** (eV) es una unidad de energía que representa la variación de energía cinética que experimenta un electrón al moverse desde un punto de potencial $V_a$ hasta un punto de potencial $V_b$ entre los que hay una diferencia de potencial de 1 V.
 
@@ -418,80 +418,82 @@ Podemos por tanto obtener la **configuración electrónica** de un átomo siguie
 
 Se puede observar que en el C, N y O, los electrones de los estados “p” tienen sus espines iguales (“paralelos”)
 
-<table style="width: 100%; max-width: 800px; margin: 20px auto; border-collapse: collapse; background-color: #e0f7fa; border: 1px solid #b2ebf2; font-family: sans-serif; text-align: center; box-shadow: 0px 4px 8px rgba(0,0,0,0.05);">
+<table style="width: 100%; max-width: fit-content; margin: 20px auto; border-collapse: collapse; background-color: #e0f7fa; border: 1px solid #b2ebf2; font-family: sans-serif; text-align: center; box-shadow: 0px 4px 8px rgba(0,0,0,0.05);">
   <thead>
     <tr style="background-color: #e8eaf6; border-bottom: 2px solid #b2ebf2;">
-      <th style="padding: 12px; font-weight: bold;">Átomo</th>
-      <th style="padding: 12px; font-weight: bold;">Z</th>
-      <th style="padding: 12px; font-weight: bold;">Configuración electrónica</th>
-      <th style="padding: 12px; font-weight: bold; text-align: left; padding-left: 20px;">Diagrama de orbitales</th>
+      <th style="padding: 0.75em; font-weight: bold;">Átomo</th>
+      <th style="padding: 0.75em; font-weight: bold;">Z</th>
+      <th style="padding: 0.75em; font-weight: bold;">Configuración electrónica</th>
+      <th style="padding: 0.75em; font-weight: bold; text-align: left; padding-left: 1.25em;">Diagrama de orbitales</th>
     </tr>
   </thead>
   <tbody>
     <tr style="border-bottom: 1px solid #b2ebf2;">
-      <td style="padding: 12px; font-weight: bold;">Li</td>
-      <td style="padding: 12px;">3</td>
-      <td style="padding: 12px;">1s² 2s¹</td>
-      <td style="padding: 12px; text-align: left; padding-left: 20px;"><span class="box">↑↓</span> <span class="box">↑</span></td>
+      <td style="padding: 0.75em; font-weight: bold;">Li</td>
+      <td style="padding: 0.75em;">3</td>
+      <td style="padding: 0.75em;">1s² 2s¹</td>
+      <td style="padding: 0.75em; text-align: left; padding-left: 1.25em;"><span class="box">↑↓</span> <span class="box">↑</span></td>
     </tr>
     <tr style="border-bottom: 1px solid #b2ebf2;">
-      <td style="padding: 12px; font-weight: bold;">Be</td>
-      <td style="padding: 12px;">4</td>
-      <td style="padding: 12px;">1s² 2s²</td>
-      <td style="padding: 12px; text-align: left; padding-left: 20px;"><span class="box">↑↓</span> <span class="box">↑↓</span></td>
+      <td style="padding: 0.75em; font-weight: bold;">Be</td>
+      <td style="padding: 0.75em;">4</td>
+      <td style="padding: 0.75em;">1s² 2s²</td>
+      <td style="padding: 0.75em; text-align: left; padding-left: 1.25em;"><span class="box">↑↓</span> <span class="box">↑↓</span></td>
     </tr>
     <tr style="border-bottom: 1px solid #b2ebf2;">
-      <td style="padding: 12px; font-weight: bold;">B</td>
-      <td style="padding: 12px;">5</td>
-      <td style="padding: 12px;">1s² 2s² 2p¹</td>
-      <td style="padding: 12px; text-align: left; padding-left: 20px;"><span class="box">↑↓</span> <span class="box">↑↓</span> <span class="box">↑</span><span class="box">&nbsp;</span><span class="box">&nbsp;</span></td>
+      <td style="padding: 0.75em; font-weight: bold;">B</td>
+      <td style="padding: 0.75em;">5</td>
+      <td style="padding: 0.75em;">1s² 2s² 2p¹</td>
+      <td style="padding: 0.75em; text-align: left; padding-left: 1.25em;"><span class="box">↑↓</span> <span class="box">↑↓</span> <span class="box">↑</span><span class="box">&nbsp;</span><span class="box">&nbsp;</span></td>
     </tr>
     <tr style="border-bottom: 1px solid #b2ebf2;">
-      <td style="padding: 12px; font-weight: bold;">C</td>
-      <td style="padding: 12px;">6</td>
-      <td style="padding: 12px;">1s² 2s² 2p²</td>
-      <td style="padding: 12px; text-align: left; padding-left: 20px;"><span class="box">↑↓</span> <span class="box">↑↓</span> <span class="box">↑</span><span class="box">↑</span><span class="box">&nbsp;</span></td>
+      <td style="padding: 0.75em; font-weight: bold;">C</td>
+      <td style="padding: 0.75em;">6</td>
+      <td style="padding: 0.75em;">1s² 2s² 2p²</td>
+      <td style="padding: 0.75em; text-align: left; padding-left: 1.25em;"><span class="box">↑↓</span> <span class="box">↑↓</span> <span class="box">↑</span><span class="box">↑</span><span class="box">&nbsp;</span></td>
     </tr>
     <tr style="border-bottom: 1px solid #b2ebf2;">
-      <td style="padding: 12px; font-weight: bold;">N</td>
-      <td style="padding: 12px;">7</td>
-      <td style="padding: 12px;">1s² 2s² 2p³</td>
-      <td style="padding: 12px; text-align: left; padding-left: 20px;"><span class="box">↑↓</span> <span class="box">↑↓</span> <span class="box">↑</span><span class="box">↑</span><span class="box">↑</span></td>
+      <td style="padding: 0.75em; font-weight: bold;">N</td>
+      <td style="padding: 0.75em;">7</td>
+      <td style="padding: 0.75em;">1s² 2s² 2p³</td>
+      <td style="padding: 0.75em; text-align: left; padding-left: 1.25em;"><span class="box">↑↓</span> <span class="box">↑↓</span> <span class="box">↑</span><span class="box">↑</span><span class="box">↑</span></td>
     </tr>
     <tr style="border-bottom: 1px solid #b2ebf2;">
-      <td style="padding: 12px; font-weight: bold;">O</td>
-      <td style="padding: 12px;">8</td>
-      <td style="padding: 12px;">1s² 2s² 2p⁴</td>
-      <td style="padding: 12px; text-align: left; padding-left: 20px;"><span class="box">↑↓</span> <span class="box">↑↓</span> <span class="box">↑↓</span><span class="box">↑</span><span class="box">↑</span></td>
+      <td style="padding: 0.75em; font-weight: bold;">O</td>
+      <td style="padding: 0.75em;">8</td>
+      <td style="padding: 0.75em;">1s² 2s² 2p⁴</td>
+      <td style="padding: 0.75em; text-align: left; padding-left: 1.25em;"><span class="box">↑↓</span> <span class="box">↑↓</span> <span class="box">↑↓</span><span class="box">↑</span><span class="box">↑</span></td>
     </tr>
     <tr style="border-bottom: 1px solid #b2ebf2;">
-      <td style="padding: 12px; font-weight: bold;">F</td>
-      <td style="padding: 12px;">9</td>
-      <td style="padding: 12px;">1s² 2s² 2p⁵</td>
-      <td style="padding: 12px; text-align: left; padding-left: 20px;"><span class="box">↑↓</span> <span class="box">↑↓</span> <span class="box">↑↓</span><span class="box">↑↓</span><span class="box">↑</span></td>
+      <td style="padding: 0.75em; font-weight: bold;">F</td>
+      <td style="padding: 0.75em;">9</td>
+      <td style="padding: 0.75em;">1s² 2s² 2p⁵</td>
+      <td style="padding: 0.75em; text-align: left; padding-left: 1.25em;"><span class="box">↑↓</span> <span class="box">↑↓</span> <span class="box">↑↓</span><span class="box">↑↓</span><span class="box">↑</span></td>
     </tr>
     <tr style="border-bottom: 1px solid #b2ebf2;">
-      <td style="padding: 12px; font-weight: bold;">Ne</td>
-      <td style="padding: 12px;">10</td>
-      <td style="padding: 12px;">1s² 2s² 2p⁶</td>
-      <td style="padding: 12px; text-align: left; padding-left: 20px;"><span class="box">↑↓</span> <span class="box">↑↓</span> <span class="box">↑↓</span><span class="box">↑↓</span><span class="box">↑↓</span></td>
+      <td style="padding: 0.75em; font-weight: bold;">Ne</td>
+      <td style="padding: 0.75em;">10</td>
+      <td style="padding: 0.75em;">1s² 2s² 2p⁶</td>
+      <td style="padding: 0.75em; text-align: left; padding-left: 1.25em;"><span class="box">↑↓</span> <span class="box">↑↓</span> <span class="box">↑↓</span><span class="box">↑↓</span><span class="box">↑↓</span></td>
     </tr>
   </tbody>
 </table>
 
 <style>
 .box {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    line-height: 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2em;
+    height: 2em;
     border: 2px solid #333;
-    text-align: center;
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1em;
     background-color: #ffffff;
-    margin-right: 4px;
+    margin-right: 0.25em;
     color: #000000;
+    box-sizing: border-box;
+    vertical-align: middle;
 }
 </style>
 

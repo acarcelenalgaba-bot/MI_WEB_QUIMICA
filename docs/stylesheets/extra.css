@@ -35,10 +35,10 @@
 @media print {
     @page { 
         size: A4;            
-        margin-top: 2cm !important;   
-        margin-bottom: 2cm !important;
-        margin-left: 2.5cm !important;    
-        margin-right: 2.5cm !important; 
+        margin-top: 1cm !important;   
+        margin-bottom: 1cm !important;
+        margin-left: 1cm !important;    
+        margin-right: 1cm !important; 
     }
 
     /* 1. CLAVE: Desbloquear la altura total para permitir TODAS las páginas */
