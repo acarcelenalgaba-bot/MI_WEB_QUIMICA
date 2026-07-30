@@ -91,7 +91,7 @@ Supone que la energía que emite o absorbe un átomo está formada por pequeños
 La energía de cada uno de estos fotones viene dada por:
 
 $\text{E} = h \cdot f$
-{ style="border: 2px solid #e11d48; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block;" }
+{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
 
 donde $f$ es la frecuencia con la que oscila el átomo y $h$ una constante (**constante de Planck**) igual para todos los átomos de valor pequeñísimo:
 $h = 6,626 \cdot 10^{-34}$ J · s
@@ -127,10 +127,10 @@ La energía correspondiente a esa radiación de frecuencia umbral sería la ener
 necesaria para arrancar un electrón del átomo del metal.
 
 $\textbf{Energía radiación} = \textbf{Energía umbral} + \textbf{Energía cinética}$ $\mathbf{e}^{\boldsymbol{-}}$ $\textbf{arrancado}$
-{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block;" }
+{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
 
 $h \cdot f = h \cdot f_0 + E_c$
-{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block;" }
+{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
 
 ### **Espectros atómicos** {: .caja-subtitulo }
 
@@ -158,7 +158,7 @@ Se comprobó que la colocación de sus líneas espectrales obedecían a la ecuac
 empírica, propuesta en **1900** por **J. Rydberg**, donde **m** y **n** son números enteros y $R = 1,097 \cdot 10^{7} \; m^{-1}$ 
 
 $\dfrac {1}{\lambda} = R \cdot \left( \dfrac {1}{m^2} + \dfrac {1}{n^2} \right)$
-{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block;" }
+{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
 
 ## **3. El átomo de Bohr.**
 
@@ -212,78 +212,78 @@ El átomo de Bohr era, simplemente, un síntoma de que la física clásica, que 
 
 Aplicando la física clásica, el electrón se mantiene en órbita porque la fuerza eléctrica de atracción del protón que actúa sobre él es la fuerza centrípeta que lo mantiene en órbita. La fuerza eléctrica viene dada por la ley de Coulomb, en la que a la carga del electrón y la del protón las llamamos **e**. Y en la expresión de la fuerza centrípeta **m** es la masa del electrón, **v** su velocidad y en ambas fórmulas **r** es el radio de la órbita del electrón (distancia protón-electrón)
 
-${F = K \cdot \dfrac {q_1 \cdot q_2}{r^2} \hspace{1cm} \rightarrow \hspace{1cm}  F = K \cdot \dfrac {e^2}{r^2} \hspace{3cm} F = m \cdot a_c = m \cdot \dfrac {v^2}{r}}$
+$$\ce{F = K \cdot \dfrac {q_1 \cdot q_2}{r^2} \hspace{1cm} \rightarrow \hspace{1cm}  F = K \cdot \dfrac {e^2}{r^2} \hspace{3cm} F = m \cdot a_c = m \cdot \dfrac {v^2}{r}}$$
 
-Igualando ambas fuerzas: ${\hspace{2cm} K \cdot \dfrac {e^2}{r^2} = m \cdot \dfrac {v^2}{r}}$
+Igualando ambas fuerzas: $\ce{\hspace{2cm} K \cdot \dfrac {e^2}{r^2} = m \cdot \dfrac {v^2}{r}}$
 
 Y despejando r:
 
-${\hspace{2cm} r = \dfrac {k \cdot e^2}{m \cdot v^2} \hspace{1cm} }$  (Ecuación 1)
+$$\ce{\hspace{2cm} r = \dfrac {k \cdot e^2}{m \cdot v^2} \hspace{1cm} (Ecuaci\text{ó}n 1) }$$  
 
-Según el segundo postulado de Bohr se debe cumplir que: $\hspace{0.5cm} m \cdot v \cdot r = n \cdot \dfrac {h}{2 \cdot \pi}$
+Según el segundo postulado de Bohr se debe cumplir que: $\ce{\hspace{0.5cm} m \cdot v \cdot r = n \cdot \dfrac {h}{2 \cdot \pi}}$
 
-de donde: ${\hspace{0.5cm} v = \dfrac {n \cdot h}{2 \pi \cdot m \cdot r} \hspace{1cm} \rightarrow \hspace{1cm}  v^2 = \dfrac {n^2 \cdot h^2}{4 \pi^2 \cdot m^2 \cdot r^2}  }$
+de donde: $\ce{\hspace{0.5cm} \text{v} = \dfrac {n \cdot h}{2 \pi \cdot m \cdot r} \hspace{1cm} \rightarrow \hspace{1cm}  v^2 = \dfrac {n^2 \cdot h^2}{4 \pi^2 \cdot m^2 \cdot r^2}  }$
 
-Sustituyendo este valor de $v^2$ en la ecuación 1 y operando:
+Sustituyendo este valor de $\ce{v^2}$ en la ecuación 1 y operando:
 
-${\hspace{2cm} r = n^2 \cdot \dfrac {h^2}{4 \pi^2 \cdot m \cdot k \cdot e^2} \hspace{1cm} }$ 
+$$\ce{\hspace{2cm} r = n^2 \cdot \dfrac {h^2}{4 \pi^2 \cdot m \cdot k \cdot e^2} \hspace{1cm} }$$
 
-Todo lo de dentro del paréntesis son constantes conocidas, y operando queda: ${\hspace{1cm} r = n^2 \cdot 5,3 \cdot 10^{-11} }$  
+Todo lo de dentro del paréntesis son constantes conocidas, y operando queda: $\ce{\hspace{1cm} r = n^2 \cdot 5,3 \cdot 10^{-11} }$  
 
-$\boldsymbol{r = n^2 \cdot a }$
+$\boldsymbol{\ce{r = n^2 \cdot a }}$
 { style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
 
-Es decir, la primera órbita del átomo de hidrógeno tendrá un radio de $r_1 = 5,3 \cdot 10^{-11} \; m$
+Es decir, la primera órbita del átomo de hidrógeno tendrá un radio de $\ce{r_1 = 5,3 \cdot 10^{-11} \; m}$
 
-La segunda órbita tendrá un radio de $4 \cdot r_1$
+La segunda órbita tendrá un radio de $\ce{4 \cdot r_1}$
 
-La tercera órbita un radio de $9 \cdot r_1$, etc.
+La tercera órbita un radio de $\ce{9 \cdot r_1}$, etc.
 
 Dado que n es siempre un número entero vemos que las órbitas no pueden tomar cualquier valor , es decir el valor del radio está “**cuantizado**”.
 
-![Texto alternativo](imagenes/tema01/energia_bohr.png){ style="display: block; margin: 0 auto; width: 250px;" }
+![Texto alternativo](imagenes/tema01/energia_bohr.png){ style="display: block; margin: 0 auto; width: 450px;" }
 
 ### **Energía del electrón en las órbitas** {: .caja-subtitulo }
 
 La energía total del electrón será la suma de su energía cinética y potencial (eléctrica):
 
-$${E = \dfrac {1}{2} \cdot m \cdot v^2 - \dfrac {k \cdot e^2}{r} }$$
+$$\ce{E = \dfrac {1}{2} \cdot m \cdot v^2 - \dfrac {k \cdot e^2}{r} }$$
 
-Anteriormente antes se pudo deducir que: ${\hspace{0.5cm} m \cdot v^2 = \dfrac {k \cdot e^2}{r} }$
+Anteriormente antes se pudo deducir que: $\ce{\hspace{0.5cm} m \cdot v^2 = \dfrac {k \cdot e^2}{r} }$
 
 Por lo tanto:
 
-$${E = \dfrac {k \cdot e^2}{2 r} - \dfrac {k \cdot e^2}{r} = - \dfrac {k \cdot e^2}{2 r}}$$
+$$\ce{E = \dfrac {k \cdot e^2}{2 r} - \dfrac {k \cdot e^2}{r} = - \dfrac {k \cdot e^2}{2 r}}$$
 
 Y sustituyendo el valor de **r** hallado anteriormente:
 
-$${E = - \dfrac {k \cdot e^2 \cdot 4 \pi^2 \cdot m \cdot k \cdot e^2}{2 \cdot n^2 \cdot h^2} = - \dfrac {1}{n^2} \left( \dfrac {2 k^2 \cdot \pi^2 \cdot m \cdot e^4}{h^2} \right) }$$
+$$\ce{E = - \dfrac {k \cdot e^2 \cdot 4 \pi^2 \cdot m \cdot k \cdot e^2}{2 \cdot n^2 \cdot h^2} = - \dfrac {1}{n^2} \left( \dfrac {2 k^2 \cdot \pi^2 \cdot m \cdot e^4}{h^2} \right) }$$
 
 Si sustituimos los valores de las constantes, operamos, y expresamos la energía
 en eV, nos queda:
 
-$${E = - \dfrac {13,6}{n^2} \; eV }$$
+$$\ce{E = - \dfrac {13,6}{n^2} \ eV }$$
 
-$\boldsymbol{E = - \dfrac {A}{n^2} }$
+$\boldsymbol{\ce{E = - \dfrac {A}{n^2} }}$
 { style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
 
-El **electronvoltio** (eV) es una unidad de energía que representa la variación de energía cinética que experimenta un electrón al moverse desde un punto de potencial $V_a$ hasta un punto de potencial $V_b$ entre los que hay una diferencia de potencial de 1 V.
+El **electronvoltio** (eV) es una unidad de energía que representa la variación de energía cinética que experimenta un electrón al moverse desde un punto de potencial $\ce{V_a}$ hasta un punto de potencial $\ce{V_b}$ entre los que hay una diferencia de potencial de 1 V.
 
-Equivale a $1,60 \cdot 10^{-19}$ J, obteniéndose este valor de multiplicar la carga del electrón ($1,60 \cdot 10^{-19}$ C) por la unidad de potencial eléctrico (V).
+Equivale a $\ce{1,60 \cdot 10^{-19}}$ J, obteniéndose este valor de multiplicar la carga del electrón ($\ce{1,60 \cdot 10^{-19}}$ C) por la unidad de potencial eléctrico (V).
 
 En **física de partículas** se usa indistintamente como unidad de masa y de energía, ya que en relatividad ambas magnitudes se refieren a lo mismo.
 
 Según el **tercer postulado de Bohr**, el electrón solo emite o absorbe energía en los saltos de una órbita permitida a otra. En dicho cambio emite o absorbe un fotón cuya energía es la diferencia de energía entre ambos niveles.
 
-Este fotón, según la ecuación de Planck tiene una energía: $E_2 - E_1 = h \cdot f$ donde 1 identifica la órbita inicial y 2 la final, y f es la frecuencia.
+Este fotón, según la ecuación de Planck tiene una energía: $\ce{E_2 - E_1 = h \cdot f}$, donde 1 identifica la órbita inicial y 2 la final, y f es la frecuencia.
 
 Entonces las frecuencias de los fotones emitidos o absorbidos en la transición serán:
 
-$${f = \dfrac {2 k^2 \cdot \pi^2 \cdot m \cdot e^4}{ h^3} \cdot \left( \dfrac {1}{n^2_1} - \dfrac {1}{n^2_2} \right) }$$
+$$\ce{f = \dfrac {2 k^2 \cdot \pi^2 \cdot m \cdot e^4}{ h^3} \cdot \left( \dfrac {1}{n^2_1} - \dfrac {1}{n^2_2} \right) }$$
 
 A veces, en vez de la frecuencia se suele dar la inversa de la longitud de onda:
 
-$${\dfrac {1}{\lambda} = \dfrac {2 k^2 \cdot \pi^2 \cdot m \cdot e^4}{ c \cdot h^3} \cdot \left( \dfrac {1}{n^2_1} - \dfrac {1}{n^2_2} \right) }$$
+$$\ce{\dfrac {1}{\lambda} = \dfrac {2 k^2 \cdot \pi^2 \cdot m \cdot e^4}{ c \cdot h^3} \cdot \left( \dfrac {1}{n^2_1} - \dfrac {1}{n^2_2} \right) }$$
 
 Esta última expresión fue muy bien recibida porque explicaba teóricamente la fórmula empírica hallada antes por Balmer (generalizada posteriormente por J. Rydberg) para describir las líneas espectrales observadas desde finales del siglo XIX en la desexcitación del hidrógeno.
 
@@ -303,7 +303,7 @@ Los parámetros más importantes de la elipse son:
   
 - La distancia focal, c.
 
-![Texto alternativo](imagenes/tema01/elipse.png){ style="display: block; margin: 0 auto; width: 250px;" }
+![Texto alternativo](imagenes/tema01/elipse.png){ style="display: block; margin: 0 auto; width: 450px;" }
 
 Por tanto, para determinar las posibles órbitas elípticas necesitamos dos números cuánticos:
 
@@ -357,7 +357,7 @@ Esta energía está también cuantizada (es decir, no puede tomar cualquier valo
 
 En resumen, la energía de un electrón situado en una órbita es función de cuatro números cuánticos: tres que fijan el valor de la energía de la órbita considerada: **n**, $\boldsymbol{\ell}$ y $\boldsymbol{m_\ell}$, y el número cuántico de spin, $\boldsymbol{m_s}$, que cuantiza la energía propia del electrón:
 
-$$E_{electrón} = f (n, \ell, m_{\ell} , m_s )$$
+$$\ce{E_{electrón} = } f (n, \ell, m_{\ell} , m_s )$$
 
 ## **5. Configuraciones electrónicas**.
 
@@ -375,9 +375,9 @@ Por razones históricas los niveles con:
   
 - $\ell$ = 3 se nombran como "**f**"
   
-![Texto alternativo](imagenes/tema01/numeros.png){ style="display: block; margin: 0 auto; width: 800px;" }
+![Texto alternativo](imagenes/tema01/numeros.png){ style="display: block; margin: 0 auto; max-width: 80%; height: auto;" }
 
-**Diagrama de Möller**
+**Diagrama de Moeller**
 
 Para recordar el orden de energía (de menor a mayor) se recurre al llamado **diagrama de Möller**.
 
@@ -385,7 +385,7 @@ Se puede observar que a partir de la tercera capa estados con un valor de n supe
 
 En general, **cuanto mayor es n + $\boldsymbol{\ell}$**, **mayor es la energía**.
 
-![Texto alternativo](imagenes/tema01/moller.png){ style="display: block; margin: 0 auto; width: 200px;" }
+![Texto alternativo](imagenes/tema01/moller.png){ style="display: block; margin: 0 auto; width: 14em; max-width: 100%; height: auto;" }
 
 ### **Principio de exclusión de Pauli** {: .caja-subtitulo }
 
@@ -398,19 +398,33 @@ Podemos determinar el número máximo de electrones que pueden situarse en un ni
 
 Puede haber como máximo:
 
-- dos electrones en un estado “s”
+- **Subnivel s** ($l = 0$). Solo tiene 1 orbital ($m_l = 0$). 
 
-- seis en un estado “p”
+$$\ce{1 \text{ orbital} \cdot 2 \text{ electrones/orbital} = \mathbf{2 \text{ electrones máximo}}}$$
 
-- diez en un estado “d”
+- **Subnivel p** ($l = 1$). Tiene 3 orbitales ($m_l = -1, 0, +1$).
+  
+$$\ce{3 \text{ orbitales} \cdot 2 \text{ electrones/orbital} = \mathbf{6 \text{ electrones máximo}}}$$
 
-- catorce en un estado “f”
+- **Subnivel d** ($l = 2$). Tiene 5 orbitales ($m_l = -2, -1, 0, +1, +2$).
 
-Podemos por tanto obtener la **configuración electrónica** de un átomo siguiendo las siguientes normas:
+$$\ce{5 \text{ orbitales} \cdot 2 \text{ electrones/orbital} = \mathbf{10 \text{ electrones máximo}}}$$
+
+- **Subnivel f** ($l = 3$). Tiene 7 orbitales ($m_l = -3, -2, -1, 0, +1, +2, +3$).
+
+$$\ce{7 \text{ orbitales} \cdot 2 \text{ electrones/orbital} = \mathbf{14 \text{ electrones máximo}}}$$
+ 
+**Síntesis para el nivel de energía** ($\ce{n}$)
+
+«Por lo tanto, si nos preguntan cuántos electrones caben en un nivel completo ($\ce{n}$), solo tenemos que sumar los subniveles que existen en ese nivel o aplicar la fórmula general: 
+
+$$\ce{\text{N.º máximo de electrones en nivel } n = 2n^2}$$
+
+Podemos por tanto obtener la **configuración electrónica** de un átomo siguiendo las siguientes **normas**:
 
 1. Considerar el número de electrones que se deben distribuir. Recordar que el número de electrones en un átomo neutro viene dado por el número atómico Z.
    
-2. Los electrones se van distribuyendo entre los estados de energía posibles llenando primero los de menor energía. Cuando un nivel se complete, pasar al siguiente (recordar el principio de exclusión y para establecer el orden de llenado usar el diagrama de Möeller).
+2. Los electrones se van distribuyendo entre los estados de energía posibles llenando primero los de menor energía. Cuando un nivel se complete, pasar al siguiente (recordar el principio de exclusión y para establecer el orden de llenado usar el diagrama de Moeller).
 
 3. La configuración final debe darse **ordenada por capas**.
    
