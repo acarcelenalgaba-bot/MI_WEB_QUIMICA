@@ -14,7 +14,7 @@ Sin embargo el descubrimiento de la electricidad y el estudio de los fenómenos 
 
 Las diferentes explicaciones de esa estructura son los **modelos atómicos**.
 
-**Modelo de Thomson**
+### **Modelo de Thomson** {: .caja-subtitulo }
 
 En 1897 los experimentos realizados sobre la conducción de la electricidad por los gases dieron como resultado el descubrimiento de una nueva partícula con carga negativa: el electrón.
 
@@ -26,7 +26,7 @@ La carga positiva de la nube compensa exactamente la negativa de los electrones 
 
 ![Texto alternativo](imagenes/tema01/thomson.png){ style="display: block; margin: 0 auto; width: 250px;" }
 
-**Modelo de Rutherford**
+### **Modelo de Rutherford** {: .caja-subtitulo }
 
 **E. Rutherford** realiza en 1911 un experimento crucial con el que trataba de comprobar la validez del modelo atómico de Thomson.
 
@@ -44,7 +44,7 @@ En 1918 el propio Rutherford consideró que los núcleos de hidrógeno (que hab�
 
 El **neutrón** fue propuesto también por Rutherford en 1920, siendo identificado por J. Chadwick en 1932 como producto de la reacción nuclear producida al bombardear núcleos de berilio con partículas alfa.
 
-**Modelo planetario**
+### **Modelo planetario** {: .caja-subtitulo }
 
 El diámetro de un átomo típico es del orden de $10^{-10}$ m (0,1 nm), mientras que el núcleo atómico es 10.000 veces más pequeño ($10^{-14}$ m).
 
@@ -56,7 +56,7 @@ Sin embargo este modelo contradecía la **<u>teoría electromagnética de Maxwel
 
 ## **2. Cuestiones de física previas al átomo de Bohr: Radiacción electromagnética, espectros, Planck.**
 
-**Radiación electromagnética**
+### **Radiación electromagnética** {: .caja-subtitulo }
 
 El estudio de la estructura interna de los átomos se realiza mediante el empleo de experimentos en los que las ondas electromagnéticas interaccionan con ellos. De la “respuesta” a esa interacción se pueden sacar conclusiones sobre esa estructura. Es importante por lo tanto, conocer los parámetros básicos de las ondas electromagnéticas:
 
@@ -82,7 +82,7 @@ Como enseguida veremos, a menor longitud de onda, mayor frecuencia y energía, y
 
 ![Texto alternativo](imagenes/tema01/espectro.png){ style="display: block; margin: 0 auto; width: 800px;" }
 
-**Hipótesis de Planck**
+### **Hipótesis de Planck** {: .caja-subtitulo }
 
 Para explicar las emisiones de energía que ponen de manifiesto los espectros, Max Planck sugiere que los átomos se comportan como osciladores armónicos con una frecuencia de oscilación dada (f ). Se aparta de las leyes clásicas de la física al suponer que cada átomo no puede absorber o emitir energía radiante de forma arbitraria, sino solo en cantidades proporcionales a su frecuencia.
 
@@ -96,13 +96,13 @@ $\text{E} = h \cdot f$
 donde $f$ es la frecuencia con la que oscila el átomo y $h$ una constante (**constante de Planck**) igual para todos los átomos de valor pequeñísimo:
 $h = 6,626 \cdot 10^{-34}$ J · s
 
-**El espectro de la luz visible**
+### **El espectro de la luz visible** {: .caja-subtitulo }
 
 Es especialmente importante, por su relevancia en los espectros atómicos, y conviene que sepamos el “orden” de magnitud de sus longitudes de onda.
 
 ![Texto alternativo](imagenes/tema01/luz.png){ style="display: block; margin: 0 auto; width: 800px;" }
 
-**El efecto fotoeléctrico**
+### **El efecto fotoeléctrico** {: .caja-subtitulo }
 
 En 1887 E. Hertz había observado que se producían descargas eléctricas en metales cuando eran iluminados por luz UV.
 
@@ -132,7 +132,7 @@ $\textbf{Energía radiación} = \textbf{Energía umbral} + \textbf{Energía cin�
 $h \cdot f = h \cdot f_0 + E_c$
 { style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; max-width: 200px; margin: 20px auto; display: block;" }
 
-**Espectros atómicos**
+### **Espectros atómicos** {: .caja-subtitulo }
 
 Si encerramos en un tubo, hidrógeno o helio y sometemos el gas a voltajes elevados, el gas emite luz. Si hacemos pasar esa luz a través de un prisma, los colores que la constituyen se separan dándonos el espectro de la luz analizada.
 
@@ -208,7 +208,7 @@ El **tercer postulado** afirmaba que la luz se emitía en forma de pequeños paq
 
 El átomo de Bohr era, simplemente, un síntoma de que la física clásica, que tanto éxito había tenido en la explicación del mundo macroscópico, no servía para describir el mundo de lo muy pequeño, el dominio de los átomos.
 
-**Radio de las órbitas permitidas**
+### **Radio de las órbitas permitidas** {: .caja-subtitulo }
 
 Aplicando la física clásica, el electrón se mantiene en órbita porque la fuerza eléctrica de atracción del protón que actúa sobre él es la fuerza centrípeta que lo mantiene en órbita. La fuerza eléctrica viene dada por la ley de Coulomb, en la que a la carga del electrón y la del protón las llamamos **e**. Y en la expresión de la fuerza centrípeta **m** es la masa del electrón, **v** su velocidad y en ambas fórmulas **r** es el radio de la órbita del electrón (distancia protón-electrón)
 
@@ -243,7 +243,7 @@ Dado que n es siempre un número entero vemos que las órbitas no pueden tomar c
 
 ![Texto alternativo](imagenes/tema01/energia_bohr.png){ style="display: block; margin: 0 auto; width: 250px;" }
 
-**Energía del electrón en las órbitas**
+### **Energía del electrón en las órbitas** {: .caja-subtitulo }
 
 La energía total del electrón será la suma de su energía cinética y potencial (eléctrica):
 
@@ -333,7 +333,7 @@ El número cuántico magnético **adquiere valores enteros comprendidos** entre 
 
 $$\boldsymbol{m_\ell} = - \boldsymbol{\ell} . . . 0 . . . + \boldsymbol{\ell}$$
 
-**Los números cuánticos**
+### **Los números cuánticos** {: .caja-subtitulo }
 
 Las **órbitas posibles**, en consecuencia, quedan fijadas por tres números cuánticos:
 
@@ -387,7 +387,7 @@ En general, **cuanto mayor es n + $\boldsymbol{\ell}$**, **mayor es la energía*
 
 ![Texto alternativo](imagenes/tema01/moller.png){ style="display: block; margin: 0 auto; width: 200px;" }
 
-**Principio de exclusión de Pauli**
+### **Principio de exclusión de Pauli** {: .caja-subtitulo }
 
 A la hora de ir llenando con electrones los distintos estados de energía disponibles hay que tener en cuenta el llamado **principio de exclusión de Pauli**:
 
@@ -520,7 +520,7 @@ Una vez establecida que la energía está cuantizada, y tras la satisfactoria ex
 
 Veremos a continuación los aspectos más relevantes de este cambio.
 
-**Hipótesis de De Broglie**
+### **Hipótesis de De Broglie** {: .caja-subtitulo }
 
 Tradicionalmente, los electrones se habían considerado como partículas, y por tanto un haz
 de electrones sería algo claramente distinto de una onda.
@@ -537,7 +537,7 @@ la siguiente expresión:
 $\ce{\lambda \; = \dfrac {h}{m \cdot v} }$
 { style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; display: table; background-color: #eae7ec; font-size: 1em; margin: 20px auto; text-align: center;font-weight: bold;" }
 
-**Principio de incertidumbre de Heisenberg**
+### **Principio de incertidumbre de Heisenberg** {: .caja-subtitulo }
 
 Principio que revela una característica distinta de la mecánica cuántica que no existe en la mecánica newtoniana. Como una definición simple, podemos señalar que se trata de un concepto que describe que **el acto mismo de observar cambia lo que se está observando**.
 
@@ -550,7 +550,7 @@ Según el principio de incertidumbre, el producto de esas incertidumbres en los 
 $\ce{\Delta x \cdot \Delta p \geq  \dfrac {h}{2 \pi} }$
 { style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; display: table; background-color: #eae7ec; font-size: 1em; margin: 20px auto; text-align: center;font-weight: bold;" }
 
-**Descripción ondulatoria del electrón**
+### **Descripción ondulatoria del electrón** {: .caja-subtitulo }
 
 Uno de los métodos para describir matemáticamente el comportamiento de los electrones ha sido mediante una “**ecuación de ondas**”, similar a las de las ondas estacionarias. Fue desarrollado por E. **Schrödinger** en 1926.
 
@@ -558,7 +558,7 @@ Las soluciones de dicha ecuación son “**funciones de onda**” representadas 
 
 Las funciones de onda están condicionadas por unos números cuánticos que adquieren exactamente los mismos valores que ya conocemos y que se introdujeron para explicar los espectros atómicos con el modelo de Bohr-Sommerfeld.
 
-**Orbitales atómicos**
+### **Orbitales atómicos** {: .caja-subtitulo }
 
 Aunque la función de onda $\Psi$ no tiene un significado físico real, su cuadrado ($\Psi^2$) es una medida directa de la **probabilidad de encontrar al electrón** en una determinada zona del espacio.
 
@@ -569,7 +569,7 @@ El valor de $\Psi^2$ en un punto es proporcional a la densidad de carga en dicho
 En consecuencia, abandonamos definitivamente la idea de órbitas definidas para hablar
 de **probabilidades**, como ya nos sugería el principio de indeterminación. Por ello nos imaginaremos al electrón como una nube difusa de carga distribuida alrededor del núcleo, de manera que la densidad de carga será mayor en las zonas donde más probable sea que esté el electrón.
 
-**Tipos de orbitales**
+### **Tipos de orbitales** {: .caja-subtitulo }
 
 ![Texto alternativo](imagenes/tema01/orbitales.png){ style="display: block; margin: 0 auto; width: 850px;" }
 
@@ -577,7 +577,7 @@ Los orbitales se relacionan con los subniveles de energía vistos anteriormente 
 
 ![Texto alternativo](imagenes/tema01/orbitales2.png){ style="display: block; margin: 0 auto; width: 750px;" }
 
-**Números cuánticos y orbitales**
+### **Números cuánticos y orbitales** {: .caja-subtitulo }
 
 A la vista del concepto de orbital podemos reinterpretar el significado de los números cuánticos:
 
@@ -593,7 +593,7 @@ El número **s** (spin) es **propio del electrón**, no del orbital, y puesto qu
 
 ## **7. El Sistema Periódico**.
 
-**Ordenación de los elementos**
+### **Ordenación de los elementos** {: .caja-subtitulo }
 
 Según se iban descubriendo nuevos elementos a lo largo del siglo XIX, hubo numerosos intentos de clasificarlos y ordenarlos con algún criterio más o menos claro.
 
@@ -611,7 +611,7 @@ La tabla periódica guarda una estrecha relación con las configuraciones electr
 
 ![Texto alternativo](imagenes/tema01/tabla2.png){ style="display: block; margin: 0 auto; width: 800px;" }
 
-**Familias de elementos**
+### **Familias de elementos** {: .caja-subtitulo }
 
 **Elementos representativos**:
 
@@ -641,7 +641,7 @@ El **hidrógeno** es un caso especial, ya que al tener configuración $\ce{1s^1}
 
 Son las familias de **“lantánidos”** y **“actínidos”**. Aunque sus electrones de valencia son de la capa 6 o 7, se diferencian unos de otros por los electrones f de las capas 4 o 5, por lo que son muy parecidos entre sí.
 
-**Propiedades periódicas**
+### **Propiedades periódicas** {: .caja-subtitulo }
 
 Hay una serie de propiedades de los elementos cuyo valor varía de forma periódica, de manera que son bastante parecidas entre los elementos de un mismo grupo, pero varían mucho entre los de un mismo período.
 
@@ -657,7 +657,7 @@ Las propiedades que vamos a estudiar son:
 
 - **Radios atómicos e iónicos**.
 
-**Energía de ionización**
+### **Energía de ionización** {: .caja-subtitulo }
 
 La **enegía de ionización**, **EI**, (o **potencial de ionización**) es la energía mínima necesaria para arrancar un electrón de un átomo gaseoso en su estado fundamental, transformándolo en un ión positivo.
 
@@ -677,7 +677,7 @@ La **energía de ionización**, por tanto, **disminuye** a medida que se **desci
 
 ![Texto alternativo](imagenes/tema01/energia_ionizacion2.png){ style="display: block; margin: 0 auto; width: 200px;" }
 
-**Afinidad electrónica**
+### **Afinidad electrónica** {: .caja-subtitulo }
 
 Se define la **afinidad electrónica** (**AE**) como la variación de energía (generalmente desprendida) que tiene lugar cuando un elemento, en estado gaseoso, capta un electrón:
 
@@ -693,7 +693,7 @@ La **variación de la afinidad electrónica en el sistema periódico será idén
 
 ![Texto alternativo](imagenes/tema01/afinidad.png){ style="display: block; margin: 0 auto; width: 300px;" }
 
-**Electronegatividad**
+### **Electronegatividad** {: .caja-subtitulo }
 
 Es la **tendencia que tiene un elemento para atraer hacia sí el par electrónico del enlace compartido con otro**. En ese sentido es una propiedad de los átomos enlazados entre sí.
 
@@ -727,7 +727,7 @@ La escala de electronegatividad más usada es la propuesta por Pauling, en ella 
 
 ![Texto alternativo](imagenes/tema01/electronegatividad.png){ style="display: block; margin: 0 auto; height: 400px; width: 800px;" }
 
-**Tamaño de los átomos (radio atómico)**
+### **Radio atómico (Tamaño de los átomos)** {: .caja-subtitulo }
 
 El tamaño de un átomo viene condicionado por tres factores:
 
@@ -753,7 +753,7 @@ Los átomos más pequeños se encuentran situados hacia la mitad periodo.
 
 ![Texto alternativo](imagenes/tema01/tamaño.png){ style="display: block; margin: 0 auto; height: 300px; width: 700px;" }
 
-**Tamaño de los iones (radio iónico)**
+### **Radio iónico (Tamaño de los iones)** {: .caja-subtitulo }
 
 Debemos diferenciar entre aniones y cationes.
 
@@ -767,7 +767,7 @@ La pérdida de una carga negativa implica que las repulsiones entre los electron
 
 ![Texto alternativo](imagenes/tema01/radio_ionico.png){ style="display: block; margin: 0 auto; height: 250px; width: 400px;" }
 
-**Resumen propiedades periódicas**
+### **Resumen propiedades periódicas** {: .caja-subtitulo }
 
 Los **gases nobles** tienen una **estructura electrónica** especialmente **estable** que se corresponde con ocho electrones en su última capa: $\ce{ns^2 np^6}$ (excepto el He que tiene dos).
 
@@ -796,7 +796,7 @@ A ello hay que sumar la existencia de “antimateria”, predicha por Paul Dirac
 
 ![Texto alternativo](imagenes/tema01/particulas.png){ style="display: block; margin: 0 auto; width: 400px;" }
 
-**Modelo estándar**
+### **Modelo estándar** {: .caja-subtitulo }
 
 El **modelo estándar** (2012) pone orden en ese lío de partículas, y las organiza en una nueva “tabla periódica” de las partículas elementales.
 
@@ -830,7 +830,7 @@ Son **cuatro las interacciones fundamentales**:
   
 ![Texto alternativo](imagenes/tema01/interaccion.png){ style="display: block; margin: 0 auto; width: 450px;" }
 
-**Evolución del universo**
+### **Evolución del universo** {: .caja-subtitulo }
 
 ![Texto alternativo](imagenes/tema01/universo.png){ style="display: block; margin: 0 auto; height: 450px; width: 750px;" }
 
@@ -851,6 +851,8 @@ En los siguientes 100-200 millones de años, **por atracción gravitatoria, se f
 ![Texto alternativo](imagenes/tema01/galaxia.png){ style="display: block; margin: 0 auto; height: 250px; width: 450px;" }
 
 
----
+<!-- ---
 
-[Descargar Tema 1 en PDF](../pdfs/tema1-estructura/tema1-estructura.pdf){ .md-button .md-button--primary }
+[Descargar Tema 1 en PDF](../pdfs/tema1-estructura/tema1-estructura.pdf){ .md-button .md-button--primary } 
+
+-->

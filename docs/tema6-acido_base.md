@@ -1085,6 +1085,6 @@ Dado que el dióxido de carbono ($\ce{CO2}$) es un gas volátil, ofrece un mecan
 Relación cuantitativa:
 Para mantener el pH óptimo de $7,4$ (teniendo en cuenta que el $\ce{\text{p}Ka}$ efectivo del sistema ácido carbónico es de aproximadamente $6,1$), la relación fisiológica de concentraciones $\ce{[HCO3^-]/[H2CO3]}$ en sangre debe mantenerse en un valor constante cercano a **20:1**.
 
----
+<!-- ---
 
-[Descargar Tema 6 en PDF](../pdfs/tema6-acido_base/tema6-acido_base.pdf){ .md-button .md-button--primary }
+[Descargar Tema 6 en PDF](../pdfs/tema6-acido_base/tema6-acido_base.pdf){ .md-button .md-button--primary } -->

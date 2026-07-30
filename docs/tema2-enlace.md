@@ -1077,6 +1077,6 @@ El átomo de oxígeno de una molécula de agua tiene una carga parcial negativa 
 
 ![...](imagenes/tema02/enlace_hidrogeno.png){style="display: block; margin: 0 auto; width: 70%"}
 
----
+<!-- ---
 
-[Descargar Tema 2 en PDF](../pdfs/tema2-enlace/tema2-enlace.pdf){ .md-button .md-button--primary }
+[Descargar Tema 2 en PDF](../pdfs/tema2-enlace/tema2-enlace.pdf){ .md-button .md-button--primary } -->

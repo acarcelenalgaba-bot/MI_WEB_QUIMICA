@@ -916,6 +916,6 @@ $\ce{\dfrac {\ce{1,37 \cdot 10^{-6} mol}}{\ce{1 L}} \cdot \dfrac {\ce{461 g PbI2
 
 Si comparamos este resultado con la solubilidad que nos da el enunciado (0,7 g/l), podemos observar cómo influye en este caso el efecto del “ión común” ($\ce{I-}$)
 
----
+<!-- ---
 
-[Descargar Tema 5 en PDF](../pdfs/tema5-equilibrio/tema5-equilibrio.pdf){ .md-button .md-button--primary }
+[Descargar Tema 5 en PDF](../pdfs/tema5-equilibrio/tema5-equilibrio.pdf){ .md-button .md-button--primary } -->

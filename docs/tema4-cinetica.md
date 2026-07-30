@@ -398,6 +398,6 @@ Las **enzimas presentan** una **gran especificidad** tanto respecto a los sustra
 
 Las enzimas presentan además una **elevada actividad**.
 
----
+<!-- ---
 
-[Descargar Tema 4 en PDF](../pdfs/tema4-cinetica/tema4-cinetica.pdf){ .md-button .md-button--primary }
+[Descargar Tema 4 en PDF](../pdfs/tema4-cinetica/tema4-cinetica.pdf){ .md-button .md-button--primary } -->

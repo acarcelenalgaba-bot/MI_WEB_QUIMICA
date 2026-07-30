@@ -647,6 +647,6 @@ $\ce{CH3Cl + NaOH -> CH3OH + NaCl}$
 
 *Producto:* Metanol. *Tipo de reacción:* Sustitución nucleófila.
 
----
+<!-- ---
 
-[Descargar Tema 8 en PDF](../pdfs/tema8-organica/tema8-organica.pdf){ .md-button .md-button--primary }
+[Descargar Tema 8 en PDF](../pdfs/tema8-organica/tema8-organica.pdf){ .md-button .md-button--primary } -->

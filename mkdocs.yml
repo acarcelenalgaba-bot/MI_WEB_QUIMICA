@@ -44,10 +44,7 @@ markdown_extensions:
 plugins:
   - search
   - kroki
-  - pdf-with-js
-  # - pdf-export:
-  #     verbose: false
-  #     combined: false
+#  - pdf-with-js
 
 extra_javascript:
   - javascripts/mathjax.js
