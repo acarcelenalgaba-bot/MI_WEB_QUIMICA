@@ -396,7 +396,11 @@ No pueden existir dos electrones con los cuatro números cuánticos iguales.
 
 Podemos determinar el número máximo de electrones que pueden situarse en un nivel energético dado aplicando el principio de exclusión de Pauli.
 
-Puede haber como máximo:
+«Como cada orbital cuántico viene definido por los tres primeros números cuánticos ($\ce{n}, l, m_l$), si aplicamos el número cuántico de espín ($m_s = +\frac{1}{2}$ y $m_s = -\frac{1}{2}$), la consecuencia directa del principio de Pauli es esta:
+
+En cada **orbital individual** solo caben, como máximo, 2 electrones (y con espines opuestos).
+
+En consecuencia, puede haber como máximo:
 
 - **Subnivel s** ($l = 0$). Solo tiene 1 orbital ($m_l = 0$). 
 
@@ -418,7 +422,7 @@ $$\ce{7 \text{ orbitales} \cdot 2 \text{ electrones/orbital} = \mathbf{14 \text{
 
 «Por lo tanto, si nos preguntan cuántos electrones caben en un nivel completo ($\ce{n}$), solo tenemos que sumar los subniveles que existen en ese nivel o aplicar la fórmula general: 
 
-$$\ce{\text{N.º máximo de electrones en nivel } n = 2n^2}$$
+$$\ce{\text{N.º máximo de electrones en nivel } \rightarrow \quad n = 2n^2}$$
 
 Podemos por tanto obtener la **configuración electrónica** de un átomo siguiendo las siguientes **normas**:
 
@@ -511,14 +515,14 @@ Se puede observar que en el C, N y O, los electrones de los estados “p” tien
 }
 </style>
 
-Sabemos que la configuración $n s^2 p^6$ (configuración de gas noble) en la última capa es
+Sabemos que la configuración $\ce{n s^2 p^6}$ (configuración de gas noble) en la última capa es
 especialmente estable.
 
 Aunque la estabilidad es considerablemente menor que la correspondiente a la estructura de gas noble, también **presentan una estabilidad considerable** las estructuras que se corresponden con los niveles **p** o **d** **llenos** o **semillenos**.
 
 Para alcanzarlas algunos elementos pueden promocionar electrones desde niveles de energía inferior a niveles superiores. Este efecto se observa, **sobre todo**, entre los **metales de transición**, en los cuales los niveles (n - 1) d y n s están muy próximos energéticamente.
 
-Ejemplos:
+**Ejemplos**:
 
 $$\ce{Cr = 1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^4 \; \rightarrow \; 1s^2 2s^2 2p^6 3s^2 3p^6 4s^1 3d^5}$$
 
@@ -589,7 +593,7 @@ de **probabilidades**, como ya nos sugería el principio de indeterminación. Po
 
 ![Texto alternativo](imagenes/tema01/orbitales.png){ style="display: block; margin: 0 auto; width: 850px;" }
 
-Los orbitales se relacionan con los subniveles de energía vistos anteriormente y están determinados por los números cuánticos permitidos. El valor que tome el número cuántico l nos da el tipo de orbitales.
+Los orbitales se relacionan con los subniveles de energía vistos anteriormente y están determinados por los números cuánticos permitidos. El valor que tome el número cuántico $l$ nos da el tipo de orbitales.
 
 ![Texto alternativo](imagenes/tema01/orbitales2.png){ style="display: block; margin: 0 auto; width: 750px;" }
 
@@ -605,7 +609,7 @@ Un **orbital atómico** está determinado por tres números cuánticos:
   
 - El número **m** nos informa de la orientación espacial del orbital.
   
-El número **s** (spin) es **propio del electrón**, no del orbital, y puesto que el principio de exclusión de Pauli impide que en un átomo haya dos electrones con los 4 números cuánticos iguales, en un mismo orbital (que ya tiene n, l y m iguales) solo caben dos electrones: uno con spin $\ce{+ \dfrac {1}{2}}$ y otro con spin $\ce{- \dfrac {1}{2}}$.
+El número **s** (spin) es **propio del electrón**, no del orbital, y puesto que el principio de exclusión de Pauli impide que en un átomo haya dos electrones con los 4 números cuánticos iguales, en un mismo orbital (que ya tiene n, $l$ y m iguales) solo caben dos electrones: uno con spin $\ce{+ \dfrac {1}{2}}$ y otro con spin $\ce{- \dfrac {1}{2}}$.
 
 ## **7. El Sistema Periódico**.
 
@@ -679,7 +683,7 @@ La **enegía de ionización**, **EI**, (o **potencial de ionización**) es la en
 
 $$\ce{A (g) \; + \; EI \; \rightarrow \; A^+ (g) \; + \; e^–}$$
 
-Si comparamos los **elementos de un mismo periodo**, vemos que las energías de ionización **aumentan** a medida que nos** desplazamos hacia la derecha**, puesto que **aumenta el valor de la carga nuclear**. Si bajamos en **un grupo** la **EI decrece**, pues la **atracción nuclear también decrece** al aumentar la distancia al núcleo del último electrón. En las siguientes diapositivas se explica con más detalle.
+Si comparamos los **elementos de un mismo periodo**, vemos que las energías de ionización **aumentan** a medida que nos** desplazamos hacia la derecha**, puesto que **aumenta el valor de la carga nuclear**. Si bajamos en **un grupo** la **EI decrece**, pues la **atracción nuclear también decrece** al aumentar la distancia al núcleo del último electrón.
 
 Rigurosamente deberíamos de hablar de **primera energía de ionización** cuando se arranca el primer electrón, **segunda energía de ionización** cuando arrancamos el segundo (siempre mayor ya que hay que extraer una carga negativa de un átomo con carga positiva),** tercera energía de ionización** para el tercero... etc.
 
