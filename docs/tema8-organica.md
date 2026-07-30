@@ -646,3 +646,7 @@ $\ce{CH3-CHBr-CH2-CH3 + KOH ->[etanol] CH3-CH=CH-CH3 + KBr + H2O}$
 $\ce{CH3Cl + NaOH -> CH3OH + NaCl}$
 
 *Producto:* Metanol. *Tipo de reacción:* Sustitución nucleófila.
+
+---
+
+[Descargar Tema 8 en PDF](../pdfs/tema8-organica/tema8-organica.pdf){ .md-button .md-button--primary }

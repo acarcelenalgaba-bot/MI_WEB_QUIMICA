@@ -915,3 +915,7 @@ $\ce{ Kps = [Pb^{2+}] \cdot [I^-]^2 \quad \rightarrow \quad [Pb^{2+}] = \dfrac {
 $\ce{\dfrac {\ce{1,37 \cdot 10^{-6} mol}}{\ce{1 L}} \cdot \dfrac {\ce{461 g PbI2}}{\ce{1 mol PbI2}} = 6,34 \cdot 10^{-4} g \cdot L^{-1}}$ 
 
 Si comparamos este resultado con la solubilidad que nos da el enunciado (0,7 g/l), podemos observar cómo influye en este caso el efecto del “ión común” ($\ce{I-}$)
+
+---
+
+[Descargar Tema 5 en PDF](../pdfs/tema5-equilibrio/tema5-equilibrio.pdf){ .md-button .md-button--primary }

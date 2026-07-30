@@ -144,3 +144,6 @@ $$\ce{...-NH-CH2-(CH2)4-CO-NH-CH2-(CH2)4-CO - ...}$$
 
 ![...](imagenes/tema09/po8.svg){style="display: block; margin: 0 auto; width: 35%"}
 
+---
+
+[Descargar Tema 9 en PDF](../pdfs/tema9-polimeros/tema9-polimeros.pdf){ .md-button .md-button--primary }

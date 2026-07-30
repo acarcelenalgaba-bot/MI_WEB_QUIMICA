@@ -574,3 +574,7 @@ Generalmente se recubren metales menos nobles, como el hierro, con otros más no
 Los metales así tratados se conocen como "galvanizados", aunque a veces este término se refiere a los recubrimientos de cinc.
 
 Según con qué metal recubramos, se habla de "niquelado", "cadmiado", "cromado", "estañado", "cobreado", "plateado", "dorado", etc.
+
+---
+
+[Descargar Tema 7 en PDF](../pdfs/tema7-redox/tema7-redox.pdf){ .md-button .md-button--primary }
