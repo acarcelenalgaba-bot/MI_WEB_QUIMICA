@@ -753,9 +753,9 @@ Puesto que el momento dipolar es una magnitud vectorial, la suma de varios momen
 
 **Molécula de $\ce{H2O}$**. Los momentos dipolares de los dos enlaces H-O se suman para dar un **momento dipolar total no nulo**. La molécula es **polar**.
 
-![...](imagenes/tema02/polaridad1.png){style="display: block; margin: 0 auto; width: 70%"}
+![...](imagenes/tema02/polaridad1.png){style="display: block; margin: 0 auto; width: 65%; height: auto;"}
 
-**Teoría del enlace de valencia (TEV)**
+### **Teoría del enlace de valencia (TEV)** {: .caja-subtitulo}
 
 La **teoría del enlace de valencia** fue desarrollada en 1927 por Walter Heitler (1904-1981) y Fritz London (1900-1954) y **supone que los orbitales atómicos se solapan en una zona donde se localizan los electrones del enlace**, para ello es **necesario** que los átomos tengan **electrones desapareados**.
 
@@ -838,21 +838,19 @@ Ejemplo de los estados de oxidación del cloro:
 
 ![...](imagenes/tema02/eo_cloro.svg){style="display: block; margin: 0 auto; width: 60%"}
 
-**Tipos de enlaces:** 
-
-**Enlaces $\sigma$ (Sigma) y $\pi$ (pi)**
+### **Tipos de enlaces** {: .caja-subtitulo}
 
 Si los orbitales que se solapan son los más sencillos, tipos s y p, se pueden considerar dos tipos de enlaces:
 
-**Enlaces $\sigma$**: se forman por solapamiento (acercamiento y superposición), de orbitales s con s, s con p y p con p (frontal, sobre el mismo eje).
+**Enlaces $\sigma$** (Sigma): se forman por solapamiento (acercamiento y superposición), de orbitales s con s, s con p y p con p (frontal, sobre el mismo eje).
 
 ![...](imagenes/tema02/enlace_sigma.png){style="display: block; margin: 0 auto; width: 40%; border: 1px solid #333;"}
 
-**Enlaces $\pi$**: se forman por solapamiento lateral, es decir, sobre ejes paralelos, de orbitales p.
+**Enlaces $\pi$** (pi): se forman por solapamiento lateral, es decir, sobre ejes paralelos, de orbitales p.
 
 ![...](imagenes/tema02/enlace_pi.png){style="display: block; margin: 0 auto; width: 40%; border: 1px solid #333;"}
 
-**Hibridación de orbitales atómicos**
+### **Hibridación de orbitales atómicos** {: .caja-subtitulo}
 
 La **teoría de hibridación de orbitales atómicos** fue propuesta en 1931 por L. Pauling como una modificación de la TEV, para hacer frente a disparidades halladas en el cálculo teórico de parámetros moleculares (distancias de enlace, ángulos de enlace,...) al aplicar la TEV con los valores obtenidos experimentalmente para los mismos parámetros.
 
@@ -868,7 +866,7 @@ $\ce{\hspace{4cm} H{:} \; 1s^1}$
 
 El problema es que según la geometría de los orbitales s y p, los cuatro enlaces σ del metano no serían iguales: el que se formara por solapamiento del orbital 2s del C con el 1s del H sería diferente de los otros tres, formados por solapamiento de los 2p del C son el 1s del H.
 
-**Hibridación $\ce{sp^3}$**
+### **Hibridación $\boldsymbol{\ce{sp^3}}$** {: .caja-subtitulo}
 
 La explicación dada por Pauling consiste en admitir la formación de cuatro **orbitales atómicos híbridos** equivalentes a partir del orbital 2s y los tres orbitales p del carbono, llamados $\ce{sp^3}$, conteniendo cada uno de ellos un electrón desapareado.
 
@@ -880,49 +878,51 @@ Al solaparse frontalmente con los correspondientes orbitales 1s de los hidrógen
 
 ![...](imagenes/tema02/hibridacion_sp3.png){style="display: block; margin: 0 auto; width: 50%; border: 1px solid #333;"}
 
-**Ejemplos $\ce{sp^3}$**
+**Ejemplos $\boldsymbol{\ce{sp^3}}$**
 
 Además del metano, todos los compuestos orgánicos en los que el carbono presenta cuatro enlaces simples (etano, propano, butano, pentano...), tienen hibridación $\ce{sp^3}$.
 
 Otros ejemplos importantes son el agua ($\ce{H2O}$), amoniaco ($\ce{NH3}$), ión amonio ($\ce{NH4^+}$), etc.
 
-![...](imagenes/tema02/ejemplos_sp3.png){style="display: block; margin: 0 auto; width: 60%"}
+![...](imagenes/tema02/ejemplos_sp3.png){style="display: block; margin: 0 auto; width: 60%; height: auto;"}
 
-**Hibridación $\ce{sp^2}$**
+### **Hibridación $\boldsymbol{\ce{sp^2}}$** {: .caja-subtitulo}
 
-Se define como la combinación de **un orbital s** y **dos p**, para formar 3 orbitales híbridos, llamados $\ce{sp^2}$,que se disponen en un plano formando ángulos de 120$^{\circ}$.
+Se define como la combinación de **un orbital s** y **dos p**, para formar 3 orbitales híbridos, llamados $\ce{sp^2}$, que se disponen en un plano formando ángulos de 120$^{\circ}$.
 
 Los átomos que forman hibridaciones $\ce{sp^2}$ pueden formar compuestos con enlaces dobles. Forman ángulos de 120$^{\circ}$ y sus moléculas son de **forma plana**.
 
-Los enlaces dobles están compuestos por un enlace $\ce{\sigma}$ y un enlace $\ce{\pi}$.
+Los **enlaces dobles** están compuestos por un enlace $\ce{\sigma}$ y un enlace $\ce{\pi}$.
 
 En estos casos un electrón del orbital 2s se mezcla sólo con dos de los orbitales 2p: surge al unirse el orbital s con dos orbitales p; por consiguiente, se producen tres nuevos orbitales $\ce{sp^2}$, y queda un orbital p sin hibridar:
 
 $\ce{\hspace{6cm} 2s^1 2p_x^1 2p_y^1 2p_z^1 \hspace{1cm} \longrightarrow \hspace{0.5cm} (sp^2)^1 (sp^2)^1 (sp^2)^1 2p_z^1}$
 
-![...](imagenes/tema02/hibridacion_sp2.png){style="display: block; margin: 0 auto; width: 50%"}
+![...](imagenes/tema02/hibridacion_sp2.png){style="display: block; margin: 0 auto; width: 50%; height: auto;"}
 
-**Ejemplos $\ce{sp^2}$**
+![...](imagenes/tema02/hibridacion_sp22.png){style="display: block; margin: 0 auto; width: 40%; height: auto;"}
+
+**Ejemplos $\boldsymbol{\ce{sp^2}}$**
 
 Además de todos los compuestos orgánicos en los que el carbono presenta un doble enlace, eteno, propeno, buteno,... (en ellos los orbitales p que no han hibridado se solapan lateralmente para dar el enlace π en el enlace doble), también presentan esta hibridación el aluminio en sus haluros, el azufre en el $\ce{SO2}$, el boro en el $\ce{BF3}$, etc.
 
-![...](imagenes/tema02/ejemplos_sp2.png){style="display: block; margin: 0 auto; width: 55%; border: 1px solid #333;"}
+![...](imagenes/tema02/ejemplos_sp2.png){style="display: block; margin: 0 auto; width: 60%; height: auto; border: 1px solid #333;"}
 
-**Hibridación sp**
+### **Hibridación sp** {: .caja-subtitulo}
 
 Se da con la combinación de **un orbital s** y **otro p**, para formar 2 orbitales híbridos, llamados **sp**, que se **disponen linealmente**, formando ángulos de 180$^{\circ}$.
 
 Los átomos que forman hibridaciones sp pueden formar compuestos con enlaces triples. Forman ángulos de 180$^{\circ}$ y sus moléculas son de **forma lineal**.
 
-Los enlaces triples están compuestos por un enlace $\ce{\sigma}$ y dos enlaces $\ce{\pi}$.
+Los **enlaces triples** están compuestos por un enlace $\ce{\sigma}$ y dos enlaces $\ce{\pi}$.
 
 En estos casos un electrón del orbital 2s se mezcla sólo con uno de los orbitales 2p: surge al unirse el orbital s con un orbital p; por consiguiente, se producen dos nuevos orbitales sp, y quedan dos orbitales p sin hibridar. 
 
 Para el carbono sería:
 
-$\ce{\hspace{6cm} 2s^1 2p_x^1 2p_y^1 2p_z^1 \hspace{1cm} \longrightarrow \hspace{1cm} (sp)^1 (sp)^1 p_y^1 p_z^1}$
+$$\ce{2s^1 2p_x^1 2p_y^1 2p_z^1 \hspace{1cm} \longrightarrow \hspace{1cm} (sp)^1 (sp)^1 p_y^1 p_z^1}$$
 
-![...](imagenes/tema02/hibridacion_sp.png){style="display: block; margin: 0 auto; width: 50%"}
+![...](imagenes/tema02/hibridacion_sp.png){style="display: block; margin: 0 auto; width: 55%; height: auto;"}
 
 **Ejemplos sp**
 
@@ -932,7 +932,7 @@ También presentan esta hibridación los haluros del berilio.
 
 ![...](imagenes/tema02/ejemplos_sp.png){style="display: block; margin: 0 auto; width: 65%"}
 
-**Resumen Hibridación**
+### **Resumen Hibridación** {: .caja-subtitulo}
 
 ![...](imagenes/tema02/resumen_hibridacion.png){style="display: block; margin: 0 auto; width: 70%"}
 
@@ -949,9 +949,9 @@ Para dibujar la estructura de Lewis, seguimos estos pasos:
 
 Contar los electrones de valencia:
 
-Carbono ($\ce{C}$): Grupo 14 $\rightarrow 4 \text{ e}^- \cdot 2 = 8 \text{ e}^-$
+Carbono ($\ce{C}$): $\quad$ Grupo 14 $\rightarrow 4 \text{ e}^- \cdot 2 = 8 \text{ e}^-$
 
-Hidrógeno ($\ce{H}$): Grupo 1 $\rightarrow 1 \text{ e}^- \cdot 4 = 4 \text{ e}^-$
+Hidrógeno ($\ce{H}$): $\quad$ Grupo 1 $\rightarrow 1 \text{ e}^- \cdot 4 = 4 \text{ e}^-$
 
 Electrones de valencia $\ce{(EV) = 12}$.
 
@@ -1020,7 +1020,7 @@ En una geometría trigonal plana ideal, los ángulos son de $120^\circ$. Sin emb
 \end{tikzpicture}
 -->
 
-![...](imagenes/tema02/geometria_hibridacion_eteno.svg){style="display: block; margin: 0 auto; width: 25%"}
+![...](imagenes/tema02/geometria_hibridacion_eteno.svg){style="display: block; margin: 0 auto; width: 23%"}
 
 Se recomienda en principio utilizar el método RPECV que parece más sencillo, a no ser que explícitamente se pida razonarlo a partir de la teoría de orbitales híbridos.
 
@@ -1035,7 +1035,7 @@ Las interacciones de no enlace se suelen dividir tradicionalmente en dos grupos:
 - **Fuerzas de Van der Waals**
 - **Enlaces de hidrógeno**
 
-**1. Fuerzas de Van der Waals**
+### **1. Fuerzas de Van der Waals** {: .caja-subtitulo}
 
 La **fuerzas de Van der Waals** son fuerzas de **tipo electrostático** (entre **cargas de signo distinto**). No es difícil de entender que existirán interacciones de este tipo entre las **moléculas polares** (HCl, por ejemplo).
 
@@ -1075,7 +1075,7 @@ Algunos ejemplos interesantes:
 
 - El yodo es una sustancia sólida a temperatura ambiente debido a interacciones de Van der Waals. Las interacciones entre las moléculas de $\ce{I2}$ son del tipo dipolo instantáneo-dipolo inducido. El gran **tamaño de los átomos de yodo** facilita la polarización de las moléculas.
 
-**2. Enlace de hidrógeno**
+### **2. Enlace de hidrógeno** {: .caja-subtitulo}
 
 Aunque el llamado “**enlace de hidrógeno**” no llega a la categoría de enlace (es **veinte veces más débil que un enlace covalente**), y se estudia como un **tipo de interacción** entre las **moléculas**, es de gran importancia ya que juega un papel muy importante en química y biología.
 
