@@ -22,11 +22,11 @@ El mínimo de energía se corresponderá, por tanto, con la agrupación más est
 
 **Enlace metálico**: Las **unidades estructurales básicas** enlazadas son **átomos con carga positiva** (modelo de "nube electrónica"). Los átomos se mantienen unidos mediante electrones deslocalizados que se sitúan entre los cationes.
 
-**Tipos de sólidos**.
+### **Tipos de sólidos** {: .caja-subtitulo}
 
 Básicamente podemos encontrar varios tipos de sólidos, según sea el enlace: sólidos **iónicos**, sólidos de red **covalente**, sólidos **metálicos** y sólidos **moleculares**.
 
-**Sólidos iónicos**. 
+**- Sólidos iónicos**. 
 
 Las **unidades estructurales básicas** de estos compuestos son **iones** (aniones y cationes) unidos mediante enlaces iónicos.
 
@@ -34,9 +34,9 @@ El **enlace iónico es muy fuerte**, razón por la que poseen **elevados puntos 
 
 Ejemplos de sólidos iónicos son el cloruro de sodio (NaCl), la fluorita ($\ce{CaF2}$) o el óxido de titanio o rutilo ($\ce{TiO2}$)
 
-![Texto alternativo](imagenes/tema02/enlace_ionico.png){ style="display: block; margin: 0 auto; height: 250px; width: 45%;" }
+![Texto alternativo](imagenes/tema02/enlace_ionico.png){ style="display: block; margin: 0 auto; width: 25%; height: auto; border: 2px solid #320d71;" }
 
-**Sólidos de red covalente**
+**- Sólidos de red covalente**
 
 Las **unidades estructurales** son **átomos neutros que se unen entre si mediante enlaces covalentes** formando una estructura tridimensional o red. Los enlaces covalentes son muy fuertes (incluso más que los iónicos), razón por la que los compuestos de red covalente presentan una elevada dureza. Ejemplos de sólidos covalentes: diamante, silicatos, grafito...
 
@@ -44,7 +44,7 @@ Las **unidades estructurales** son **átomos neutros que se unen entre si median
 
 Red de átomos de carbono unidos mediante enlaces covalentes formando tetraedros que se repiten en el espacio formando una red covalente.
 
-![Texto alternativo](imagenes/tema02/diamante.png){ style="display: block; margin: 0 auto; height: 250px; width: 45%;" }
+![Texto alternativo](imagenes/tema02/diamante.png){ style="display: block; margin: 0 auto; width: 30%; height: auto; " }
 
 **Grafito**
 
@@ -52,9 +52,9 @@ Los carbonos se unen entre sí mediante tres enlaces covalentes formando hexágo
 
 La unión entre las láminas es muy débil, siendo por tanto muy fáciles de separar.
 
-![Texto alternativo](imagenes/tema02/grafito.png){ style="display: block; margin: 0 auto; height: 250px; width: 45%;" }
+![Texto alternativo](imagenes/tema02/grafito.png){ style="display: block; margin: 0 auto; width: 30%; height: auto; " }
 
-**Sólidos metálicos**
+**- Sólidos metálicos**
 
 Las **unidades estructurales** son **iones positivos de metales** entre los que se sitúan electrones prácticamente libres formando una especie de "gas o nube electrónica".
 
@@ -62,9 +62,9 @@ Los **electrones libres** son los **responsables de las propiedades conductoras 
 
 Los **metales** son **ejemplos típicos** de este tipo.
 
-![Texto alternativo](imagenes/tema02/red_metalica.gif){ style="display: block; margin: 0 auto; height: 250px; width: 45%;" }
+![Texto alternativo](imagenes/tema02/red_metalica.gif){ style="display: block; margin: 0 auto; width: 30%; height: auto; " }
 
-**Sólidos moleculares**
+**- Sólidos moleculares**
 
 Las **unidades básicas** son **moléculas**, pero existen fuerzas entre ellas (intermoleculares) suficientes para unir (aunque débilmente) a las moléculas formando una estructura típica de sólidos.
 
@@ -74,7 +74,7 @@ Ejemplos de sólidos moleculares son el yodo o las parafinas.
 
 El agua es sólida por debajo de 0 $^{\circ}$C a presión de 1 atm. Las uniones que se representan en la figura por líneas negras son puentes de hidrógeno entre las moléculas.
 
-![Texto alternativo](imagenes/tema02/solido_molecular.png){ style="display: block; margin: 0 auto; height: 250px; width: 45%;" }
+![Texto alternativo](imagenes/tema02/solido_molecular.png){ style="display: block; margin: 0 auto; width: 30%; height: auto; " }
 
 ## **3. Enlace iónico**
 
@@ -100,7 +100,7 @@ Por ejemplo, el cloruro de sodio cristaliza con una estructura en la cual el ió
 
 Los sólidos iónicos con índice de coordinación (IC) seis, dan lugar a la estructura denominada **cúbica centrada en las caras** (ver figura). Es la estructura de los cristales de NaCl.
 
-![Texto alternativo](imagenes/tema02/sal.png){ style="display: block; margin: 0 auto; height: 250px; width: 55%;" }
+![Texto alternativo](imagenes/tema02/sal.png){ style="display: block; margin: 0 auto; width: 55%; height: auto; " }
 
 Como se puede observar existe una gran diferencia de tamaño entre el anión cloruro ($\ce{Cl^-}$) y el catión sodio ($\ce{Na^+}$).
 
@@ -110,19 +110,19 @@ Los sólidos iónicos con índice de coordinación (IC) ocho, dan lugar a la est
 
 En esta ocasión los tamaños del anión y del catión son similares.
 
-![Texto alternativo](imagenes/tema02/cloruro.png){ style="display: block; margin: 0 auto; height: 250px; width: 55%;" }
+![Texto alternativo](imagenes/tema02/cloruro.png){ style="display: block; margin: 0 auto; width: 50%; height: auto; " }
 
-Los compuestos tipo $\ce{AB2}$ adoptan, generalmente, las estructuras del $\ce{TiO2}$ (rutilo) con IC = 6:3, o las del $\ce{CaF2}$ (fluorita) con IC = 8:4.
+Los **compuestos tipo $\boldsymbol{\ce{AB2}}$** adoptan, generalmente, las estructuras del $\ce{TiO2}$ (rutilo) con IC = 6:3, o las del $\ce{CaF2}$ (fluorita) con IC = 8:4.
 
 Es obvio que se necesita muy buena visión espacial para distinguir las celdillas unidad de estos cristales.
 
-![Texto alternativo](imagenes/tema02/ab2.png){ style="display: block; margin: 0 auto; height: 250px; width: 65%;" }
+![Texto alternativo](imagenes/tema02/ab2.png){ style="display: block; margin: 0 auto; width: 55%; height: auto;" }
 
-**Formación de sólidos iónicos y energía**
+### **Formación de sólidos iónicos y energía** {: .caja-subtitulo}
 
 Tomemos como ejemplo el NaCl. Si partimos de Na y Cl en sus estados normales, Na (s) y $\ce{Cl2}$ (g), para que se produzca la reacción global:
 
-$\ce{\hspace{3cm} Na (s) + \dfrac {1}{2}  Cl2 (g) \; \rightarrow \; NaCl (s) \hspace{2cm} \Delta H_f < 0}$
+$$\ce{ Na (s) + \dfrac {1}{2}  Cl2 (g) \; \rightarrow \; NaCl (s) \hspace{2cm} \Delta H_f < 0}$$
 
 Podemos considerar los siguientes procesos intermedios:
 
@@ -136,15 +136,17 @@ $\ce{Cl (g) + e^- \; \rightarrow \; Cl (g) , A{.}E{.} < 0}$, afinidad electróni
 
 $\ce{Na^+ (g) + Cl^- (g) \; \rightarrow \; NaCl (s) , U_r < 0}$, energía reticular del NaCl.
 
-La **energía reticular** es la **energía que se desprende al formarse un mol de cristal iónico a partir de sus componentes en estado gaseoso**.
+<div style="background-color: #e6f3ff; padding: 12px; border-radius: 4px;">
+  La <strong>energía reticular</strong> es la <strong>energía que se desprende al formarse un mol de cristal iónico a partir de sus componentes en estado gaseoso</strong>.
+</div>
 
 Un **cristal iónico** será, por tanto **más estable** (más duro, menos soluble, de mayor punto de fusión...), cuanto **mayor** sea su **energía reticular**.
 
-**Ciclo de born-haber**
+### **Ciclo de born-haber** {: .caja-subtitulo}
 
 Una **forma de calcular la energía reticular**, $\ce{U_r}$ se puede hacer mediante un **balance energético**:
 
-![Texto alternativo](imagenes/tema02/ciclo.png){ style="display: block; margin: 0 auto; height: 225px; width: 50%;" }
+![Texto alternativo](imagenes/tema02/ciclo.png){ style="display: block; margin: 0 auto; width: 50%; height: auto;" }
 
 La suma de los procesos parciales coincide con el proceso de combinación químico directo, por ello podemos concluir que la suma de sus variaciones energéticas coincidirá con la de la reacción global:
 
@@ -154,37 +156,43 @@ con lo que:
 
 $\ce{Ur = \Delta H_f - \Delta H_{sub} - EI - \dfrac {1}{2} \Delta H_{dis} - AE}$
 
-**Energía reticular**
+### **Energía reticular mediante la ecuación de Born-Landé** {: .caja-subtitulo}
 
 El **cálculo de la energía reticular** se puede hacer también a partir de la **ecuación de Born-Landé**:
 
 $\ce{U = - \dfrac {K  \cdot z_1 \cdot z_2 \cdot e^2 \cdot N_A \cdot M }{d_0} \cdot \left(1 - \dfrac {1}{n} \right)}$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 500px; margin: 20px auto; display: block; background: #f9f7fb" }
+{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #f9f7fb" }
 
 Donde **K** es la constante de Coulomb en el vacío, $\boldsymbol{\ce{z_1}}$ y $\boldsymbol{\ce{z_2}}$ son las cargas de los iones, **e** es la carga del electrón, $\boldsymbol{\ce{N_A}}$ la constante de Avogadro, $\boldsymbol{\ce{d_0}}$ la distancia internuclear, **M** es la constante de Madelung, que depende del tipo de red cristalina, y **n** es el factor de compresibilidad.
 
 En el fondo es la fórmula de la energía potencial eléctrica modificada, y lo que tenemos que tener muy claro es que U es mayor cuanto mayores son las cargas de los iones y cuanto menores son sus radios.
 
 $\ce{U \propto \dfrac {z_1 \cdot z_2 }{d_0} }$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; max-width: 150px; margin: 20px auto; display: block; background: #f9f7fb" }
+{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #f9f7fb" }
 
-**Propiedades de los compuestos iónicos**
+### **Propiedades de los compuestos iónicos** {: .caja-subtitulo}
 
-A **temperatura ambiente**, son **sólidos cristalinos** como revela su estructura muy ordenada y compacta.
+- A **temperatura ambiente**, son **sólidos cristalinos** como revela su estructura muy ordenada y compacta.
 
-Poseen **puntos de fusión y ebullición elevados**, ya que el enlace iónico es de una gran fortaleza, y para que el compuesto se convierta en líquido o en gas es necesario romper esos enlaces, para lo cual hay que suministrar una cantidad considerable de energía.
+- Poseen **puntos de fusión y ebullición elevados**, ya que el enlace iónico es de una gran fortaleza, y para que el compuesto se convierta en líquido o en gas es necesario romper esos enlaces, para lo cual hay que suministrar una cantidad considerable de energía.
 
-Son **duros**, ya que para rayar un sólido es necesario romper cierto número de enlaces y el enlace es muy fuerte.
+- Son **duros**, ya que para rayar un sólido es necesario romper cierto número de enlaces y el enlace es muy fuerte.
 
-Suelen ser **solubles en agua** y al disolverse se rompen en iones positivos y negativos (las sustancias que al romperse dan iones reciben el nombre de electrolitos).
+- Son **frágiles**. Si se aplica una fuerza sobre el material, las capas de los iones se deslizan y los de igual signo quedan enfrentados y se repelen, de modo que el cristal se rompe (no puede deformarse).
 
-En **estado sólido no conducen la electricidad**, ya que los iones están fuertemente unidos y no hay cargas libres que puedan circular.
+![Texto alternativo](imagenes/tema02/fragil.png){ style="display: block; margin: 0 auto; width: 40%; height: auto; border: 2px solid #320d71;" }
 
-**Fundidos o en disolución acuosa son buenos conductores de la corriente eléctrica** debido a la existencia de iones (átomos con carga) que se dirigen a los electrodos de polaridad contraria.
+- Suelen ser **solubles en agua** y al disolverse se rompen en iones positivos y negativos (las sustancias que al romperse dan iones reciben el nombre de **electrolitos**). Muchos compuestos iónicos son solubles en disolventes polares como el agua. Las moléculas polares presentan separación de cargas, de forma que una parte de ellas es positiva y otra negativa. De este modo, en presencia de una sal, las moléculas polares del agua se disponen alrededor de los iones de la sal (proceso de solvatación) y ayudan a su dispersión.
+
+![Texto alternativo](imagenes/tema02/solubilidad.png){ style="display: block; margin: 0 auto; width: 40%; height: auto; border: 2px solid #320d71;" }
+
+- En **estado sólido no conducen la electricidad**, ya que los iones están fuertemente unidos y no hay cargas libres que puedan circular.
+
+- **Fundidos o en disolución acuosa son buenos conductores de la corriente eléctrica** debido a la existencia de iones (átomos con carga) que se dirigen a los electrodos de polaridad contraria.
 
 ## **4. Enlace metálico**
 
-**Enlace metálico (modelo de gas electrónico)**
+### **Enlace metálico (modelo de gas electrónico)** {: .caja-subtitulo}
 
 El modelo más sencillo de enlace metálico se basa en una de las propiedades características de los metales: su baja electronegatividad (ceden electrones con facilidad).
 
@@ -194,9 +202,9 @@ Es importante observar que los electrones pueden circular libremente entre los c
 
 Esta nube electrónica hace de “colchón” entre las cargas positivas impidiendo que se repelan, a la vez que mantienen unidos los átomos del metal.
 
-![Texto alternativo](imagenes/tema02/nube.png){ style="display: block; margin: 0 auto; height: 250px; width: 55%;" }
+![Texto alternativo](imagenes/tema02/nube.png){ style="display: block; margin: 0 auto; width: 60%; height: auto; border: 2px solid #320d71;" }
 
-**Enlace metálico (teoría de bandas)**
+### **Enlace metálico (teoría de bandas)** {: .caja-subtitulo}
 
 El modelo de la **teoría de bandas**, supone que, al estar tan cerca los átomos de los metales unos de otros, sus orbitales de valencia se superponen entre sí, dando lugar a un conjunto de orbitales muy parecidos que constituyen lo que se llama “**banda de niveles energéticos**”.
 
@@ -208,7 +216,7 @@ En los metales ambas bandas se solapan o están muy próximas y la energía que 
 
 En los **aislantes** dichas bandas están muy separadas, y en los **semiconductores** la distancia no es muy grande.
 
-![Texto alternativo](imagenes/tema02/conductores.png){ style="display: block; margin: 0 auto; height: 350px; width: 55%;" }
+![Texto alternativo](imagenes/tema02/conductores.png){ style="display: block; margin: 0 auto; width: 40%; height: auto;" }
 
 Si un cristal está formado por N átomos de Li, en el existirán N orbitales moleculares totalmente llenos, procedentes de la interacción de los orbitales atómicos 1s, otros N orbitales moleculares semillenos que derivan de la interacción de los orbitales 2s, y 3N orbitales moleculares vacíos (de la interacción de los orbitales atómicos 2p), cuya banda se superpone energéticamente con la correspondiente a los orbitales 2s.
 
@@ -216,13 +224,13 @@ Cuando como en este caso, los electrones pueden moverse por todo el metal al apl
 
 Por tanto en este caso los elementos que poseen esta estructura de bandas son **conductores**.
 
-![Texto alternativo](imagenes/tema02/energia.png){ style="display: block; margin: 0 auto; height: 350px; width: 65%;" }
+![Texto alternativo](imagenes/tema02/energia.png){ style="display: block; margin: 0 auto; width: 40%; height: auto;" }
 
 La diferencia de energía, (distancia entre bandas) disminuye cuando descendemos en un grupo, para el caso del carbono su valor es 107 Kj/mol, y para el Pb (último elemento del grupo) 8 Kj/mol; esto evidencia la transición del carácter no metálico a metálico de los elementos implicados.
 
-![Texto alternativo](imagenes/tema02/tipos.png){ style="display: block; margin: 0 auto; height: 350px; width: 65%;" }
+![Texto alternativo](imagenes/tema02/tipos.png){ style="display: block; margin: 0 auto; width: 55%; height: auto;" }
 
-**Propiedades de los metales**
+### **Propiedades de los metales** {: .caja-subtitulo}
 
 En los metales tampoco se forman moléculas individuales. La situación es muy parecida a la encontrada en el caso de los compuestos iónicos. Sus propiedades son:
 
@@ -234,7 +242,7 @@ En los metales tampoco se forman moléculas individuales. La situación es muy p
 
 - **Ductilidad**, **tenacidad** y **maleabilidad**, debido a la posibilidad de que las capas de iones se pueden deslizar unas sobre otras sin que se rompa la red metálica.
 
-![Texto alternativo](imagenes/tema02/maleable.png){ style="display: block; margin: 0 auto; height: 200px; width: 55%;" }
+![Texto alternativo](imagenes/tema02/maleable.png){ style="display: block; margin: 0 auto; width: 55%; height: auto; border: 2px solid #320d71;" }
 
 - El característico **brillo metálico** es también una consecuencia de la existencia de electrones libres que pueden absorber y emitir luz de diversas frecuencias.
 
@@ -249,7 +257,7 @@ Entre los dos átomos pueden compartirse uno, dos o tres pares de electrones, lo
 
 De esta manera alcanzan los ocho electrones en la última capa (2 en el caso del hidrógeno, pues así alcanza la configuración del He, $\ce{1 s^2}$).
 
-![Texto alternativo](imagenes/tema02/covalente.png){ style="display: block; margin: 0 auto; height: 200px; width: 90%;" }
+![Texto alternativo](imagenes/tema02/covalente.png){ style="display: block; margin: 0 auto; width: 90%; height: auto;" }
 
 Los átomos se acercan hasta que los orbitales se solapan. Los electrones de ambos átomos se mueven ahora en una "zona común": **orbital molecular**.
 
@@ -259,21 +267,21 @@ Cuando los átomos se unen mediante este tipo de enlace se forman unas nuevas en
 
 Las **moléculas** son las **unidades básicas de los compuestos covalentes**.
 
-![Texto alternativo](imagenes/tema02/covalente2.png){ style="display: block; margin: 0 auto; height: 175px; width: 90%;" }
+![Texto alternativo](imagenes/tema02/covalente2.png){ style="display: block; margin: 0 auto; width: 90%; height: auto;" }
 
-**Propiedades de sustancias covalentes moleculares**
+### **Propiedades de las sustancias covalentes moleculares** {: .caja-subtitulo}
 
-Las **unidades estructurales** básicas son las **moléculas**.
+- Las **unidades estructurales** básicas son las **moléculas**.
 
-**Suelen ser gases o líquidos**. Si son sólidos presentarán puntos de fusión relativamente bajos ya que entre las moléculas existen unas fuerzas de atracción bastante débiles.
+- **Suelen ser gases o líquidos**. Si son sólidos presentarán puntos de fusión relativamente bajos ya que entre las moléculas existen unas fuerzas de atracción bastante débiles.
 
-Tienen **puntos de fusión y ebullición bajos**. Las sustancias covalentes moleculares están formadas por moléculas discretas e independientes, y en los cambios de estado (fusión/ebullición) solo se deben vencer las fuerzas intermoleculares, las cuales son uniones muy débiles y al ser fuerzas débiles, la energía térmica necesaria para separarlas es pequeña.
+- Tienen **puntos de fusión y ebullición bajos**. Las sustancias covalentes moleculares están formadas por moléculas discretas e independientes, y en los cambios de estado (fusión/ebullición) solo se deben vencer las fuerzas intermoleculares, las cuales son uniones muy débiles y al ser fuerzas débiles, la energía térmica necesaria para separarlas es pequeña.
 
-**Suelen ser poco solubles en agua**. Las **sustancias covalentes apolares** son **insolubles** en agua porque las débiles fuerzas de dispersión que establecerían con el disolvente no pueden compensar la energía necesaria para romper los fuertes enlaces de hidrógeno que mantienen unidas a las moléculas de agua entre sí. Por el contrario, las **sustancias covalentes polares** (o capaces de formar puentes de hidrógeno) **sí** son **solubles** en agua, ya que las interacciones soluto-disolvente son energéticamente favorables.
+- **Suelen ser poco solubles en agua**. Las **sustancias covalentes apolares** son **insolubles** en agua porque las débiles fuerzas de dispersión que establecerían con el disolvente no pueden compensar la energía necesaria para romper los fuertes enlaces de hidrógeno que mantienen unidas a las moléculas de agua entre sí. Por el contrario, las **sustancias covalentes polares** (o capaces de formar puentes de hidrógeno) **sí** son **solubles** en agua, ya que las interacciones soluto-disolvente son energéticamente favorables.
 
-Son **malos conductores de la corriente eléctrica**, incluso disueltos o fundidos puesto que **no presentan cargas libres** (ni electrones deslocalizados ni iones) que puedan transportar la corriente. Los electrones de valencia están **localizados** en los enlaces covalentes interatómicos y las entidades estructurales son moléculas neutras..
+- Son **malos conductores de la corriente eléctrica**, incluso disueltos o fundidos puesto que **no presentan cargas libres** (ni electrones deslocalizados ni iones) que puedan transportar la corriente. Los electrones de valencia están **localizados** en los enlaces covalentes interatómicos y las entidades estructurales son moléculas neutras..
 
-**Diagramas de Lewis**
+### **Diagramas de Lewis** {: .caja-subtitulo}
 
 Para representar las moléculas resultantes de la unión mediante enlace covalente se utilizan a menudo los diagramas de Lewis (derecha).
 
@@ -306,11 +314,11 @@ De esta manera es fácil visualizar los electrones compartidos y cómo ambos át
 
 Para simplificar la escritura los electrones de enlace se representan por una raya que une ambos átomos. Los pares no enlazantes se representan por rayas situadas en el símbolo del elemento:
 
-![Texto alternativo](imagenes/tema02/lewis.png){ style="display: block; margin: 0 auto; height: 175px; width: 80%;" }
+![Texto alternativo](imagenes/tema02/lewis.png){ style="display: block; margin: 0 auto; width: 70%; height: auto;" }
 
 Como se puede observar, y dependiendo del número de electrones necesario para adquirir la deseada estabilidad, los átomos se van a combinar en una u otra proporción.
 
-**Enlace covalente coordinado o dativo**
+### **Enlace covalente coordinado o dativo** {: .caja-subtitulo}
 
 Puede ocurrir que el par que se comparte no esté integrado por un electrón de cada uno de los átomos enlazados, sino que ambos electrones sean aportados por uno de los átomos.
 
@@ -338,9 +346,9 @@ Dos de los ejemplos más importantes son, el ion amonio ($\ce{NH4^+}$) y el ion 
 
 **Otros ejemplos de enlaces dativos**
 
-![Texto alternativo](imagenes/tema02/dativo.png){ style="display: block; margin: 0 auto; height: 250px; width: 100%;" }
+![Texto alternativo](imagenes/tema02/dativo.png){ style="display: block; margin: 0 auto; width: 100%; height: auto;" }
 
-**Resonancia**
+### **Resonancia** {: .caja-subtitulo}
 
 La **resonancia** (denominada también **mesomería**) es una herramienta empleada para representar ciertos tipos de estructuras moleculares. La resonancia **consiste en la combinación lineal de estructuras teóricas de una molécula** (estructuras resonantes o en resonancia) que no coinciden con la estructura real, pero que mediante su combinación, nos acerca más a su estructura real. El benceno es un ejemplo clásico:
 
@@ -357,7 +365,7 @@ La **resonancia** (denominada también **mesomería**) es una herramienta emplea
 \schemestop
 -->
 
-![...](imagenes/tema02/resonancia_benceno.svg){style="display: block; margin: 0 auto; width: 65%"}
+![...](imagenes/tema02/resonancia_benceno.svg){style="display: block; margin: 0 auto; width: 55%"}
 
 Se sabe que los enlaces C-C del benceno son todos iguales, de la misma longitud y energía, intermedias ambas entre las de un enlace doble y uno sencillo.
 
@@ -393,7 +401,7 @@ Por eso ninguna de las dos fórmulas de Lewis responde bien a su estructura real
 
 $\ce{\hspace{8cm} Anión \; nitrato{,} NO3^-}$
 
-**Reglas para generar el diagrama de Lewis**
+### **Reglas para generar el diagrama de Lewis** {: .caja-subtitulo}
 
 Hay algunas reglas sencillas para diseñar las estructuras de Lewis de moléculas
 algo más complejas:
@@ -414,9 +422,9 @@ algo más complejas:
 
 | Elemento | Configuración electrónica | EV | ET |
 | :--- | :--- | :--- |:--- |
-| C | $\ce{1s^2 2s^2 2p^2}$ | 4 | 8 |
-| O | $\ce{1s^2 2s^2 2p^4}$ | 6 | 8 |
-| H | $\ce{1s^1}$ | 1 | 2 |
+| C | $\ce{1s^2 \color{red}{2s^2 2p^2}}$ | 4 | 8 |
+| O | $\ce{1s^2 \color{red}{2s^2 2p^4}}$ | 6 | 8 |
+| H | $\ce{\color{red}{1s^1}}$ | 1 | 2 |
 
 Electrones de valencia disponibles: 4 (C) + 6 · (3 O) + 1 · (2 H) = 24
 
@@ -431,15 +439,15 @@ Electrones sin compartir: 24 - 12 = 12 (seis pares). Así que:
 \chemfig{[,1] H-\charge{90=\|,270=\|}{O}-C(=[2]\charge{45=\|,135=\|}{O})-\charge{90=\|,270=\|}{O}-H}
 -->
 
-![...](imagenes/tema02/carbonico.svg){style="display: block; margin: 0 auto; width: 30%"}
+![...](imagenes/tema02/carbonico.svg){style="display: block; margin: 0 auto; width: 25%"}
 
-**Excepciones a la regla del Octeto**
+### **Excepciones a la regla del Octeto** {: .caja-subtitulo}
 
 Los átomos de los elementos del **tercer periodo en adelante** no obedecen la regla del octeto en muchos de sus compuestos y se rodean de más de ocho electrones (“**octeto expandido**”).
 
 La razón es que estos elementos poseen orbitales 3d vacíos, cuya energía no es demasiado alta y que pueden ser ocupados para compartir pares electrónicos:
 
-![...](imagenes/tema02/excepcion.png){style="display: block; margin: 0 auto; width: 70%"}
+![...](imagenes/tema02/excepcion.png){style="display: block; margin: 0 auto; width: 70%; height: auto;"}
 
 Otros **elementos de número atómico bajo**, que también forman enlaces covalentes, al contrario que los anteriores, forman un “**octeto incompleto**”, sin llegar a tener los ocho electrones en la última capa. Es el caso del Be, B, Al.
 
@@ -448,11 +456,11 @@ Otros **elementos de número atómico bajo**, que también forman enlaces covale
 \chemfig{[,1] \charge{135=\|,225=\|,315=\|}{F}-[:30]B(-[:90]\charge{0=\|,90=\|,180=\|}{F})(-[:-30]\charge{45=\|,225=\|,315=\|}{F})} 
 -->
 
-![...](imagenes/tema02/boruro.svg){style="display: block; margin: 0 auto; width: 15%"}
+![...](imagenes/tema02/boruro.svg){style="display: block; margin: 0 auto; width: 13%"}
 
 Como veremos más adelante, el hecho de que el boro tenga orbitales atómicos vacíos va a dar propiedades ácidas al $\ce{BF3}$.
 
-**Geometría de las moléculas. Método RPECV.**
+### **Geometría de las moléculas. Método RPECV.** {: .caja-subtitulo}
 
 Las siglas **RPECV** hacen referencia a “**repulsiones entre los pares electrónicos de la capa de valencia**”.
 
@@ -462,15 +470,15 @@ Los **enlaces múltiples** se **tratan**, a efectos repulsivos, **como si fueran
 
 La existencia de **pares no enlazantes** sobre los átomos altera la geometría molecular, ya que su **efecto repulsivo es mayor** que el de los **enlazantes**.
 
-**Método RPECV**
+### **Método RPECV** {: .caja-subtitulo}
 
 Estructuras que hacen mínimas las repulsiones entre pares de enlace:
 
-**Dos pares** electrónicos en el átomo central. Estructura **lineal**. (180$^{\circ}$)
+- **Dos pares** electrónicos en el átomo central. Estructura **lineal**. (180$^{\circ}$)
 
-**Tres pares** electrónicos en el átomo central. Estructura **triangular plana** (120$^{\circ}$)
+- **Tres pares** electrónicos en el átomo central. Estructura **triangular plana** (120$^{\circ}$)
 
-**Cuatro pares** electrónicos en el átomo central. Estructura **tetraédrica** (109,5$^{\circ}$)
+- **Cuatro pares** electrónicos en el átomo central. Estructura **tetraédrica** (109,5$^{\circ}$)
 
 <!--
 ##tikz id=tipos_geometria sep=2em
@@ -552,9 +560,9 @@ Estructuras que hacen mínimas las repulsiones entre pares de enlace:
 
 Otros:
 
-**Cinco pares** electrónicos en el átomo central: **Bipirámide trigonal** (120$^{\circ}$ / 90$^{\circ}$)
+- **Cinco pares** electrónicos en el átomo central: **Bipirámide trigonal** (120$^{\circ}$ / 90$^{\circ}$)
 
-**Seis pares** electrónicos en el átomo central: **Octaédrica** (90$^{\circ}$)
+- **Seis pares** electrónicos en el átomo central: **Octaédrica** (90$^{\circ}$)
 
 <!--
 ##tikz id=tipos_geometria2 sep=2em
@@ -656,7 +664,7 @@ Otros:
 
 ![...](imagenes/tema02/tipos_geometria2.svg){style="display: block; margin: 0 auto; width: 65%"}
 
-**Pasos para establecer la geometría**
+### **Pasos para establecer la geometría** {: .caja-subtitulo}
 
 1. Obtener la estructura de Lewis para la molécula correspondiente.
    
@@ -667,7 +675,7 @@ Otros:
 4. Considerar las posibles deformaciones que pueda originar en la estructura inicial las repulsiones debidas a pares no enlazantes, más fuertes que las de los pares enlazantes. La intensidad de repulsión entre pares decrece según:
    
     <center>
-    <div style="background-color: #e6f7ff; border-left: 5px solid #1890ff; padding: 10px 15px; border-radius: 4px; text-align: left; display: inline-block;">
+    <div style="background-color: #e6f7ff; border: 1px solid #1890ff; padding: 10px 15px; border-radius: 4px; text-align: left; display: inline-block;">
         No enlazante - no enlazante (mayor repulsión) <br>
         No enlazante - enlazante <br>
         Enlazante - enlazante (menor repulsión)
@@ -708,7 +716,7 @@ una estructura triangular plana con ángulos de 120$^{\circ}$.
 
 ![...](imagenes/tema02/geometria_eteno.svg){style="display: block; margin: 0 auto; width: 15%"}
 
-**Polaridad de los enlaces covalentes**
+### **Polaridad de los enlaces covalentes** {: .caja-subtitulo}
 
 En física se llama **dipolo eléctrico** a un sistema de dos cargas de signo opuesto e igual magnitud cercanas entre sí.
 
@@ -721,7 +729,7 @@ Teóricamente en un enlace covalente los pares de electrones deberían compartir
 
 De esta manera éste átomo adquiere cierta carga negativa (aunque no llega a ser de una unidad -lo que se correspondería con un enlace iónico-), y el menos electronegativo queda con cierta carga positiva. En los extremos del enlace aparecen cargas eléctricas de signo opuesto. Es lo que se llama un **dipolo**. Se dice que el **enlace está polarizado**.
 
-![...](imagenes/tema02/dipolo.png){style="display: block; margin: 0 auto; width: 25%"}
+![...](imagenes/tema02/dipolo.png){style="display: block; margin: 0 auto; width: 20%; height: auto;"}
 
 **Enlace covalente... → ...iónico**
 
@@ -735,11 +743,11 @@ Realmente podríamos considerar el enlace iónico como un caso extremo de enlace
 
 Si consideramos las uniones del cloro con todos los elementos de su mismo período tendríamos:
 
-![...](imagenes/tema02/covalente_ionico.png){style="display: block; margin: 0 auto; width: 70%"}
+![...](imagenes/tema02/covalente_ionico.png){style="display: block; margin: 0 auto; width: 65%; height: auto;"}
 
-**Polaridad de las moléculas**
+### **Polaridad de las moléculas** {: .caja-subtitulo}
 
-Puesto que el momento dipolar es una magnitud vectorial, la suma de varios momentos dipolares puede ser cero. Esto implica que una molécula puede tener enlaces polares pero en conjunto ser apolar al anularse los respectivos momentos dipolares en función de su geometría:
+Puesto que el momento dipolar es una magnitud vectorial, la suma de varios momentos dipolares puede ser cero. Esto implica que una molécula puede tener enlaces polares pero en conjunto ser **apolar al anularse los respectivos momentos dipolares en función de su geometría**:
 
 **Molécula de $\ce{CO2}$**. Aunque los dos enlaces CO son polares, la molécula, en conjunto, es **apolar**, ya que el **momento dipolar total** resultante es **nulo**.
 
