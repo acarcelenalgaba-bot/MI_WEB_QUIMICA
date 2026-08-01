@@ -115,7 +115,7 @@ Sin embargo este fenómeno se producía de forma diferente según fuese la luz q
 3. Sin embargo el fenómeno solamente se produce a partir de una cierta frecuencia de
 la radiación incidente que se llama frecuencia umbral.
 
-Cuando se estudia el efecto fotoeléctrico se comprueba que no se produce con todas las radiaciones sino que solamente se produce cuando la radiación incidente tiene una frecuencia mínima (**frecuencia umbral**) a partir de la cual tiene la energía suficiente para arrancar electrones del metal (**trabajo de extracción**). Por supuesto esa frecuencia umbral depende también del tipo de metal que se utilice.
+Cuando se estudia el efecto fotoeléctrico se comprueba que no se produce con todas las radiaciones sino que solamente se produce cuando la radiación incidente tiene una frecuencia mínima (**frecuencia umbral**) a partir de la cual tiene la energía suficiente para arrancar electrones del metal (**trabajo de extracción**, $\ce{W_0}$). Por supuesto esa frecuencia umbral depende también del tipo de metal que se utilice.
 
 La emisión de electrones (intensidad de la corriente generada) será mayor cuanto mayor sea la intensidad de la radiación luminosa pero la energía cinética de los electrones no depende para nada de esa intensidad.
 
@@ -129,7 +129,7 @@ necesaria para arrancar un electrón del átomo del metal.
 $\textbf{Energía radiación} = \textbf{Energía umbral} + \textbf{Energía cinética}$ $\mathbf{e}^{\boldsymbol{-}}$ $\textbf{arrancado}$
 { style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
 
-$h \cdot f = h \cdot f_0 + E_c$
+$\ce{E = W_0 + E_c \quad \rightarrow \quad h \cdot f = h \cdot f_0 + E_c}$
 { style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
 
 ### **Espectros atómicos** {: .caja-subtitulo }

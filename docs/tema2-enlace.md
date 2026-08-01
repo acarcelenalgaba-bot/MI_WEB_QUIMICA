@@ -12,7 +12,7 @@ En la gráfica se observa como a medida que se acercan A y B las interacciones a
 
 El mínimo de energía se corresponderá, por tanto, con la agrupación más estable entre A y B. Se dice entonces que existe enlace entre A y B. La distancia correspondiente se denomina **distancia de enlace**.
 
-![Texto alternativo](imagenes/tema02/enlace.png){ style="display: block; margin: 0 auto; height: 450px; width: 100%;" }
+![...](imagenes/tema02/enlace.png){ style="display: block; margin: 0 auto; width: 70%; height: auto;" }
 
 ## **2. Tipos de enlace químico**
 
@@ -26,7 +26,7 @@ El mínimo de energía se corresponderá, por tanto, con la agrupación más est
 
 Básicamente podemos encontrar varios tipos de sólidos, según sea el enlace: sólidos **iónicos**, sólidos de red **covalente**, sólidos **metálicos** y sólidos **moleculares**.
 
-**- Sólidos iónicos**. 
+- **<u>Sólidos iónicos</u>**. 
 
 Las **unidades estructurales básicas** de estos compuestos son **iones** (aniones y cationes) unidos mediante enlaces iónicos.
 
@@ -34,9 +34,9 @@ El **enlace iónico es muy fuerte**, razón por la que poseen **elevados puntos 
 
 Ejemplos de sólidos iónicos son el cloruro de sodio (NaCl), la fluorita ($\ce{CaF2}$) o el óxido de titanio o rutilo ($\ce{TiO2}$)
 
-![Texto alternativo](imagenes/tema02/enlace_ionico.png){ style="display: block; margin: 0 auto; width: 25%; height: auto; border: 2px solid #320d71;" }
+![...](imagenes/tema02/enlace_ionico.png){ style="display: block; margin: 0 auto; width: 25%; height: auto; border: 2px solid #320d71;" }
 
-**- Sólidos de red covalente**
+- **<u>Sólidos de red covalente</u>**
 
 Las **unidades estructurales** son **átomos neutros que se unen entre si mediante enlaces covalentes** formando una estructura tridimensional o red. Los enlaces covalentes son muy fuertes (incluso más que los iónicos), razón por la que los compuestos de red covalente presentan una elevada dureza. Ejemplos de sólidos covalentes: diamante, silicatos, grafito...
 
@@ -44,7 +44,7 @@ Las **unidades estructurales** son **átomos neutros que se unen entre si median
 
 Red de átomos de carbono unidos mediante enlaces covalentes formando tetraedros que se repiten en el espacio formando una red covalente.
 
-![Texto alternativo](imagenes/tema02/diamante.png){ style="display: block; margin: 0 auto; width: 30%; height: auto; " }
+![...](imagenes/tema02/diamante.png){ style="display: block; margin: 0 auto; width: 30%; height: auto; " }
 
 **Grafito**
 
@@ -52,9 +52,9 @@ Los carbonos se unen entre sí mediante tres enlaces covalentes formando hexágo
 
 La unión entre las láminas es muy débil, siendo por tanto muy fáciles de separar.
 
-![Texto alternativo](imagenes/tema02/grafito.png){ style="display: block; margin: 0 auto; width: 30%; height: auto; " }
+![...](imagenes/tema02/grafito.png){ style="display: block; margin: 0 auto; width: 30%; height: auto; " }
 
-**- Sólidos metálicos**
+- **<u>Sólidos metálicos</u>**
 
 Las **unidades estructurales** son **iones positivos de metales** entre los que se sitúan electrones prácticamente libres formando una especie de "gas o nube electrónica".
 
@@ -62,9 +62,9 @@ Los **electrones libres** son los **responsables de las propiedades conductoras 
 
 Los **metales** son **ejemplos típicos** de este tipo.
 
-![Texto alternativo](imagenes/tema02/red_metalica.gif){ style="display: block; margin: 0 auto; width: 30%; height: auto; " }
+![...](imagenes/tema02/red_metalica.gif){ style="display: block; margin: 0 auto; width: 30%; height: auto; " }
 
-**- Sólidos moleculares**
+- **<u>Sólidos moleculares</u>**
 
 Las **unidades básicas** son **moléculas**, pero existen fuerzas entre ellas (intermoleculares) suficientes para unir (aunque débilmente) a las moléculas formando una estructura típica de sólidos.
 
@@ -74,7 +74,7 @@ Ejemplos de sólidos moleculares son el yodo o las parafinas.
 
 El agua es sólida por debajo de 0 $^{\circ}$C a presión de 1 atm. Las uniones que se representan en la figura por líneas negras son puentes de hidrógeno entre las moléculas.
 
-![Texto alternativo](imagenes/tema02/solido_molecular.png){ style="display: block; margin: 0 auto; width: 30%; height: auto; " }
+![...](imagenes/tema02/solido_molecular.png){ style="display: block; margin: 0 auto; width: 30%; height: auto; " }
 
 ## **3. Enlace iónico**
 
@@ -100,7 +100,7 @@ Por ejemplo, el cloruro de sodio cristaliza con una estructura en la cual el ió
 
 Los sólidos iónicos con índice de coordinación (IC) seis, dan lugar a la estructura denominada **cúbica centrada en las caras** (ver figura). Es la estructura de los cristales de NaCl.
 
-![Texto alternativo](imagenes/tema02/sal.png){ style="display: block; margin: 0 auto; width: 55%; height: auto; " }
+![...](imagenes/tema02/sal.png){ style="display: block; margin: 0 auto; width: 55%; height: auto; " }
 
 Como se puede observar existe una gran diferencia de tamaño entre el anión cloruro ($\ce{Cl^-}$) y el catión sodio ($\ce{Na^+}$).
 
@@ -110,13 +110,13 @@ Los sólidos iónicos con índice de coordinación (IC) ocho, dan lugar a la est
 
 En esta ocasión los tamaños del anión y del catión son similares.
 
-![Texto alternativo](imagenes/tema02/cloruro.png){ style="display: block; margin: 0 auto; width: 50%; height: auto; " }
+![...](imagenes/tema02/cloruro.png){ style="display: block; margin: 0 auto; width: 50%; height: auto; " }
 
 Los **compuestos tipo $\boldsymbol{\ce{AB2}}$** adoptan, generalmente, las estructuras del $\ce{TiO2}$ (rutilo) con IC = 6:3, o las del $\ce{CaF2}$ (fluorita) con IC = 8:4.
 
 Es obvio que se necesita muy buena visión espacial para distinguir las celdillas unidad de estos cristales.
 
-![Texto alternativo](imagenes/tema02/ab2.png){ style="display: block; margin: 0 auto; width: 55%; height: auto;" }
+![...](imagenes/tema02/ab2.png){ style="display: block; margin: 0 auto; width: 55%; height: auto;" }
 
 ### **Formación de sólidos iónicos y energía** {: .caja-subtitulo}
 
@@ -146,7 +146,7 @@ Un **cristal iónico** será, por tanto **más estable** (más duro, menos solub
 
 Una **forma de calcular la energía reticular**, $\ce{U_r}$ se puede hacer mediante un **balance energético**:
 
-![Texto alternativo](imagenes/tema02/ciclo.png){ style="display: block; margin: 0 auto; width: 50%; height: auto;" }
+![...](imagenes/tema02/ciclo.png){ style="display: block; margin: 0 auto; width: 50%; height: auto;" }
 
 La suma de los procesos parciales coincide con el proceso de combinación químico directo, por ello podemos concluir que la suma de sus variaciones energéticas coincidirá con la de la reacción global:
 
@@ -180,11 +180,11 @@ $\ce{U \propto \dfrac {z_1 \cdot z_2 }{d_0} }$
 
 - Son **frágiles**. Si se aplica una fuerza sobre el material, las capas de los iones se deslizan y los de igual signo quedan enfrentados y se repelen, de modo que el cristal se rompe (no puede deformarse).
 
-![Texto alternativo](imagenes/tema02/fragil.png){ style="display: block; margin: 0 auto; width: 40%; height: auto; border: 2px solid #320d71;" }
+![...](imagenes/tema02/fragil.png){ style="display: block; margin: 0 auto; width: 40%; height: auto; border: 2px solid #320d71;" }
 
 - Suelen ser **solubles en agua** y al disolverse se rompen en iones positivos y negativos (las sustancias que al romperse dan iones reciben el nombre de **electrolitos**). Muchos compuestos iónicos son solubles en disolventes polares como el agua. Las moléculas polares presentan separación de cargas, de forma que una parte de ellas es positiva y otra negativa. De este modo, en presencia de una sal, las moléculas polares del agua se disponen alrededor de los iones de la sal (proceso de solvatación) y ayudan a su dispersión.
 
-![Texto alternativo](imagenes/tema02/solubilidad.png){ style="display: block; margin: 0 auto; width: 40%; height: auto; border: 2px solid #320d71;" }
+![...](imagenes/tema02/solubilidad.png){ style="display: block; margin: 0 auto; width: 40%; height: auto; border: 2px solid #320d71;" }
 
 - En **estado sólido no conducen la electricidad**, ya que los iones están fuertemente unidos y no hay cargas libres que puedan circular.
 
@@ -202,7 +202,7 @@ Es importante observar que los electrones pueden circular libremente entre los c
 
 Esta nube electrónica hace de “colchón” entre las cargas positivas impidiendo que se repelan, a la vez que mantienen unidos los átomos del metal.
 
-![Texto alternativo](imagenes/tema02/nube.png){ style="display: block; margin: 0 auto; width: 60%; height: auto; border: 2px solid #320d71;" }
+![...](imagenes/tema02/nube.png){ style="display: block; margin: 0 auto; width: 60%; height: auto; border: 2px solid #320d71;" }
 
 ### **Enlace metálico (teoría de bandas)** {: .caja-subtitulo}
 
@@ -216,7 +216,7 @@ En los metales ambas bandas se solapan o están muy próximas y la energía que 
 
 En los **aislantes** dichas bandas están muy separadas, y en los **semiconductores** la distancia no es muy grande.
 
-![Texto alternativo](imagenes/tema02/conductores.png){ style="display: block; margin: 0 auto; width: 40%; height: auto;" }
+![...](imagenes/tema02/conductores.png){ style="display: block; margin: 0 auto; width: 40%; height: auto;" }
 
 Si un cristal está formado por N átomos de Li, en el existirán N orbitales moleculares totalmente llenos, procedentes de la interacción de los orbitales atómicos 1s, otros N orbitales moleculares semillenos que derivan de la interacción de los orbitales 2s, y 3N orbitales moleculares vacíos (de la interacción de los orbitales atómicos 2p), cuya banda se superpone energéticamente con la correspondiente a los orbitales 2s.
 
@@ -224,11 +224,11 @@ Cuando como en este caso, los electrones pueden moverse por todo el metal al apl
 
 Por tanto en este caso los elementos que poseen esta estructura de bandas son **conductores**.
 
-![Texto alternativo](imagenes/tema02/energia.png){ style="display: block; margin: 0 auto; width: 40%; height: auto;" }
+![...](imagenes/tema02/energia.png){ style="display: block; margin: 0 auto; width: 40%; height: auto;" }
 
 La diferencia de energía, (distancia entre bandas) disminuye cuando descendemos en un grupo, para el caso del carbono su valor es 107 Kj/mol, y para el Pb (último elemento del grupo) 8 Kj/mol; esto evidencia la transición del carácter no metálico a metálico de los elementos implicados.
 
-![Texto alternativo](imagenes/tema02/tipos.png){ style="display: block; margin: 0 auto; width: 55%; height: auto;" }
+![...](imagenes/tema02/tipos.png){ style="display: block; margin: 0 auto; width: 55%; height: auto;" }
 
 ### **Propiedades de los metales** {: .caja-subtitulo}
 
@@ -242,7 +242,7 @@ En los metales tampoco se forman moléculas individuales. La situación es muy p
 
 - **Ductilidad**, **tenacidad** y **maleabilidad**, debido a la posibilidad de que las capas de iones se pueden deslizar unas sobre otras sin que se rompa la red metálica.
 
-![Texto alternativo](imagenes/tema02/maleable.png){ style="display: block; margin: 0 auto; width: 55%; height: auto; border: 2px solid #320d71;" }
+![...](imagenes/tema02/maleable.png){ style="display: block; margin: 0 auto; width: 55%; height: auto; border: 2px solid #320d71;" }
 
 - El característico **brillo metálico** es también una consecuencia de la existencia de electrones libres que pueden absorber y emitir luz de diversas frecuencias.
 
@@ -257,7 +257,7 @@ Entre los dos átomos pueden compartirse uno, dos o tres pares de electrones, lo
 
 De esta manera alcanzan los ocho electrones en la última capa (2 en el caso del hidrógeno, pues así alcanza la configuración del He, $\ce{1 s^2}$).
 
-![Texto alternativo](imagenes/tema02/covalente.png){ style="display: block; margin: 0 auto; width: 90%; height: auto;" }
+![...](imagenes/tema02/covalente.png){ style="display: block; margin: 0 auto; width: 90%; height: auto;" }
 
 Los átomos se acercan hasta que los orbitales se solapan. Los electrones de ambos átomos se mueven ahora en una "zona común": **orbital molecular**.
 
@@ -267,7 +267,7 @@ Cuando los átomos se unen mediante este tipo de enlace se forman unas nuevas en
 
 Las **moléculas** son las **unidades básicas de los compuestos covalentes**.
 
-![Texto alternativo](imagenes/tema02/covalente2.png){ style="display: block; margin: 0 auto; width: 90%; height: auto;" }
+![...](imagenes/tema02/covalente2.png){ style="display: block; margin: 0 auto; width: 90%; height: auto;" }
 
 ### **Propiedades de las sustancias covalentes moleculares** {: .caja-subtitulo}
 
@@ -310,11 +310,11 @@ De esta manera es fácil visualizar los electrones compartidos y cómo ambos át
 \schemestop
 -->
 
-![...](imagenes/tema02/cov1.svg){style="display: block; margin: 0 auto; width: 80%"}
+![...](imagenes/tema02/cov1.svg){style="display: block; margin: 0 auto; width: 80%; height: auto;"}
 
 Para simplificar la escritura los electrones de enlace se representan por una raya que une ambos átomos. Los pares no enlazantes se representan por rayas situadas en el símbolo del elemento:
 
-![Texto alternativo](imagenes/tema02/lewis.png){ style="display: block; margin: 0 auto; width: 70%; height: auto;" }
+![...](imagenes/tema02/lewis.png){ style="display: block; margin: 0 auto; width: 70%; height: auto;" }
 
 Como se puede observar, y dependiendo del número de electrones necesario para adquirir la deseada estabilidad, los átomos se van a combinar en una u otra proporción.
 
@@ -341,12 +341,12 @@ Dos de los ejemplos más importantes son, el ion amonio ($\ce{NH4^+}$) y el ion 
 \schemestop
 -->
 
-![...](imagenes/tema02/enlace_dativo.svg){style="display: block; margin: 0 auto; width: 80%"}
+![...](imagenes/tema02/enlace_dativo.svg){style="display: block; margin: 0 auto; width: 80%; height: auto;"}
 
 
 **Otros ejemplos de enlaces dativos**
 
-![Texto alternativo](imagenes/tema02/dativo.png){ style="display: block; margin: 0 auto; width: 100%; height: auto;" }
+![...](imagenes/tema02/dativo.png){ style="display: block; margin: 0 auto; width: 100%; height: auto;" }
 
 ### **Resonancia** {: .caja-subtitulo}
 
@@ -365,7 +365,7 @@ La **resonancia** (denominada también **mesomería**) es una herramienta emplea
 \schemestop
 -->
 
-![...](imagenes/tema02/resonancia_benceno.svg){style="display: block; margin: 0 auto; width: 55%"}
+![...](imagenes/tema02/resonancia_benceno.svg){style="display: block; margin: 0 auto; width: 55%; height: auto;"}
 
 Se sabe que los enlaces C-C del benceno son todos iguales, de la misma longitud y energía, intermedias ambas entre las de un enlace doble y uno sencillo.
 
@@ -384,7 +384,7 @@ Por eso ninguna de las dos fórmulas de Lewis responde bien a su estructura real
 \schemestop
 -->
 
-![...](imagenes/tema02/resonancia2.svg){style="display: block; margin: 0 auto; width: 90%"}
+![...](imagenes/tema02/resonancia2.svg){style="display: block; margin: 0 auto; width: 90%; height: auto;"}
 
 <!--
 ##latex id=nitrato sep=2em
@@ -397,7 +397,7 @@ Por eso ninguna de las dos fórmulas de Lewis responde bien a su estructura real
 \schemestop
 -->
 
-![...](imagenes/tema02/nitrato.svg){style="display: block; margin: 0 auto; width: 70%"}
+![...](imagenes/tema02/nitrato.svg){style="display: block; margin: 0 auto; width: 70%; height: auto;"}
 
 $\ce{\hspace{8cm} Anión \; nitrato{,} NO3^-}$
 
@@ -439,7 +439,7 @@ Electrones sin compartir: 24 - 12 = 12 (seis pares). Así que:
 \chemfig{[,1] H-\charge{90=\|,270=\|}{O}-C(=[2]\charge{45=\|,135=\|}{O})-\charge{90=\|,270=\|}{O}-H}
 -->
 
-![...](imagenes/tema02/carbonico.svg){style="display: block; margin: 0 auto; width: 25%"}
+![...](imagenes/tema02/carbonico.svg){style="display: block; margin: 0 auto; width: 25%; height: auto;"}
 
 ### **Excepciones a la regla del Octeto** {: .caja-subtitulo}
 
@@ -456,7 +456,7 @@ Otros **elementos de número atómico bajo**, que también forman enlaces covale
 \chemfig{[,1] \charge{135=\|,225=\|,315=\|}{F}-[:30]B(-[:90]\charge{0=\|,90=\|,180=\|}{F})(-[:-30]\charge{45=\|,225=\|,315=\|}{F})} 
 -->
 
-![...](imagenes/tema02/boruro.svg){style="display: block; margin: 0 auto; width: 13%"}
+![...](imagenes/tema02/boruro.svg){style="display: block; margin: 0 auto; width: 13%; height: auto;"}
 
 Como veremos más adelante, el hecho de que el boro tenga orbitales atómicos vacíos va a dar propiedades ácidas al $\ce{BF3}$.
 
@@ -556,7 +556,7 @@ Estructuras que hacen mínimas las repulsiones entre pares de enlace:
 \end{tikzpicture}
 -->
 
-![...](imagenes/tema02/tipos_geometria.svg){style="display: block; margin: 0 auto; width: 65%"}
+![...](imagenes/tema02/tipos_geometria.svg){style="display: block; margin: 0 auto; width: 65%; height: auto;"}
 
 Otros:
 
@@ -662,7 +662,7 @@ Otros:
 \end{tikzpicture}
 -->
 
-![...](imagenes/tema02/tipos_geometria2.svg){style="display: block; margin: 0 auto; width: 65%"}
+![...](imagenes/tema02/tipos_geometria2.svg){style="display: block; margin: 0 auto; width: 65%; height: auto;"}
 
 ### **Pasos para establecer la geometría** {: .caja-subtitulo}
 
@@ -703,7 +703,7 @@ Para la molécula $\ce{C2H4}$ deduzca la estructura de Lewis, nombre y dibuje su
 }
 -->
 
-![...](imagenes/tema02/lewis_eteno.svg){style="display: block; margin: 0 auto; width: 15%"}
+![...](imagenes/tema02/lewis_eteno.svg){style="display: block; margin: 0 auto; width: 15%; height: auto;"}
 
 Sobre cada carbono hay tres pares enlazantes (**el enlace doble cuenta como
 un solo par**) que se repelerán con la misma intensidad. Presentarán, por tanto
@@ -714,7 +714,7 @@ una estructura triangular plana con ángulos de 120$^{\circ}$.
 \chemfig{[,1] H-[:-60]C(-[:-120]H)=C(-[:-60]H)-[:60]H} 
 -->
 
-![...](imagenes/tema02/geometria_eteno.svg){style="display: block; margin: 0 auto; width: 15%"}
+![...](imagenes/tema02/geometria_eteno.svg){style="display: block; margin: 0 auto; width: 15%; height: auto;%"}
 
 ### **Polaridad de los enlaces covalentes** {: .caja-subtitulo}
 
@@ -836,7 +836,7 @@ Ejemplo de los estados de oxidación del cloro:
 \end{tikzpicture}
 -->
 
-![...](imagenes/tema02/eo_cloro.svg){style="display: block; margin: 0 auto; width: 60%"}
+![...](imagenes/tema02/eo_cloro.svg){style="display: block; margin: 0 auto; width: 60%; height: auto;"}
 
 ### **Tipos de enlaces** {: .caja-subtitulo}
 
@@ -844,11 +844,11 @@ Si los orbitales que se solapan son los más sencillos, tipos s y p, se pueden c
 
 **Enlaces $\sigma$** (Sigma): se forman por solapamiento (acercamiento y superposición), de orbitales s con s, s con p y p con p (frontal, sobre el mismo eje).
 
-![...](imagenes/tema02/enlace_sigma.png){style="display: block; margin: 0 auto; width: 40%; border: 1px solid #333;"}
+![...](imagenes/tema02/enlace_sigma.png){style="display: block; margin: 0 auto; width: 40%; height: auto;; border: 1px solid #333;"}
 
 **Enlaces $\pi$** (pi): se forman por solapamiento lateral, es decir, sobre ejes paralelos, de orbitales p.
 
-![...](imagenes/tema02/enlace_pi.png){style="display: block; margin: 0 auto; width: 40%; border: 1px solid #333;"}
+![...](imagenes/tema02/enlace_pi.png){style="display: block; margin: 0 auto; width: 40%; height: auto; border: 1px solid #333;"}
 
 ### **Hibridación de orbitales atómicos** {: .caja-subtitulo}
 
@@ -862,7 +862,7 @@ $\ce{\hspace{4cm} C{:} \; 2s^2 2p_x^1 2p_y^1 2p_z^0 \; \rightarrow \; 2s^1 2p_x^
 
 $\ce{\hspace{4cm} H{:} \; 1s^1}$
 
-![...](imagenes/tema02/metano_sinhibridar.png){style="display: block; margin: 0 auto; width: 65%"}
+![...](imagenes/tema02/metano_sinhibridar.png){style="display: block; margin: 0 auto; width: 65%; height: auto;"}
 
 El problema es que según la geometría de los orbitales s y p, los cuatro enlaces σ del metano no serían iguales: el que se formara por solapamiento del orbital 2s del C con el 1s del H sería diferente de los otros tres, formados por solapamiento de los 2p del C son el 1s del H.
 
@@ -870,13 +870,13 @@ El problema es que según la geometría de los orbitales s y p, los cuatro enlac
 
 La explicación dada por Pauling consiste en admitir la formación de cuatro **orbitales atómicos híbridos** equivalentes a partir del orbital 2s y los tres orbitales p del carbono, llamados $\ce{sp^3}$, conteniendo cada uno de ellos un electrón desapareado.
 
-![...](imagenes/tema02/metano_hibridado.png){style="display: block; margin: 0 auto; width: 50%"}
+![...](imagenes/tema02/metano_hibridado.png){style="display: block; margin: 0 auto; width: 50%; height: auto;"}
 
 En esta hibridación los orbitales forman ángulos de 109,5$^{\circ}$.
 
 Al solaparse frontalmente con los correspondientes orbitales 1s de los hidrógenos, se obtienen **cuatro enlaces σ** equivalentes orientados de la forma esperada.
 
-![...](imagenes/tema02/hibridacion_sp3.png){style="display: block; margin: 0 auto; width: 50%; border: 1px solid #333;"}
+![...](imagenes/tema02/hibridacion_sp3.png){style="display: block; margin: 0 auto; width: 50%; height: auto; border: 1px solid #333;"}
 
 **Ejemplos $\boldsymbol{\ce{sp^3}}$**
 
@@ -930,11 +930,11 @@ Además de todos los compuestos orgánicos en los que el carbono presenta un tri
 
 También presentan esta hibridación los haluros del berilio.
 
-![...](imagenes/tema02/ejemplos_sp.png){style="display: block; margin: 0 auto; width: 65%"}
+![...](imagenes/tema02/ejemplos_sp.png){style="display: block; margin: 0 auto; width: 65%; height: auto;"}
 
 ### **Resumen Hibridación** {: .caja-subtitulo}
 
-![...](imagenes/tema02/resumen_hibridacion.png){style="display: block; margin: 0 auto; width: 70%"}
+![...](imagenes/tema02/resumen_hibridacion.png){style="display: block; margin: 0 auto; width: 70%; height: auto;"}
 
 
 **Ejemplo de geometría**
@@ -961,7 +961,7 @@ Cantidad de enlaces que se formaran: $\ce{ET - EV = 24 - 12 = 12}$ ($\ce{6 pares
 
 Los dos átomos de carbono se enlazan entre sí y los cuatro hidrógenos se distribuyen equitativamente (dos en cada carbono). Tras formar los enlaces simples iniciales ($\ce{C-C}$ y cuatro $\ce{C-H}$), gastamos 5 pares (10 electrones). El par restante se coloca como un doble enlace entre los dos carbonos para que ambos completen su octeto.
 
-![...](imagenes/tema02/lewis_eteno.svg){style="display: block; margin: 0 auto; width: 13%"}
+![...](imagenes/tema02/lewis_eteno.svg){style="display: block; margin: 0 auto; width: 13%; height: auto;"}
 
 **b. Hibridación, Geometría Molecular y Ángulos de Enlace**
 
@@ -1020,7 +1020,7 @@ En una geometría trigonal plana ideal, los ángulos son de $120^\circ$. Sin emb
 \end{tikzpicture}
 -->
 
-![...](imagenes/tema02/geometria_hibridacion_eteno.svg){style="display: block; margin: 0 auto; width: 23%"}
+![...](imagenes/tema02/geometria_hibridacion_eteno.svg){style="display: block; margin: 0 auto; width: 23%; height: auto;"}
 
 Se recomienda en principio utilizar el método RPECV que parece más sencillo, a no ser que explícitamente se pida razonarlo a partir de la teoría de orbitales híbridos.
 
@@ -1039,7 +1039,7 @@ Las interacciones de no enlace se suelen dividir tradicionalmente en dos grupos:
 
 La **fuerzas de Van der Waals** son fuerzas de **tipo electrostático** (entre **cargas de signo distinto**). No es difícil de entender que existirán interacciones de este tipo entre las **moléculas polares** (HCl, por ejemplo).
 
-![...](imagenes/tema02/keeson.png){style="display: block; margin: 0 auto; width: 35%"}
+![...](imagenes/tema02/keeson.png){style="display: block; margin: 0 auto; width: 35%; height: auto;"}
 
 Son las llamadas **interacciones dipolo-dipolo** (fuerzas de Keeson).
 
@@ -1049,7 +1049,7 @@ Unas veces estas interacciones se deben a que las **moléculas polares inducen d
 
 Estas interacciones son las que ocurren, por ejemplo, en una mezcla de $\ce{HCl}$ (polar) y $\ce{CH4}$ (no polar).
 
-![...](imagenes/tema02/debye.png){style="display: block; margin: 0 auto; width: 70%"}
+![...](imagenes/tema02/debye.png){style="display: block; margin: 0 auto; width: 70%; height: auto;"}
 
 Aún **si no existen dipolos permanentes** pueden existir fuerzas de Van der Waals debido a la aparición de **dipolos instantáneos**.
 
@@ -1061,7 +1061,7 @@ Se forman **dipolos instantáneos**.
 
 Estos dipolos pueden provocar la aparición de dipolos inducidos en moléculas próximas provocando una interacción entre **dipolos instantáneos y dipolos inducidos** (**fuerzas de London**)
 
-![...](imagenes/tema02/london.png){style="display: block; margin: 0 auto; width: 70%"}
+![...](imagenes/tema02/london.png){style="display: block; margin: 0 auto; width: 70%; height: auto;"}
 
 Las fuerzas de Van der Waals son de corto alcance (disminuyen rápidamente al aumentar la distancia) y la interacción se produce a una distancia de equilibrio en la que la atracción entre dipolos iguala a la fuerza de repulsión entre las nubes de electrones.
 
@@ -1083,7 +1083,7 @@ El **enlace de hidrógeno es una interacción entre moléculas debida a la polar
 
 El átomo de oxígeno de una molécula de agua tiene una carga parcial negativa que es atraída por la carga parcial positiva del hidrógeno de una molécula vecina. De esta manera ambas moléculas quedan “unidas” mediante el átomo de hidrógeno que hace de “puente” entre ambas.
 
-![...](imagenes/tema02/enlace_hidrogeno.png){style="display: block; margin: 0 auto; width: 70%"}
+![...](imagenes/tema02/enlace_hidrogeno.png){style="display: block; margin: 0 auto; width: 70%; height: auto;"}
 
 <!-- ---
 
