@@ -377,13 +377,15 @@ Por razones históricas los niveles con:
   
 ![Texto alternativo](imagenes/tema01/numeros.png){ style="display: block; margin: 0 auto; max-width: 80%; height: auto;" }
 
-**Diagrama de Moeller**
+### **Diagrama de Moeller** {: .caja-subtitulo}
 
 Para recordar el orden de energía (de menor a mayor) se recurre al llamado **diagrama de Möller**.
 
 Se puede observar que a partir de la tercera capa estados con un valor de n superior (por ejemplo el 4s) pueden tener menos energía que otros con un valor de n inferior (por ejemplo el 3d).
 
 En general, **cuanto mayor es n + $\boldsymbol{\ell}$**, **mayor es la energía**.
+
+En el ejemplo anterior, en el orbital 4s sería 4 + 0 = 4 frente a 3d que sería 3 + 2 = 5.
 
 ![Texto alternativo](imagenes/tema01/moller.png){ style="display: block; margin: 0 auto; width: 14em; max-width: 100%; height: auto;" }
 
