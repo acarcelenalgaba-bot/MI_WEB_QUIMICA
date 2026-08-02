@@ -424,11 +424,78 @@ $$\ce{7 \text{ orbitales} \cdot 2 \text{ electrones/orbital} = \mathbf{14 \text{
 
 $$\ce{\text{N.º máximo de electrones en nivel } \rightarrow \quad n = 2n^2}$$
 
-Podemos por tanto obtener la **configuración electrónica** de un átomo siguiendo las siguientes **normas**:
+
+### **Principio de Máxima Multiplicidad o Regla de Hund** {: .caja-subtitulo}
+
+Este principio nos dice que si existen varios **orbitales de la misma energía** (orbitales degenerados), los electrones tienden a mantener sus **espines desapareados**.
+
+**Ejemplo**: Considerando el átomo de carbono (Z = 6).
+
+<!--
+##tikz id=hund sep=2em
+
+\begin{tikzpicture}[scale=0.9, font=\sffamily]
+  % === CORRECT (IZQUIERDA) ===
+  \node[blue, font=\bfseries\Large] at (2.2, 1.8) {correcto};
+  
+  % 1s2
+  \draw[thick] (0,0) -- (0.7,0);
+  \draw[thick,->] (0.25,-0.35) -- (0.25,0.35);
+  \draw[thick,<-] (0.45,-0.35) -- (0.45,0.35);
+  \node[anchor=north] at (0.35,-0.4) {\textbf{1s$^2$}};
+  
+  % 2s2
+  \draw[thick] (1.1,0) -- (1.8,0);
+  \draw[thick,->] (1.35,-0.35) -- (1.35,0.35);
+  \draw[thick,<-] (1.55,-0.35) -- (1.55,0.35);
+  \node[anchor=north] at (1.45,-0.4) {\textbf{2s$^2$}};
+  
+  % 2p2
+  \draw[thick] (2.2,0) -- (2.9,0);
+  \draw[thick,blue,->] (2.55,-0.35) -- (2.55,0.35);
+  
+  \draw[thick] (3.1,0) -- (3.8,0);
+  \draw[thick,blue,->] (3.45,-0.35) -- (3.45,0.35);
+  
+  \draw[thick] (4.0,0) -- (4.7,0);
+  \node[anchor=north] at (3.45,-0.4) {\textbf{2p$^2$}};
+
+  % === INCORRECT (DERECHA) ===
+  \begin{scope}[xshift=7.5cm]
+    \node[red, font=\bfseries\Large] at (2.2, 1.8) {incorrecto};
+    
+    % 1s2
+    \draw[thick] (0,0) -- (0.7,0);
+    \draw[thick,->] (0.25,-0.35) -- (0.25,0.35);
+    \draw[thick,<-] (0.45,-0.35) -- (0.45,0.35);
+    \node[anchor=north] at (0.35,-0.4) {\textbf{1s$^2$}};
+    
+    % 2s2
+    \draw[thick] (1.1,0) -- (1.8,0);
+    \draw[thick,->] (1.35,-0.35) -- (1.35,0.35);
+    \draw[thick,<-] (1.55,-0.35) -- (1.55,0.35);
+    \node[anchor=north] at (1.45,-0.4) {\textbf{2s$^2$}};
+    
+    % 2p2
+    \draw[thick] (2.2,0) -- (2.9,0);
+    \draw[thick,red,->] (2.45,-0.35) -- (2.45,0.35);
+    \draw[thick,red,<-] (2.65,-0.35) -- (2.65,0.35);
+    
+    \draw[thick] (3.1,0) -- (3.8,0);
+    \draw[thick] (4.0,0) -- (4.7,0);
+    \node[anchor=north] at (3.45,-0.4) {\textbf{2p$^2$}};
+  \end{scope}
+\end{tikzpicture}
+
+-->
+
+![...](imagenes/tema01/hund.svg){style="display: block; margin: 0 auto; width: 55%; height: auto;"}
+
+Considerando, las reglas y principios anteriores, podemos por tanto obtener la **configuración electrónica** de un átomo siguiendo las siguientes **normas**:
 
 1. Considerar el número de electrones que se deben distribuir. Recordar que el número de electrones en un átomo neutro viene dado por el número atómico Z.
    
-2. Los electrones se van distribuyendo entre los estados de energía posibles llenando primero los de menor energía. Cuando un nivel se complete, pasar al siguiente (recordar el principio de exclusión y para establecer el orden de llenado usar el diagrama de Moeller).
+2. Los electrones se van distribuyendo entre los estados de energía posibles llenando primero los de menor energía. Cuando un nivel se complete, pasar al siguiente (recordar el principio de exclusión y para establecer el orden de llenado usar el **diagrama de Moeller**).
 
 3. La configuración final debe darse **ordenada por capas**.
    
@@ -515,18 +582,20 @@ Se puede observar que en el C, N y O, los electrones de los estados “p” tien
 }
 </style>
 
-Sabemos que la configuración $\ce{n s^2 p^6}$ (configuración de gas noble) en la última capa es
+### **Excepciones en la configuración electrónica** {: .caja-subtitulo}
+
+Sabemos que la configuración $\ce{ns^2 np^6}$ (configuración de gas noble) en la última capa es
 especialmente estable.
 
 Aunque la estabilidad es considerablemente menor que la correspondiente a la estructura de gas noble, también **presentan una estabilidad considerable** las estructuras que se corresponden con los niveles **p** o **d** **llenos** o **semillenos**.
 
-Para alcanzarlas algunos elementos pueden promocionar electrones desde niveles de energía inferior a niveles superiores. Este efecto se observa, **sobre todo**, entre los **metales de transición**, en los cuales los niveles (n - 1) d y n s están muy próximos energéticamente.
+Para alcanzarlas algunos elementos pueden promocionar electrones desde niveles de energía inferior a niveles superiores. Este efecto se observa, **sobre todo**, entre los **metales de transición**, en los cuales los niveles (n - 1)d y ns están muy próximos energéticamente.
 
 **Ejemplos**:
 
-$$\ce{Cr = 1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^4 \; \rightarrow \; 1s^2 2s^2 2p^6 3s^2 3p^6 4s^1 3d^5}$$
+$$\ce{Cr = 1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^4 \quad (te{ó}rica)\quad \quad \rightarrow \quad \quad 1s^2 2s^2 2p^6 3s^2 3p^6 4s^1 3d^5 \quad (\boldsymbol{\ce{real}})}$$
 
-$$\ce{Cu = 1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^9 \; \rightarrow \; 1s^2 2s^2 2p^6 3s^2 3p^6 4s^1 3d^{10} }$$
+$$\ce{Cu = 1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^9 \quad (te{ó}rica)\quad \quad \rightarrow \quad \quad 1s^2 2s^2 2p^6 3s^2 3p^6 4s^1 3d^{10} \quad (\boldsymbol{\ce{real}}) }$$
 
 Este efecto es muy importante en la química del carbono, el cual, a pesar de tener como estructura teórica $\ce{1s^2 2s^2 2p^2}$, presenta la configuración $\ce{1s^2 2s^1 2p^3}$ en la mayoría de sus combinaciones.
 

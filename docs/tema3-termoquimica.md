@@ -53,7 +53,7 @@ Parte del mundo físico que aislamos para su estudio mediante paredes reales o i
     <div style="padding: 10px; flex-grow: 1; vertical-align: top;">
       Pueden intercambiar materia y energía con su entorno
     </div>
-    <div style="height: 200px; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
+    <div style="height: 90%; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
       <img src="../imagenes/tema03/td3_1.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
     </div>
   </div>
@@ -65,7 +65,7 @@ Parte del mundo físico que aislamos para su estudio mediante paredes reales o i
     <div style="padding: 10px; flex-grow: 1; vertical-align: top;">
       Intercambian energía con su entorno pero no materia
     </div>
-    <div style="height: 200px; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
+    <div style="height: 90%; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
       <img src="../imagenes/tema03/td3_2.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
     </div>
   </div>
@@ -77,7 +77,7 @@ Parte del mundo físico que aislamos para su estudio mediante paredes reales o i
     <div style="padding: 10px; flex-grow: 1; vertical-align: top;">
       No intercambian ni materia ni energía con su entorno
     </div>
-    <div style="height: 200px; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
+    <div style="height: 90%; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
       <img src="../imagenes/tema03/td3_3.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
     </div>
   </div>
@@ -95,7 +95,7 @@ Parte del mundo físico que aislamos para su estudio mediante paredes reales o i
     <div style="padding: 10px; flex-grow: 1; vertical-align: top;">
       La hoguera necesita combustible para arder y cede CO<sub>2</sub>, vapor de agua y energía en forma de calor
     </div>
-    <div style="height: 200px; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
+    <div style="height: 90%; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
       <img src="../imagenes/tema03/td4_1.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
     </div>
   </div>
@@ -107,7 +107,7 @@ Parte del mundo físico que aislamos para su estudio mediante paredes reales o i
     <div style="padding: 10px; flex-grow: 1; vertical-align: top;">
       La bombilla necesita energía eléctrica para emitir luz. Si se corta la corriente no se encenderá
     </div>
-    <div style="height: 200px; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
+    <div style="height: 90%; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
       <img src="../imagenes/tema03/td4_2.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
     </div>
   </div>
@@ -119,7 +119,7 @@ Parte del mundo físico que aislamos para su estudio mediante paredes reales o i
     <div style="padding: 10px; flex-grow: 1; vertical-align: top;">
       Un termo mantiene constante la temperatura del café que hayamos introducido en él
     </div>
-    <div style="height: 200px; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
+    <div style="height: 90%; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
       <img src="../imagenes/tema03/td4_3.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
     </div>
   </div>
@@ -130,7 +130,7 @@ Parte del mundo físico que aislamos para su estudio mediante paredes reales o i
 
 Son las magnitudes físicas y químicas que caracterizan a un sistema termodinámico. Un estado del sistema viene determinado por los valores que toman dichas variables.
 
-**Tipos**:
+**<u>Tipos</u>**:
 
 - **Extensivas**: su valor depende de la cantidad de materia del sistema. La
 masa, el volumen, la cantidad de sustancia, la energía interna, la entropía,
@@ -144,8 +144,8 @@ Por ejemplo, la concentración, la densidad, la temperatura, etc.
 <div align="center">
 <table style="border: none; border-collapse: collapse;">
   <tr>
-    <td style="border: none;"><img src="../imagenes/tema03/td5.png" width="300"/></td>
-    <td style="border: none;"><img src="../imagenes/tema03/td6.png" width="300"/></td>
+    <td style="border: none;"><img src="../imagenes/tema03/td5.png" width="500"/></td>
+    <td style="border: none;"><img src="../imagenes/tema03/td6.png" width="500"/></td>
   </tr>
 </table>
 </div>

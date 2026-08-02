@@ -52,7 +52,6 @@ compilar_fichero() {
 \usetikzlibrary{shapes,snakes}
 \usepackage{xcolor}
 
-
 % Cargar soporte para fórmulas de forma limpia
 \usepackage{mhchem}
 \usepackage{modiagram}
