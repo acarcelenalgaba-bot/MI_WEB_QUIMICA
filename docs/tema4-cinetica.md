@@ -36,7 +36,7 @@ Puesto que los reactivos desaparecen será negativa y por tanto la definición i
 
 En las curvas de la figura se observa cómo la pendiente de la recta tangente a la curva correspondiente al reactivo A es negativa, mientras la pendiente de la curva del producto C es positiva.
 
-![...](imagenes/tema04/cq1.png){style="display: block; margin: 0 auto; width: 90%; border: 1px solid #333;"}
+![...](imagenes/tema04/cq1.png){style="display: block; margin: 0 auto; width: 90%; height: auto; border: 1px solid #333;"}
 
 La velocidad de una reacción en un instante dado es igual a la pendiente de la recta tangente a la curva concentración-tiempo, en el punto correspondiente a ese instante.
 
@@ -69,7 +69,7 @@ Definida de esta manera, y dado el ajuste de la reacción, se hace evidente que 
 $$\ce{\textrm{v} = - \dfrac {\ce{1}}{\ce{a}} * \dfrac {\ce{d[A]}}{\ce{dt}} = - \dfrac {\ce{1}}{\ce{b}} * \dfrac {\ce{d[B]}}{\ce{dt}} =  \dfrac {\ce{1}}{\ce{c}} * \dfrac {\ce{d[C]}}{\ce{dt}} = \dfrac {\ce{1}}{\ce{d}} * \dfrac {\ce{d[D]}}{\ce{dt}}}$$
 </div>
 
-**Ecuación de velocidad**
+### **Ecuación de velocidad** {: .caja-subtitulo}
 
 La velocidad de reacción se obtiene experimentalmente. A partir de las velocidades iniciales de reacción para los reactivos y variando sus concentraciones iniciales, se puede determinar la expresión matemática que relaciona la velocidad con las concentraciones. Esta expresión se conoce como **ley diferencial de velocidad** o **ecuación de velocidad**.
 
@@ -105,7 +105,7 @@ c) Indica las unidades de la velocidad de reacción y de la constante cinética.
 
 d) Justifica cómo afecta a la velocidad de reacción una disminución de volumen a temperatura constante.
 
-**SOLUCIÓN**
+**Solución**
 
 a) Justifica para qué reactivo cambia más deprisa la concentración.
 
@@ -130,11 +130,11 @@ d) Justifica cómo afecta a la velocidad de reacción una disminución de volume
 
 Si la temperatura se mantiene constante, la velocidad de reacción depende únicamente de la concentración de A, y como al disminuir el volumen se produce un aumento de la concentración de este reactivo, la velocidad de la reacción experimenta un aumento de valor.
 
-**OTRO EJEMPLO**
+**Ejemplo 2**
 
 En la reacción $\ce{2 NO + 2 H2 \rightarrow N2 + 2 H2O}$, a 1100 K, se obtuvieron los siguientes datos:
 
-![...](imagenes/tema04/cq2.png){style="display: block; margin: 0 auto; width: 70%; border: 1px solid #333;"}
+![...](imagenes/tema04/cq2.png){style="display: block; margin: 0 auto; width: 70%; height: auto; border: 1px solid #333;"}
 
 Calcula el orden de reacción y el valor de la constante de velocidad.
 
@@ -246,7 +246,7 @@ Según esta teoría para que las moléculas de dos reactivos reaccionen se debe 
    
 2. Que el **choque** se verifique en una **orientación adecuada**, para que sea eficaz.
 
-![...](imagenes/tema04/cq3.png){style="display: block; margin: 0 auto; width: 60%; border: 1px solid #333;"}
+![...](imagenes/tema04/cq3.png){style="display: block; margin: 0 auto; width: 60%; height: auto; border: 1px solid #333;"}
 
 En el dibujo de arriba se aprecian dos tipos de choque:
 
@@ -270,15 +270,15 @@ En el ejemplo de abajo (sustitución del I por OH para dar metanol a partir de y
 \schemestop
 -->
 
-![...](imagenes/tema04/yodometano.svg){style="display: block; margin: 0 auto; width: 60%"}
+![...](imagenes/tema04/yodometano.svg){style="display: block; margin: 0 auto; width: 60%; height: auto;"}
 
 El complejo activado es muy inestable debido a la alta Ep que contiene (Energía de activación proveniente de la Ec de las moléculas reaccionantes), y tiende a evolucionar a un estado de menor energía, desprendiendo ésta.
 
 Según sea el valor de la energía desprendida, con respecto a la energía de activación, tendremos un proceso **exotérmico** o **endotérmico**.
 
-![...](imagenes/tema04/cq5.png){style="display: block; margin: 0 auto; height: 300px ;width: 80%; border: 1px solid #333;"}
+![...](imagenes/tema04/cq5.png){style="display: block; margin: 0 auto; width: 80%; height: auto; border: 1px solid #333;"}
 
-**Energía de activación**
+### **Energía de activación** {: .caja-subtitulo}
 
 En 1899 Arrhenius propuso un interpretación cuantitativa de la variación de la velocidad de reacción con la temperatura. Propuso para la constante específica de velocidad la siguiente expresión:
 
@@ -304,15 +304,15 @@ El **factor de frecuencia A** mide el **número de choques con la orientación a
 
 La ecuación de Arrhenius es coherente con lo observado experimentalmente: la velocidad de las reacciones químicas aumenta con la temperatura. Lógico, ya que al aumentar T, aumenta la energía cinética media, (Ecm) de las moléculas, con lo que aumentará el número de choques eficaces.
 
-![...](imagenes/tema04/cq6.png){style="display: block; margin: 0 auto; height: 300px ;width: 80%; border: 1px solid #333;"}
+![...](imagenes/tema04/cq6.png){style="display: block; margin: 0 auto; width: 80%; height: auto; border: 1px solid #333;"}
 
-**Efecto de la temperatura en la velocidad de una reacción**
+### **Efecto de la temperatura en la velocidad de una reacción** {: .caja-subtitulo}
 
 La gráfica muestra cómo el número de moléculas que tienen una determinada energía de activación disminuye a medida que la energía de activación aumenta. A **temperatura más alta** (curva roja), la **proporción de moléculas con la energía suficiente** para producir colisiones eficaces es **más alta**.
 
-![...](imagenes/tema04/cq7.png){style="display: block; margin: 0 auto; height: 300px ;width: 80%; border: 1px solid #333;"}
+![...](imagenes/tema04/cq7.png){style="display: block; margin: 0 auto; width: 80%; height: auto; border: 1px solid #333;"}
 
-**Constante de velocidad a diferentes temperaturas**
+### **Constante de velocidad a diferentes temperaturas** {: .caja-subtitulo}
 
 Si tomamos logaritmos en la ecuación de Arrhenius:
 
@@ -338,7 +338,7 @@ $$\ce{ln \; \dfrac {\ce{k2}}{\ce{k1}} = - \dfrac {\ce{E_a}}{\ce{R}} * $\left( \d
 
 Ecuación que nos permite **calcular la energía de activación de una reacción química** si conocemos las constantes de velocidad a diferentes temperaturas.
 
-**Influencia de la concentración y la presión**
+### **Influencia de la concentración y la presión** {: .caja-subtitulo}
 
 De acuerdo con la teoría de colisiones, para que se produzca una reacción química tienen que chocar entre sí las moléculas reaccionantes. El número de choques será proporcional a la concentración de cada uno de los reactivos.
 
@@ -350,7 +350,7 @@ En **reacciones entre gases** si **aumentamos la presión** también **aumentare
 
 En aquellas **reacciones** donde se **aplica un exceso de reactivo**, aunque no se consiga aumentar la cantidad total de producto, se consigue un **aumento de velocidad** al haber una **mayor concentración de reactivo**.
 
-**Efecto del grado de división de los reactivos**
+### **Efecto del grado de división de los reactivos** {: .caja-subtitulo}
 
 En las **reacciones heterogéneas**, donde los **reactivos** están en **diferentes fases**, la reacción se produce en la superficie de contacto. En estos casos **la velocidad de reacción dependerá del área de dicha superficie**.
 
@@ -358,15 +358,15 @@ En el caso de un **reactivo sólido**, la **velocidad** **aumentará** cuanto **
 
 Las condiciones más propicias para que **una reacción sea rápida** es que se verifique entre **gases** o en **disolución**, ya que entonces la **división** alcanza su **grado máximo**.
 
-**Catálisis**
+### **Catálisis** {: .caja-subtitulo}
 
 Un **catalizador** es una sustancia que, incluso en cantidades muy pequeñas, **modifica mucho la velocidad de una reacción**, sin sufrir ella misma ninguna alteración química permanente. Este fenómeno se denomina **catálisis**.
 
 Aunque **el catalizador no se consume en la reacción** tiene un papel activo en la misma, ya que **cambia el mecanismo de la reacción**, proporcionando un mecanismo de reacción cuya **energía de activación es menor**.
 
-![...](imagenes/tema04/cq8.png){style="display: block; margin: 0 auto; height: 300px ;width: 70%; border: 1px solid #333;"}
+![...](imagenes/tema04/cq8.png){style="display: block; margin: 0 auto; width: 70%; height: auto; border: 1px solid #333;"}
 
-**- Catálisis homogénea**
+- **Catálisis homogénea**
 
 Cuando un **catalizador** se encuentra en la** misma fase que los reactivos**, se habla de **catálisis homogénea**.
 
@@ -376,19 +376,19 @@ $$\ce{H2O2 (aq) \rightarrow H2O (l) + 1/2 O2 (g)}$$
 
 Es necesario indicar que **un catalizador disminuye la energía de activación** también de la reacción inversa, pero no alteran en absoluto los valores de la entalpía y energía libre de la reacción. Por tanto **no altera el equilibrio químico**, tan **sólo disminuye el tiempo en alcanzar ese equilibrio**.
 
-**Catálisis heterogénea**
+- **Catálisis heterogénea**
 
 En muchos procesos, sobre todo industriales, el **catalizador** se encuentra en una **fase distinta a la de los reactivos**. Se habla entonces de **catálisis heterogénea**.
 
 En las reacciones catalizadas por catalizadores en estado sólido se produce la adsorción de las moléculas reactivas en unos puntos denominados puntos activos. Una vez las moléculas han quedado adsorbidas se produce una relajación de los enlaces y el choque con orientación adecuada de moléculas de los otros reactivos. Posteriormente se produce la desorción de los productos de reacción quedando el punto activo del catalizador libre para catalizar nuevamente el proceso.
 
-![...](imagenes/tema04/cq9.png){style="display: block; margin: 0 auto; height: 200px ;width: 80%; border: 1px solid #333;"}
+![...](imagenes/tema04/cq9.png){style="display: block; margin: 0 auto; width: 80%; height: auto; border: 1px solid #333;"}
 
 Los catalizadores heterogéneos pueden ser metales de transición finamente divididos, óxidos de dichos metales o zeolitas. Este tipo de catalizadores son muy específicos, así para unos mismos reactivos el cambio de catalizador da lugar a la formación de productos diferentes.
 
 Ciertas sustancias, llamadas **venenos**, **interfieren** e **inutilizan los catalizadores**, bastando pequeñas cantidades de veneno para que el **catalizador pierda su efectividad**.
 
-**Catálisis enzimática**
+- **Catálisis enzimática**
 
 Las **reacciones bioquímicas** están **catalizados** por sustancias denominadas **enzimas**. Las enzimas son proteínas de elevado peso molecular y con una conformación determinada.
 

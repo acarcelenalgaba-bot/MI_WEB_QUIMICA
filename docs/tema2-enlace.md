@@ -714,7 +714,7 @@ una estructura triangular plana con ángulos de 120$^{\circ}$.
 \chemfig{[,1] H-[:-60]C(-[:-120]H)=C(-[:-60]H)-[:60]H} 
 -->
 
-![...](imagenes/tema02/geometria_eteno.svg){style="display: block; margin: 0 auto; width: 15%; height: auto;%"}
+![...](imagenes/tema02/geometria_eteno.svg){style="display: block; margin: 0 auto; width: 15%; height: auto;"}
 
 En este enlace, en la opción de "Moléculas reales", puedes observar ejemplos de la geometría de diferentes moléculas.
 

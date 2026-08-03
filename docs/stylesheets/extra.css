@@ -138,3 +138,11 @@ img {
     display: none !important;
   }
 }
+
+/* Estilo para los temas bloqueados en el menú lateral */
+.md-nav__link.tema-bloqueado {
+  color: #9e9e9e !important;       /* Color gris */
+  opacity: 0.55;                    /* Transparencia */
+  cursor: not-allowed !important;   /* Cursor de prohibido */
+  pointer-events: none;             /* Desactiva los clics */
+}
