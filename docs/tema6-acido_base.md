@@ -9,9 +9,9 @@ El título del tema, **"Reacciones de transferencia de protones"**, hace referen
 
 De ahí que cualquier reacción ácido-base será una reacción de transferencia de protones, en la que el ácido los cede y la base los acepta.
 
-**Propiedades Generales de Ácidos y Bases (Definición Histórica)**
+### **Propiedades Generales de Ácidos y Bases (Definición Histórica)** {: .caja-subtitulo}
 
-| Propiedad / Característica | Ácidos | Bases |
+| Propiedad | Ácidos | Bases |
 | :--- | :--- | :--- |
 | **Sabor** | Agrio (como el vinagre o el limón). | Amargo. |
 | **Tacto / Contacto** | Corrosivos para la piel. | Suaves (jabonosas) al tacto, pero corrosivas con la piel. |
@@ -24,7 +24,7 @@ De ahí que cualquier reacción ácido-base será una reacción de transferencia
 
 ## **2. Definición de Arrhenius de Ácido y Base**
 
-**Los Ácidos y Bases como Electrolitos**
+### **Los Ácidos y Bases como Electrolitos** {: .caja-subtitulo}
 
 Arrhenius, químico sueco, llamó **electrolito** a cualquier sustancia que al disolverse en agua condujese la electricidad. 
 

@@ -82,12 +82,29 @@
         text-align: center !important;
     }
 
-    /* Evitar que imágenes, tablas y cajas de ecuaciones se corten entre páginas */
-    img, table, p:has(img), .arithmatex-box {
+    /* Evitar que imágenes y cajas de ecuaciones se corten entre páginas */
+    img, p:has(img), .arithmatex-box {
         break-inside: avoid !important;
         page-break-inside: avoid !important;
     }
 
+    /* --- AJUSTE DE TABLAS PARA IMPRESIÓN --- */
+    /* Permitir que la tabla empiece donde le toca en el flujo del texto */
+    table {
+        break-inside: auto !important;
+        page-break-inside: auto !important;
+    }
+
+    /* Evitar que las filas individuales (tr) se rompan por la mitad */
+    tr {
+        break-inside: avoid !important;
+        page-break-inside: avoid !important;
+    }
+
+    /* Repetir la cabecera de la tabla en la parte superior si salta de página */
+     thead {
+        display: table-header-group;
+    }
 }
 
 /* Centrar de forma automática todas las imágenes del documento */

@@ -18,7 +18,7 @@ Utilizando la concentración como medida de la cantidad de sustancia se define l
 
 Para una reacción genérica expresada por: $\ce{\quad \quad \text{a A + b B} \rightarrow \text{c C + d D}}$
 
-definimos la velocidad de reacción como:
+definimos la **velocidad de reacción** como:
 
 <div class="arithmatex-box" style="
     width: fit-content;
