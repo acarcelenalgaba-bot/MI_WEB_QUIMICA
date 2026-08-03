@@ -716,9 +716,9 @@ una estructura triangular plana con ángulos de 120$^{\circ}$.
 
 ![...](imagenes/tema02/geometria_eteno.svg){style="display: block; margin: 0 auto; width: 15%; height: auto;%"}
 
-En este enlace puedes observar ejemplos de la geometría de diferentes moléculas.
+En este enlace, en la opción de "Moléculas reales", puedes observar ejemplos de la geometría de diferentes moléculas.
 
-https://phet.colorado.edu/sims/html/molecule-shapes/latest/molecule-shapes_all.html?locale=es
+[https://phet.colorado.edu/sims/html/molecule-shapes/latest/molecule-shapes_all.html?locale=es](https://phet.colorado.edu/sims/html/molecule-shapes/latest/molecule-shapes_all.html?locale=es){:target="_blank"}
 
 
 ### **Polaridad de los enlaces covalentes** {: .caja-subtitulo}
