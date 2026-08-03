@@ -36,7 +36,7 @@ markdown_extensions:
   - pymdownx.superfences
   - toc:
       permalink: false
-      title: "📋 Contenidos"
+      title: "Contenidos"
       toc_depth: 2
   - pymdownx.magiclink
 
