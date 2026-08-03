@@ -87,6 +87,7 @@
         break-inside: avoid !important;
         page-break-inside: avoid !important;
     }
+
 }
 
 /* Centrar de forma automática todas las imágenes del documento */
@@ -114,4 +115,26 @@ img {
   padding: 5px 10px;
   border-radius: 4px;
   margin-top: 1.2em;
+}
+
+/* Contenedor flexible para alinear título y botón en la misma fila */
+.header-tema-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Eliminar márgenes por defecto del H1 dentro de este contenedor para un centrado perfecto */
+.header-tema-container h1 {
+  margin: 0 !important;
+}
+
+/* Ocultar el botón cuando se mande a imprimir o guardar PDF */
+@media print {
+  .btn-imprimir {
+    display: none !important;
+  }
 }
