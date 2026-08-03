@@ -6,7 +6,7 @@
 * Molécula muy grande (macromolécula) constituida por la unión repetida de muchas unidades moleculares pequeñas (**monómeros**), generalmente orgánicas, unidas entre sí por enlaces covalentes y que se forma por **reacciones de polimerización**.
 * La unidad estructural que se repite a lo largo de la cadena polimérica se denomina **unidad repetitiva** o **monómero**. Por ejemplo, a partir del estireno (vinilbenceno) se obtiene el poliestireno:
 
-![...](imagenes/tema09/po1.png){style="display: block; margin: 0 auto; width: 60%; "}
+![...](imagenes/tema09/po1.png){style="display: block; margin: 0 auto; width: 60%; height: auto;"}
 
 ## **2. Clasificación de los polímeros**
 
@@ -39,7 +39,7 @@ $$\ce{n \; (CH2 = CH2) \quad \rightarrow \quad -(CH2-CH2)-{}_\text{n}}$$
 
 ### **Algunos polímeros etilénicos** {: .caja-subtitulo }
 
-![...](imagenes/tema09/po2.png){style="display: block; margin: 0 auto; width: 50%; "}
+![...](imagenes/tema09/po2.png){style="display: block; margin: 0 auto; width: 50%; height: auto;"}
 
 ### **El caucho**  {: .caja-subtitulo }
 
@@ -47,7 +47,7 @@ Un caso especial de esta clase de polímeros etilénicos es el **caucho** natura
 
 Es interesante saber que el caucho natural (cis-poliisopreno) es el único polímero que se encuentra en la naturaleza constituido por un hidrocarburo. Aunque el caucho natural es muy elástico, los productos fabricados con él tienen el inconveniente de ser quebradizos y ablandarse con el calor. Para mejorar sus propiedades se introdujo (1839, Ch. Goodyear) el proceso de **vulcanización**, consistente en añadir azufre (entre un 3 y un 8 % de la masa total), lo que mejoraba notablemente sus propiedades e hizo que se empezara a utilizar ampliamente. A partir de la primera guerra mundial ya se comenzó a fabricar caucho sintético en muchas variedades.
 
-![...](imagenes/tema09/po3.png){style="display: block; margin: 0 auto; width: 50%; "}
+![...](imagenes/tema09/po3.png){style="display: block; margin: 0 auto; width: 50%; height: auto;"}
 
 ## **5. Reacciones de condensación**
 
@@ -77,7 +77,7 @@ Como resultado del proceso de polimerización, se obtiene la **fibra**, que en s
 \schemestop
 -->
 
-![...](imagenes/tema09/po4.svg){style="display: block; margin: 0 auto; width: 98%"}
+![...](imagenes/tema09/po4.svg){style="display: block; margin: 0 auto; width: 98%; height: auto;"}
 
 **Unidad que se repite:**
 
@@ -87,7 +87,7 @@ Como resultado del proceso de polimerización, se obtiene la **fibra**, que en s
 \chemfig{-O-CO-*6(=-=(-CO-O-CH_2-CH_2-O-)-=-)}
 -->
 
-![...](imagenes/tema09/po5.svg){style="display: block; margin: 0 auto; width: 40%"}
+![...](imagenes/tema09/po5.svg){style="display: block; margin: 0 auto; width: 40%; height: auto;"}
 
 ### **Poliamidas** {: .caja-subtitulo }
 
@@ -113,7 +113,7 @@ $$\ce{...-NH-CH2-(CH2)4-CO-NH-CH2-(CH2)4-CO - ...}$$
 %\polymerdelim[height = 30pt, depth = 5pt, indice = {}]{op}{cl}
 -->
 
-![...](imagenes/tema09/po6.svg){style="display: block; margin: 0 auto; width: 20%"}
+![...](imagenes/tema09/po6.svg){style="display: block; margin: 0 auto; width: 20%; height: auto;"}
 
 
 **Ejemplo de poliamidas**
@@ -131,7 +131,7 @@ $$\ce{...-NH-CH2-(CH2)4-CO-NH-CH2-(CH2)4-CO - ...}$$
 \schemestop
 -->
 
-![...](imagenes/tema09/po7.svg){style="display: block; margin: 0 auto; width: 100%"}
+![...](imagenes/tema09/po7.svg){style="display: block; margin: 0 auto; width: 100%; height: auto;"}
 
 **Unidad que se repite:**
 
@@ -142,7 +142,7 @@ $$\ce{...-NH-CH2-(CH2)4-CO-NH-CH2-(CH2)4-CO - ...}$$
 \schemestop
 -->
 
-![...](imagenes/tema09/po8.svg){style="display: block; margin: 0 auto; width: 35%"}
+![...](imagenes/tema09/po8.svg){style="display: block; margin: 0 auto; width: 35%; height: auto;"}
 
 <!-- ---
 

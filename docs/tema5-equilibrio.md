@@ -16,7 +16,7 @@ El tetraóxido de dinitrógeno gaseoso se descompone en dióxido de nitrógeno q
 
 En la tabla que se facilita a continuación se observa la variación con el tiempo de las concentraciones de los compuestos implicados:
 
-![...](imagenes/tema05/eq1.png){style="display: block; margin: 0 auto; width: 90%; border: 1px solid #333;"}
+![...](imagenes/tema05/eq1.png){style="display: block; margin: 0 auto; width: 90%; height: auto; border: 1px solid #333;"}
 
 En la tabla se puede observar:
 
@@ -30,7 +30,7 @@ En la tabla se puede observar:
 
 Los datos de la tabla anterior los podemos representar en gráficas como las siguientes, donde podemos apreciar las evoluciones de las concentraciones de reactivos y productos (izquierda), que acaban siendo constantes, aunque diferentes para cada sustancia, y las de las velocidades directa e inversa (derecha), que terminan siendo iguales.
 
-![...](imagenes/tema05/eq2.png){style="display: block; margin: 0 auto; height:300px; width: 90%; border: 1px solid #333;"}
+![...](imagenes/tema05/eq2.png){style="display: block; margin: 0 auto; width: 90%; height: auto; border: 1px solid #333;"}
 
 ## **2. Constante de equilibrio Kc**
 
@@ -69,7 +69,7 @@ Si **$\ce{K \approx 1}$**: En el equilibrio, las concentraciones de reactivos y 
 
 Si **$\ce{K}$ es muy pequeña**: La reacción está muy desplazada hacia los reactivos. **Apenas se forman productos**.
 
-![...](imagenes/tema05/eq3.png){style="display: block; margin: 0 auto; height:275px; width: 90%; border: 1px solid #333;"}
+![...](imagenes/tema05/eq3.png){style="display: block; margin: 0 auto; width: 90%; height: auto; border: 1px solid #333;"}
 
 **SOBRE $\ce{Kc}$**
 
@@ -576,13 +576,13 @@ Es una reacción muy lenta, puesto que tiene una elevada energía de activación
 
 La solución al problema fue utilizar un catalizador (óxido de hierro) y aumentar la presión (entre 150-300 atm), ya que esto favorece la formación del producto. Aunque termodinámicamente la reacción transcurre mejor a bajas temperaturas, esta síntesis se realiza a altas temperaturas (400-500 $^{\circ}$C) para favorecer la energía cinética de las moléculas y aumentar así la velocidad de reacción. Además se va retirando el amoníaco a medida que se va produciendo para favorecer todavía más la síntesis de productos.
 
-![...](imagenes/tema05/eq4.png){style="display: block; margin: 0 auto; height:400px ; width: 90%; border: 1px solid #333;"}
+![...](imagenes/tema05/eq4.png){style="display: block; margin: 0 auto; width: 90%; height: auto; border: 1px solid #333;"}
 
 ## **4. Reacciones de precipitación: equilibrios heterogéneos sólido-líquido**
 
 Las **reacciones de precipitación** son aquellas que tienen lugar entre **iones en disolución para formar sustancias insolubles**. A la sustancia que aparece se le llama **precipitado**, de ahí el nombre de estas reacciones. Nosotros nos limitaremos a estudiar casos de compuestos iónicos disueltos en agua.
 
-![...](imagenes/tema05/eq5.png){style="display: block; margin: 0 auto; height:200px ; width: 50%; border: 1px solid #333;"}
+![...](imagenes/tema05/eq5.png){style="display: block; margin: 0 auto; width: 50%; height: auto; border: 1px solid #333;"}
 
 **Cuando ha aparecido un precipitado** y por lo tanto tenemos un sólido en el fondo del recipiente, **se establece un equilibrio entre el sólido y sus iones**. Por ejemplo, si tenemos yoduro de plomo precipitado en el fondo de un recipiente en el que tenemos agua e iones $\ce{Pb^{2+}}$ e $\ce{I^-}$, se establece el equilibrio:
 
@@ -594,7 +594,7 @@ Como ocurre en todos los equilibrios, aparentemente no ocurre nada, pues las can
 
 Cuando echamos una pequeña cantidad de sólido al agua, si éste se disuelve decimos que tenemos una **disolución diluída**. Si seguimos añadiendo más sólido y se sigue disolviendo, la disolución se vuelve **concentrada**. Llega un momento en que ya no se puede disolver más sólido aunque sigamos añadiendo. Decimos que la disolución se ha **saturado**.
 
-![...](imagenes/tema05/eq6.png){style="display: block; margin: 0 auto; height:200px ; width: 50%; border: 1px solid #333;"}
+![...](imagenes/tema05/eq6.png){style="display: block; margin: 0 auto; width: 50%; height: auto; border: 1px solid #333;"}
 
 Una **disolución saturada**, por lo tanto, es aquella que ya **no admite más soluto**. Pues bien, a la **concentración de una disolución saturada** de un determinado compuesto se le llama **solubilidad** de dicho compuesto. La solubilidad depende de la temperatura, por ello en las tablas de solubilidad se especifica la temperatura a la que está medida (habitualmente 20 $^{\circ}$C).
 
@@ -608,7 +608,7 @@ En la **mayoría de los compuestos** el **aumento de la temperatura **conlleva u
 
 Aunque no es de este tema, recordad sin embargo que la **solubilidad de los gases disminuye con la temperatura**.
 
-![...](imagenes/tema05/eq7.png){style="display: block; margin: 0 auto; height:400px ; width: 70%; border: 1px solid #333;"}
+![...](imagenes/tema05/eq7.png){style="display: block; margin: 0 auto; width: 50%; height: auto; border: 1px solid #333;"}
 
 **Espontaneidad de las disoluciones**
 

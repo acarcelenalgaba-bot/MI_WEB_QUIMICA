@@ -177,7 +177,7 @@ La **pila Daniell** consta de una lámina de zinc metálico, Zn (electrodo anód
 
 El funcionamiento de la celda se basa en el principio de que la oxidación de Zn a $\ce{Zn^{2+}}$ y la reducción de $\ce{Cu^{2+}}$ a Cu se puede llevar a cabo simultáneamente, pero en recipientes separados por un puente salino, con la transferencia de electrones, $\ce{e-}$, a través de un alambre conductor metálico externo.
 
-![Texto alternativo](imagenes/tema07/te1.png){ style="display: block; margin: 0 auto; width: 60%" }
+![...](imagenes/tema07/te1.png){ style="display: block; margin: 0 auto; width: 60%; height: auto;" }
 
 ### **Los electrodos** {: .caja-subtitulo }
 
@@ -270,7 +270,7 @@ En la figura se muestra concretamente un **electrodo de hidrógeno**.
 
 * $\ce{2  H+ + 2  e- \rightarrow H2}$ (reducción, como cátodo)
 
-![Texto alternativo](imagenes/tema07/te2.png){ style="display: block; margin: 0 auto; width: 30%" }
+![...](imagenes/tema07/te2.png){ style="display: block; margin: 0 auto; width: 30%; height: auto;" }
 
 ### **Potencial de electrodo** {: .caja-subtitulo }
 
@@ -344,7 +344,7 @@ A partir de estas tablas podemos saber:
 
 * Determinar el cátodo y el ánodo de una pila, etc.
 
-![Texto alternativo](imagenes/tema07/te3.png){ style="display: block; margin: 0 auto; width: 50%" }
+![...](imagenes/tema07/te3.png){ style="display: block; margin: 0 auto; width: 50%; height: auto;" }
 
 ### $\ce{\textbf{E}^0}$ **y Espontaneidad** {: .caja-subtitulo }
 
@@ -396,7 +396,7 @@ Para explicar su funcionamiento básico, se toma como ejemplo una de las más co
 
 El esquema básico de la celda unitaria de una pila PEM se muestra en la figura.
 
-![Texto alternativo](imagenes/tema07/te4.png){ style="display: block; margin: 0 auto; width: 40%" }
+![...](imagenes/tema07/te4.png){ style="display: block; margin: 0 auto; width: 40%; height: auto;" }
 
 Consta de dos electrodos: el ánodo (donde se oxida el combustible) y el cátodo (donde el oxidante o comburente se reduce).
 
@@ -406,11 +406,11 @@ El electrolito actúa simultáneamente como aislante eléctrico, conductor prot�
 
 De la misma manera que se podían hacer volumetrías ácido-base, las podemos hacer redox para calcular la concentración de un reactivo oxidante o reductor a partir de su valoración con otro reactivo de concentración conocida.
 
-![...](imagenes/tema07/te5.png){style="display: block; margin: 0 auto; width: 30%; border: 1px solid #333;"}
+![...](imagenes/tema07/te5.png){style="display: block; margin: 0 auto; width: 30%; height: auto; border: 1px solid #333;"}
 
 El momento en el que se ha completado la reacción entre oxidante y reductor se denomina **punto de equivalencia**, que puede determinarse a partir de la estequiometría de la reacción.
 
-![...](imagenes/tema07/te6.png){style="display: block; margin: 0 auto; width: 40%; border: 1px solid #333;"}
+![...](imagenes/tema07/te6.png){style="display: block; margin: 0 auto; width: 40%; height: auto; border: 1px solid #333;"}
 
 Se puede determinar de dos maneras:
 
@@ -466,7 +466,7 @@ Se lleva a cabo en una **cuba o celda electrolítica**.
 
 Se trata de un recipiente que contiene un electrólito (fundido o en disolución) en el que se sumergen dos electrodos (ánodo y cátodo). Éstos se conectan a una fuente de corriente continua (batería), el ánodo al polo positivo y el cátodo al negativo.
 
-![...](imagenes/tema07/te8.png){style="display: block; margin: 0 auto; width: 30%; border: 1px solid #333;"}
+![...](imagenes/tema07/te8.png){style="display: block; margin: 0 auto; width: 30%; height: auto; border: 1px solid #333;"}
 
 Cuando se conecta la batería en los electrodos se producen las semirreacciones redox:
 
@@ -506,7 +506,7 @@ Es posible realizar la electrólisis del agua. Aunque ésta está parcialmente i
 
 $$\ce{\textbf{Proceso  global:} \quad H2O \rightarrow \dfrac {1}{2}  O2 + H2}$$
 
-![...](imagenes/tema07/te9.png){style="display: block; margin: 0 auto; width: 40%; border: 1px solid #333;"}
+![...](imagenes/tema07/te9.png){style="display: block; margin: 0 auto; width: 40%; height: auto; border: 1px solid #333;"}
 
 ### **Electrólisis de** $\textbf{NaCl  (ac)}$ {: .caja-subtitulo }
 
@@ -545,7 +545,7 @@ $$\ce{n = \dfrac {\ce{Q}}{\ce{a * F}} = \dfrac {\ce{I * t}}{\ce{a * F}}}$$
 
 A veces se pueden conectar varias cubas en serie:
 
-![...](imagenes/tema07/te10.png){style="display: block; margin: 0 auto; width: 50%; border: 1px solid #333;"}
+![...](imagenes/tema07/te10.png){style="display: block; margin: 0 auto; width: 50%; height: auto; border: 1px solid #333;"}
 
 ### **Corrosión** {: .caja-subtitulo }
 

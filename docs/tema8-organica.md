@@ -14,17 +14,17 @@ El número de compuestos de carbono conocido es enorme, más de 10 millones, mie
 
 Las cadenas de carbono tienen una disposición en zigzag debido a la orientación tetraédrica de los orbitales $\ce{sp^3}$ responsables con sus solapamientos de los enlaces sigma. Esta estructura de zigzag se interrumpe con los enlaces dobles o triples. A su vez, la posibilidad de ramificaciones o ciclos hace que el número de posibilidades para formar moléculas sea enorme.
 
-![Texto alternativo](imagenes/tema08/orbitales.png){ style="display: block; margin: 0 auto; width: 90%;" }
+![...](imagenes/tema08/orbitales.png){ style="display: block; margin: 0 auto; width: 90%; height: auto;" }
 
 **Representación de las moléculas orgánicas**
 
-![Texto alternativo](imagenes/tema08/formulas.png){ style="display: block; margin: 0 auto; width: 90%;" }
+![...](imagenes/tema08/formulas.png){ style="display: block; margin: 0 auto; width: 90%; height: auto;" }
 
 **Grupos funcionales**
 
 Un **grupo funcional** es un átomo o grupo de átomos que dan al compuesto sus propiedades características. Se podría decir que es cualquier cosa que no sean enlaces simples C-C o C-H.
 
-![Texto alternativo](imagenes/tema08/grupos.png){ style="display: block; margin: 0 auto; width: 90%;" }
+![...](imagenes/tema08/grupos.png){ style="display: block; margin: 0 auto; width: 90%; height: auto;" }
 
 **Series homólogas**
 
@@ -32,7 +32,7 @@ Una **serie homóloga** es el conjunto de compuestos orgánicos que tienen el mi
 
 Podemos ver la serie homóloga de los hidrocarburos lineales y cómo varían las propiedades físicas que dependen de la masa molecular.
 
-![Texto alternativo](imagenes/tema08/series.png){ style="display: block; margin: 0 auto; width: 80%;" }
+![...](imagenes/tema08/series.png){ style="display: block; margin: 0 auto; width: 80%; height: auto;" }
 
 **Propiedades físicas de los compuestos orgánicos**
 
@@ -121,7 +121,7 @@ Experimentalmente se comprueba que los seis enlaces son equivalentes, de ahí qu
 \schemestop
 -->
 
-![...](imagenes/tema08/benceno.svg){style="display: block; margin: 0 auto; width: 50%;"}
+![...](imagenes/tema08/benceno.svg){style="display: block; margin: 0 auto; width: 50%; height: auto;"}
 
 Cuando el benceno lleva un radical se nombra primero dicho radical seguido de la palabra **"-benceno"**.
 
@@ -142,9 +142,9 @@ Cuando el benceno actúa como radical de otra cadena se utiliza con el nombre de
 \schemestop
 -->
 
-![...](imagenes/tema08/difenilo.svg){style="display: block; margin: 0 auto; width: 60%;"}
+![...](imagenes/tema08/difenilo.svg){style="display: block; margin: 0 auto; width: 60%; height: auto;"}
 
-![Texto alternativo](imagenes/tema08/aromaticos.png){ style="display: block; margin: 0 auto; width: 80%;" }
+![...](imagenes/tema08/aromaticos.png){ style="display: block; margin: 0 auto; width: 80%; height: auto;" }
 
 ### **Halogenuros de alquilo**
 
@@ -173,7 +173,7 @@ Ejemplo: **4-metil-3-hidroxipentanal**:
 	\chemfig{CH_3-CH(-[2]CH_3)-CH(-[6]OH)-CH_2-CHO}
 -->
 
-![...](imagenes/tema08/hidroxipentanal.svg){style="display: block; margin: 0 auto; width: 25%;"}
+![...](imagenes/tema08/hidroxipentanal.svg){style="display: block; margin: 0 auto; width: 25%; height: auto;"}
 
 ### **Fenoles**
 
@@ -283,7 +283,7 @@ Se pueden considerar derivados del amoníaco ($\ce{NH3}$) por sustitución de un
 \schemestop
 -->
 
-![...](imagenes/tema08/aminas.svg){style="display: block; margin: 0 auto; width: 60%;"}
+![...](imagenes/tema08/aminas.svg){style="display: block; margin: 0 auto; width: 60%; height: auto;"}
 
 * Se pueden nombrar citando los radicales en orden alfabético seguidos de la terminación **"-amina"**.
 * En aminas complejas, se puede tomar la cadena más larga como hidrocarburo principal terminando en **"-amina"** y los demás radicales unidos al nitrógeno se nombran antecedidos por la letra **N-**.
@@ -386,7 +386,7 @@ Los compuestos presentan idéntica conectividad molecular pero difieren en la or
 \schemestop
 -->
 
-![...](imagenes/tema08/cis.svg){style="display: block; margin: 0 auto; width: 50%;"}
+![...](imagenes/tema08/cis.svg){style="display: block; margin: 0 auto; width: 50%; height: auto;"}
 
 * **Isomería Óptica:** Ocurre ante la presencia de un carbono asimétrico o quiral (unido a 4 sustituyentes distintos). Da lugar a enantiómeros, imágenes especulares no superponibles que desvían la luz polarizada hacia la derecha (dextrógiro) o hacia la izquierda (levógiro).
 
@@ -400,7 +400,7 @@ Los compuestos presentan idéntica conectividad molecular pero difieren en la or
 \schemestop
 -->
 
-![...](imagenes/tema08/optica.svg){style="display: block; margin: 0 auto; width: 60%;"}
+![...](imagenes/tema08/optica.svg){style="display: block; margin: 0 auto; width: 60%; height: auto;"}
 
 ## **5. Reacciones orgánicas principales**
 
@@ -475,7 +475,7 @@ Ejemplos:
 \schemestop
 -->
 
-![...](imagenes/tema08/bromobenceno.svg){style="display: block; margin: 0 auto; width: 50%;"}
+![...](imagenes/tema08/bromobenceno.svg){style="display: block; margin: 0 auto; width: 50%; height: auto;"}
 
 <!--
 ##latex id=nitrobenceno sep=2em
@@ -488,7 +488,7 @@ Ejemplos:
 \schemestop
 -->
 
-![...](imagenes/tema08/nitrobenceno.svg){style="display: block; margin: 0 auto; width: 50%;"}
+![...](imagenes/tema08/nitrobenceno.svg){style="display: block; margin: 0 auto; width: 50%; height: auto;"}
 
 Las reacciones suelen estar catalizadas por ácidos.
 
@@ -520,7 +520,7 @@ Sin embargo, cuando el **reactivo es asimétrico** podemos obtener dos isómeros
 \schemestop
 -->
 
-![...](imagenes/tema08/propeno.svg){style="display: block; margin: 0 auto; width: 100%"}
+![...](imagenes/tema08/propeno.svg){style="display: block; margin: 0 auto; width: 100%; height: auto;"}
 
 * Siguen la **Regla de Markovnikov**: El hidrógeno del reactivo se adiciona mayoritariamente al carbono insaturado que tenga ya más átomos de hidrógeno.
   
@@ -540,7 +540,7 @@ Sin embargo, cuando el **reactivo es asimétrico** podemos obtener dos isómeros
 \schemestop
 -->
 
-![...](imagenes/tema08/metilpropanol.svg){style="display: block; margin: 0 auto; width: 100%"}
+![...](imagenes/tema08/metilpropanol.svg){style="display: block; margin: 0 auto; width: 100%; height: auto;"}
 
 **3. Reacciones de Eliminación**
 
@@ -564,7 +564,7 @@ Se pueden considerar inversas a las de adición, ya que se eliminan el mismo tip
 \schemestop
 -->
 
-![...](imagenes/tema08/butanol.svg){style="display: block; margin: 0 auto; width: 100%"}
+![...](imagenes/tema08/butanol.svg){style="display: block; margin: 0 auto; width: 100%; height: auto;"}
 
 *(Producto mayoritario: but-2-eno)*
 
@@ -605,7 +605,7 @@ Ejemplo de esterificación:
 \schemestop
 -->
 
-![...](imagenes/tema08/esterificacion.svg){style="display: block; margin: 0 auto; width: 100%"}
+![...](imagenes/tema08/esterificacion.svg){style="display: block; margin: 0 auto; width: 100%; height: auto;"}
 
 **Condensación de amidas**
 
