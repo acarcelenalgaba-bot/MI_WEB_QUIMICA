@@ -1,14 +1,14 @@
 document.addEventListener("DOMContentLoaded", function () {
   // 1. Escribe aquí el nombre o prefijo de los temas que quieras BLOQUEAR
   const temasBloqueados = [
-    "Tema 2",
-    "Tema 3",
-    "Tema 4",
-    "Tema 5",
-    "Tema 6",
-    "Tema 7",
-    "Tema 8",
-    "Tema 9"
+//    "Tema 2",
+//    "Tema 3",
+//    "Tema 4",
+//    "Tema 5",
+//    "Tema 6",
+//    "Tema 7",
+//    "Tema 8",
+//    "Tema 9"
   ];
 
   // 2. Busca los enlaces en el menú de navegación lateral
