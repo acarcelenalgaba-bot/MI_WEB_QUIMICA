@@ -364,11 +364,47 @@ Se llaman **isómeros** a aquellos compuestos diferentes que tienen la misma fó
 
 Los átomos están unidos de forma diferente en cada molécula.
 
-* **De cadena:** Cambia la distribución de la cadena carbonada (ej. *butano* y *2-metilpropano*).
+* **De cadena:** Cambia la distribución de la cadena carbonada (ej. *butano* y *2-metilpropano*, ambos $\ce{C4H10}$).
+
+<!--
+##latex id=cadena sep=2em
+\schemestart
+    \subscheme{
+        \chemname{\chemfig{CH_3-CH_2-CH_2-CH_3}}{butano} \hspace{2cm}
+        \chemname{\chemfig{CH_3-CH(-[2]CH_3)-CH_3}}{2-metilpropano}
+    } 
+\schemestop
+-->
+
+![...](imagenes/tema08/cadena.svg){style="display: block; margin: 0 auto; width: 50%; height: auto;"}
   
-* **De posición:** El mismo grupo funcional cambia de ubicación (ej. *1-propanol* y *2-propanol*).
- 
+* **De posición:** El mismo grupo funcional cambia de ubicación (ej. *propan-1-ol* y *propan-2-ol*, ambos $\ce{C3H8O}$).
+
+<!--
+##latex id=posicion sep=2em
+\schemestart
+    \subscheme{
+        \chemname{\chemfig{CH_3-CH_2-CH_2OH}}{propan-1-ol} \hspace{2cm}
+        \chemname{\chemfig{CH_3-CH(-[2]OH)-CH_3}}{propan-2-ol}
+    } 
+\schemestop
+-->
+
+![...](imagenes/tema08/posicion.svg){style="display: block; margin: 0 auto; width: 50%; height: auto;"}
+
 * **De función:** Tienen diferente grupo funcional (ej. *etanol* y *dimetil éter*, ambos $\ce{C2H6O}$).
+
+<!--
+##latex id=funcion sep=2em
+\schemestart
+    \subscheme{
+        \chemname{\chemfig{CH_3-CH_2OH}}{etanol} \hspace{2cm}
+        \chemname{\chemfig{CH_3-O-CH_3}}{dimetil éter}
+    } 
+\schemestop
+-->
+
+![...](imagenes/tema08/funcion.svg){style="display: block; margin: 0 auto; width: 43%; height: auto;"}
 
 **2. Estereoisomería (Isomería Espacial)**
 
