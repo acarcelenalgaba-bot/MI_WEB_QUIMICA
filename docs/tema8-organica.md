@@ -421,7 +421,7 @@ Los compuestos presentan idéntica conectividad molecular pero difieren en la or
 \schemestop
 -->
 
-![...](imagenes/tema08/cis.svg){style="display: block; margin: 0 auto; width: 50%; height: auto;"}
+![...](imagenes/tema08/cis.svg){style="display: block; margin: 0 auto; width: 45%; height: auto;"}
 
 * **Isomería Óptica:** Ocurre ante la presencia de un carbono asimétrico o quiral (unido a 4 sustituyentes distintos). Da lugar a enantiómeros, imágenes especulares no superponibles que desvían la luz polarizada hacia la derecha (dextrógiro) o hacia la izquierda (levógiro).
 
@@ -429,13 +429,13 @@ Los compuestos presentan idéntica conectividad molecular pero difieren en la or
 ##latex id=optica sep=2em
 \schemestart
     \subscheme{
-        \chemname{\chemfig{CH_3-CH_2-C(-[6]Cl)(-[2]OH)-CH_3}}{2-clorobutan-2-ol}  \hspace{2cm}
-        \chemname{\chemfig{[,1.7] C(-[2]H)(-[6]I)(<[:330]Cl)(<:[:210]Br)} }{\footnotesize bromocloroyodometano} 
+        \chemname{\chemfig{CH_3-CH_2-C(-[6]Cl)(-[2]OH)-CH_3}}{2-clorobutan-2-ol}  \hspace{1.5cm}
+        \chemname{\chemfig{[,1.7] C(-[2]H)(-[6]I)(<[:330]Cl)(<:[:210]Br)} }{bromocloroyodometano}  \quad \quad \quad 
     }
 \schemestop
 -->
 
-![...](imagenes/tema08/optica.svg){style="display: block; margin: 0 auto; width: 60%; height: auto;"}
+![...](imagenes/tema08/optica.svg){style="display: block; margin: 0 auto; width: 50%; height: auto;"}
 
 ## **5. Reacciones orgánicas principales**
 
