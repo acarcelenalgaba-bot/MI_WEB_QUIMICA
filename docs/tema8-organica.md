@@ -16,11 +16,11 @@ Las cadenas de carbono tienen una disposición en zigzag debido a la orientació
 
 ![...](imagenes/tema08/orbitales.png){ style="display: block; margin: 0 auto; width: 90%; height: auto;" }
 
-**Representación de las moléculas orgánicas**
+### **Representación de las moléculas orgánicas** {: .caja-subtitulo}
 
 ![...](imagenes/tema08/formulas.png){ style="display: block; margin: 0 auto; width: 90%; height: auto;" }
 
-**Grupos funcionales**
+### **Grupos funcionales** {: .caja-subtitulo}
 
 Un **grupo funcional** es un átomo o grupo de átomos que dan al compuesto sus propiedades características. Se podría decir que es cualquier cosa que no sean enlaces simples C-C o C-H.
 
@@ -34,7 +34,7 @@ Podemos ver la serie homóloga de los hidrocarburos lineales y cómo varían las
 
 ![...](imagenes/tema08/series.png){ style="display: block; margin: 0 auto; width: 80%; height: auto;" }
 
-**Propiedades físicas de los compuestos orgánicos**
+### **Propiedades físicas de los compuestos orgánicos** {: .caja-subtitulo}
 
 Son en general las que presentan los compuestos con enlaces covalentes, es decir, dependen básicamente de la masa molecular y de la polaridad de los grupos funcionales, ya que cuanto mayores sean ambas mayores serán las fuerzas intermoleculares.
 
@@ -50,7 +50,7 @@ Los de mayor carácter polar como ácidos, alcoholes, aminas primarias o amidas 
 
 El texto de las secciones de formulación y nomenclatura orgánica está tomado de la página AlonsoFormula (http://www.alonsoformula.com/organica/). En dicha página se pueden encontrar numerosos ejemplos de cómo proceder para nombrar cuando dan una fórmula y para formular cuando nos dan un nombre. También tiene numerosos ejercicios en los que se puede comprobar si se han hecho bien.
 
-### **Alcanos**
+### **Alcanos** {: .caja-subtitulo}
 
 Son compuestos de C e H (de ahí el nombre de hidrocarburos) de cadena abierta que están unidos entre sí por enlaces sencillos (C-C y C-H).
 
@@ -59,7 +59,7 @@ Son compuestos de C e H (de ahí el nombre de hidrocarburos) de cadena abierta q
 * Se llama **radical alquilo** a las agrupaciones de átomos procedentes de la eliminación de un átomo de H en un alcano, por lo que contiene un electrón de valencia disponible para formar un enlace covalente. Se nombran cambiando la terminación **-ano** por **-ilo**, o **-il** cuando forme parte de un hidrocarburo.
 * Cuando aparecen ramificaciones (cadenas laterales) hay que seguir una serie de normas para su correcta nomenclatura.
 
-**Reglas de nomenclatura para alcanos ramificados**:
+### **Reglas de nomenclatura para alcanos ramificados** {: .caja-subtitulo}
 
 1. Se **elige la cadena más larga**. Si hay dos o más cadenas con igual número de carbonos se escoge la que tenga mayor número de ramificaciones.
 2. Se **numeran los átomos de carbono** de la cadena principal comenzando por el extremo que tenga más cerca alguna ramificación, buscando que la posible serie de números **"localizadores"** sea siempre la menor posible.
@@ -69,7 +69,7 @@ Son compuestos de C e H (de ahí el nombre de hidrocarburos) de cadena abierta q
 6. Si **hay dos o más radicales diferentes** en distintos carbonos, **se nombran por orden alfabético** anteponiendo su número localizador a cada radical. En el orden alfabético no se tienen en cuenta los prefijos multiplicativos (di-, tri-, tetra-, etc.) así como *sec-*, *terc-*, y otros como *cis-*, *trans-*, *o-*, *m-*, y *p-*; pero cuidado, **sí se tiene en cuenta** el prefijo **iso-**.
 7. Si las cadenas laterales son complejas, se nombran de forma independiente y se colocan encerradas dentro de un paréntesis como los demás radicales por orden alfabético. En estos casos se ordenan por la primera letra del radical. Por ejemplo, en el *(1,2-dimetilpropil)* sí tendremos en cuenta la "d" para el orden alfabético, por ser un radical complejo. En las cadenas laterales el localizador que lleva el número 1 es el carbono que está unido a la cadena principal.
 
-### **Alquenos**
+### **Alquenos** {: .caja-subtitulo}
 
 Son hidrocarburos de cadena abierta que se caracterizan por tener uno o más dobles enlaces, $\ce{C=C}$.
 
@@ -79,7 +79,7 @@ Se nombran igual que los alcanos, pero con la terminación en **"-eno"**. De tod
 * Se **comienza a contar por el extremo más cercano a un doble enlace**, con lo que el doble enlace tiene preferencia sobre las cadenas laterales a la hora de nombrar los carbonos, y se nombra el hidrocarburo especificando el primer carbono que contiene ese doble enlace.
 * La IUPAC recomienda la colocación del número localizador inmediatamente antes del sufijo (ej. but-2-eno). En el caso de que hubiera más de un doble enlace se emplean las terminaciones **"-dieno"**, **"-trieno"**, etc., precedidas por los números que indican la posición de esos dobles enlaces.
 
-### **Alquinos**
+### **Alquinos** {: .caja-subtitulo}
 
 Son hidrocarburos de cadena abierta que se caracterizan por tener uno o más triples enlaces, carbono-carbono.
 
@@ -89,7 +89,7 @@ Es interesante la nomenclatura de los hidrocarburos que contienen dobles y tripl
 
 Llamaremos a estos compuestos **eninos**, nombraremos antes los dobles enlaces y luego los triples. La cadena principal es la que tenga mayor número de insaturaciones.
 
-### **Hidrocarburos cíclicos**
+### **Hidrocarburos cíclicos** {: .caja-subtitulo}
 
 Son hidrocarburos de cadena cerrada. Los ciclos también pueden presentar insaturaciones.
 
@@ -99,14 +99,13 @@ Los hidrocarburos cíclicos se nombran igual que los hidrocarburos (alcanos, alq
 * En el caso de anillos con insaturaciones, los carbonos se numeran de modo que dichos enlaces tengan los números localizadores más bajos.
 * Si el compuesto cíclico tiene cadenas laterales más o menos extensas, conviene nombrarlo como derivado de una cadena lateral. En estos casos, los hidrocarburos cíclicos se nombran como radicales con las terminaciones **"-il"**, **"-enil"**, o **"-inil"**.
 
-### **Hidrocarburos aromáticos**
+### **Hidrocarburos aromáticos** {: .caja-subtitulo}
 
 Son hidrocarburos derivados del benceno ($\ce{C6H6}$). El benceno se caracteriza por una inusual estabilidad, que le viene dada por la particular disposición de los dobles enlaces conjugados.
 
 El nombre genérico de los hidrocarburos aromáticos mono y policíclicos es **"areno"** y los radicales derivados de ellos se llaman radicales **"arilo"**. Todos ellos se pueden considerar derivados del benceno, que es una molécula cíclica, de forma hexagonal y con un orden de enlace intermedio entre un enlace sencillo y un doble enlace donde todos sus enlaces son equivalentes por resonancia.
 
 Experimentalmente se comprueba que los seis enlaces son equivalentes, de ahí que la molécula de benceno se represente como una estructura resonante entre las dos fórmulas propuestas por Kekulé.
-
 
 <!--
 ##latex id=benceno sep=2em
@@ -146,7 +145,7 @@ Cuando el benceno actúa como radical de otra cadena se utiliza con el nombre de
 
 ![...](imagenes/tema08/aromaticos.png){ style="display: block; margin: 0 auto; width: 80%; height: auto;" }
 
-### **Halogenuros de alquilo**
+### **Halogenuros de alquilo** {: .caja-subtitulo}
 
 Son hidrocarburos que contienen átomos de halógeno en su molécula: **R-X**, **Ar-X**.
 
@@ -156,7 +155,7 @@ Se nombran citando en primer lugar el halógeno seguido del nombre del hidrocarb
 
 Si aparece el mismo halógeno repetido, se utilizan los prefijos **di-**, **tri-**, **tetra-**.
 
-### **Alcoholes**
+### **Alcoholes** {: .caja-subtitulo}
 
 Su estructura es similar a la de los hidrocarburos, en los que se sustituye uno o más átomos de hidrógeno por grupos **"hidroxilo"**, **-OH**.
 
@@ -175,7 +174,7 @@ Ejemplo: **4-metil-3-hidroxipentanal**:
 
 ![...](imagenes/tema08/hidroxipentanal.svg){style="display: block; margin: 0 auto; width: 25%; height: auto;"}
 
-### **Fenoles**
+### **Fenoles** {: .caja-subtitulo}
 
 Son derivados aromáticos que presentan grupos hidroxilo, **-OH** unidos directamente a un anillo bencénico. Los fenoles tienen cierto carácter ácido y forman sales metálicas.
 
@@ -183,7 +182,7 @@ Se encuentran ampliamente distribuidos en productos naturales, como los taninos.
 
 Se nombran como los alcoholes, con la terminación **"-ol"** añadida al nombre del hidrocarburo, cuando el grupo OH es la función principal.
 
-### **Éteres**
+### **Éteres** {: .caja-subtitulo}
 
 Son compuestos en los que un átomo de oxígeno está unido a dos radicales alquilo o arilo: **R-O-R'**.
 
@@ -201,7 +200,7 @@ $\ce{\hspace{0.5cm} CH3-O-CH2-CH3}$
 * **Dietil éter** (o *etoxietano*):
 $\ce{\hspace{0.5cm} CH3-CH2-O-CH2-CH3}$
 
-### **Aldehídos**
+### **Aldehídos** {: .caja-subtitulo}
 
 Se caracterizan por tener el grupo funcional **"carbonilo"** ($\ce{-C=O}$) en un extremo de la cadena carbonada (carbono primario).
 
@@ -218,7 +217,7 @@ $\ce{\hspace{0.5cm} CH3-CH2-CH2-CHO}$
 * **Butanodial**:
 $\ce{\hspace{0.5cm} CHO-CH2-CH2-CHO}$
 
-### **Cetonas**
+### **Cetonas** {: .caja-subtitulo}
 
 Presentan el grupo funcional **"carbonilo"** ($\ce{-C=O}$) en un carbono secundario (dentro de la cadena).
 
@@ -234,7 +233,7 @@ $\ce{\hspace{0.5cm}  CH3-CO-CH2-CH3}$
 * **Pentan-2-ona** (o *metil propil cetona*):
 $\ce{\hspace{0.5cm}  CH3-CO-CH2-CH2-CH3}$
 
-### **Ácidos carboxílicos**
+### **Ácidos carboxílicos** {: .caja-subtitulo}
 
 Se caracterizan por tener el grupo funcional **"carboxilo"** ($\ce{-COOH}$) en un extremo de la cadena.
 
@@ -250,7 +249,7 @@ $\ce{\hspace{0.5cm} CH3-CH2-COOH}$
 * **Ácido butanodioico**:
 $\ce{\hspace{0.5cm} COOH-CH2-CH2-COOH}$
 
-### **Ésteres**
+### **Ésteres** {: .caja-subtitulo}
 
 Son compuestos que se forman al sustituir el hidrógeno del grupo carboxilo de un ácido por un radical alquilo o arilo: **R-COO-R'**.
 
@@ -264,7 +263,7 @@ $\ce{\hspace{0.5cm} CH3-COO-CH2-CH3}$
 * **Propanoato de metilo**:
 $\ce{\hspace{0.5cm} CH3-CH2-COO-CH3}$
 
-### **Aminas**
+### **Aminas** {: .caja-subtitulo}
 
 Se pueden considerar derivados del amoníaco ($\ce{NH3}$) por sustitución de uno, dos o tres de sus hidrógenos por radicales alquilo o arilo, dando lugar a aminas **primarias** ($\ce{R-NH2}$), **secundarias** ($\ce{R-NH-R'}$) o **terciarias** ($\ce{R-N(R')-R''}$).
 
@@ -297,7 +296,7 @@ $\ce{\hspace{0.5cm} CH3-CH2-NH2}$
 * **N-metiletilamina**:
 $\ce{\hspace{0.5cm} CH3-CH2-NH-CH3}$
 
-### **Amidas**
+### **Amidas** {: .caja-subtitulo}
 
 Son compuestos derivados de los ácidos carboxílicos en los que se sustituye el grupo $\ce{-OH}$ por un grupo amino ($\ce{-NH2}$), dando el grupo funcional **amida** ($\ce{-CONH2}$).
 
@@ -312,7 +311,7 @@ $\ce{\hspace{0.5cm} CH3-CH2-CONH2}$
 * **N-metiletanamida**:
 $\ce{\hspace{0.5cm} CH3-CONH-CH3}$
 
-### **Nitrocompuestos**
+### **Nitrocompuestos** {: .caja-subtitulo}
 
 Se pueden considerar derivados de los hidrocarburos en los que se substituye uno o más hidrógenos por el grupo "nitro", $\ce{-NO2}$.
 
@@ -322,7 +321,7 @@ Las insaturaciones tienen preferencia sobre el grupo nitro:
 
 $\ce{CH2 = CH - CH2 - NO2 \hspace{1.5cm}}$  3-nitro-1-propeno
 
-### **Nitrilos o cianuros**
+### **Nitrilos o cianuros** {: .caja-subtitulo}
 
 Se caracterizan por tener el grupo funcional **"ciano"** ($\ce{-C \equiv N}$) en un extremo de la cadena.
 
@@ -335,7 +334,7 @@ Ejemplos:
 * **Propanonitrilo** (o **cianuro de etilo**):
 $\ce{\hspace{0.5cm} CH3-CH2-CN}$
 
-### **Orden de prioridad de grupos funcionales**
+### **Orden de prioridad de grupos funcionales** {: .caja-subtitulo}
 
 Cuando en un mismo compuesto existen dos o más grupos funcionales, el orden de prioridad dictado por la IUPAC determina cuál de ellos dará nombre al compuesto como función principal. Los demás grupos se considerarán meros sustituyentes y se nombrarán como prefijos.
 
@@ -360,7 +359,7 @@ El orden decreciente de prioridad es el siguiente:
 
 Se llaman **isómeros** a aquellos compuestos diferentes que tienen la misma fórmula molecular pero distintas propiedades físicas o químicas debido a una disposición estructural o espacial diferente.
 
-**1. Isomería Estructural o Constitucional**
+### **1. Isomería Estructural o Constitucional** {: .caja-subtitulo}
 
 Los átomos están unidos de forma diferente en cada molécula.
 
@@ -406,7 +405,7 @@ Los átomos están unidos de forma diferente en cada molécula.
 
 ![...](imagenes/tema08/funcion.svg){style="display: block; margin: 0 auto; width: 43%; height: auto;"}
 
-**2. Estereoisomería (Isomería Espacial)**
+### **2. Estereoisomería (Isomería Espacial)** {: .caja-subtitulo}
 
 Los compuestos presentan idéntica conectividad molecular pero difieren en la orientación tridimensional de sus átomos.
 
@@ -440,7 +439,7 @@ Los compuestos presentan idéntica conectividad molecular pero difieren en la or
 
 ## **5. Reacciones orgánicas principales**
 
-**Ruptura de enlaces e intermedios de reacción**
+### **Ruptura de enlaces e intermedios de reacción** {: .caja-subtitulo}
 
 Cualquier reacción química consiste en la ruptura de unos enlaces y la formación de otros nuevos. Según como se rompan podemos tener: 
 
@@ -454,7 +453,7 @@ $\ce{A : B \; \rightarrow \; A^+ + B^−}$
 
 La primera da lugar a radicales libres, la segunda a carbocationes o carbaniones.
 
-**Principales reactivos orgánicos**
+### **Principales reactivos orgánicos** {: .caja-subtitulo}
 
 - **Radicales libres**
 
@@ -462,9 +461,9 @@ La primera da lugar a radicales libres, la segunda a carbocationes o carbaniones
 
 - **Electrófilos** (“amantes de lo negativo”)
 
-**Tipos de reacciones**
+### **Tipos de reacciones** {: .caja-subtitulo}
 
-**1. Reacciones de Sustitución**
+### **1. Reacciones de Sustitución** {: .caja-subtitulo}
 
 Un átomo o grupo de átomos de la molécula sustrato es sustituido por otro.
 
@@ -511,7 +510,7 @@ Ejemplos:
 \schemestop
 -->
 
-![...](imagenes/tema08/bromobenceno.svg){style="display: block; margin: 0 auto; width: 50%; height: auto;"}
+![...](imagenes/tema08/bromobenceno.svg){style="display: block; margin: 0 auto; width: 45%; height: auto;"}
 
 <!--
 ##latex id=nitrobenceno sep=2em
@@ -528,7 +527,7 @@ Ejemplos:
 
 Las reacciones suelen estar catalizadas por ácidos.
 
-**2. Reacciones de Adición**
+### **2. Reacciones de Adición** {: .caja-subtitulo}
 
 Ocurren en moléculas insaturadas (dobles o triples enlaces). Los átomos del reactivo se añaden rompiendo el enlace $\pi$.
 
@@ -578,7 +577,7 @@ Sin embargo, cuando el **reactivo es asimétrico** podemos obtener dos isómeros
 
 ![...](imagenes/tema08/metilpropanol.svg){style="display: block; margin: 0 auto; width: 100%; height: auto;"}
 
-**3. Reacciones de Eliminación**
+### **3. Reacciones de Eliminación** {: .caja-subtitulo}
 
 Dos átomos o grupos de átomos se escinden de posiciones adyacentes para dar lugar a una insaturación (doble o triple enlace).
 
@@ -604,7 +603,7 @@ Se pueden considerar inversas a las de adición, ya que se eliminan el mismo tip
 
 *(Producto mayoritario: but-2-eno)*
 
-**4. Reacciones de Oxidación y Reducción**
+### **4. Reacciones de Oxidación y Reducción** {: .caja-subtitulo}
 
 * **Oxidación:** 
 
@@ -612,42 +611,51 @@ Como ocurre también en las reacciones de oxidación-reducción de la química i
 
 Un alcohol primario se oxida a aldehído y este consecutivamente a ácido carboxílico. 
 
-Un alcohol secundario se oxida a cetona.
+Un alcohol secundario se oxida a cetona mientras que un alcohol terciario no se oxida.
 
 Los oxidantes suelen ser los mismos que en inorgánica: dicromatos ($\ce{Cr2O7^{-2}}$), permanganatos ($\ce{MnO4^{-}}$), etc.
 
 * **Reducción:** Es el proceso inverso al anterior.
 
-**5. Reacciones de condensación**
+![...](imagenes/tema08/redox.png){style="display: block; margin: 0 auto; width: 60%; height: auto;"}
+
+### **5. Reacciones de condensación** {: .caja-subtitulo}
 
 Por **condensación** básicamente entendemos que dos moléculas grandes se unen, liberándose una más pequeña, generalmente agua.
 
-Los dos ejemplos más importantes son la **formación de ésteres** a partir de un ácido y un alcohol, liberándose agua y la **formación de amidas**.
+Los dos ejemplos más importantes son la **formación de ésteres** y la **formación de amidas**.
+
+- **Formación de ésteres**
+  
+A partir de un ácido y un alcohol se forma el éster y se libera agua.
+
+$$\ce{\text{Á}cido \; (R1-COOH) \quad + \quad Alcohol \; (R2-CH2OH) \quad \rightarrow \quad  \text{É}ster \; (R1-COO-R2) \quad + \quad Agua}$$
 
 Ejemplo de esterificación:
 
 <!--
 ##latex id=esterificacion sep=2em
 \schemestart[0, 0.8, 1.5]
-    \chemname{\chemfig{CH_3-C(=[2]O)-OH}}{ácido etanoico} 
-    \arrow{0}[,0.2] + \arrow{0}[,0.2]
-    \chemname{\chemfig{CH_3-CH_2-CH_2-OH}}{propanol} 
-    \arrow{0}[,0.05]
-    \arrow(.mid--.mid){->}
-    \arrow{0}[,0.75]
-    \chemname{\chemfig{CH_3-COO-CH2-CH_2-CH_3}}{etanoato de propilo} 
-    \arrow{0}[,0.2] + \arrow{0}[,0.2]
-    \chemname{\chemfig{H_2O}}{agua}
+    \chemname{\chemfig{CH_3-C(=[2]O)-OH}}{ácido etanoico} \quad + \quad \chemname{\chemfig{CH_3-CH_2-CH_2-OH}}{propanol} 
+    \arrow{->}
+    \chemname{\chemfig{CH_3-COO-CH_2-CH_2-CH_3}}{etanoato de propilo} \quad + \quad \chemname{\chemfig{H_2O}}{agua}
 \schemestop
 -->
 
-![...](imagenes/tema08/esterificacion.svg){style="display: block; margin: 0 auto; width: 100%; height: auto;"}
+![...](imagenes/tema08/esterificacion.svg){style="display: block; margin: 0 auto; width: 90%; height: auto;"}
 
-**Condensación de amidas**
+- **Condensación de amidas**
 
 La formación de amidas, a partir de un ácido y amoníaco (o amina), donde también se libera agua tiene una importancia especial, ya que se trata del enlace peptídico, básico en la formación de las proteínas.
 
-**Hidrólisis de ésteres**
+$$\ce{\text{Á}cido \; (R1-COOH) \quad + \quad Amina \; (R2-NH2) \quad \rightarrow \quad  Amida \; (R1-COONH-R2) \quad + \quad Agua}$$
+
+Ejemplo: 
+
+$$\ce{CH3-COOH \quad + \quad CH3-NH2 \quad \rightarrow \quad CH3-CONH-CH3 \quad + \quad H2O}$$
+
+
+### **Hidrólisis de ésteres** {: .caja-subtitulo}
 
 Conviene saber también que la reacción contraria a la esterificación es la hidrólisis de los ésteres, que de hacerse en medio ácido nos da el alcohol y ácido iniciales, pero en medio básico se llama **“saponificación”** y supone la formación irreversible del anión carboxilato.
 

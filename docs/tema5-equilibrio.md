@@ -26,7 +26,7 @@ En la tabla se puede observar:
 
 • Que a partir de determinado instante las **concentraciones de ambos compuestos permanecen inalteradas** (aunque no son iguales).
 
-**Gráficas c-t y v-t**
+### **Gráficas c-t y v-t** {: .caja-subtitulo}
 
 Los datos de la tabla anterior los podemos representar en gráficas como las siguientes, donde podemos apreciar las evoluciones de las concentraciones de reactivos y productos (izquierda), que acaban siendo constantes, aunque diferentes para cada sustancia, y las de las velocidades directa e inversa (derecha), que terminan siendo iguales.
 
@@ -59,7 +59,7 @@ Donde $\ce{Kc = \dfrac {\ce{K_d}}{\ce{K_i}}}$ es la **constante del equilibrio**
 
 La constante **$\ce{Kc}$**, igual que ocurría con las constantes de velocidad **depende de la temperatura**, y por ello cuando dan el valor de $\ce{Kc}$ indican siempre la temperatura.
 
-**Significado químico del valor de la constante de equilibrio**
+### **Significado químico del valor de la constante de equilibrio** {: .caja-subtitulo}
 
 La constante de equilibrio de una reacción química, $\ce{Kc}$ o $\ce{Kp}$, indica en que **grado los reactivos se transforman en productos**, una vez alcanzado el equilibrio.
 
@@ -71,7 +71,7 @@ Si **$\ce{K}$ es muy pequeña**: La reacción está muy desplazada hacia los rea
 
 ![...](imagenes/tema05/eq3.png){style="display: block; margin: 0 auto; width: 90%; height: auto; border: 1px solid #333;"}
 
-**SOBRE $\ce{Kc}$**
+### **Características de $\ce{Kc}$** {: .caja-subtitulo}
 
 - Su **expresión** (y por tanto su valor numérico) **depende de la forma en la que esté ajustada la ecuación** correspondiente.
 
@@ -92,7 +92,6 @@ Si **$\ce{K}$ es muy pequeña**: La reacción está muy desplazada hacia los rea
 $$\ce{Kc^' = \dfrac {\ce{[CaO] \cdot [CO2]}}{\ce{[CaCO3]}} }$$
 
 $$\ce{Kc = Kc^' \cdot \dfrac {\ce{[CaCO3]}}{\ce{[CaO]}} = [CO2]}$$
-
 
 $$\ce{Kc = [CO2]}$$
 
@@ -154,7 +153,7 @@ $$
 
 1) Existe controversia sobre si $\ce{Kc}$ y $\ce{Kp}$ tienen dimensiones o son adimensionales. Para una justificación de esta postura ver el artículo de J. Quílez-Pardo y A. Quílez-Díaz publicado en Anales de Química (2013) http://bit.ly/18kte1L
 
-**$\ce{\textbf{Kc}}$ y Q (Cociente de reacción)**
+### **$\ce{\textbf{Kc}}$ y Q (Cociente de reacción)** {: .caja-subtitulo}
 
 Se define el **cociente de reacción**, **Q**, como una expresión análoga a $\ce{Kc}$ pero en la que las concentraciones (en mol/L) no son las de equilibrio (representadas aquí con el subíndice "0"), tenemos:
 
@@ -240,7 +239,7 @@ $\ce{[HI] = \dfrac {\ce{0,15 + 2 \cdot x  mol}}{\ce{3,5  L }} = \dfrac {\ce{0,15
 
 $\ce{[H2] = [I2] = \dfrac {\ce{0,15 - x  mol}}{\ce{3,5  L }} = \dfrac {\ce{0,15 - 0,100  mol}}{\ce{3,5  L }} = \boxed{\ce{ 0,014  \dfrac {mol}{L}}} }$
 
-**EJEMPLO 2**
+**Ejemplo 2**
 
 En un recipiente de 2 L, en el que inicialmente se ha realizado el vacío, se introducen 0,30 moles de $\ce{H2}$ (g), 0,20 moles de $\ce{NH3}$ (g) y 0,10 moles de $\ce{N2}$ (g). La mezcla se calienta hasta 400 $^{\circ}$C estableciéndose el equilibrio: $\ce{N2 (g) + 3 H2 (g) \leftrightarrows  2 NH3 (g)}$. La presión total de la mezcla gaseosa en el equilibrio es de 20 atmósferas.
 
@@ -288,12 +287,11 @@ $\ce{P \cdot V = n_T \cdot R \cdot T  \quad \longrightarrow \quad  n_T = \dfrac 
 
 Por tanto: $\ce{\quad 2 \cdot x + 0,60 = 0,723 \quad \quad x = 0,062 mol}$. Para el equilibrio:
 
-
 $\ce{[NH3] = \dfrac {\ce{0,20 - 2 \cdot (0,062)  mol}}{\ce{2,0  L}} \quad {;} \quad [N2] = \dfrac {\ce{0,10 + 0,062  mol}}{\ce{2,0  L}} \quad {;} \quad [H2] = \dfrac {\ce{0,30 + 3 \cdot (0,062)  mol}}{\ce{2,0  L}} }$
 
  $\ce{K_{C} = \dfrac {\ce{[NH3]^2}}{\ce{[N2] \cdot [H2]^3}} = \dfrac {\ce{(0,038)^2 \cdot (mol \cdot L^{-1})^2 }}{\ce{(0,081) (mol \cdot L^{-1}) \cdot (0,24)^3 (mol \cdot L^{-1})^3}} = 1,29 }$
 
-**Ley de las presiones parciales**
+### **Ley de las presiones parciales** {: .caja-subtitulo}
 
 La **ley de las presiones parciales** (conocida también como **ley de Dalton**) establece que la presión de una mezcla de gases, **que no reaccionan químicamente**, es igual a la suma de las presiones parciales que ejercería cada uno de ellos si sólo uno ocupase todo el volumen de la mezcla, sin variar la temperatura. La ley de Dalton es muy útil cuando deseamos determinar la relación que existe entre las presiones parciales y la presión total de una mezcla de gases:
 
@@ -329,8 +327,7 @@ La **presión parcial de un gas** se puede expresar como el producto de su fracc
 $$\ce{p_i = \chi_i \cdot P_T}$$
 </div>
 
-
-**Constante de equilibrio en función de las presiones parciales ($\ce{\textbf{Kp}}$)**
+### **Constante de equilibrio en función de las presiones parciales ($\ce{\textbf{Kp}}$)** {: .caja-subtitulo}
 
 En las reacciones en las que intervengan únicamente gases es más cómodo medir presiones que concentraciones, por eso se define la **constante de equilibrio** $\ce{Kp}$ en función de las **presiones parciales**:
 
@@ -352,7 +349,7 @@ $$\ce{Kp = \dfrac {\ce{p_C^c \cdot p_D^d}}{\ce{ p_A^a \cdot p_B^b}} }$$
 
 donde, $\ce{p_A}$ = presión parcial del componente A; $\ce{p_B}$ = presión parcial del componente B; $\ce{p_C}$ = presión parcial del componente C; $\ce{p_D}$ = presión parcial del componente D
 
-**Relación entre $\ce{Kp}$ y $\ce{Kc}$**
+### **Relación entre $\ce{Kp}$ y $\ce{Kc}$** {: .caja-subtitulo}
 
 Para la reacción general: $\ce{\quad \quad \textrm{a} A (g) + \textrm{b} B (g) \leftrightarrows \textrm{c} C (g) + \textrm{d} D (g)}$
 
@@ -499,7 +496,7 @@ Y para calcular $\ce{Kc}$:     $\ce{K_C = \dfrac {\ce{K_P}}{\ce{(RT)^{\Delta 
 
 $\ce{Kc = \dfrac {\ce{0,163}}{\ce{(0,082 \cdot 668)^{-1}}} = \boxed{\ce{8,87}} }$ 
 
-**Relación entre $\ce{\textbf{Kc}}$ y el grado de disociación**
+### **Relación entre $\ce{\textbf{Kc}}$ y el grado de disociación** {: .caja-subtitulo}
 
 Una de las aplicaciones importantes de $\ce{Kc}$ es el cálculo del rendimiento de una reacción quimica, es decir, el grado de desplazamiento hacia los productos. Obviamente, cuanto mayor sea $\ce{Kc}$, mayor será ese desplazamiento hacia los productos.
 
@@ -530,7 +527,7 @@ Según el **principio de Le Chatelier** (1884):
 
 "**Si un sistema en equilibrio es perturbado (se modifican alguno de los factores que influyen en el mismo: temperatura, presión o concentración), evolucionará en el sentido de anular (contrarrestar) la perturbación introducida hasta alcanzar de nuevo el equilibrio**"
 
-**3.1. Efecto de la temperatura**
+### **3.1. Efecto de la temperatura** {: .caja-subtitulo}
 
 **Es la única variable que, además de influir en el equilibrio, modifica el valor de su constante**.
 
@@ -542,7 +539,7 @@ $$\ce{N2 (g) + 3 H2 (g) \leftrightarrows  2 NH3 (g) \quad \quad \Delta H = - 92 
 
 Si **aumentamos la temperatura** el sistema se desplazará hacia la izquierda (sentido **endotérmico**), y si la **disminuimos** hacia la derecha (sentido **exotérmico**).
 
-**3.2. Efecto de la presión y el volumen**
+### **3.2. Efecto de la presión y el volumen** {: .caja-subtitulo}
 
 La **variación de presión en el equilibrio influye solo** si en el mismo intervienen **especies en estado gaseoso** o **disueltas** y hay **variación en el número de moles**, ya que **si $\ce{\Delta n = 0}$**, **no tiene ninguna influencia** las variaciones en la presión.
 
@@ -550,7 +547,7 @@ Si **aumenta la presión**, el sistema se desplazará hacia donde haya **menor n
 
 En el ejemplo de la síntesis del amoníaco visto antes, si aumentamos la presión total, disminuirá el volumen, y el equilibrio se desplazará hacia donde menos moles de gas haya, es decir, hacia la formación de amoníaco.
 
-**3.3. Efecto de las concentraciones**
+### **3.3. Efecto de las concentraciones** {: .caja-subtitulo}
 
 Las **variaciones de concentración** **no afectan** a la constante de equilibrio, $\ce{Kc}$.
 
@@ -568,7 +565,7 @@ Lo que sucede es que, según el principio de Le Chatelier, el sistema se desplaz
 
 Un error muy común es pensar que al cambiar las concentraciones cambia el valor de la constante de equilibrio. La **constante** $\ce{Kc}$ (o $\ce{Kp}$) **NO varía**. Cuando cambian las concentraciones, lo que cambia temporalmente es el cociente de reacción, $\ce{Q}$. El sistema se desplaza en una dirección u otra precisamente para que las nuevas concentraciones en el equilibrio vuelvan a dar exactamente el mismo valor matemático de $\ce{Kc}$. La única variable capaz de cambiar el valor real de una constante de equilibrio es la temperatura.
 
-**Síntesis del amoníaco**
+### **Síntesis del amoníaco** {: .caja-subtitulo}
 
 Se trata de un buen ejemplo que combina los diferentes aspectos de la ley de Le Chatelier.
 
@@ -590,7 +587,7 @@ $$\ce{PbI2 (s) \leftrightarrows  Pb^{2+} (ac) + 2 I^- (ac)}$$
 
 Como ocurre en todos los equilibrios, aparentemente no ocurre nada, pues las cantidades sólidas y en disolución no varían, pero se trara de un proceso dinámico, en el que constantemente está disolviéndose sólido y precipitando éste. Para comprender mejor estos procesos debemos repasar el concepto de solubilidad.
 
-**4.1. Solubilidad**
+### **4.1. Solubilidad** {: .caja-subtitulo}
 
 Cuando echamos una pequeña cantidad de sólido al agua, si éste se disuelve decimos que tenemos una **disolución diluída**. Si seguimos añadiendo más sólido y se sigue disolviendo, la disolución se vuelve **concentrada**. Llega un momento en que ya no se puede disolver más sólido aunque sigamos añadiendo. Decimos que la disolución se ha **saturado**.
 
@@ -600,7 +597,7 @@ Una **disolución saturada**, por lo tanto, es aquella que ya **no admite más s
 
 Podemos hablar de sustancias solubles e insolubles, pero es relativo, aunque sea poco, todas se disuelven algo. Por decir un número podemos considerar poco solubles a las sustancias con solubilidades menores de 0,01 mol/L.
 
-**Solubilidad y temperatura**
+### **Solubilidad y temperatura** {: .caja-subtitulo}
 
 El aumento de temperatura proporciona una energía al cristal que favorece las vibraciones de los iones y resulta más sencillo al disolvente vencer las fuerzas que los mantiene unidos.
 
@@ -610,7 +607,7 @@ Aunque no es de este tema, recordad sin embargo que la **solubilidad de los gase
 
 ![...](imagenes/tema05/eq7.png){style="display: block; margin: 0 auto; width: 50%; height: auto; border: 1px solid #333;"}
 
-**Espontaneidad de las disoluciones**
+### **Espontaneidad de las disoluciones** {: .caja-subtitulo}
 
 Recordemos que un proceso es espontáneo si la energía libre de Gibbs, $\ce{\Delta G}$, de valor $\ce{\Delta G = \Delta H - T \cdot \Delta S}$ es negativa.
 
@@ -628,7 +625,7 @@ Pero hay sustancias, como el $\ce{NH4Cl}$, que aunque su disolución es endotér
 
 El conjunto de ambos factores determinará la solubilidad mayor o menor de una sustancia iónica.
 
-**4.2. Producto de solubilidad**
+### **4.2. Producto de solubilidad** {: .caja-subtitulo}
 
 Como decíamos, en el caso de sales poco solubles, una pequeña parte se encuentra disociada en sus iones, mientras que la mayor parte permanece en estado sólido, estableciéndose un **equilibrio dinámico entre la parte disuelta y la fase sólida o precipitado**.
 
@@ -669,7 +666,7 @@ $$\begin{array}{ll}
 \ce{PbS  (s) \leftrightarrows  Pb^{2+}  (ac) + S^{2-} (ac)} & \ce{\quad K_{PS} = [Pb^{2+}] * [S^{2-}]}
 \end{array}$$
 
-**4.3. Relación entre $\ce{Kps}$ y solubilidad**
+### **4.3. Relación entre $\ce{Kps}$ y solubilidad** {: .caja-subtitulo}
 
 La constante del producto de solubilidad se puede relacionar fácilmente con la (muy pequeña) solubilidad de los compuestos.
 
@@ -684,7 +681,6 @@ $$\ce{Kps = [Ag+] \cdot [Cl-] = s \cdot s = s^2}$$
 Análogamente:
 
 $$\ce{PbI2 (s) \leftrightarrows  \underset{\rule{0pt}{1.3em}\text{S}}{Pb^{2+} (ac)} + \underset{\rule{0pt}{1.3em}2 \cdot \text{S}}{2 I- (ac)} \hspace{2cm} Kps = [Pb^{2+}] \cdot [I^-]^2 = s \cdot (2 \cdot s)^2 = 4 \cdot s^3}$$
-
 
 $$\ce{Fe(OH)3 (s) \leftrightarrows  \underset{\rule{0pt}{1.3em}\text{S}}{Fe^{3+} (ac)} + \underset{\rule{0pt}{1.3em}3 \cdot \text{S}}{3 OH^- (ac)} \hspace{2cm}  Kps = [Fe^{3+}] \cdot [OH-]^3 = s \cdot (3 \cdot s)^3 = 27 \cdot s^4}$$
 
@@ -740,7 +736,7 @@ Luego quedan sin disolver:
 
 $$\ce{(10 - 7,1) mg SrCO3 = 2,9 mg SrCO3}$$
 
-**4.4. Relacion entre $\ce{Kps}$ y Q**
+### **4.4. Relacion entre $\boldsymbol{\ce{Kps}}$ y $\boldsymbol{\ce{Q}}$** {: .caja-subtitulo}
 
 La constante de solubilidad está relacionada con las concentraciones máximas de los iones en disolución, de tal manera que si definimos (de forma análoga a como se hizo en el tratamiento de la constante de equilibrio) un producto de concentraciones (**producto iónico**) análogo al producto de solubilidad, pero con concentraciones que no sean las correspondientes al equilibrio:
 
@@ -844,7 +840,7 @@ $$\ce{Kps = [Ba^{2+}] \cdot [SO4^{2-}] = s \cdot s = s^2}$$
 
 $$\ce{s = \sqrt {Kps} = \sqrt {\ce{1,1 \cdot 10^{-10} }} = 1,1 \cdot 10^{-5}  mol \cdot L^{-1}} $$
 
-**4.5. Disolución de precipitados**
+### **4.5. Disolución de precipitados** {: .caja-subtitulo}
 
 Una vez formados los precipitados pueden disolverse (desaparición de la fase sólida) desplazando el equilibrio de solubilidad hacia la derecha. De manera general lo conseguiremos haciendo que alguno de los iones en disolución sea retirado de la misma. La forma de hacerlo depende del equilibrio considerado.
 
@@ -886,7 +882,7 @@ $$\ce{AgCl (s) \leftrightarrows  Ag+ (ac) + Cl- (ac)}$$
 
 $$\ce{Ag+ (ac) + NH3 (ac) \leftrightarrows [Ag(NH3)2]^+ (ac)}$$
 
-## **5. Efecto del ión común**
+### **Efecto del ión común** {: .caja-subtitulo}
 
 De la definición de producto de solubilidad se deduce que, al aumentar la concentración de uno de los iones que forman el precipitado, la concentración del otro debe disminuir con el objetivo de que $\ce{Kps}$ permanezca constante.
 
