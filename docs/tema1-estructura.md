@@ -202,7 +202,7 @@ $\boldsymbol{\ce{E_2 - E_1 = h \cdot f }}$
 
 donde $h \; (\text{constante de Planck}) = 6,62 \cdot 10^{-34} \; \text{J·s}$
 
-Los cálculos basados en los postulados de Bohr daban excelentes resultados a la hora de interpretar el espectro del átomo de hidrógeno, pero hay que tener en cuenta que contradecían algunas de las leyes más asentadas de la Física:
+Los **cálculos basados en los postulados de Bohr** daban excelentes resultados a la hora de interpretar el espectro del **átomo de hidrógeno**, pero hay que tener en cuenta que contradecían algunas de las leyes más asentadas de la Física:
 
 El **primer postulado** iba en contra de la teoría electromagnética de Maxwell, ya que según esta teoría cualquier carga eléctrica acelerada debería de emitir energía en forma de radiación electromagnética.
 
@@ -249,7 +249,7 @@ Dado que n es siempre un número entero vemos que las órbitas no pueden tomar c
 
 ### **Energía del electrón en las órbitas** {: .caja-subtitulo }
 
-La energía total del electrón será la suma de su energía cinética y potencial (eléctrica):
+La energía total del electrón en el átomo de hidrógeno será la suma de su energía cinética y potencial (eléctrica):
 
 $$\ce{E = \dfrac {1}{2} \cdot m \cdot v^2 - \dfrac {k \cdot e^2}{r} }$$
 
@@ -271,6 +271,11 @@ $$\ce{E = - \dfrac {13,6}{n^2} \ eV }$$
 $\boldsymbol{\ce{E = - \dfrac {A}{n^2} }}$
 { style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
 
+Expresión que en el S.I. queda como: 
+
+$\boldsymbol{\ce{E = - \dfrac {\boldsymbol{2,18 \cdot 10^{-18}}}{n^2} J}}$
+{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
+
 El **electronvoltio** (eV) es una unidad de energía que representa la variación de energía cinética que experimenta un electrón al moverse desde un punto de potencial $\ce{V_a}$ hasta un punto de potencial $\ce{V_b}$ entre los que hay una diferencia de potencial de 1 V.
 
 Equivale a $\ce{1,60 \cdot 10^{-19}}$ J, obteniéndose este valor de multiplicar la carga del electrón ($\ce{1,60 \cdot 10^{-19}}$ C) por la unidad de potencial eléctrico (V).
@@ -279,17 +284,29 @@ En **física de partículas** se usa indistintamente como unidad de masa y de en
 
 Según el **tercer postulado de Bohr**, el electrón solo emite o absorbe energía en los saltos de una órbita permitida a otra. En dicho cambio emite o absorbe un fotón cuya energía es la diferencia de energía entre ambos niveles.
 
-Este fotón, según la ecuación de Planck tiene una energía: $\ce{E_2 - E_1 = h \cdot f}$, donde 1 identifica la órbita inicial y 2 la final, y f es la frecuencia.
+Este fotón, según la ecuación de Planck tiene una energía: $\ce{E_2 - E_1 = h \cdot} f$, donde 1 identifica la órbita inicial y 2 la final, y f es la frecuencia.
 
 Entonces las frecuencias de los fotones emitidos o absorbidos en la transición serán:
 
-$$\ce{f = \dfrac {2 k^2 \cdot \pi^2 \cdot m \cdot e^4}{ h^3} \cdot \left( \dfrac {1}{n^2_1} - \dfrac {1}{n^2_2} \right) }$$
+$$\ce{$f$ = \dfrac {2 k^2 \cdot \pi^2 \cdot m \cdot e^4}{ h^3} \cdot \left( \dfrac {1}{n^2_1} - \dfrac {1}{n^2_2} \right) }$$
 
 A veces, en vez de la frecuencia se suele dar la inversa de la longitud de onda:
 
 $$\ce{\dfrac {1}{\lambda} = \dfrac {2 k^2 \cdot \pi^2 \cdot m \cdot e^4}{ c \cdot h^3} \cdot \left( \dfrac {1}{n^2_1} - \dfrac {1}{n^2_2} \right) }$$
 
 Esta última expresión fue muy bien recibida porque explicaba teóricamente la fórmula empírica hallada antes por Balmer (generalizada posteriormente por J. Rydberg) para describir las líneas espectrales observadas desde finales del siglo XIX en la desexcitación del hidrógeno.
+
+Con esta fórmula se pueden calcular las distintas líneas para el **espectro del átomo de hidrógeno** que se pueden clasificar en distintas series.
+
+- **Serie de Lyman**. Constituida por las líneas que aparecen cuando los electrones caen desde órbitas superiores a la primera órbita ($\ce{n_1 = 1; n_2 = 2, 3, 4...}$). Las líneas de esta serie se sitúan en el ultravioleta.
+
+- **Serie de Balmer**. Formada por el conjunto de líneas obtenidas cuando los electrones caen desde órbitas superiores a la segunda órbita ($\ce{n_1 = 2; n_2 = 3, 4, 5...}$). Las líneas de esta serie se sitúan en el visible.
+
+- **Serie de Paschen**. Integrada por el conjunto de líneas obtenidas cuando los electrones caen desde órbitas superiores a la tercera órbita ($\ce{n_1 = 3; n_2 = 4, 5, 6...}$). Las líneas de esta serie se sitúan en el infrarrojo.
+
+También existen las series de **Brackett** y **Pfund**, situadas también en el infrarrojo y formadas por el conjunto de líneas que se obtienen al caer a la cuarta órbita ($\ce{n_1 = 4}$) y a la quinta órbita ($\ce{n_1 = 5}$), respectivamente
+
+![...](imagenes/tema01/lineas.png){ style="display: block; margin: 0 auto; width: 35%; height: auto;" }
 
 ## **4. Modificaciones al átomo de Bohr**.
 
@@ -341,17 +358,11 @@ $$\boldsymbol{m_\ell} = - \boldsymbol{\ell} . . . 0 . . . + \boldsymbol{\ell}$$
 
 Las **órbitas posibles**, en consecuencia, quedan fijadas por tres números cuánticos:
 
-**n: Número cuántico principal**. Cuantiza (fija) el semieje mayor de la órbita (elipse).
+- **n: Número cuántico principal**. Cuantiza (fija) el semieje mayor de la órbita (elipse). Valores: n = 1, 2, 3 ...
 
-Valores: n = 1, 2, 3 ...
+- **$\boldsymbol{\ell}$: Número cuántico secundario**. Cuantiza (fija) el radio menor de la órbita (elipse). Valores: $\ell$ = 0, 1, 2, 3 ... (n - 1)
 
-**$\boldsymbol{\ell}$: Número cuántico secundario**. Cuantiza (fija) el radio menor de la órbita (elipse).
-
-Valores: $\ell$ = 0, 1, 2, 3 ... (n - 1)
-
-**$\boldsymbol{m_\ell}$: Número cuántico magnético**. Cuantiza (fija) la orientación de la órbita en el espacio.
-
-Valores: $m_\boldsymbol{\ell} = - \boldsymbol{\ell} . . . 0 . . . + \boldsymbol{\ell}$
+- **$\boldsymbol{m_\ell}$: Número cuántico magnético**. Cuantiza (fija) la orientación de la órbita en el espacio. Valores: $m_\boldsymbol{\ell} = - \boldsymbol{\ell} . . . 0 . . . + \boldsymbol{\ell}$
 
 A cada órbita, determinada por los tres números cuánticos, le corresponde un valor de energía.
 
@@ -391,7 +402,7 @@ En general, **cuanto mayor es n + $\boldsymbol{\ell}$**, **mayor es la energía*
 
 En el ejemplo anterior, en el orbital 4s sería 4 + 0 = 4 frente a 3d que sería 3 + 2 = 5.
 
-![...](imagenes/tema01/moller.png){ style="display: block; margin: 0 auto; width: 14em; width: 90%; height: auto;" }
+![...](imagenes/tema01/moller.png){ style="display: block; margin: 0 auto; width: 30%; height: auto;" }
 
 ### **Principio de exclusión de Pauli** {: .caja-subtitulo }
 
