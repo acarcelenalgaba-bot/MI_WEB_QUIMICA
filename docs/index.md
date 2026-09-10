@@ -14,7 +14,7 @@ Utiliza el siguiente índice para acceder directamente a cada unidad didáctica:
 
 ### 🔗 Bloque 2: Química Organica
 *   **[Tema 3: Química organica y reactividad](tema8-organica.md)** 
-    *   *Contenido:* Formulación orgánica, isomería y reactividad. Polimeros organicos, definición, tipos y reacciones típicas.
+    *   *Contenido:* Formulación orgánica, isomería y reactividad. Polímeros orgánicos, definición, tipos y reacciones típicas.
 
 ### 🔥 Bloque 3: Reacciones químicas
 *   **[Tema 4: Termoquímica](tema3-termoquimica.md)** 
