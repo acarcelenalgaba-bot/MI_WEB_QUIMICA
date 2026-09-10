@@ -1,0 +1,38 @@
+# 🧪 Química de 2º de Bachillerato
+
+¡Bienvenido/a a tu plataforma de apuntes de Química! Aquí encontrarás todo el temario oficial desarrollado paso a paso, con fórmulas, tablas de tendencias y consejos clave orientados para el examen de la **PAU**.
+
+Utiliza el siguiente índice para acceder directamente a cada unidad didáctica:
+
+---
+
+### ⚛️ Bloque 1: Estructura de la Materia y Enlace químico
+*   **[Tema 1: Estructura Atómica y Propiedades Periódicas](tema1-estructura.md)**
+    *   *Contenido:* Modelo mecanocuántico, números cuánticos, configuración electrónica y justificación de propiedades periódicas ($\ce{Z_{ef}}$).
+*   **[Tema 2: Enlace Químico](tema2-enlace.md)** 
+    *   *Contenido:* Enlace iónico (Ciclo de Born-Haber), enlace metálico, enlace covalente (Lewis, RPECV, Hibridación) y fuerzas intermoleculares.
+
+### 🔗 Bloque 2: Química Organica
+*   **[Tema 3: Química organica y reactividad](tema8-organica.md)** 
+    *   *Contenido:* Formulación orgánica, isomería y reactividad. Polimeros organicos, definición, tipos y reacciones típicas.
+
+### 🔥 Bloque 3: Reacciones químicas
+*   **[Tema 4: Termoquímica](tema3-termoquimica.md)** 
+    *   *Contenido:* Primer principio, entalpías de reacción y formación, Ley de Hess, entropía y espontaneidad de Gibbs ($\ce{\Delta G}$).
+*   **[Tema 5: Cinética Química](tema4-cinetica.md)** 
+    *   *Contenido:* Ecuación de velocidad, orden de reacción, factores que afectan a la velocidad y teoría de colisiones.
+
+*   **[Tema 6: Equilibrio Químico General](tema5-equilibrio.md)** 
+    *   *Contenido:* Ley de acción de masas ($\ce{Kc}$ y $\ce{Kp}$), grado de disociación ($\alpha$) y Principio de Le Chatelier.
+*   **[Tema 7: Reacciones de Transferencia de Protones (Ácido-Base)](tema6-acido_base.md)** 
+    *   *Contenido:* Concepto de pH, teorías de Brønsted-Lowry, fuerza de ácidos/bases y reacciones de neutralización.
+*   **[Tema 8: Reacciones de Transferencia de Electrones (Redox)](tema7-redox.md)**
+    *   *Contenido:* Ajuste por el método del ion-electrón, celdas galvánicas (pilas) y estequiometría de la electrólisis (Leyes de Faraday).
+
+
+
+---
+
+### 🚀 Cómo usar esta web para estudiar
+1. **Teoría en pantalla completa:** Se ha optimizado el diseño para que las fórmulas complejas y las tablas periódicas se vean sin recortes.
+2. **Copia de código:** En cada unidad verás un botón arriba a la derecha para descargar el texto directamente si lo necesitas.
