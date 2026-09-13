@@ -155,7 +155,7 @@ El **espectro del hidrógeno** fue el primero que se interpretó, por ser el má
 Se comprobó que la colocación de sus líneas espectrales obedecían a la ecuación
 empírica, propuesta en **1900** por **J. Rydberg**, donde **m** y **n** son números enteros y $\ce{R = 1,097 \cdot 10^{7} \; m^{-1}}$.
 
-$\ce{\dfrac {1}{\lambda} = R \cdot \left( \dfrac {1}{m^2} + \dfrac {1}{n^2} \right)}$
+$\ce{\dfrac {1}{\lambda} = R \cdot \left( \dfrac {1}{m^2} - \dfrac {1}{n^2} \right)}$
 { style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
 
 ## **3. El átomo de Bohr.**
