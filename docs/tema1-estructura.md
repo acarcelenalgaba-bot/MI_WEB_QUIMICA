@@ -144,7 +144,7 @@ Los espectros de **absorción** para un elemento determinado son como los de emi
 
 Para obtenerlos, en vez de calentar la muestra, se hace pasar a través de ella un haz de luz blanca.
 
-![...](imagenes/tema01/espectro_absorcion.png){ style="display: block; margin: 0 auto; width: 60%; height: auto;" }
+![...](imagenes/tema01/espectro_absorcion.png){ style="display: block; margin: 0 auto; width: 50%; height: auto;" }
 
 La **espectrofotometría** es una técnica básica de identificación de sustancias, ya que cada elemento químico emite siempre las mismas rayas de frecuencias características que sirven para identificarlo.
 
