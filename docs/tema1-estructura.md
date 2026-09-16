@@ -230,7 +230,7 @@ de donde: $\ce{\hspace{0.5cm} \text{v} = \dfrac {n \cdot h}{2 \pi \cdot m \cdot 
 
 Sustituyendo este valor de $\ce{v^2}$ en la ecuación 1 y operando:
 
-$$\ce{\hspace{2cm} r = n^2 \cdot \dfrac {h^2}{4 \pi^2 \cdot m \cdot k \cdot e^2} \hspace{1cm} }$$
+$$\ce{\hspace{2cm} r = n^2 \cdot \left( \dfrac {h^2}{4 \pi^2 \cdot m \cdot k \cdot e^2} \right) \hspace{1cm} }$$
 
 Todo lo de dentro del paréntesis son constantes conocidas, y operando queda: $\ce{\hspace{1cm} r = n^2 \cdot 5,3 \cdot 10^{-11} }$  
 
