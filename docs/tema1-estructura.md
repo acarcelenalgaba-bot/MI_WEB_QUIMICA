@@ -294,7 +294,10 @@ A veces, en vez de la frecuencia se suele dar la inversa de la longitud de onda:
 
 $$\ce{\dfrac {1}{\lambda} = \dfrac {2 k^2 \cdot \pi^2 \cdot m \cdot e^4}{ c \cdot h^3} \cdot \left( \dfrac {1}{n^2_1} - \dfrac {1}{n^2_2} \right) }$$
 
-Esta última expresión fue muy bien recibida porque explicaba teóricamente la fórmula empírica hallada antes por Balmer (generalizada posteriormente por J. Rydberg) para describir las líneas espectrales observadas desde finales del siglo XIX en la desexcitación del hidrógeno.
+Esta última expresión fue muy bien recibida porque explicaba teóricamente la fórmula empírica hallada antes por **Balmer** (generalizada posteriormente por **J. Rydberg**) para describir las líneas espectrales observadas desde finales del siglo XIX en la desexcitación del hidrógeno, donde **m** y **n** son números enteros y $\ce{R = 1,097 \cdot 10^{7} \; m^{-1}}$.
+
+$\ce{\dfrac {1}{\lambda} = R \cdot \left( \dfrac {1}{m^2} - \dfrac {1}{n^2} \right)}$
+{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
 
 Con esta fórmula se pueden calcular las distintas líneas para el **espectro del átomo de hidrógeno** que se pueden clasificar en distintas series.
 
