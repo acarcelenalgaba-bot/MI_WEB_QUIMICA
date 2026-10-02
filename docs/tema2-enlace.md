@@ -142,7 +142,7 @@ $\ce{Na^+ (g) + Cl^- (g) \; \rightarrow \; NaCl (s) , U_r < 0}$, energía reticu
 
 Un **cristal iónico** será, por tanto **más estable** (más duro, menos soluble, de mayor punto de fusión...), cuanto **mayor** sea su **energía reticular**.
 
-### **Ciclo de born-haber** {: .caja-subtitulo}
+### **Ciclo de Born-Haber** {: .caja-subtitulo}
 
 Una **forma de calcular la energía reticular**, $\ce{U_r}$ se puede hacer mediante un **balance energético**:
 
