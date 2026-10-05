@@ -2,13 +2,13 @@
 // UNICO PUNTO DE CONTROL: Añade o quita aquí las páginas deshabilitadas
 // =========================================================================
 const DISABLED_TOPICS = [
-  "tema2-enlace",
-  "tema8-organica",
-  "tema3-termoquimica",
-  "tema4-cinetica",
-  "tema5-equilibrio",
-  "tema6-acido_base",
-  "tema7-redox",
+//  "tema2-enlace",
+//  "tema8-organica",
+//  "tema3-termoquimica",
+//  "tema4-cinetica",
+//  "tema5-equilibrio",
+//  "tema6-acido_base",
+//  "tema7-redox",
   
 ];
 // =========================================================================
