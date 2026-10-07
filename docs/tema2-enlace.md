@@ -132,7 +132,7 @@ $\ce{Na (g) \; \rightarrow \; Na+ (g) + e^- , E{.}I{.} > 0}$, energía de ioniza
 
 $\ce{\dfrac {1}{2} Cl2 (g) \; \rightarrow \; Cl (g) , \dfrac {1}{2} \Delta H_{dis} > 0}$, energía de disociación del cloro.
 
-$\ce{Cl (g) + e^- \; \rightarrow \; Cl (g) , A{.}E{.} < 0}$, afinidad electrónica del cloro.
+$\ce{Cl (g) + e^- \; \rightarrow \; Cl^- (g) , A{.}E{.} < 0}$, afinidad electrónica del cloro.
 
 $\ce{Na^+ (g) + Cl^- (g) \; \rightarrow \; NaCl (s) , U_r < 0}$, energía reticular del NaCl.
 
