@@ -332,11 +332,11 @@ Dos de los ejemplos más importantes son, el ion amonio ($\ce{NH4^+}$) y el ion 
 ##latex id=enlace_dativo sep=2em
 \schemestart[0, 0.8, 1.5]
 	\subscheme{
-		\chemfig{[,1] \charge{0=\:}{N}(-[:180]H)(-[:-90]H)(-[:90]H)} \hspace{0.2em} + \hspace{0.2em} \chemfig{H^+} $\Longrightarrow$ $\left[ \chemfig{[,1] N(-[:180]H)(-[:-90]H)(-[:90]H)} \hspace{0.1em} \rightarrow \hspace{0.1em} \chemfig{H^+} \right]$ \chemabove[20pt]{}{\hspace{.1cm}{+}} 
+		\chemfig{[,1] \charge{0=\:}{N}(-[:180]H)(-[:-90]H)(-[:90]H)} \hspace{0.2em} + \hspace{0.2em} \chemfig{H^+} $\Longrightarrow$ $\left[ \chemfig{[,1] N(-[:180]H)(-[:-90]H)(-[:90]H)} \hspace{0.1em} \rightarrow \hspace{0.1em} \chemfig{H} \right]$ \chemabove[20pt]{}{\hspace{.1cm}{+}} 
         }
         \hspace{6em}
     \subscheme{
-		\chemfig{[,1] \charge{0=\:,180=\:}{O}(-[:-90]H)(-[:90]H)} \hspace{0.2em} + \hspace{0.2em} \chemfig{H^+} $\Longrightarrow$ $\left[ \hspace{0.5em} \chemfig{[,1] \charge{180=\:}{O}(-[:-90]H)(-[:90]H)} \hspace{0.1em} \rightarrow \hspace{0.1em} \chemfig{H^+} \right]$ \chemabove[20pt]{}{\hspace{.1cm}{+}} 
+		\chemfig{[,1] \charge{0=\:,180=\:}{O}(-[:-90]H)(-[:90]H)} \hspace{0.2em} + \hspace{0.2em} \chemfig{H^+} $\Longrightarrow$ $\left[ \hspace{0.5em} \chemfig{[,1] \charge{180=\:}{O}(-[:-90]H)(-[:90]H)} \hspace{0.1em} \rightarrow \hspace{0.1em} \chemfig{H} \right]$ \chemabove[20pt]{}{\hspace{.1cm}{+}} 
     }
 \schemestop
 -->
