@@ -36,7 +36,7 @@ Puesto que los reactivos desaparecen será negativa y por tanto la definición i
 
 En las curvas de la figura se observa cómo la pendiente de la recta tangente a la curva correspondiente al reactivo A es negativa, mientras la pendiente de la curva del producto C es positiva.
 
-![...](imagenes/tema04/cq1.png){style="display: block; margin: 0 auto; width: 90%; height: auto; border: 1px solid #333;"}
+![...](imagenes/tema05/cq1.png){style="display: block; margin: 0 auto; width: 90%; height: auto; border: 1px solid #333;"}
 
 La velocidad de una reacción en un instante dado es igual a la pendiente de la recta tangente a la curva concentración-tiempo, en el punto correspondiente a ese instante.
 
@@ -134,7 +134,7 @@ Si la temperatura se mantiene constante, la velocidad de reacción depende únic
 
 En la reacción $\ce{2 NO + 2 H2 \rightarrow N2 + 2 H2O}$, a 1100 K, se obtuvieron los siguientes datos:
 
-![...](imagenes/tema04/cq2.png){style="display: block; margin: 0 auto; width: 70%; height: auto; border: 1px solid #333;"}
+![...](imagenes/tema05/cq2.png){style="display: block; margin: 0 auto; width: 70%; height: auto; border: 1px solid #333;"}
 
 Calcula el orden de reacción y el valor de la constante de velocidad.
 
@@ -246,7 +246,7 @@ Según esta teoría para que las moléculas de dos reactivos reaccionen se debe 
    
 2. Que el **choque** se verifique en una **orientación adecuada**, para que sea eficaz.
 
-![...](imagenes/tema04/cq3.png){style="display: block; margin: 0 auto; width: 60%; height: auto; border: 1px solid #333;"}
+![...](imagenes/tema05/cq3.png){style="display: block; margin: 0 auto; width: 60%; height: auto; border: 1px solid #333;"}
 
 En el dibujo de arriba se aprecian dos tipos de choque:
 
@@ -270,13 +270,13 @@ En el ejemplo de abajo (sustitución del I por OH para dar metanol a partir de y
 \schemestop
 -->
 
-![...](imagenes/tema04/yodometano.svg){style="display: block; margin: 0 auto; width: 60%; height: auto;"}
+![...](imagenes/tema05/yodometano.svg){style="display: block; margin: 0 auto; width: 60%; height: auto;"}
 
 El complejo activado es muy inestable debido a la alta Ep que contiene (Energía de activación proveniente de la Ec de las moléculas reaccionantes), y tiende a evolucionar a un estado de menor energía, desprendiendo ésta.
 
 Según sea el valor de la energía desprendida, con respecto a la energía de activación, tendremos un proceso **exotérmico** o **endotérmico**.
 
-![...](imagenes/tema04/cq5.png){style="display: block; margin: 0 auto; width: 80%; height: auto; border: 1px solid #333;"}
+![...](imagenes/tema05/cq5.png){style="display: block; margin: 0 auto; width: 80%; height: auto; border: 1px solid #333;"}
 
 ### **Energía de activación** {: .caja-subtitulo}
 
@@ -304,13 +304,13 @@ El **factor de frecuencia A** mide el **número de choques con la orientación a
 
 La ecuación de Arrhenius es coherente con lo observado experimentalmente: la velocidad de las reacciones químicas aumenta con la temperatura. Lógico, ya que al aumentar T, aumenta la energía cinética media, (Ecm) de las moléculas, con lo que aumentará el número de choques eficaces.
 
-![...](imagenes/tema04/cq6.png){style="display: block; margin: 0 auto; width: 80%; height: auto; border: 1px solid #333;"}
+![...](imagenes/tema05/cq6.png){style="display: block; margin: 0 auto; width: 80%; height: auto; border: 1px solid #333;"}
 
 ### **Efecto de la temperatura en la velocidad de una reacción** {: .caja-subtitulo}
 
 La gráfica muestra cómo el número de moléculas que tienen una determinada energía de activación disminuye a medida que la energía de activación aumenta. A **temperatura más alta** (curva roja), la **proporción de moléculas con la energía suficiente** para producir colisiones eficaces es **más alta**.
 
-![...](imagenes/tema04/cq7.png){style="display: block; margin: 0 auto; width: 80%; height: auto; border: 1px solid #333;"}
+![...](imagenes/tema05/cq7.png){style="display: block; margin: 0 auto; width: 80%; height: auto; border: 1px solid #333;"}
 
 ### **Constante de velocidad a diferentes temperaturas** {: .caja-subtitulo}
 
@@ -364,7 +364,7 @@ Un **catalizador** es una sustancia que, incluso en cantidades muy pequeñas, **
 
 Aunque **el catalizador no se consume en la reacción** tiene un papel activo en la misma, ya que **cambia el mecanismo de la reacción**, proporcionando un mecanismo de reacción cuya **energía de activación es menor**.
 
-![...](imagenes/tema04/cq8.png){style="display: block; margin: 0 auto; width: 70%; height: auto; border: 1px solid #333;"}
+![...](imagenes/tema05/cq8.png){style="display: block; margin: 0 auto; width: 70%; height: auto; border: 1px solid #333;"}
 
 - **Catálisis homogénea**
 
@@ -382,7 +382,7 @@ En muchos procesos, sobre todo industriales, el **catalizador** se encuentra en 
 
 En las reacciones catalizadas por catalizadores en estado sólido se produce la adsorción de las moléculas reactivas en unos puntos denominados puntos activos. Una vez las moléculas han quedado adsorbidas se produce una relajación de los enlaces y el choque con orientación adecuada de moléculas de los otros reactivos. Posteriormente se produce la desorción de los productos de reacción quedando el punto activo del catalizador libre para catalizar nuevamente el proceso.
 
-![...](imagenes/tema04/cq9.png){style="display: block; margin: 0 auto; width: 80%; height: auto; border: 1px solid #333;"}
+![...](imagenes/tema05/cq9.png){style="display: block; margin: 0 auto; width: 80%; height: auto; border: 1px solid #333;"}
 
 Los catalizadores heterogéneos pueden ser metales de transición finamente divididos, óxidos de dichos metales o zeolitas. Este tipo de catalizadores son muy específicos, así para unos mismos reactivos el cambio de catalizador da lugar a la formación de productos diferentes.
 

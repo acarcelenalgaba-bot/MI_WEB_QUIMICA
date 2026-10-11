@@ -16,7 +16,7 @@ La energía total del universo permanece constante.
 
 Todas las reacciones químicas absorben o liberan energía, por lo general en forma de calor.
 
-![...](imagenes/tema03/td1.png){style="display: block; margin: 0 auto; width: 20%; height: auto; border: 1px solid #333;"}
+![...](imagenes/tema04/td1.png){style="display: block; margin: 0 auto; width: 20%; height: auto; border: 1px solid #333;"}
 
 ### **La energía** {: .caja-subtitulo}
 
@@ -36,7 +36,7 @@ La unidad de energía en el S.I. es el **julio** (**J**)
 
 Otra unidad: la caloría (cal) $\hspace{1cm}$ 1 cal = 4,18 J
 
-![...](imagenes/tema03/td2.png){style="display: block; margin: 0 auto; width: 20%; height: auto; border: 1px solid #333;"}
+![...](imagenes/tema04/td2.png){style="display: block; margin: 0 auto; width: 20%; height: auto; border: 1px solid #333;"}
 
 ### **Sistemas termodinámicos** {: .caja-subtitulo}
 
@@ -54,7 +54,7 @@ Parte del mundo físico que aislamos para su estudio mediante paredes reales o i
       Pueden intercambiar materia y energía con su entorno
     </div>
     <div style="height: 90%; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
-      <img src="../imagenes/tema03/td3_1.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+      <img src="../imagenes/tema04/td3_1.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
     </div>
   </div>
 
@@ -66,7 +66,7 @@ Parte del mundo físico que aislamos para su estudio mediante paredes reales o i
       Intercambian energía con su entorno pero no materia
     </div>
     <div style="height: 90%; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
-      <img src="../imagenes/tema03/td3_2.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+      <img src="../imagenes/tema04/td3_2.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
     </div>
   </div>
 
@@ -78,7 +78,7 @@ Parte del mundo físico que aislamos para su estudio mediante paredes reales o i
       No intercambian ni materia ni energía con su entorno
     </div>
     <div style="height: 90%; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
-      <img src="../imagenes/tema03/td3_3.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+      <img src="../imagenes/tema04/td3_3.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
     </div>
   </div>
 
@@ -96,7 +96,7 @@ Parte del mundo físico que aislamos para su estudio mediante paredes reales o i
       La hoguera necesita combustible para arder y cede CO<sub>2</sub>, vapor de agua y energía en forma de calor
     </div>
     <div style="height: 90%; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
-      <img src="../imagenes/tema03/td4_1.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+      <img src="../imagenes/tema04/td4_1.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
     </div>
   </div>
 
@@ -108,7 +108,7 @@ Parte del mundo físico que aislamos para su estudio mediante paredes reales o i
       La bombilla necesita energía eléctrica para emitir luz. Si se corta la corriente no se encenderá
     </div>
     <div style="height: 90%; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
-      <img src="../imagenes/tema03/td4_2.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+      <img src="../imagenes/tema04/td4_2.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
     </div>
   </div>
 
@@ -120,7 +120,7 @@ Parte del mundo físico que aislamos para su estudio mediante paredes reales o i
       Un termo mantiene constante la temperatura del café que hayamos introducido en él
     </div>
     <div style="height: 90%; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
-      <img src="../imagenes/tema03/td4_3.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+      <img src="../imagenes/tema04/td4_3.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
     </div>
   </div>
 
@@ -144,8 +144,8 @@ Por ejemplo, la concentración, la densidad, la temperatura, etc.
 <div align="center">
 <table style="border: none; border-collapse: collapse;">
   <tr>
-    <td style="border: none;"><img src="../imagenes/tema03/td5.png" width="500"/></td>
-    <td style="border: none;"><img src="../imagenes/tema03/td6.png" width="500"/></td>
+    <td style="border: none;"><img src="../imagenes/tema04/td5.png" width="500"/></td>
+    <td style="border: none;"><img src="../imagenes/tema04/td6.png" width="500"/></td>
   </tr>
 </table>
 </div>
@@ -168,7 +168,7 @@ Cuando aumenta o disminuye la energía de un sistema, se dice que ha habido una 
 
 - $\ce{Q < 0}$ si el sistema cede energía al entorno.
 
-![...](imagenes/tema03/td10.png){style="display: block; margin: left; width: 90%; height: auto;"}
+![...](imagenes/tema04/td10.png){style="display: block; margin: left; width: 90%; height: auto;"}
 
 ### **Trabajo** {: .caja-subtitulo}
 
@@ -179,7 +179,7 @@ $\ce{W = F \cdot \Delta x \cdot cos \alpha}$
 
 Unidad de trabajo en S.I: **julio** (**J**)
 
-![...](imagenes/tema03/td7.png){style="display: block; margin: left; width: 70%; height: auto; "}
+![...](imagenes/tema04/td7.png){style="display: block; margin: left; width: 70%; height: auto; "}
 
 **Trabajo de expansión-compresión** asociado a los cambios de volumen, $\ce{\Delta V}$, que sufre un sistema sometido a una presión, p.
 
@@ -203,7 +203,7 @@ $$
 $\ce{W = - p \cdot \Delta V}$
 { style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #fcede6" }
 
-![...](imagenes/tema03/td8.png){style="display: block; margin: left; width: 50%; height: auto; border: 1px solid #333;"}
+![...](imagenes/tema04/td8.png){style="display: block; margin: left; width: 50%; height: auto; border: 1px solid #333;"}
 
 - En un proceso de expansión: $\ce{\Delta V > 0 \; \rightarrow \; W < 0}$ trabajo hecho por el sistema sobre el entorno.
 
@@ -228,7 +228,7 @@ $\ce{\Delta U = W + Q}$
 
 - $\ce{\Delta U < 0}$, si pierde calor, $\ce{-Q}$, o si efectúa un trabajo sobre el entorno, $\ce{-W}$ (expansión).
 
-![...](imagenes/tema03/td24.png){style="display: block; margin: left; width: 30%; height: auto; border: 1px solid #333;"}
+![...](imagenes/tema04/td24.png){style="display: block; margin: left; width: 30%; height: auto; border: 1px solid #333;"}
 
 La **energía interna** es una **función de estado**.
 
@@ -327,7 +327,7 @@ Si **multiplicamos la ecuación por un número**, **también se multiplica** la 
       Reacción endotérmica
     </div>
     <div style="height: 300px; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
-      <img src="../imagenes/tema03/td11_1.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+      <img src="../imagenes/tema04/td11_1.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
     </div>
     <div style="display: flex; justify-content: center; align-items: center; height: 25px;">
         H<sup>productos</sup> &nbsp; > &nbsp; H<sub>reactivos</sub> &nbsp; &nbsp; &rarr; &nbsp; &nbsp; &Delta; H<sub>r</sub> &nbsp; > 0
@@ -339,7 +339,7 @@ Si **multiplicamos la ecuación por un número**, **también se multiplica** la 
       Reacción exotérmica
     </div>
     <div style="height: 300px; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
-      <img src="../imagenes/tema03/td11_2.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+      <img src="../imagenes/tema04/td11_2.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
     </div>
     <div style="display: flex; justify-content: center; align-items: center; height: 25px;">
         H<sup>productos</sup> &nbsp; < &nbsp; H<sub>reactivos</sub> &nbsp; &nbsp; &rarr; &nbsp; &nbsp; &Delta; H<sub>r</sub> &nbsp; < 0
@@ -373,7 +373,7 @@ $\ce{Q_{agua} = m \cdot c_{agua} \cdot \Delta T}$
 
 La reacción calienta el agua, y también los componentes del calorímetro. El calor invertido en esto es específico de cada calorímetro y debe tenerse en cuenta, o se cometerá un error de medición.
 
-![...](imagenes/tema03/td12.png){style="display: block; margin: left; width: 20%; height: auto; border: 1px solid #333;"}
+![...](imagenes/tema04/td12.png){style="display: block; margin: left; width: 20%; height: auto; border: 1px solid #333;"}
 
 ### **2. Cálculo de la $\ce{\Delta H_R}$ a partir de entalpías estándar de formación ($\ce{\Delta H^{\circ}_f}$)** {: .caja-subtitulo}
 
@@ -394,7 +394,7 @@ $\ce{n, m =}$ coeficientes estequiométricos de productos y reactivos; el estado
 
 Las entalpías de formación estándar están tabuladas, a 25 $^{\circ}$C
 
-![...](imagenes/tema03/td13.png){style="display: block; margin: left; width: 80%; height: auto; border: 1px solid #333;"}
+![...](imagenes/tema04/td13.png){style="display: block; margin: left; width: 80%; height: auto; border: 1px solid #333;"}
 
 ### **3. Cálculo a partir de la ley de Hess** {: .caja-subtitulo}
 
@@ -402,7 +402,7 @@ La variación de entalpía que se produce cuando ocurre una determinada reacció
 
 Cuando una reacción química puede expresarse como suma algebraica de otras, su $\ce{\Delta H}$ reacción es igual a la misma suma algebraica de las $\ce{\Delta H}$ de las reacciones parciales.
 
-![...](imagenes/tema03/td14.png){style="display: block; margin: left; width: 60%; height: auto; border: 1px solid #333;"}
+![...](imagenes/tema04/td14.png){style="display: block; margin: left; width: 60%; height: auto; border: 1px solid #333;"}
 
 **Ejercicio de la ley de Hess**
 
@@ -448,7 +448,7 @@ La energía intercambiada en ese proceso de ruptura y formación de enlaces es o
 $\ce{\Delta H^{\circ}_{reacción} = \sum (energía de enlaces rotos) - \sum (energía de enlaces formados)}$
 { style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #f9f7fb" }
 
-![...](imagenes/tema03/td15.png){style="display: block; margin: 0 auto; width: 70%; height: auto; border: 1px solid #333;"}
+![...](imagenes/tema04/td15.png){style="display: block; margin: 0 auto; width: 70%; height: auto; border: 1px solid #333;"}
 
 **Ejercicio de la entalpía de enlace**
 
@@ -481,7 +481,7 @@ a partir de los datos de entalpías de enlace (kJ/mol): $\ce{C-H = 414; C-O = 35
 \schemestop
 -->
 
-![...](imagenes/tema03/combustion_metanol.svg){style="display: block; margin: 0 auto; width: 95%; height: auto;"}
+![...](imagenes/tema04/combustion_metanol.svg){style="display: block; margin: 0 auto; width: 95%; height: auto;"}
 
 $$
 \begin{array}{ll}
@@ -536,7 +536,7 @@ Cuando un sistema intercambia energía con el entorno, la variación de entropí
 $\ce{\Delta S = \dfrac {Q}{T} }$
 { style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #f9f7fb" }
 
-![...](imagenes/tema03/td17.png){style="display: block; margin: 0 auto; width: 70%; height: auto; border: 1px solid #333;"}
+![...](imagenes/tema04/td17.png){style="display: block; margin: 0 auto; width: 70%; height: auto; border: 1px solid #333;"}
 
 ### **Segundo principio de la termodinámica** {: .caja-subtitulo}
 
@@ -551,7 +551,7 @@ $\ce{\Delta S_{universo} > 0 }$
 
 $\ce{\hspace{6cm} \Delta S_{universo} = \Delta S_{sistema} + \Delta S_{entorno}}$
 
-![...](imagenes/tema03/td18.png){style="display: block; margin: 0 auto; width: 90%; height: auto; border: 1px solid #333;"}
+![...](imagenes/tema04/td18.png){style="display: block; margin: 0 auto; width: 90%; height: auto; border: 1px solid #333;"}
 
 El **gas se distribuye uniformemente** entre ambos matraces; pero **NO se da el proceso inverso**: que un gas encerrado en 2 matraces se concentre espontáneamente en uno solo.
 
@@ -562,7 +562,7 @@ $\ce{\Delta S_{universo} = \Delta S_{sistema} + \Delta S_{entorno}}$
 
 ### **Reacción exotérmica** {: .caja-subtitulo}
 
-![...](imagenes/tema03/td21.png){style="display: block; margin: 0 auto; width: 50%; height: auto; border: none;"}
+![...](imagenes/tema04/td21.png){style="display: block; margin: 0 auto; width: 50%; height: auto; border: none;"}
 
 - La **espontaneidad** de los procesos **exotérmicos** depende de cómo varíe la $\ce{\Delta S}$ del **sistema**.
 
@@ -572,13 +572,13 @@ $\ce{\Delta S_{universo} = \Delta S_{sistema} + \Delta S_{entorno}}$
 
   <div style="flex: 1; width: 50%; border-right: 1px solid #ddd; display: flex; flex-direction: column;">
     <div style="height: 300px; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: none;">
-      <img src="../imagenes/tema03/td19.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+      <img src="../imagenes/tema04/td19.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
     </div>
   </div>
 
   <div style="flex: 1; width: 50%; border-right: none; display: flex; flex-direction: column;">
     <div style="height: 300px; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: none;">
-      <img src="../imagenes/tema03/td20.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+      <img src="../imagenes/tema04/td20.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
     </div>
   </div>
 </div>
@@ -600,7 +600,7 @@ A partir de las tablas de entropías molares de las sustancias en condiciones es
 $\ce{\Delta S^{\circ}_{reacción} = \sum n_p \cdot S^{\circ} (productos) - \sum n_r \cdot S^{\circ} (reactivos)}$
 { style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #f9f7fb" }
 
-![...](imagenes/tema03/td22.png){style="display: block; margin: 0 auto; width: 30%; height: auto; border: 1px solid #333;"}
+![...](imagenes/tema04/td22.png){style="display: block; margin: 0 auto; width: 30%; height: auto; border: 1px solid #333;"}
 
 Para una reacción genérica dada sería:
 
@@ -679,7 +679,7 @@ Esta reacción es endotérmica ($\ce{\Delta H > 0}$) y transcurre con un aumento
 
 Influencia de la temperatura en la espontaneidad de una reacción química:
 
-![...](imagenes/tema03/td23.png){style="display: block; margin: 0 auto; width: 90%; height: auto; border: 1px solid #333;"}
+![...](imagenes/tema04/td23.png){style="display: block; margin: 0 auto; width: 90%; height: auto; border: 1px solid #333;"}
 
 <!-- ---
 

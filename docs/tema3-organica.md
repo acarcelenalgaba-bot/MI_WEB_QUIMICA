@@ -14,17 +14,17 @@ El número de compuestos de carbono conocido es enorme, más de 10 millones, mie
 
 Las cadenas de carbono tienen una disposición en zigzag debido a la orientación tetraédrica de los orbitales $\ce{sp^3}$ responsables con sus solapamientos de los enlaces sigma. Esta estructura de zigzag se interrumpe con los enlaces dobles o triples. A su vez, la posibilidad de ramificaciones o ciclos hace que el número de posibilidades para formar moléculas sea enorme.
 
-![...](imagenes/tema08/orbitales.png){ style="display: block; margin: 0 auto; width: 90%; height: auto;" }
+![...](imagenes/tema03/orbitales.png){ style="display: block; margin: 0 auto; width: 90%; height: auto;" }
 
 ### **Representación de las moléculas orgánicas** {: .caja-subtitulo}
 
-![...](imagenes/tema08/formulas.png){ style="display: block; margin: 0 auto; width: 90%; height: auto;" }
+![...](imagenes/tema03/formulas.png){ style="display: block; margin: 0 auto; width: 90%; height: auto;" }
 
 ### **Grupos funcionales** {: .caja-subtitulo}
 
 Un **grupo funcional** es un átomo o grupo de átomos que dan al compuesto sus propiedades características. Se podría decir que es cualquier cosa que no sean enlaces simples C-C o C-H.
 
-![...](imagenes/tema08/grupos.png){ style="display: block; margin: 0 auto; width: 90%; height: auto;" }
+![...](imagenes/tema03/grupos.png){ style="display: block; margin: 0 auto; width: 90%; height: auto;" }
 
 **Series homólogas**
 
@@ -32,7 +32,7 @@ Una **serie homóloga** es el conjunto de compuestos orgánicos que tienen el mi
 
 Podemos ver la serie homóloga de los hidrocarburos lineales y cómo varían las propiedades físicas que dependen de la masa molecular.
 
-![...](imagenes/tema08/series.png){ style="display: block; margin: 0 auto; width: 80%; height: auto;" }
+![...](imagenes/tema03/series.png){ style="display: block; margin: 0 auto; width: 80%; height: auto;" }
 
 ### **Propiedades físicas de los compuestos orgánicos** {: .caja-subtitulo}
 
@@ -120,7 +120,7 @@ Experimentalmente se comprueba que los seis enlaces son equivalentes, de ahí qu
 \schemestop
 -->
 
-![...](imagenes/tema08/benceno.svg){style="display: block; margin: 0 auto; width: 50%; height: auto;"}
+![...](imagenes/tema03/benceno.svg){style="display: block; margin: 0 auto; width: 50%; height: auto;"}
 
 Cuando el benceno lleva un radical se nombra primero dicho radical seguido de la palabra **"-benceno"**.
 
@@ -141,9 +141,9 @@ Cuando el benceno actúa como radical de otra cadena se utiliza con el nombre de
 \schemestop
 -->
 
-![...](imagenes/tema08/difenilo.svg){style="display: block; margin: 0 auto; width: 60%; height: auto;"}
+![...](imagenes/tema03/difenilo.svg){style="display: block; margin: 0 auto; width: 60%; height: auto;"}
 
-![...](imagenes/tema08/aromaticos.png){ style="display: block; margin: 0 auto; width: 80%; height: auto;" }
+![...](imagenes/tema03/aromaticos.png){ style="display: block; margin: 0 auto; width: 80%; height: auto;" }
 
 ### **Halogenuros de alquilo** {: .caja-subtitulo}
 
@@ -172,7 +172,7 @@ Ejemplo: **4-metil-3-hidroxipentanal**:
 	\chemfig{CH_3-CH(-[2]CH_3)-CH(-[6]OH)-CH_2-CHO}
 -->
 
-![...](imagenes/tema08/hidroxipentanal.svg){style="display: block; margin: 0 auto; width: 25%; height: auto;"}
+![...](imagenes/tema03/hidroxipentanal.svg){style="display: block; margin: 0 auto; width: 25%; height: auto;"}
 
 ### **Fenoles** {: .caja-subtitulo}
 
@@ -282,7 +282,7 @@ Se pueden considerar derivados del amoníaco ($\ce{NH3}$) por sustitución de un
 \schemestop
 -->
 
-![...](imagenes/tema08/aminas.svg){style="display: block; margin: 0 auto; width: 60%; height: auto;"}
+![...](imagenes/tema03/aminas.svg){style="display: block; margin: 0 auto; width: 60%; height: auto;"}
 
 * Se pueden nombrar citando los radicales en orden alfabético seguidos de la terminación **"-amina"**.
 * En aminas complejas, se puede tomar la cadena más larga como hidrocarburo principal terminando en **"-amina"** y los demás radicales unidos al nitrógeno se nombran antecedidos por la letra **N-**.
@@ -375,7 +375,7 @@ Los átomos están unidos de forma diferente en cada molécula.
 \schemestop
 -->
 
-![...](imagenes/tema08/cadena.svg){style="display: block; margin: 0 auto; width: 50%; height: auto;"}
+![...](imagenes/tema03/cadena.svg){style="display: block; margin: 0 auto; width: 50%; height: auto;"}
   
 * **De posición:** El mismo grupo funcional cambia de ubicación (ej. *propan-1-ol* y *propan-2-ol*, ambos $\ce{C3H8O}$).
 
@@ -389,7 +389,7 @@ Los átomos están unidos de forma diferente en cada molécula.
 \schemestop
 -->
 
-![...](imagenes/tema08/posicion.svg){style="display: block; margin: 0 auto; width: 50%; height: auto;"}
+![...](imagenes/tema03/posicion.svg){style="display: block; margin: 0 auto; width: 50%; height: auto;"}
 
 * **De función:** Tienen diferente grupo funcional (ej. *etanol* y *dimetil éter*, ambos $\ce{C2H6O}$).
 
@@ -403,7 +403,7 @@ Los átomos están unidos de forma diferente en cada molécula.
 \schemestop
 -->
 
-![...](imagenes/tema08/funcion.svg){style="display: block; margin: 0 auto; width: 43%; height: auto;"}
+![...](imagenes/tema03/funcion.svg){style="display: block; margin: 0 auto; width: 43%; height: auto;"}
 
 ### **2. Estereoisomería (Isomería Espacial)** {: .caja-subtitulo}
 
@@ -421,7 +421,7 @@ Los compuestos presentan idéntica conectividad molecular pero difieren en la or
 \schemestop
 -->
 
-![...](imagenes/tema08/cis.svg){style="display: block; margin: 0 auto; width: 45%; height: auto;"}
+![...](imagenes/tema03/cis.svg){style="display: block; margin: 0 auto; width: 45%; height: auto;"}
 
 * **Isomería Óptica:** Ocurre ante la presencia de un carbono asimétrico o quiral (unido a 4 sustituyentes distintos). Da lugar a enantiómeros, imágenes especulares no superponibles que desvían la luz polarizada hacia la derecha (dextrógiro) o hacia la izquierda (levógiro).
 
@@ -435,7 +435,7 @@ Los compuestos presentan idéntica conectividad molecular pero difieren en la or
 \schemestop
 -->
 
-![...](imagenes/tema08/optica.svg){style="display: block; margin: 0 auto; width: 50%; height: auto;"}
+![...](imagenes/tema03/optica.svg){style="display: block; margin: 0 auto; width: 50%; height: auto;"}
 
 ## **5. Reacciones orgánicas principales**
 
@@ -510,7 +510,7 @@ Ejemplos:
 \schemestop
 -->
 
-![...](imagenes/tema08/bromobenceno.svg){style="display: block; margin: 0 auto; width: 45%; height: auto;"}
+![...](imagenes/tema03/bromobenceno.svg){style="display: block; margin: 0 auto; width: 45%; height: auto;"}
 
 <!--
 ##latex id=nitrobenceno sep=2em
@@ -523,7 +523,7 @@ Ejemplos:
 \schemestop
 -->
 
-![...](imagenes/tema08/nitrobenceno.svg){style="display: block; margin: 0 auto; width: 50%; height: auto;"}
+![...](imagenes/tema03/nitrobenceno.svg){style="display: block; margin: 0 auto; width: 50%; height: auto;"}
 
 Las reacciones suelen estar catalizadas por ácidos.
 
@@ -555,7 +555,7 @@ Sin embargo, cuando el **reactivo es asimétrico** podemos obtener dos isómeros
 \schemestop
 -->
 
-![...](imagenes/tema08/propeno.svg){style="display: block; margin: 0 auto; width: 100%; height: auto;"}
+![...](imagenes/tema03/propeno.svg){style="display: block; margin: 0 auto; width: 100%; height: auto;"}
 
 * Siguen la **Regla de Markovnikov**: El hidrógeno del reactivo se adiciona mayoritariamente al carbono insaturado que tenga ya más átomos de hidrógeno.
   
@@ -575,7 +575,7 @@ Sin embargo, cuando el **reactivo es asimétrico** podemos obtener dos isómeros
 \schemestop
 -->
 
-![...](imagenes/tema08/metilpropanol.svg){style="display: block; margin: 0 auto; width: 100%; height: auto;"}
+![...](imagenes/tema03/metilpropanol.svg){style="display: block; margin: 0 auto; width: 100%; height: auto;"}
 
 ### **3. Reacciones de Eliminación** {: .caja-subtitulo}
 
@@ -599,7 +599,7 @@ Se pueden considerar inversas a las de adición, ya que se eliminan el mismo tip
 \schemestop
 -->
 
-![...](imagenes/tema08/butanol.svg){style="display: block; margin: 0 auto; width: 100%; height: auto;"}
+![...](imagenes/tema03/butanol.svg){style="display: block; margin: 0 auto; width: 100%; height: auto;"}
 
 *(Producto mayoritario: but-2-eno)*
 
@@ -617,7 +617,7 @@ Los oxidantes suelen ser los mismos que en inorgánica: dicromatos ($\ce{Cr2O7^{
 
 * **Reducción:** Es el proceso inverso al anterior.
 
-![...](imagenes/tema08/redox.png){style="display: block; margin: 0 auto; width: 60%; height: auto;"}
+![...](imagenes/tema03/redox.png){style="display: block; margin: 0 auto; width: 60%; height: auto;"}
 
 ### **5. Reacciones de condensación** {: .caja-subtitulo}
 
@@ -642,7 +642,7 @@ Ejemplo de esterificación:
 \schemestop
 -->
 
-![...](imagenes/tema08/esterificacion.svg){style="display: block; margin: 0 auto; width: 90%; height: auto;"}
+![...](imagenes/tema03/esterificacion.svg){style="display: block; margin: 0 auto; width: 90%; height: auto;"}
 
 - **Condensación de amidas**
 
@@ -699,7 +699,7 @@ $\ce{CH3Cl + NaOH -> CH3OH + NaCl}$
 * Molécula muy grande (macromolécula) constituida por la unión repetida de muchas unidades moleculares pequeñas (**monómeros**), generalmente orgánicas, unidas entre sí por enlaces covalentes y que se forma por **reacciones de polimerización**.
 * La unidad estructural que se repite a lo largo de la cadena polimérica se denomina **unidad repetitiva** o **monómero**. Por ejemplo, a partir del estireno (vinilbenceno) se obtiene el poliestireno:
 
-![...](imagenes/tema09/po1.png){style="display: block; margin: 0 auto; width: 60%; height: auto;"}
+![...](imagenes/tema03/po1.png){style="display: block; margin: 0 auto; width: 60%; height: auto;"}
 
 ## **2. Clasificación de los polímeros**
 
@@ -732,7 +732,7 @@ $$\ce{n \; (CH2 = CH2) \quad \rightarrow \quad -(CH2-CH2)-{}_\text{n}}$$
 
 ### **Algunos polímeros etilénicos** {: .caja-subtitulo }
 
-![...](imagenes/tema09/po2.png){style="display: block; margin: 0 auto; width: 50%; height: auto;"}
+![...](imagenes/tema03/po2.png){style="display: block; margin: 0 auto; width: 50%; height: auto;"}
 
 ### **El caucho**  {: .caja-subtitulo }
 
@@ -740,7 +740,7 @@ Un caso especial de esta clase de polímeros etilénicos es el **caucho** natura
 
 Es interesante saber que el caucho natural (cis-poliisopreno) es el único polímero que se encuentra en la naturaleza constituido por un hidrocarburo. Aunque el caucho natural es muy elástico, los productos fabricados con él tienen el inconveniente de ser quebradizos y ablandarse con el calor. Para mejorar sus propiedades se introdujo (1839, Ch. Goodyear) el proceso de **vulcanización**, consistente en añadir azufre (entre un 3 y un 8 % de la masa total), lo que mejoraba notablemente sus propiedades e hizo que se empezara a utilizar ampliamente. A partir de la primera guerra mundial ya se comenzó a fabricar caucho sintético en muchas variedades.
 
-![...](imagenes/tema09/po3.png){style="display: block; margin: 0 auto; width: 50%; height: auto;"}
+![...](imagenes/tema03/po3.png){style="display: block; margin: 0 auto; width: 50%; height: auto;"}
 
 ## **5. Reacciones de condensación**
 
@@ -770,7 +770,7 @@ Como resultado del proceso de polimerización, se obtiene la **fibra**, que en s
 \schemestop
 -->
 
-![...](imagenes/tema09/po4.svg){style="display: block; margin: 0 auto; width: 98%; height: auto;"}
+![...](imagenes/tema03/po4.svg){style="display: block; margin: 0 auto; width: 98%; height: auto;"}
 
 **Unidad que se repite:**
 
@@ -780,7 +780,7 @@ Como resultado del proceso de polimerización, se obtiene la **fibra**, que en s
 \chemfig{-O-CO-*6(=-=(-CO-O-CH_2-CH_2-O-)-=-)}
 -->
 
-![...](imagenes/tema09/po5.svg){style="display: block; margin: 0 auto; width: 40%; height: auto;"}
+![...](imagenes/tema03/po5.svg){style="display: block; margin: 0 auto; width: 40%; height: auto;"}
 
 ### **Poliamidas** {: .caja-subtitulo }
 
@@ -806,7 +806,7 @@ $$\ce{...-NH-CH2-(CH2)4-CO-NH-CH2-(CH2)4-CO - ...}$$
 %\polymerdelim[height = 30pt, depth = 5pt, indice = {}]{op}{cl}
 -->
 
-![...](imagenes/tema09/po6.svg){style="display: block; margin: 0 auto; width: 20%; height: auto;"}
+![...](imagenes/tema03/po6.svg){style="display: block; margin: 0 auto; width: 20%; height: auto;"}
 
 
 **Ejemplo de poliamidas**
@@ -824,7 +824,7 @@ $$\ce{...-NH-CH2-(CH2)4-CO-NH-CH2-(CH2)4-CO - ...}$$
 \schemestop
 -->
 
-![...](imagenes/tema09/po7.svg){style="display: block; margin: 0 auto; width: 100%; height: auto;"}
+![...](imagenes/tema03/po7.svg){style="display: block; margin: 0 auto; width: 100%; height: auto;"}
 
 **Unidad que se repite:**
 
@@ -835,7 +835,7 @@ $$\ce{...-NH-CH2-(CH2)4-CO-NH-CH2-(CH2)4-CO - ...}$$
 \schemestop
 -->
 
-![...](imagenes/tema09/po8.svg){style="display: block; margin: 0 auto; width: 35%; height: auto;"}
+![...](imagenes/tema03/po8.svg){style="display: block; margin: 0 auto; width: 35%; height: auto;"}
 
 <!-- ---
 

@@ -20,7 +20,7 @@ De ahí que cualquier reacción ácido-base será una reacción de transferencia
 | **Reacción con metales** | Atacan metales activos desprendiendo hidrógeno ($\ce{H2}$). | Reaccionan generando precipitados insolubles (hidróxidos). |
 | **Neutralización** | Neutralizan los efectos de las bases. | Neutralizan los efectos de los ácidos. |
 | **Conductividad eléctrica** | Conducen la corriente en disolución acuosa (electrolitos). | Conducen la corriente en disolución acuosa (electrolitos). |
-| | ![...](imagenes/tema06/tp1_1.png){style="display: inline-block; width: 48%; vertical-align: middle;"} | ![...](imagenes/tema06/tp1_2.png){style="display: inline-block; width: 48%; vertical-align: middle;"} |
+| | ![...](imagenes/tema07/tp1_1.png){style="display: inline-block; width: 48%; vertical-align: middle;"} | ![...](imagenes/tema07/tp1_2.png){style="display: inline-block; width: 48%; vertical-align: middle;"} |
 
 ## **2. Definición de Arrhenius de Ácido y Base**
 
@@ -36,7 +36,7 @@ Propuso que estas sustancias, al disolverse, se disociaban en dos partes cargada
 
 Dado que los ácidos y las bases conducen la electricidad al disolverse en agua, estableció que dichas sustancias eran electrolitos. Esto posibilitó el desarrollo del primer modelo teórico para explicar la naturaleza de los ácidos y las bases.
 
-![...](imagenes/tema06/tp2.png){style="display: block; margin: 0 auto; width: 20%"}
+![...](imagenes/tema07/tp2.png){style="display: block; margin: 0 auto; width: 20%"}
 
 Arrhenius propuso que el catión que se producía cuando se disolvía un ácido en agua era siempre el mismo: el **ión hidrógeno** ($\ce{H^+}$) [o ión hidronio, $\ce{H3O^+}$], y que las propiedades de los ácidos se debían precisamente a la presencia de dichos iones.
 
@@ -79,7 +79,7 @@ Son básicamente dos:
 1.  **Restricción al disolvente:** Su teoría estaba restringida exclusivamente a disoluciones acuosas, dejando fuera a otro tipo de procesos que transcurren en otros disolventes o que no transcurren en disolución.
 2.  **Sustancias sin grupo hidróxido:** Existen sustancias que son claramente básicas, como el amoníaco ($\ce{NH3}$) o los carbonatos (ión carbonato, $\ce{CO3^{2-}}$), que no contienen el grupo $\ce{OH^-}$ en su estructura y que, por lo tanto, no encajaban en su definición clásica de base.
 
-![...](imagenes/tema06/tp3.png){style="display: block; margin: 0 auto; width: 20%"}
+![...](imagenes/tema07/tp3.png){style="display: block; margin: 0 auto; width: 20%"}
 
 ## **3. Teoría Ácido-Base de Brønsted-Lowry**
 
@@ -117,11 +117,11 @@ $$\ce{NH3 + H2O \rightleftharpoons NH4^+ + OH^-}$$
 
 Aquí, el $\ce{NH3}$ actúa como base (acepta un protón) y el $\ce{H2O}$ actúa como ácido (cede un protón).
 
-![...](imagenes/tema06/tp4.png){style="display: block; margin: 0 auto; width: 50%; border: 1px solid #333;"}
+![...](imagenes/tema07/tp4.png){style="display: block; margin: 0 auto; width: 50%; border: 1px solid #333;"}
 
 ### **Resumen de la Teoría de Brønsted-Lowry** {: .caja-subtitulo }
 
-![...](imagenes/tema06/tp5.png){style="display: block; margin: 0 auto; width: 75%"}
+![...](imagenes/tema07/tp5.png){style="display: block; margin: 0 auto; width: 75%"}
 
 *(Nota: Aunque la teoría de Brønsted y Lowry fue ampliada posteriormente por la teoría de Lewis, durante el resto del tema utilizaremos preferentemente el modelo de Brønsted-Lowry).*
 
@@ -529,7 +529,7 @@ El pH de una disolución se puede medir experimentalmente en el laboratorio medi
 1.  **Indicadores visuales (método cualitativo/semicuantitativo):** Papel indicador universal o disoluciones indicadoras que cambian de color de forma reversible al variar el pH del medio.
 2.  **pH-metro (método cuantitativo):** Un sensor potenciométrico calibrado que mide de forma precisa la diferencia de potencial eléctrico entre un electrodo de vidrio de referencia y la disolución, traduciéndola directamente a unidades de pH.
 
-![...](imagenes/tema06/tp13.png){style="display: block; margin: 0 auto; width: 70%"}
+![...](imagenes/tema07/tp13.png){style="display: block; margin: 0 auto; width: 70%"}
 
 ### **Relación entre las constantes $\textbf{Ka}$ y $\textbf{Kb}$ de un par conjugado** {: .caja-subtitulo }
 
@@ -565,7 +565,7 @@ $$\ce{Ka \cdot Kb = [H3O^+][OH^-] = Kw}$$
 
 Esto demuestra que **cuanto más fuerte es un ácido (mayor $\ce{Ka}$), más débil es su base conjugada (menor $\ce{Kb}$), y viceversa**.
 
-![...](imagenes/tema06/tp14.png){style="display: block; margin: 0 auto; width: 50%"}
+![...](imagenes/tema07/tp14.png){style="display: block; margin: 0 auto; width: 50%"}
 
 **Relación entre $\textbf{pKa}$ y $\textbf{pKb}$**
 
@@ -851,7 +851,7 @@ La **volumetría** (o valoración ácido-base) es una técnica cuantitativa de a
 * El **analito** (disolución de concentración desconocida) se coloca habitualmente en un matraz Erlenmeyer.
 * El **agente valorante** (disolución estándar de concentración conocida) se coloca en una bureta graduada.
 
-![...](imagenes/tema06/tp16.png){style="display: block; margin: 0 auto; width: 30%; border: 1px solid #0056b3;"}
+![...](imagenes/tema07/tp16.png){style="display: block; margin: 0 auto; width: 30%; border: 1px solid #0056b3;"}
 
 ### **Proceso Práctico de Valoración de un Ácido** {: .caja-subtitulo }
 
@@ -863,7 +863,7 @@ La **volumetría** (o valoración ácido-base) es una técnica cuantitativa de a
 
 El **punto de equivalencia** es el instante teórico de la valoración en el que se han mezclado las cantidades estequiométricas exactas de reactivos (ácido y base), completándose la reacción química de neutralización.
 
-![...](imagenes/tema06/tp18.png){style="display: block; margin: 0 auto; width: 30%; border: 1px solid #0056b3;"}
+![...](imagenes/tema07/tp18.png){style="display: block; margin: 0 auto; width: 30%; border: 1px solid #0056b3;"}
 
 Se puede determinar de forma instrumental midiendo de forma continua la variación del pH con un electrodo de pH (pH-metro). En las proximidades del punto de equivalencia, se observa un cambio extremadamente brusco y vertical de la curva de valoración (salto de pH).
 
@@ -915,7 +915,7 @@ El cambio de color (viraje) se produce en un intervalo estrecho de pH, centrado 
 
 Para una valoración, se debe seleccionar un indicador cuyo rango de viraje coincida con la zona del salto vertical de la curva de valoración (punto de equivalencia).
 
-![...](imagenes/tema06/tp19.png){style="display: block; margin: 0 auto; width: 80%; border: 1px solid #0056b3;"}
+![...](imagenes/tema07/tp19.png){style="display: block; margin: 0 auto; width: 80%; border: 1px solid #0056b3;"}
 
 **Ejercicio Resuelto de Valoración**
 
