@@ -13,20 +13,20 @@ Puedes utilizar el siguiente índice para acceder directamente a cada unidad did
     *   *Contenido:* Enlace iónico (Ciclo de Born-Haber), enlace metálico, enlace covalente (Lewis, RPECV, Hibridación) y fuerzas intermoleculares.
 
 ### 🔗 Bloque 2: Química Organica
-*   **[Tema 3: Química organica y reactividad](tema8-organica.md)** 
+*   **[Tema 3: Química organica y reactividad](tema3-organica.md)** 
     *   *Contenido:* Formulación orgánica, isomería y reactividad. Polímeros orgánicos, definición, tipos y reacciones típicas.
 
 ### 🔥 Bloque 3: Reacciones químicas
-*   **[Tema 4: Termoquímica](tema3-termoquimica.md)** 
+*   **[Tema 4: Termoquímica](tema4-termoquimica.md)** 
     *   *Contenido:* Primer principio, entalpías de reacción y formación, Ley de Hess, entropía y espontaneidad de Gibbs ($\ce{\Delta G}$).
-*   **[Tema 5: Cinética Química](tema4-cinetica.md)** 
+*   **[Tema 5: Cinética Química](tema5-cinetica.md)** 
     *   *Contenido:* Ecuación de velocidad, orden de reacción, factores que afectan a la velocidad y teoría de colisiones.
 
-*   **[Tema 6: Equilibrio Químico General](tema5-equilibrio.md)** 
+*   **[Tema 6: Equilibrio Químico General](tema6-equilibrio.md)** 
     *   *Contenido:* Ley de acción de masas ($\ce{Kc}$ y $\ce{Kp}$), grado de disociación ($\alpha$) y Principio de Le Chatelier.
-*   **[Tema 7: Reacciones de Transferencia de Protones (Ácido-Base)](tema6-acido_base.md)** 
+*   **[Tema 7: Reacciones de Transferencia de Protones (Ácido-Base)](tema7-acido_base.md)** 
     *   *Contenido:* Concepto de pH, teorías de Brønsted-Lowry, fuerza de ácidos/bases y reacciones de neutralización.
-*   **[Tema 8: Reacciones de Transferencia de Electrones (Redox)](tema7-redox.md)**
+*   **[Tema 8: Reacciones de Transferencia de Electrones (Redox)](tema8-redox.md)**
     *   *Contenido:* Ajuste por el método del ion-electrón, celdas galvánicas (pilas) y estequiometría de la electrólisis (Leyes de Faraday).
 
 
