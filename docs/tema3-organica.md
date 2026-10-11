@@ -691,9 +691,9 @@ $\ce{CH3Cl + NaOH -> CH3OH + NaCl}$
 
 *Producto:* Metanol. *Tipo de reacción:* Sustitución nucleófila.
 
-# Tema 9: Polímeros orgánicos
+## **6. Polímeros orgánicos**
 
-## **1. Introducción**
+### **6.1. Introducción** {: .caja-subtitulo}
 
 * **Polímeros**: del griego *Polys* (muchos) + *meros* (parte)
 * Molécula muy grande (macromolécula) constituida por la unión repetida de muchas unidades moleculares pequeñas (**monómeros**), generalmente orgánicas, unidas entre sí por enlaces covalentes y que se forma por **reacciones de polimerización**.
@@ -701,7 +701,7 @@ $\ce{CH3Cl + NaOH -> CH3OH + NaCl}$
 
 ![...](imagenes/tema03/po1.png){style="display: block; margin: 0 auto; width: 60%; height: auto;"}
 
-## **2. Clasificación de los polímeros**
+### **6.2. Clasificación de los polímeros** {: .caja-subtitulo}
 
 Los **polímeros** pueden clasificarse de muchas maneras:
 
@@ -710,8 +710,8 @@ Los **polímeros** pueden clasificarse de muchas maneras:
 * Según su **estructura** (lineales, ramificados, entrecruzados, reticulados)
 * Por su comportamiento frente al calor (**termoplásticos** o **termoestables**)
 * Según la **reacción de polimerización** (adición o condensación). Esta última clasificación es la que más nos interesa.
-
-## **3. Propiedades físicas generales**
+ 
+### **6.3. Propiedades físicas generales** {: .caja-subtitulo}
 
 Las propiedades físicas de estas moléculas difieren bastante de las propiedades de los monómeros que las constituyen. Las propiedades van a estar influenciadas por la estructura interna, presencia de fuerzas intermoleculares, etc.
 
@@ -722,7 +722,7 @@ Las propiedades físicas de estas moléculas difieren bastante de las propiedade
 * Unos son tan duros y resistentes que se utilizan en construcción: PVC, baquelita, etc.
 * Otros pueden ser muy flexibles (polietileno), elásticos (caucho), resistentes a la tensión (nailon), muy inertes (teflón), etc.
 
-## **4. Reacciones de adición**
+### **6.4. Reacciones de adición** {: .caja-subtitulo}
 
 * Siguen un mecanismo a través de radicales libres "en cadena". Las más típicas son las de formación de polímeros etilénicos, siendo el más sencillo el polietileno:
 
@@ -730,11 +730,11 @@ $$\ce{n \; (CH2 = CH2) \quad \rightarrow \quad -(CH2-CH2)-{}_\text{n}}$$
 
 * Una vez iniciadas las reacciones que transcurren a través de radicales libres son muy rápidas, adicionándose más de 1000 monómeros por segundo, por lo que en pocos segundos se obtienen macromoléculas de más de un millón de unidades de masa atómica.
 
-### **Algunos polímeros etilénicos** {: .caja-subtitulo }
+### **Algunos polímeros etilénicos** {: .caja-subtitulo2}
 
 ![...](imagenes/tema03/po2.png){style="display: block; margin: 0 auto; width: 50%; height: auto;"}
 
-### **El caucho**  {: .caja-subtitulo }
+### **El caucho**  {: .caja-subtitulo2 }
 
 Un caso especial de esta clase de polímeros etilénicos es el **caucho** natural o sintético (el monómero es el "isopreno" o 2-metilbuta-1,3-dieno).
 
@@ -742,14 +742,14 @@ Es interesante saber que el caucho natural (cis-poliisopreno) es el único polí
 
 ![...](imagenes/tema03/po3.png){style="display: block; margin: 0 auto; width: 50%; height: auto;"}
 
-## **5. Reacciones de condensación**
+### **6.5. Reacciones de condensación** {: .caja-subtitulo}
 
 Los monómeros pueden ser iguales o diferentes, pero tiene cada uno de ellos dos grupos funcionales en los extremos de la molécula, y la unión entre los monómeros supone la eliminación de una molécula pequeña, normalmente agua.
 
 De la misma manera que los dos ejemplos principales vistos en las reacciones orgánicas de condensación son la **formación de ésteres** y **amidas**, en el caso de los polímeros los ejemplos más importantes son la formación de **poliésteres** y **poliamidas** (fibras textiles).
 
 
-### **Poliésteres** {: .caja-subtitulo }
+### **Poliésteres** {: .caja-subtitulo2 }
 
 El poliéster termoplástico más conocido es el **PET**. El PET está formado sintéticamente con **etilenglicol** más el **ácido tereftálico**, produciendo el polímero dacrón o Terylene.
 
@@ -782,7 +782,7 @@ Como resultado del proceso de polimerización, se obtiene la **fibra**, que en s
 
 ![...](imagenes/tema03/po5.svg){style="display: block; margin: 0 auto; width: 40%; height: auto;"}
 
-### **Poliamidas** {: .caja-subtitulo }
+### **Poliamidas** {: .caja-subtitulo2 }
 
 * En las poliamidas se da la formación de enlaces similares a los peptídicos, donde el grupo amino de un aminoácido se une al grupo ácido del siguiente.
 
@@ -837,6 +837,3 @@ $$\ce{...-NH-CH2-(CH2)4-CO-NH-CH2-(CH2)4-CO - ...}$$
 
 ![...](imagenes/tema03/po8.svg){style="display: block; margin: 0 auto; width: 35%; height: auto;"}
 
-<!-- ---
-
-[Descargar Tema 9 en PDF](../pdfs/tema9-polimeros/tema9-polimeros.pdf){ .md-button .md-button--primary } -->
