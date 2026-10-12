@@ -238,15 +238,15 @@ $\ce{\hspace{0.5cm} CHO-CH2-CH2-CHO}$
 Presentan el grupo funcional **"carbonilo"** ($\ce{-CO-}$) en un carbono secundario (dentro de la cadena).
 
 * Se nombran sustituyendo la terminación del hidrocarburo por el sufijo **"-ona"**, indicando con el localizador más bajo posible la posición del grupo carbonilo.
-* Otra forma común de nombrarlas consiste en citar los dos radicales unidos al grupo carbonilo en orden alfabético, seguidos de la palabra **"cetona"**.
+
 * Cuando no actúa como función principal, el grupo carbonilo se nombra con el prefijo **"oxo-"**.
 
 Ejemplos:
 
-* **Butanona** (o metil etil cetona):
+* **Butanona**:
 $\ce{\hspace{0.5cm}  CH3-CO-CH2-CH3}$
 
-* **Pentan-2-ona** (o metil propil cetona):
+* **Pentan-2-ona**:
 $\ce{\hspace{0.5cm}  CH3-CO-CH2-CH2-CH3}$
 
 ### **Ácidos carboxílicos** {: .caja-subtitulo}
