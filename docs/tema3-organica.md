@@ -48,7 +48,7 @@ Los de mayor carácter polar como ácidos, alcoholes, aminas primarias o amidas 
 
 ## **3. Formulación y nomenclatura orgánica**
 
-El texto de las secciones de formulación y nomenclatura orgánica está tomado de la página AlonsoFormula (http://www.alonsoformula.com/organica/). En dicha página se pueden encontrar numerosos ejemplos de cómo proceder para nombrar cuando dan una fórmula y para formular cuando nos dan un nombre. También tiene numerosos ejercicios en los que se puede comprobar si se han hecho bien.
+El texto de formulación y nomenclatura orgánica está tomado de la página AlonsoFormula (http://www.alonsoformula.com/organica/). En dicha página se pueden encontrar numerosos ejemplos de cómo proceder para nombrar cuando dan una fórmula y para formular cuando nos dan un nombre. También tiene numerosos ejercicios en los que se puede comprobar si se han hecho bien.
 
 ### **Alcanos** {: .caja-subtitulo}
 
@@ -160,6 +160,18 @@ Si aparece el mismo halógeno repetido, se utilizan los prefijos **di-**, **tri-
 Su estructura es similar a la de los hidrocarburos, en los que se sustituye uno o más átomos de hidrógeno por grupos **"hidroxilo"**, **-OH**.
 
 Se nombran como los hidrocarburos de los que proceden, pero con la terminación **"-ol"**, e indicando con un número localizador, el más bajo posible, la posición del grupo alcohólico. Según la posición del carbono que sustenta el grupo -OH, los alcoholes se denominan **primarios**, **secundarios** o **terciarios**.
+
+<!--
+##latex id=tipos_alcohol sep=2em
+\chemnameinit{\chemfig{CH_3-CH_2-C(-[2]CH_3)(-[6]OH)-CH_3}}
+\chemname{\chemfig{CH_3-CH_2-CH_2-OH}}{alcohol primario}
+\hspace{2cm}
+\chemname{\chemfig{CH_3-CH_2-CH(-[6]OH)-CH_3}}{alcohol secundario}
+\hspace{2cm}
+\chemname{\chemfig{CH_3-CH_2-C(-[2]CH_3)(-[6]OH)-CH_3}}{alcohol terciario}
+-->
+
+![...](imagenes/tema03/tipos_alcohol.svg){style="display: block; margin: 0 auto; width: 25%; height: auto;"}
 
 Si en la molécula hay más de un grupo -OH se utiliza la terminación **"-diol"**, **"-triol"**, etc., indicando con números las posiciones donde se encuentran esos grupos. Hay importantes polialcoholes como la glicerina (*propanotriol*), la glucosa y otros hidratos de carbono.
 
