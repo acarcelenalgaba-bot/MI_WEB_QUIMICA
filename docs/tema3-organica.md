@@ -26,13 +26,13 @@ Un **grupo funcional** es un átomo o grupo de átomos que dan al compuesto sus 
 
 ![...](imagenes/tema03/grupos.png){ style="display: block; margin: 0 auto; width: 90%; height: auto;" }
 
-**Series homólogas**
+###  **Series homólogas** {: .caja-subtitulo}
 
 Una **serie homóloga** es el conjunto de compuestos orgánicos que tienen el mismo grupo funcional y cuya cadena carbonada se ve incrementada con grupos intermedios $\ce{-CH2-}$.
 
 Podemos ver la serie homóloga de los hidrocarburos lineales y cómo varían las propiedades físicas que dependen de la masa molecular.
 
-![...](imagenes/tema03/series.png){ style="display: block; margin: 0 auto; width: 80%; height: auto;" }
+![...](imagenes/tema03/series.png){ style="display: block; margin: 0 auto; width: 70%; height: auto;" }
 
 ### **Propiedades físicas de los compuestos orgánicos** {: .caja-subtitulo}
 
@@ -143,7 +143,7 @@ Cuando el benceno actúa como radical de otra cadena se utiliza con el nombre de
 
 ![...](imagenes/tema03/difenilo.svg){style="display: block; margin: 0 auto; width: 60%; height: auto;"}
 
-![...](imagenes/tema03/aromaticos.png){ style="display: block; margin: 0 auto; width: 80%; height: auto;" }
+![...](imagenes/tema03/aromaticos.png){ style="display: block; margin: 0 auto; width: 60%; height: auto;" }
 
 ### **Halogenuros de alquilo** {: .caja-subtitulo}
 
