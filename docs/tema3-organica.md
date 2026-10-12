@@ -235,7 +235,7 @@ $\ce{\hspace{0.5cm} CHO-CH2-CH2-CHO}$
 
 ### **Cetonas** {: .caja-subtitulo}
 
-Presentan el grupo funcional **"carbonilo"** ($\ce{-C([2]=O)-}$) en un carbono secundario (dentro de la cadena).
+Presentan el grupo funcional **"carbonilo"** ($\ce{-CO-}$) en un carbono secundario (dentro de la cadena).
 
 * Se nombran sustituyendo la terminación del hidrocarburo por el sufijo **"-ona"**, indicando con el localizador más bajo posible la posición del grupo carbonilo.
 * Otra forma común de nombrarlas consiste en citar los dos radicales unidos al grupo carbonilo en orden alfabético, seguidos de la palabra **"cetona"**.
