@@ -2,17 +2,9 @@
 
 ## **1. Introducción a la Termoquímica**
 
-**Termoquímica**. Parte de la termodinámica que estudia el intercambio de energía en las reacciones químicas.
+La **termodinámica** es la ciencia que estudia las variaciones de energía que acompañan a los procesos físicos y químicos.
 
-Las reacciones químicas obedecen a dos leyes fundamentales:
-
-- La ley de la **conservación de la masa** y
-
-- La ley de la **conservación de la energía**.
-
-La energía no se crea ni se destruye, solo se convierte de una forma en otra.
-
-La energía total del universo permanece constante.
+La **termoquímica** es la parte de la termodinámica que se centra y estudia el intercambio de energía en las reacciones químicas.
 
 Todas las reacciones químicas absorben o liberan energía, por lo general en forma de calor.
 
@@ -22,27 +14,19 @@ Todas las reacciones químicas absorben o liberan energía, por lo general en fo
 
 Es una propiedad de los cuerpos o sistemas que se relaciona con su capacidad para producir cambios en otros cuerpos o sistemas o en ellos mismos.
 
-Para entender el significado de esta magnitud debemos conocer sus propiedades:
-
-- transformación, cambiando la forma en la que se presenta: $\ce{E_C, E_P, E_{química}}$,...
-
-- conservación de la cantidad total de energía
-
-- degradación o pérdida de utilidad de la energía
-
-- transferencia de energía de un sistema a otro
-
 La unidad de energía en el S.I. es el **julio** (**J**)
 
 Otra unidad: la caloría (cal) $\hspace{1cm}$ 1 cal = 4,18 J
 
 ![...](imagenes/tema04/td2.png){style="display: block; margin: 0 auto; width: 20%; height: auto; border: 1px solid #333;"}
 
+### **Conceptos previos** {: .caja-subtitulo}
+
 ### **Sistemas termodinámicos** {: .caja-subtitulo}
 
-Parte del mundo físico que aislamos para su estudio mediante paredes reales o imaginarias. El resto del universo, que no forma parte del sistema, se llama entorno.
+Parte del mundo físico que aislamos para su estudio mediante paredes reales o imaginarias. El resto del universo, que no forma parte del sistema, se llama **entorno**.
 
-**<u>Tipos de sistemas</u>**:
+**<u>Tipos de sistemas termodinámicos</u>**:
 
 <div style="display: flex; width: 100%; border: 1px solid #ddd; font-family: sans-serif;">
 
@@ -50,11 +34,11 @@ Parte del mundo físico que aislamos para su estudio mediante paredes reales o i
     <div style="background-color: #f2f2f2; font-weight: bold; text-align: center; padding: 10px; border-bottom: 1px solid #ddd;">
       ABIERTOS
     </div>
-    <div style="padding: 10px; flex-grow: 1; vertical-align: top;">
+    <div style="padding: 5px;">
       Pueden intercambiar materia y energía con su entorno
     </div>
-    <div style="height: 90%; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
-      <img src="../imagenes/tema04/td3_1.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    <div style="flex: 1; display: flex; align-items: center; justify-content: center; padding: 5px; border-top: 1px solid #eee;">
+      <img src="../imagenes/tema04/td3_1.png" style="max-width: 100%; max-height: 250px; object-fit: contain;">
     </div>
   </div>
 
@@ -62,11 +46,11 @@ Parte del mundo físico que aislamos para su estudio mediante paredes reales o i
     <div style="background-color: #f2f2f2; font-weight: bold; text-align: center; padding: 10px; border-bottom: 1px solid #ddd;">
       CERRADOS
     </div>
-    <div style="padding: 10px; flex-grow: 1; vertical-align: top;">
+    <div style="padding: 5px;">
       Intercambian energía con su entorno pero no materia
     </div>
-    <div style="height: 90%; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
-      <img src="../imagenes/tema04/td3_2.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    <div style="flex: 1; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
+      <img src="../imagenes/tema04/td3_2.png" style="max-width: 100%; max-height: 250px; object-fit: contain;">
     </div>
   </div>
 
@@ -74,11 +58,11 @@ Parte del mundo físico que aislamos para su estudio mediante paredes reales o i
     <div style="background-color: #f2f2f2; font-weight: bold; text-align: center; padding: 10px; border-bottom: 1px solid #ddd;">
       AISLADOS
     </div>
-    <div style="padding: 10px; flex-grow: 1; vertical-align: top;">
+    <div style="padding: 5px;">
       No intercambian ni materia ni energía con su entorno
     </div>
-    <div style="height: 90%; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
-      <img src="../imagenes/tema04/td3_3.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+    <div style="flex: 1; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
+      <img src="../imagenes/tema04/td3_3.png" style="max-width: 100%; max-height: 250px; object-fit: contain;">
     </div>
   </div>
 
@@ -96,7 +80,7 @@ Parte del mundo físico que aislamos para su estudio mediante paredes reales o i
       La hoguera necesita combustible para arder y cede CO<sub>2</sub>, vapor de agua y energía en forma de calor
     </div>
     <div style="height: 90%; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
-      <img src="../imagenes/tema04/td4_1.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+      <img src="../imagenes/tema04/td4_1.png" style="max-width: 100%; max-height: 250px; object-fit: contain;">
     </div>
   </div>
 
@@ -108,7 +92,7 @@ Parte del mundo físico que aislamos para su estudio mediante paredes reales o i
       La bombilla necesita energía eléctrica para emitir luz. Si se corta la corriente no se encenderá
     </div>
     <div style="height: 90%; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
-      <img src="../imagenes/tema04/td4_2.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+      <img src="../imagenes/tema04/td4_2.png" style="max-width: 100%; max-height: 250px; object-fit: contain;">
     </div>
   </div>
 
@@ -120,7 +104,7 @@ Parte del mundo físico que aislamos para su estudio mediante paredes reales o i
       Un termo mantiene constante la temperatura del café que hayamos introducido en él
     </div>
     <div style="height: 90%; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
-      <img src="../imagenes/tema04/td4_3.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+      <img src="../imagenes/tema04/td4_3.png" style="max-width: 100%; max-height: 250px; object-fit: contain;">
     </div>
   </div>
 
@@ -236,7 +220,12 @@ La **energía interna** es una **función de estado**.
 
 Las reacciones químicas, suelen realizarse o bien a $\ce{p = cte}$ o bien a $\ce{V = cte}$. El primer principio sirve para estudiar los intercambios de energía en los procesos químicos.
 
-**Procesos isocóricos** (a **volumen constante**): Reacciones que se llevan a cabo en un recipiente cerrado.
+<p style="font-family: sans-serif;">
+  <span style="background-color: #e2e8f0; border: 1px solid #cbd5e1; padding: 4px 8px; margin-right: 8px; border-radius: 4px; font-weight: bold; color: #1e293b;">
+    Procesos isocóricos (a volumen constante):
+  </span>
+  Reacciones que se llevan a cabo en un <b>recipiente cerrado</b>.
+</p>
 
 Como $\ce{V = cte \; \Longrightarrow \; W = 0}$.
 
@@ -256,7 +245,12 @@ Si $\ce{Qv > 0}$, reacción endotérmica, recibe calor del entorno y $\ce{\Delta
 
 Si $\ce{Qv < 0}$, reacción exotérmica, cede calor al entorno y $\ce{\Delta U < 0}$
 
-**Procesos isobáricos** (a **presión constante**): Reacciones que se llevan a cabo en un recipiente abierto y a presión atmosférica.
+<p style="font-family: sans-serif;">
+  <span style="background-color: #e2e8f0; border: 1px solid #cbd5e1; padding: 4px 8px; margin-right: 8px; border-radius: 4px; font-weight: bold; color: #1e293b;">
+    Procesos isobáricos (a presión constante):
+  </span>
+  Reacciones que se llevan a cabo en un recipiente <b>abierto</b> y a <b>presión atmosférica</b>.
+</p>
 
 Calor que se absorbe o se desprende en la reacción, $\ce{Q_\text{p}}$ (calor a p = cte)
 
@@ -304,12 +298,18 @@ En reacciones con $\ce{\Delta n = 0}$ como, $\ce{H2 (g) + F2 (g) \rightarrow 2 H
 
 **Energía intercambiada** en forma de calor a **presión constante** cuando los reactivos se han transformado en los productos.
 
-**Ecuación termoquímica**: ecuación ajustada de la reacción en la que se **indica** el **estado físico** de cada sustancia y el **calor intercambiado con el entorno**, normalmente como $\ce{\Delta H}$.
+<p style="font-family: sans-serif;">
+  <span style="background-color: #e2e8f0; border: 1px solid #cbd5e1; padding: 4px 8px; margin-right: 8px; border-radius: 4px; font-weight: bold; color: #1e293b;">
+    Ecuación termoquímica:
+  </span>
+  ecuación ajustada de la reacción en la que se indica el <b>estado físico</b> de cada sustancia y el <b>calor intercambiado</b> con el entorno, normalmente como $\ce{\Delta H}$.
+</p>
+
 
 $$\begin{array}{ll}
-\ce{HgO (s) \rightarrow Hg (l) + 1/2 O2 (g)} & \ce{\Delta H = + 90,8 kJ/mol} \\
-\ce{2 HgO (s) \rightarrow 2 Hg (l) + O2 (g)} & \ce{\Delta H = + 181,6 kJ/mol} \\
-\ce{Hg (l) + 1/2 O2 (g) \rightarrow HgO (s)} & \ce{\Delta H = - 90,8 kJ/mol} \\
+\ce{HgO (s) \rightarrow Hg (l) + 1/2 O2 (g)} & \ce{\hspace{1cm} \Delta H = + 90,8 kJ/mol} \\
+\ce{2 HgO (s) \rightarrow 2 Hg (l) + O2 (g)} & \ce{\hspace{1cm} \Delta H = + 181,6 kJ/mol} \\
+\ce{Hg (l) + 1/2 O2 (g) \rightarrow HgO (s)} & \ce{\hspace{1cm} \Delta H = - 90,8 kJ/mol} \\
 \end{array}$$
 
 Si **invertimos el orden de la reacción**, se **cambia el signo** de $\ce{\Delta H_r}$.
