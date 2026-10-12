@@ -163,21 +163,25 @@ Se nombran como los hidrocarburos de los que proceden, pero con la terminación 
 
 <!--
 ##latex id=tipos_alcohol sep=2em
+\schemestart
+	\subscheme{
 \chemnameinit{\chemfig{CH_3-CH_2-C(-[2]CH_3)(-[6]OH)-CH_3}}
 \chemname{\chemfig{CH_3-CH_2-CH_2-OH}}{alcohol primario}
 \hspace{2cm}
 \chemname{\chemfig{CH_3-CH_2-CH(-[6]OH)-CH_3}}{alcohol secundario}
 \hspace{2cm}
 \chemname{\chemfig{CH_3-CH_2-C(-[2]CH_3)(-[6]OH)-CH_3}}{alcohol terciario}
+	}
+\schemestop
 -->
 
-![...](imagenes/tema03/tipos_alcohol.svg){style="display: block; margin: 0 auto; width: 25%; height: auto;"}
+![...](imagenes/tema03/tipos_alcohol.svg){style="display: block; margin: 0 auto; width: 85%; height: auto;"}
 
 Si en la molécula hay más de un grupo -OH se utiliza la terminación **"-diol"**, **"-triol"**, etc., indicando con números las posiciones donde se encuentran esos grupos. Hay importantes polialcoholes como la glicerina (*propanotriol*), la glucosa y otros hidratos de carbono.
 
 Cuando el alcohol no es la función principal, se nombra como **"hidroxi-"**, indicando el número localizador correspondiente.
 
-Ejemplo: **4-metil-3-hidroxipentanal**:
+Ejemplo: &nbsp;&nbsp; **4-metil-3-hidroxipentanal**
   
 <!--
 ##latex id=hidroxipentanal sep=2em
@@ -214,7 +218,7 @@ $\ce{\hspace{0.5cm} CH3-CH2-O-CH2-CH3}$
 
 ### **Aldehídos** {: .caja-subtitulo}
 
-Se caracterizan por tener el grupo funcional **"carbonilo"** ($\ce{-C=O}$) en un extremo de la cadena carbonada (carbono primario).
+Se caracterizan por tener el grupo funcional **"carbonilo"** ($\ce{-CO}$) en un extremo de la cadena carbonada (carbono primario).
 
 * Se nombran sustituyendo la terminación del hidrocarburo por el sufijo **"-al"**.
 * Como el grupo funcional está siempre en un extremo, no es necesario indicar su posición con un número localizador, ya que se le asigna siempre el número 1.
@@ -231,7 +235,7 @@ $\ce{\hspace{0.5cm} CHO-CH2-CH2-CHO}$
 
 ### **Cetonas** {: .caja-subtitulo}
 
-Presentan el grupo funcional **"carbonilo"** ($\ce{-C=O}$) en un carbono secundario (dentro de la cadena).
+Presentan el grupo funcional **"carbonilo"** ($\ce{-C([2]=O)-}$) en un carbono secundario (dentro de la cadena).
 
 * Se nombran sustituyendo la terminación del hidrocarburo por el sufijo **"-ona"**, indicando con el localizador más bajo posible la posición del grupo carbonilo.
 * Otra forma común de nombrarlas consiste en citar los dos radicales unidos al grupo carbonilo en orden alfabético, seguidos de la palabra **"cetona"**.
@@ -239,10 +243,10 @@ Presentan el grupo funcional **"carbonilo"** ($\ce{-C=O}$) en un carbono secunda
 
 Ejemplos:
 
-* **Butanona** (o *metil etil cetona*):
+* **Butanona** (o metil etil cetona):
 $\ce{\hspace{0.5cm}  CH3-CO-CH2-CH3}$
 
-* **Pentan-2-ona** (o *metil propil cetona*):
+* **Pentan-2-ona** (o metil propil cetona):
 $\ce{\hspace{0.5cm}  CH3-CO-CH2-CH2-CH3}$
 
 ### **Ácidos carboxílicos** {: .caja-subtitulo}
