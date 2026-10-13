@@ -505,7 +505,7 @@ Estructuras que hacen mínimas las repulsiones entre pares de enlace:
 
 
 % =========================================================================
-% 2. GEOMETRÍA trigonal PLANA (Ángulo de 120°)
+% 2. GEOMETRÍA TRIGONAL PLANA (Ángulo de 120°)
 % =========================================================================
 \node (C3) at (-3, 0.1) {}; 
 \node [label={[font=\bfseries, label distance=0.8cm]90:trigonal plana}] (O2) at (-2.5, 0.5) {}; 
