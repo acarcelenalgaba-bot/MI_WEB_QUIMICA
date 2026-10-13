@@ -464,7 +464,7 @@ Como veremos más adelante, el hecho de que el boro tenga orbitales atómicos va
 
 Las siglas **RPECV** hacen referencia a “**repulsiones entre los pares electrónicos de la capa de valencia**”.
 
-El concepto básico en el que se apoya el método es que los **pares electrónicos enlazantes** y **no enlazantes** situados sobre el átomo central **tenderán a colocarse** en la posición que haga **mínimas las repulsiones entre ellos** (ver figura más abajo).
+El concepto básico en el que se apoya el método es que los **pares electrónicos enlazantes** y **no enlazantes** situados sobre el **átomo central** tenderán a colocarse en la posición que haga **mínimas las repulsiones entre ellos** (ver figura más abajo).
 
 Los **enlaces múltiples** se **tratan**, a efectos repulsivos, **como si fueran un enlace sencillo**.
 
@@ -668,7 +668,7 @@ Otros:
 
 1. Obtener la estructura de Lewis para la molécula correspondiente.
    
-2. Considerar el número de átomos + pares no enlazantes situados sobre el átomo central (si existen enlaces múltiples, cuentan como un único par).
+2. Considerar el número de átomos + pares no enlazantes situados sobre el **átomo central** (si existen enlaces múltiples, cuentan como un único par).
    
 3. Considerar, inicialmente, la estructura que minimiza las repulsiones entre pares.
 
@@ -705,7 +705,7 @@ Para la molécula $\ce{C2H4}$ deduzca la estructura de Lewis, nombre y dibuje su
 
 ![...](imagenes/tema02/lewis_eteno.svg){style="display: block; margin: 0 auto; width: 15%; height: auto;"}
 
-Sobre cada carbono hay tres pares enlazantes (**el enlace doble cuenta como un solo par**) que se repelerán con la misma intensidad. Presentarán, por tanto una estructura trigonal plana con ángulos de 120$^{\circ}$.
+Sobre cada carbono hay tres pares enlazantes (**el enlace doble cuenta como un solo par**) que se repelerán con la misma intensidad. Presentarán, por tanto una estructura trigonal plana con ángulos de aproximadamente 120$^{\circ}$.
 
 <!--
 ##latex id=geometria_eteno sep=2em
@@ -750,11 +750,11 @@ Si consideramos las uniones del cloro con todos los elementos de su mismo perío
 
 ### **Polaridad de las moléculas** {: .caja-subtitulo}
 
-Puesto que el momento dipolar es una magnitud vectorial, la suma de varios momentos dipolares puede ser cero. Esto implica que una molécula puede tener enlaces polares pero en conjunto ser **apolar al anularse los respectivos momentos dipolares en función de su geometría**:
+Puesto que el momento dipolar es una magnitud vectorial, la suma de varios momentos dipolares de enlace puede ser cero. Esto implica que una molécula puede tener enlaces polares pero en conjunto ser **apolar al anularse los respectivos momentos dipolares de enlace en función de su geometría**:
 
-**Molécula de $\ce{CO2}$**. Aunque los dos enlaces CO son polares, la molécula, en conjunto, es **apolar**, ya que el **momento dipolar total** resultante es **nulo**.
+**Molécula de $\ce{CO2}$**. Aunque los dos enlaces CO son polares, la molécula, en conjunto, es **apolar**, ya que debido a la geometría simétrica de la molécula el **momento dipolar total** resultante es **nulo**.
 
-**Molécula de $\ce{H2O}$**. Los momentos dipolares de los dos enlaces H-O se suman para dar un **momento dipolar total no nulo**. La molécula es **polar**.
+**Molécula de $\ce{H2O}$**. Puesto que la geometría de la molécula no es totalmente simétrica, los momentos dipolares de los dos enlaces H-O se suman para dar un **momento dipolar total no nulo**. La molécula es **polar**.
 
 ![...](imagenes/tema02/polaridad1.png){style="display: block; margin: 0 auto; width: 65%; height: auto;"}
 
