@@ -682,9 +682,9 @@ Otros:
     </div>
     </center>
     
-    La existencia de pares no enlazantes explica la diferencia en el valor esperado en el ángulo de enlace respecto del original.
+    La existencia de pares no enlazantes en la molécula explica la diferencia en el valor esperado en el ángulo de enlace respecto del original.
 
-![...](imagenes/tema02/angulos.png){style="display: block; margin: 0 auto; width: 65%; height: auto;"}
+![...](imagenes/tema02/angulos.png){style="display: block; margin: 0 auto; width: 95%; height: auto;"}
 
 **Ejemplo de geometría**
 
