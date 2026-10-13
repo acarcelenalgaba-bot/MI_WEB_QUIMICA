@@ -668,7 +668,7 @@ Otros:
 
 1. Obtener la estructura de Lewis para la molécula correspondiente.
    
-2. Considerar el número de átomos + pares no enlazantes situados sobre el **átomo central** (si existen enlaces múltiples, cuentan como un único par).
+2. Considerar el **número de átomos + pares no enlazantes** situados sobre el **átomo central** (si existen enlaces múltiples, cuentan como un único par).
    
 3. Considerar, inicialmente, la estructura que minimiza las repulsiones entre pares.
 
@@ -681,6 +681,10 @@ Otros:
         Enlazante - enlazante (menor repulsión)
     </div>
     </center>
+    
+    La existencia de pares no enlazantes explica la diferencia en el valor esperado en el ángulo de enlace respecto del original.
+
+![...](imagenes/tema02/angulos.png){style="display: block; margin: 0 auto; width: 65%; height: auto;"}
 
 **Ejemplo de geometría**
 
