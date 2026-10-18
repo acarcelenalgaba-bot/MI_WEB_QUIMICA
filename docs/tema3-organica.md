@@ -458,7 +458,7 @@ Los compuestos presentan idéntica conectividad molecular pero difieren en la or
 
 ![...](imagenes/tema03/cis.svg){style="display: block; margin: 0 auto; width: 45%; height: auto;"}
 
-* **Isomería Óptica:** Ocurre ante la presencia de un carbono asimétrico o quiral (unido a 4 sustituyentes distintos). Da lugar a enantiómeros, imágenes especulares no superponibles que desvían la luz polarizada hacia la derecha (dextrógiro) o hacia la izquierda (levógiro).
+* **Isomería Óptica:** Ocurre ante la presencia de un **carbono asimétrico** o **quiral** (unido a 4 sustituyentes distintos). Da lugar a enantiómeros, imágenes especulares no superponibles que desvían la luz polarizada hacia la derecha (dextrógiro) o hacia la izquierda (levógiro).
 
 <!--
 ##latex id=optica sep=2em
