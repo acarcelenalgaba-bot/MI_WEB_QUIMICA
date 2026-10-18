@@ -198,6 +198,17 @@ Se encuentran ampliamente distribuidos en productos naturales, como los taninos.
 
 Se nombran como los alcoholes, con la terminación **"-ol"** añadida al nombre del hidrocarburo, cuando el grupo OH es la función principal.
 
+<!--
+##latex id=fenol sep=2em
+\schemestart
+	\subscheme{
+        \chemfig{[0,1.2]*6(=-=-(-[2]OH)=-)} 
+    }
+\schemestop
+-->
+
+![...](imagenes/tema03/fenol.svg){style="display: block; margin: 0 auto; width: 8%; height: auto;"}
+
 ### **Éteres** {: .caja-subtitulo}
 
 Son compuestos en los que un átomo de oxígeno está unido a dos radicales alquilo o arilo: **R-O-R'**.
@@ -223,7 +234,7 @@ Se caracterizan por tener el grupo funcional **"carbonilo"** ($\ce{-CO}$) en un 
 * Se nombran sustituyendo la terminación del hidrocarburo por el sufijo **"-al"**.
 * Como el grupo funcional está siempre en un extremo, no es necesario indicar su posición con un número localizador, ya que se le asigna siempre el número 1.
 * Si existen dos grupos carbonilos (uno en cada extremo), se utiliza la terminación **"-dial"**.
-* Cuando el grupo $\ce{-CHO}$ no actúa como función principal, se nombra con el prefijo **"formil-"**.
+* Cuando el grupo $\ce{-CHO}$ no actúa como función principal, se nombra con el prefijo **"formil-"** u **"oxo"** cuando el carbono del grupo aldehído forma parte del cómputo de la cadena principal.
 
 Ejemplos:
 
@@ -358,22 +369,30 @@ El orden decreciente de prioridad es el siguiente:
 
 | Grupo Funcional | Sufijo (Función Principal) | Prefijo (Función Secundaria) |
 | :--- | :--- | :--- |
-| 1. **Ácidos carboxílicos** ($\ce{-COOH}$) |  Ácido ...oico |  Carboxi- |
-| 2. **Ésteres** ($\ce{-COO-R}$) |  ...ato de ...ilo |  Alcoxicarbonil- |
-| 3. **Amidas** ($\ce{-CONH2}$) |  ...amida |  Carbamoil- |
-| 4. **Nitrilos** ($\ce{-CN}$) |  ...nitrilo |  Ciano- |
-| 5. **Aldehídos** ($\ce{-CHO}$) |  ...al |  Formil- (u Oxo-) |
-| 6. **Cetonas** ($\ce{-CO-}$) |  ...ona | Oxo- |
-| 7. **Alcoholes** ($\ce{-OH}$) |  ...ol |  Hidroxi- |
-| 8. **Aminas** ($\ce{-NH2}$) |  ...amina |  Amino- |
-| 9. **Éteres** ($\ce{-O-}$) |  ...oxi... |  Alcoxi- |
-| 10. **Dobles enlaces** ($\ce{C=C}$) |  ...eno |
-| 11. **Triples enlaces** ($\ce{C \equiv C}$) |  ...ino |
-| 12. **Halógenos** ($\ce{-X}$) e **Inertes/Radicales** ($\ce{-R}$) | Siempre secundarios |
+| 1. **Ácido carboxílico** ($\ce{-COOH}$) |  Ácido ...oico |  Carboxi- |
+| 2. **Éster** ($\ce{-COO-R}$) |  ...ato de ...ilo |  Alcoxicarbonil- |
+| 3. **Amida** ($\ce{-CONH2}$) |  ...amida |  Carbamoil- |
+| 4. **Nitrilo** ($\ce{-CN}$) |  ...nitrilo |  Ciano- |
+| 5. **Aldehído** ($\ce{-CHO}$) |  ...al |  Formil- (u Oxo- cuando el carbono del grupo aldehído forma parte del cómputo de la cadena principal) |
+| 6. **Cetona** ($\ce{-CO-}$) |  ...ona | Oxo- |
+| 7. **Alcohol** ($\ce{-OH}$) |  ...ol |  Hidroxi- |
+| 8. **Amina** ($\ce{-NH2}$) |  ...amina |  Amino- |
+| 9. **Éter** ($\ce{-O-}$) |  ...oxi... |  Alcoxi- (raíz del grupo alquilo + sufijo -oxi)|
+| 10. **Dobles enlace** ($\ce{C=C}$) |  ...eno |
+| 11. **Triples enlace** ($\ce{C \equiv C}$) |  ...ino |
+| 12. **Halógeno** ($\ce{-X}$), **Nitro** ($\ce{-NO2}$) y **Radicales** ($\ce{-R}$) | Siempre secundarios |
 
 ## **4. Isomería**
 
 Se llaman **isómeros** a aquellos compuestos diferentes que tienen la misma fórmula molecular pero distintas propiedades físicas o químicas debido a una disposición estructural o espacial diferente.
+
+Ejemplo: 
+
+Tanto el dimetileter ($\ce{CH3-O-CH3}$) como el etanol ($\ce{CH3-CH2-OH}$) presentan la misma fórmula molecular ($\ce{C2H6O}$).
+
+Los tipos de isomería que podemos encontrar son:
+
+![...](imagenes/tema03/tipos_isomeria.png){style="display: block; margin: 0 auto; width: 80%; height: auto;"}
 
 ### **1. Isomería Estructural o Constitucional** {: .caja-subtitulo}
 
