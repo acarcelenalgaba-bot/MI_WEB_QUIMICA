@@ -1,686 +1,235 @@
 # Tema 4: Termoquímica
 
-## **1. Introducción a la Termoquímica**
+## **1. Introducción**.
 
-La **termodinámica** es la ciencia que estudia las variaciones de energía que acompañan a los procesos físicos y químicos.
+La **termodinámica** es la ciencia que estudia las variaciones de energía que acompañan a los procesos físicos y químicos con su entorno.
 
 La **termoquímica** es la parte de la termodinámica que se centra y estudia el intercambio de energía en las reacciones químicas.
 
-Todas las reacciones químicas absorben o liberan energía, por lo general en forma de calor.
+Se distinguen dos formas de intercambio de energía entre el sistema y su entorno:
 
-![...](imagenes/tema04/td1.png){style="display: block; margin: 0 auto; width: 20%; height: auto; border: 1px solid #333;"}
+*   **Trabajo ($\ce{W}$)**
+*   **Calor ($\ce{Q}$)**
 
-### **La energía** {: .caja-subtitulo}
+$\ce{Q}$ y $\ce{W}$ se consideran positivos si entra energía en el sistema, y negativos si sale energía del sistema.
 
-Es una propiedad de los cuerpos o sistemas que se relaciona con su capacidad para producir cambios en otros cuerpos o sistemas o en ellos mismos.
+*   $\ce{Q > 0 \rightarrow}$ calor absorbido por el sistema.
+*   $\ce{Q < 0 \rightarrow}$ calor desprendido por el sistema.
+*   $\ce{W > 0 \rightarrow}$ trabajo realizado sobre el sistema.
+*   $\ce{W < 0 \rightarrow}$ trabajo realizado por el sistema.
 
-La unidad de energía en el S.I. es el **julio** (**J**)
+![...](imagenes/tema04/sistema_entorno.png){ style="display: block; margin: 0 auto; width: 60%; height: auto;" }
 
-Otra unidad: la caloría (cal) $\hspace{1cm}$ 1 cal = 4,18 J
+Todas las **reacciones químicas** absorben o liberan energía, por lo general en forma de **calor**.
 
-![...](imagenes/tema04/td2.png){style="display: block; margin: 0 auto; width: 20%; height: auto; border: 1px solid #333;"}
+## **2. Primera Ley de la Termodinámica**.
 
-### **Conceptos previos** {: .caja-subtitulo}
+La primera ley de la Termodinámica es el principio de conservación de la energía aplicado a un sistema: **la energía ni se crea ni se destruye**.
 
-### **Sistemas termodinámicos** {: .caja-subtitulo}
+El cambio de energía interna de un sistema $\ce{\Delta U}$ es igual a la suma de la energía intercambiada como calor y como trabajo con el entorno:
 
-Parte del mundo físico que aislamos para su estudio mediante paredes reales o imaginarias. El resto del universo, que no forma parte del sistema, se llama **entorno**.
+$\ce{\Delta U = Q + W}$
+{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
 
-**<u>Tipos de sistemas termodinámicos</u>**:
+### **El trabajo en termodinámica** {: .caja-subtitulo }
 
-<div style="display: flex; width: 100%; border: 1px solid #ddd; font-family: sans-serif;">
+Cuando un sistema experimenta un cambio de volumen $\ce{\Delta V}$, intercambia energía mediante trabajo con su entorno. A presión constante ($\ce{p = cte}$):
 
-  <div style="flex: 1; width: 33.33%; border-right: 1px solid #ddd; display: flex; flex-direction: column;">
-    <div style="background-color: #f2f2f2; font-weight: bold; text-align: center; padding: 10px; border-bottom: 1px solid #ddd;">
-      ABIERTOS
-    </div>
-    <div style="padding: 5px;">
-      Pueden intercambiar materia y energía con su entorno
-    </div>
-    <div style="flex: 1; display: flex; align-items: center; justify-content: center; padding: 5px; border-top: 1px solid #eee;">
-      <img src="../imagenes/tema04/td3_1.png" style="max-width: 100%; max-height: 250px; object-fit: contain;">
-    </div>
-  </div>
+$$\ce{W = -p \Delta V}$$
 
-  <div style="flex: 1; width: 33.33%; border-right: 1px solid #ddd; display: flex; flex-direction: column;">
-    <div style="background-color: #f2f2f2; font-weight: bold; text-align: center; padding: 10px; border-bottom: 1px solid #ddd;">
-      CERRADOS
-    </div>
-    <div style="padding: 5px;">
-      Intercambian energía con su entorno pero no materia
-    </div>
-    <div style="flex: 1; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
-      <img src="../imagenes/tema04/td3_2.png" style="max-width: 100%; max-height: 250px; object-fit: contain;">
-    </div>
-  </div>
+*   **Expansión**: $\ce{\Delta V > 0}$ y $\ce{W < 0 \rightarrow}$ Trabajo realizado por el sistema.
+*   **Compresión**: $\ce{\Delta V < 0}$ y $\ce{W > 0 \rightarrow}$ Trabajo realizado sobre el sistema.
 
-  <div style="flex: 1; width: 33.33%; display: flex; flex-direction: column;">
-    <div style="background-color: #f2f2f2; font-weight: bold; text-align: center; padding: 10px; border-bottom: 1px solid #ddd;">
-      AISLADOS
-    </div>
-    <div style="padding: 5px;">
-      No intercambian ni materia ni energía con su entorno
-    </div>
-    <div style="flex: 1; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
-      <img src="../imagenes/tema04/td3_3.png" style="max-width: 100%; max-height: 250px; object-fit: contain;">
-    </div>
-  </div>
+Si el volumen es constante ($\ce{V = cte}$), el trabajo es nulo ($\ce{W = 0}$) y por tanto:
 
-</div>
+$\ce{\Delta U = Q}$
+{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
 
-**Ejemplos de tipos de sistemas**
+En un proceso a volumen constante, la variación de energía interna se debe sólo a la energía intercambiada mediante calor con el entorno. (Nota: Los sólidos y líquidos no experimentan casi expansión, por lo que el trabajo realizado es prácticamente nulo).
 
-<div style="display: flex; width: 100%; border: 1px solid #ddd; font-family: sans-serif;">
+## **3. Concepto de Entalpía**.
 
-  <div style="flex: 1; width: 33.33%; border-right: 1px solid #ddd; display: flex; flex-direction: column;">
-    <div style="background-color: #f2f2f2; font-weight: bold; text-align: center; padding: 10px; border-bottom: 1px solid #ddd;">
-      ABIERTOS
-    </div>
-    <div style="padding: 10px; flex-grow: 1; vertical-align: top;">
-      La hoguera necesita combustible para arder y cede CO<sub>2</sub>, vapor de agua y energía en forma de calor
-    </div>
-    <div style="height: 90%; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
-      <img src="../imagenes/tema04/td4_1.png" style="max-width: 100%; max-height: 250px; object-fit: contain;">
-    </div>
-  </div>
+La **entalpía** es una magnitud física, con unidades de energía, que se define como:
 
-  <div style="flex: 1; width: 33.33%; border-right: 1px solid #ddd; display: flex; flex-direction: column;">
-    <div style="background-color: #f2f2f2; font-weight: bold; text-align: center; padding: 10px; border-bottom: 1px solid #ddd;">
-      CERRADOS
-    </div>
-    <div style="padding: 10px; flex-grow: 1; vertical-align: top;">
-      La bombilla necesita energía eléctrica para emitir luz. Si se corta la corriente no se encenderá
-    </div>
-    <div style="height: 90%; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
-      <img src="../imagenes/tema04/td4_2.png" style="max-width: 100%; max-height: 250px; object-fit: contain;">
-    </div>
-  </div>
+$\ce{H = U + pV}$
+{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
 
-  <div style="flex: 1; width: 33.33%; display: flex; flex-direction: column;">
-    <div style="background-color: #f2f2f2; font-weight: bold; text-align: center; padding: 10px; border-bottom: 1px solid #ddd;">
-      AISLADOS
-    </div>
-    <div style="padding: 10px; flex-grow: 1; vertical-align: top;">
-      Un termo mantiene constante la temperatura del café que hayamos introducido en él
-    </div>
-    <div style="height: 90%; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
-      <img src="../imagenes/tema04/td4_3.png" style="max-width: 100%; max-height: 250px; object-fit: contain;">
-    </div>
-  </div>
+### **Variación de entalpía a presión constante** {: .caja-subtitulo }
 
-</div>
+$$\ce{\Delta H = \Delta U + p\Delta V = (Q + W) + p\Delta V}$$
 
-### **Variables termodinámicas** {: .caja-subtitulo}
+Sabiendo que $\ce{W = - p\Delta V}$:
 
-Son las magnitudes físicas y químicas que caracterizan a un sistema termodinámico. Un estado del sistema viene determinado por los valores que toman dichas variables.
+$$\ce{\Delta H = Q - p\Delta V + p\Delta V = Q}$$
 
-**<u>Tipos</u>**:
+En un proceso a **presión constante**, la variación de entalpía del sistema es igual a la energía intercambiada mediante calor.
 
-- **Extensivas**: su valor depende de la cantidad de materia del sistema. La
-masa, el volumen, la cantidad de sustancia, la energía interna, la entropía,
-etc.
+Utilizando la expresión $\ce{pV = nRT}$, cuando intervienen **gases** se cumple:
 
-- **Intensivas**: su valor no depende de la cantidad de materia del sistema.
-Por ejemplo, la concentración, la densidad, la temperatura, etc.
+$$\ce{\Delta H = \Delta U + \Delta nRT}$$
 
-**Funciones de estado**: variables termodinámicas cuyo valor depende solo de los estados inicial y final de un sistema, y no del proceso seguido.
+## **4. Entalpía de reacción**.
 
-<div align="center">
-<table style="border: none; border-collapse: collapse;">
-  <tr>
-    <td style="border: none;"><img src="../imagenes/tema04/td5.png" width="500"/></td>
-    <td style="border: none;"><img src="../imagenes/tema04/td6.png" width="500"/></td>
-  </tr>
-</table>
-</div>
+La diferencia entre la entalpía de los productos de una reacción, $\ce{H_{productos}}$, y la de los reactivos, $\ce{H_{reactivos}}$, se denomina **entalpía de reacción, $\ce{\Delta H_r}$**.
 
-Son funciones de estado el volumen, la presión, la energía interna, la entalpía, la entropía, etc
+$\ce{ \Delta H_r = \sum H_{productos} - \sum H_{reactivos}} $
+{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
 
-### **Transferencia de energía: calor y trabajo** {: .caja-subtitulo}
+Si $\ce{p = cte}$, el calor intercambiado con el entorno (calor de reacción) es igual a la entalpía de la reacción $\ce{\Delta H}$:
 
-Cuando aumenta o disminuye la energía de un sistema, se dice que ha habido una transferencia de energía entre el sistema y el entorno, que puede hacerse en forma de:
+*   **Reacción endotérmica**: $\ce{\qquad Q = \Delta H_r > 0 \rightarrow H_{productos} > H_{reactivos}}$
+*   **Reacción exotérmica**: $\ce{\qquad Q = \Delta H_r < 0 \rightarrow H_{productos} < H_{reactivos}}$
 
-- **Calor** ($\ce{Q}$): debida a una diferencia de temperatura.
-  
-- **Trabajo** ($\ce{W}$): debida a una fuerza que provoca un desplazamiento.
+![...](imagenes/tema04/diagramas_entalpicos.png){ style="display: block; margin: 0 auto; width: 80%; height: auto;" }
 
-**Calor y trabajo NO son formas de energía**, sino mecanismos de transferencia de energía.
+La variación de entalpía se denomina **estándar ($\ce{\Delta H_r^\circ}$)** si la presión es de 1 atm:
 
-### **Calor** {: .caja-subtitulo}
+$$\ce{ \Delta H_r^\circ = \sum H_{productos, \ 1 \ atm} - \sum H_{reactivos, \ 1 \ atm}} $$
 
-- $\ce{Q > 0}$ si el sistema absorbe energía del entorno.
+**Ejemplo:** Síntesis del amoníaco $\ce{NH3}$
 
-- $\ce{Q < 0}$ si el sistema cede energía al entorno.
+$$\ce{ N_2(g) + 3 H_2(g) \rightarrow 2 NH_3(g) \qquad \qquad \Delta H_r^\circ = -92,2 \, kJ}$$
 
-![...](imagenes/tema04/td10.png){style="display: block; margin: left; width: 90%; height: auto;"}
+La variación de entalpía estandar para esta reaccción sería:
 
-### **Trabajo** {: .caja-subtitulo}
+$\ce{ \Delta H_r^\circ = 2 \cdot \Delta H_f^\circ (NH3) - 2 \cdot \Delta H_f^\circ (H2) - \Delta H_f^\circ (N2) < 0 } $
 
-Trabajo realizado por una fuerza: fuerza por el desplazamiento de su punto de aplicación y por el coseno del ángulo que forman las direcciones de la fuerza y el desplazamiento.
+Al ser $\ce{H_{productos} < H_{reactivos}}$, $\ce{Q = \Delta H_r^\circ < 0}$, se trata de una reacción **exotérmica**.
 
-$\ce{W = F \cdot \Delta x \cdot cos \alpha}$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #fcede6" }
+## **5. Entalpía de formación**.
 
-Unidad de trabajo en S.I: **julio** (**J**)
+La **entalpía estándar (molar) de formación de un compuesto ($\ce{\Delta H_f^\circ}$)** es igual al cambio de entalpía de la reacción en la que se forma 1 mol de ese compuesto a la presión constante de 1 atm y una temperatura fija de 25 ºC, a partir de los elementos que lo componen en sus estados estables a esa presión y temperatura. También se denomina **calor de formación**.
 
-![...](imagenes/tema04/td7.png){style="display: block; margin: left; width: 70%; height: auto; "}
-
-**Trabajo de expansión-compresión** asociado a los cambios de volumen, $\ce{\Delta V}$, que sufre un sistema sometido a una presión, p.
-
-$\ce{\hspace{5cm} W = F \cdot \Delta x \cdot cos \alpha \hspace{1cm} \longrightarrow \hspace{1cm} W = F \cdot \Delta x }$
-
+**Ejemplo:** Formación de agua a partir de $\ce{O2}$ e $\ce{H2}$
 $$
-\left\{
-\begin{array}{c}
-\ce{\alpha \; = 0} \\
-\ce{cos \alpha \; = 1}
-\end{array}
-\right\} \quad \ce{F = p \cdot S} \quad 
-\left\{
-\begin{array}{l}
-\ce{p, presión a la que esta sometido el gas} \\
-\ce{S, la sección del cilindro}
-\end{array}
-\right.
+ H_2(g, 1 \text{ atm}, 25^\circ\text{C}) + \frac{1}{2} O_2(g, 1 \text{ atm}, 25^\circ\text{C}) \rightarrow H_2O(l, 1 \text{ atm}, 25^\circ\text{C}) 
+$$
+$$
+ \Delta H_r = -285,8 \, \text{kJ} \Rightarrow \Delta H_f^\circ [H_2O(l)] = -285,8 \, \text{kJ} 
 $$
 
-$\ce{W = - p \cdot \Delta V}$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #fcede6" }
-
-![...](imagenes/tema04/td8.png){style="display: block; margin: left; width: 50%; height: auto; border: 1px solid #333;"}
-
-- En un proceso de expansión: $\ce{\Delta V > 0 \; \rightarrow \; W < 0}$ trabajo hecho por el sistema sobre el entorno.
-
-- En un proceso de compresión: $\ce{\Delta V < 0 \; \rightarrow \; W > 0}$ trabajo hecho sobre el sistema.
-
-## **2. Principios de la Termodinámica**
-
-### **Primer principio de la termodinámica** {: .caja-subtitulo}
-
-Es en esencia el principio de conservación de la energía aplicado a cualquier proceso termodinámico, controlando los intercambios de energía.
-
-**Energía interna** (**$\ce{U}$**): suma de las energías de todas las partículas que forman el sistema (Energía cinética de las partículas, energía potencial, energía vibracional...)
-
-No puede conocerse $\ce{U}$ en valor absoluto, pero si sus variaciones, $\ce{\Delta U}$, en función del calor, $\ce{Q}$, y del trabajo $\ce{W}$, intercambiados con el entorno durante un proceso.
-
-La variación de la energía interna de un sistema es igual a la suma del calor y del trabajo, intercambiado con el entorno.
-
-$\ce{\Delta U = W + Q}$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #fcede6" }
-
-- $\ce{\Delta U > 0}$, si absorbe calor, $\ce{+Q}$, o si se hace un trabajo sobre él, $\ce{+W}$ (compresión).
-
-- $\ce{\Delta U < 0}$, si pierde calor, $\ce{-Q}$, o si efectúa un trabajo sobre el entorno, $\ce{-W}$ (expansión).
-
-![...](imagenes/tema04/td24.png){style="display: block; margin: left; width: 30%; height: auto; border: 1px solid #333;"}
-
-La **energía interna** es una **función de estado**.
-
-### **Aplicaciones del primer principio** {: .caja-subtitulo}
-
-Las reacciones químicas, suelen realizarse o bien a $\ce{p = cte}$ o bien a $\ce{V = cte}$. El primer principio sirve para estudiar los intercambios de energía en los procesos químicos.
-
-<p style="font-family: sans-serif;">
-  <span style="background-color: #e2e8f0; border: 1px solid #cbd5e1; padding: 4px 8px; margin-right: 8px; border-radius: 4px; font-weight: bold; color: #1e293b;">
-    Procesos isocóricos (a volumen constante):
-  </span>
-  Reacciones que se llevan a cabo en un <b>recipiente cerrado</b>.
-</p>
-
-Como $\ce{V = cte \; \Longrightarrow \; W = 0}$.
-
-El calor que se absorbe o se desprende en la reacción, $\ce{Q_\text{v}}$ (calor a volumen cte), coincide con la variación de la energía interna que se produce en dicha reacción.
+El cambio de entalpía estándar para una reacción es igual a la suma de las entalpías estándar de formación de los productos menos la suma de las entalpías estándar de formación de los reactivos:
 
 $$
-\begin{array}{l}
-\ce{\Delta U = Q + W} \\
-\ce{\Delta U = Q - p \cdot \Delta V}
-\end{array} \hspace{1.5cm} \ce{V = cte \rightarrow \Delta V = 0}
+ \Delta H_r^\circ = \sum \Delta H_f^\circ \text{ (productos)} - \sum \Delta H_f^\circ \text{ (reactivos)} 
 $$
 
-$\ce{\Delta U = Q_\text{v}}$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #fcede6" }
+*   $\Delta H_f^\circ = 0$ para las especies elementales en su estado estable.
 
-Si $\ce{Qv > 0}$, reacción endotérmica, recibe calor del entorno y $\ce{\Delta U > 0}$
+Para una reacción química: $aA + bB \rightarrow cC + dD$
+$$
+ \Delta H_r^\circ = [c \Delta H_f^\circ(C) + d \Delta H_f^\circ(D)] - [a \Delta H_f^\circ(A) + b \Delta H_f^\circ(B)] 
+$$
 
-Si $\ce{Qv < 0}$, reacción exotérmica, cede calor al entorno y $\ce{\Delta U < 0}$
+**Ejemplo**:
 
-<p style="font-family: sans-serif;">
-  <span style="background-color: #e2e8f0; border: 1px solid #cbd5e1; padding: 4px 8px; margin-right: 8px; border-radius: 4px; font-weight: bold; color: #1e293b;">
-    Procesos isobáricos (a presión constante):
-  </span>
-  Reacciones que se llevan a cabo en un recipiente <b>abierto</b> y a <b>presión atmosférica</b>.
-</p>
-
-Calor que se absorbe o se desprende en la reacción, $\ce{Q_\text{p}}$ (calor a p = cte)
-
-$$\ce{\Delta U = Q + W = Q - p \cdot \Delta V}$$
-
-$\ce{Q_\text{p} = \Delta U + p \cdot \Delta V}$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #fcede6" }
-
-Para expresar la transferencia de calor entre el sistema y el entorno en procesos a p = cte se suele utilizar una nueva magnitud, la **entalpía**, **H**: $\ce{\quad H = U + p \cdot V}$
-
-$\ce{Q_\text{p} = \Delta U + p \cdot \Delta V = (U_2 - U_1) + p \cdot (V_2 - V_1) = U_2 - U_1 + p \cdot V_2 - p \cdot V_1}$
-
-$\ce{Q_\text{p} = (U_2 + p \cdot V_2) - (U_1 + p \cdot V_1) = H_2 - H_1}$
-
-$\ce{p = cte \; \rightarrow \; p_1 = p_2 \hspace{2cm} Q_\text{p} = H_2 - H_1 = \Delta H}$
-
-$\ce{Q_\text{p} = \Delta H}$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #fcede6" }
-
-Reacción **endotérmica**: $\ce{\quad Q_\text{p} > 0 \; \rightarrow \; H_{productos} > H_{reactivos} \; \rightarrow \; \Delta H > 0}$
-
-Reacción **exotérmica**: $\ce{\quad Q_\text{p} < 0 \; \rightarrow \; H_{productos} < H_{reactivos} \; \rightarrow \; \Delta H < 0 }$
-
-### **Relación entre Qp y Qv** {: .caja-subtitulo}
-
-La expresión que relaciona los calores a volumen y a presión constante es:
-
-$\ce{\hspace{5cm} \Delta H = \Delta U + p \cdot \Delta V \quad \rightarrow \quad}$ <span style="border: 2px solid #34077d; border-radius: 8px; background-color: #fcede6; padding: 4px 8px; display: inline-block;">$\ce{Q_\text{p} = Q_\text{v} + p \cdot \Delta V}$</span>
-
-- Si la **reacción química** se produce entre **sólidos**, **líquidos** o en **disolución**, no se producirán variaciones apreciables de volumen
-
-$\hspace{4cm}$<span style="border: 2px solid #34077d; border-radius: 8px; background-color: #fcede6; padding: 4px 8px; display: inline-block;">$\ce{Q_\text{p} \approx Q_\text{v}}$</span>$\ce{ \quad \rightarrow \quad \Delta H = \Delta U}$ 
-
-- Si la **reacción química** se produce entre **gases** a una presión y temperaturas determinadas: el valor de $\ce{\Delta n}$ = **variación** de mol de gases al pasar de reactivos a productos = número de **mol de productos gaseosos** $-$ número de **mol de reactivos gaseosos** ($\ce{\Delta n = n_\text{productos} - n_\text{reactivos}}$)
-
-$$\ce{p \cdot \Delta V = \Delta n \cdot R \cdot T}$$
-
-$\ce{\hspace{5cm} Q_\text{p} = Q_\text{V} + \Delta n \cdot R \cdot T \; \rightarrow \; }$ <span style="border: 2px solid #34077d; border-radius: 8px; background-color: #fcede6; padding: 4px 8px; display: inline-block;">$\ce{\Delta H = \Delta U + \Delta n \cdot R \cdot T}$</span>
-
-En reacciones con $\ce{\Delta n = 0}$ como, $\ce{H2 (g) + F2 (g) \rightarrow 2 HF (g) \; \rightarrow \; \Delta U = \Delta H}$
-
-## **3. Procesos físicos y entalpía**
-
-### **Entalpía de reacción $\ce{\Delta H}$** {: .caja-subtitulo}
-
-**Energía intercambiada** en forma de calor a **presión constante** cuando los reactivos se han transformado en los productos.
-
-<p style="font-family: sans-serif;">
-  <span style="background-color: #e2e8f0; border: 1px solid #cbd5e1; padding: 4px 8px; margin-right: 8px; border-radius: 4px; font-weight: bold; color: #1e293b;">
-    Ecuación termoquímica:
-  </span>
-  ecuación ajustada de la reacción en la que se indica el <b>estado físico</b> de cada sustancia y el <b>calor intercambiado</b> con el entorno, normalmente como $\ce{\Delta H}$.
-</p>
-
-
-$$\begin{array}{ll}
-\ce{HgO (s) \rightarrow Hg (l) + 1/2 O2 (g)} & \ce{\hspace{1cm} \Delta H = + 90,8 kJ/mol} \\
-\ce{2 HgO (s) \rightarrow 2 Hg (l) + O2 (g)} & \ce{\hspace{1cm} \Delta H = + 181,6 kJ/mol} \\
-\ce{Hg (l) + 1/2 O2 (g) \rightarrow HgO (s)} & \ce{\hspace{1cm} \Delta H = - 90,8 kJ/mol} \\
-\end{array}$$
-
-Si **invertimos el orden de la reacción**, se **cambia el signo** de $\ce{\Delta H_r}$.
-
-Si **multiplicamos la ecuación por un número**, **también se multiplica** la $\ce{\Delta H_r}$ ya que la entalpía es una variable extensiva, depende de la cantidad de materia.
-
-### **Diagramas entálpicos** {: .caja-subtitulo}
-
-**Diagrama entálpico**: **representación gráfica** de la variación de entalpía entre los reactivos y los productos en una **reacción química**.
-
-<div style="display: flex; width: 100%; border: 1px solid #ddd; font-family: sans-serif;">
-
-  <div style="flex: 1; width: 50%; border-right: 1px solid #ddd; display: flex; flex-direction: column;">
-    <div style="background-color: #f2f2f2; font-weight: bold; text-align: center; padding: 10px; border-bottom: 1px solid #ddd;">
-      Reacción endotérmica
-    </div>
-    <div style="height: 300px; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
-      <img src="../imagenes/tema04/td11_1.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-    </div>
-    <div style="display: flex; justify-content: center; align-items: center; height: 25px;">
-        H<sup>productos</sup> &nbsp; > &nbsp; H<sub>reactivos</sub> &nbsp; &nbsp; &rarr; &nbsp; &nbsp; &Delta; H<sub>r</sub> &nbsp; > 0
-    </div>
-  </div>
-
-  <div style="flex: 1; width: 50%; border-right: 1px solid #ddd; display: flex; flex-direction: column;">
-    <div style="background-color: #f2f2f2; font-weight: bold; text-align: center; padding: 10px; border-bottom: 1px solid #ddd;">
-      Reacción exotérmica
-    </div>
-    <div style="height: 300px; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: 1px solid #eee;">
-      <img src="../imagenes/tema04/td11_2.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-    </div>
-    <div style="display: flex; justify-content: center; align-items: center; height: 25px;">
-        H<sup>productos</sup> &nbsp; < &nbsp; H<sub>reactivos</sub> &nbsp; &nbsp; &rarr; &nbsp; &nbsp; &Delta; H<sub>r</sub> &nbsp; < 0
-    </div>
-  </div>
-
-</div>
-
-## **4. Cálculo de entalpías**
-
-Para averiguar la entalpía de reacción, $\ce{\Delta H_r}$ de un proceso hay varios métodos:
-
-1. A partir de la **determinacion experimental**
-2. A partir de las **entalpías de formación**
-3. A partir de la **ley de Hess**
-4. A partir de las **entalpías de enlace**<br>
-
-
-### **1. Cálculo a partir de la determinación experimental**: {: .caja-subtitulo}
-
-El calorímetro contiene una masa de agua a cierta T, en la cual, o se produce la reacción, o está en contacto con el recipiente donde ésta ocurre.
-
-La $\ce{\Delta H_r}$ será absorbida o liberada por el agua del calorímetro, lo que hace variar su T.
-
-Como el sistema es adiabático:
-
-$\ce{Q_{reacción} + Q_{agua} = 0 \; \rightarrow \; Q_{reacción} = - Q_{agua}}$
-
-$\ce{Q_{agua} = m \cdot c_{agua} \cdot \Delta T}$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #f9f7fb" }
-
-La reacción calienta el agua, y también los componentes del calorímetro. El calor invertido en esto es específico de cada calorímetro y debe tenerse en cuenta, o se cometerá un error de medición.
-
-![...](imagenes/tema04/td12.png){style="display: block; margin: left; width: 20%; height: auto; border: 1px solid #333;"}
-
-### **2. Cálculo de la $\ce{\Delta H_R}$ a partir de entalpías estándar de formación ($\ce{\Delta H^{\circ}_f}$)** {: .caja-subtitulo}
-
-La entalpía de reacción, $\ce{\Delta H_r}$ podría calcularse: $\ce{H_{productos} - H_{reactivos}}$, pero no es posible medir el valor absoluto de H de una sustancia, solo valores relativos con respecto a una referencia arbitraria:
-
-El **punto de referencia** para la H, **es la entalpía estándar de formación** ($\ce{\Delta H^{\circ}_f}$) de **cualquier elemento**, en su forma más estable (a 1 atm y 25 $^{\circ}$C), que es **cero**. 
-
-$\ce{\Delta H^{\circ}_f}$ (C, grafito) = 0 y $\ce{\Delta H^{\circ}_f}$ (C, diamante) = 1,90 kJ/mol
-
-La definición de la **entalpía estándar de formación** $\ce{\Delta H^{\circ}_f}$ de un compuesto sería el calor asociado a la formación de 1 mol de compuesto a partir de sus elementos a una presión de 1 atm.
-
-A partir de las entalpías de formación estándar es posible obtener entalpías de reacción:
-
-$\ce{\Delta H^{\circ}_{reacción} = \sum n \cdot \Delta H^{\circ}_f (productos) - \sum m \cdot \Delta H^{\circ}_f (reactivos)}$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #f9f7fb" }
-
-$\ce{n, m =}$ coeficientes estequiométricos de productos y reactivos; el estado estándar se designa con el símbolo «$^{\circ}$», y especifica una T, que utiliza valores de $\ce{\Delta H^{\circ}_f}$ a 25 $^{\circ}$C
-
-Las entalpías de formación estándar están tabuladas, a 25 $^{\circ}$C
-
-![...](imagenes/tema04/td13.png){style="display: block; margin: left; width: 80%; height: auto; border: 1px solid #333;"}
-
-### **3. Cálculo a partir de la ley de Hess** {: .caja-subtitulo}
-
-La variación de entalpía que se produce cuando ocurre una determinada reacción es la misma tanto si ésta se produce en una sola etapa, como en varias etapas.
-
-Cuando una reacción química puede expresarse como suma algebraica de otras, su $\ce{\Delta H}$ reacción es igual a la misma suma algebraica de las $\ce{\Delta H}$ de las reacciones parciales.
-
-![...](imagenes/tema04/td14.png){style="display: block; margin: left; width: 60%; height: auto; border: 1px solid #333;"}
-
-**Ejercicio de la ley de Hess**
-
-Halla la entalpía de formación del amoniaco a partir de las siguientes ecuaciones:
-
-$\ce{1) 2 H2 (g) + N2 (g) \rightarrow N2H4 (g) \hspace{1.4cm} \Delta H^{\circ}_1 = + 95,4 kJ}$
-
-$\ce{2) N2H4 (g) + H2 (g) \rightarrow 2 NH3 (g) \hspace{1cm} \Delta H^{\circ}_2 = - 187,6 kJ}$
+Dada las entalpías estándar de formación, $\ce{\Delta H_f^\circ \ PCl3 (l) = - 317,7 kJ}$; $\ce{\Delta H_f^\circ \ PCl5 (s) = - 454,8 kJ}$, calcula el cambio de estalpía estándar $\ce{\Delta H_r^\circ }$ para la reacción: $\ce{PCl3 (l) + Cl2 (g) \rightarrow PCl5 (s) }$
 
 **Solución**:
 
-La entalpía de reacción (formación del $\ce{NH3}$) que nos piden es de la siguiente reacción: 
+El $\ce{Cl2 (g)}$ es la forma estable del cloro a 1 atm por lo que $\ce{\Delta H_f^\circ Cl2 (g) = 0}$
 
-$\ce{\hspace{3cm} 3 H2 (g) + N2 (g) \rightarrow 2 NH3 (g) \hspace{1.4cm} \Delta H^{\circ}_r = ?}$
+$$\ce{\Delta H_r^\circ = \Delta H_f^\circ \ PCl5 (s) - (\Delta H_f^\circ \ PCl3 (l) + \Delta H_f^\circ \ Cl2 (g)) = -454,8 - (- 317,7 + 0) = - 137,1 kJ}$$
 
-Aplicando la ley de Hess, si sumamos las dos reacciones dadas obtenemos la ecuación buscada. 
+## **6. Reglas de la Termoquímica (Ley de Hess)**.
+
+La **Ley de Hess** establece que la variación de entalpía de una reacción química depende únicamente de los estados inicial y final, y no del camino seguido por la reacción. Esto permite calcular entalpías de reacción sumando algebraicamente las entalpías de otras reacciones relacionadas.
+
+## **7. Energía de enlace**.
+
+La **energía de un enlace** químico es la entalpía, $\ce{\Delta H}$, de la reacción en la que se rompe un mol de dichos enlaces en estado gaseoso. También se denomina **entalpía de enlace**, pues $\ce{p = cte}$.
+
+**Ejemplo:** energía de enlace de las moléculas de $\ce{H2}$ y $\ce{Cl2}$
+
+![...](imagenes/tema04/energia_enlace.png){ style="display: block; margin: 0 auto; width: 70%; height: auto;" }
+
+El enlace de $\ce{H2}$ es más fuerte que el de $\ce{Cl2}$
+
+La entalpía de una reacción con gases se puede calcular a partir de las energías de enlace:
+
+$\ce{\Delta H_r = \sum E (enlaces rotos) - \sum E (enlaces formados)} $
+{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
+
+*   Si $\ce{\Delta H_r > 0}$: Los enlaces que hay que romper son más fuertes que los que se forman $\rightarrow$ **Reacción endotérmica**.
+*   Si $\ce{\Delta H_r < 0}$: Los enlaces que hay que romper son más débiles que los que se forman $\rightarrow$ **Reacción exotérmica**.
+
+## **8. Entropía y Segunda Ley de la Termodinámica**.
+
+Los fenómenos en los que las cosas se desordenan son más probables que aquellos que entrañan una ordenación. El cambio espontáneo de una disposición ordenada a otra desordenada es consecuencia de las leyes de la probabilidad.
+
+![...](imagenes/tema04/probabilidad.png){ style="display: block; margin: 0 auto; width: 95%; height: auto;" }
+
+*   La **entropía (S)** es una magnitud que mide el **grado de desorden** de un sistema físico o químico.
+*   Es una función de estado: su variación en cualquier transformación sólo depende de los estados inicial y final.
+
+Para una reacción química:
+
+$\ce{\Delta S_r = \sum S_{productos} - \sum S_{reactivos} }$
+{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
+
+*   $S^\circ$ representa la entropía estándar de una sustancia a 1 atm y 25 ºC.
+*   La entropía de un gas es mucho mayor que la de un líquido o sólido: **$S_{\text{sólido}} < S_{\text{líquido}} \ll S_{\text{gas}}$**.
+
+![...](imagenes/tema04/entropia.png){ style="display: block; margin: 0 auto; width: 95%; height: auto;" }
+
+### **Segunda Ley de la Termodinámica** {: .caja-subtitulo }
+
+Relaciona la espontaneidad de un proceso y el aumento de desorden. En un proceso espontáneo hay un incremento neto de entropía total del universo, que comprende tanto al sistema considerado como al entorno:
+
+$$\ce{ \Delta S_{total} = (\Delta S_{sistema} + \Delta S_{entorno}) > 0 }$$
+
+Una **reacción es espontánea** si $\Delta S_{\text{total}} > 0$. En un proceso que se encuentra en equilibrio la entropía se mantiene constante ($\Delta S_{\text{total}} = 0$).
+
+**Ejemplo:** Corrosión espontánea del hierro
+
+$$\ce{ 2 Fe (s) + \dfrac{3}{2} O2 (g) + 3 H2O \rightarrow 2 Fe(OH)3(s) \qquad \Delta S_{sistema} < 0 }$$
+
+Durante la reacción se desprende calor que pasa al entorno, el cual aumenta su entropía, de forma que $\ce{\Delta S_{total} > 0}$.
+
+### **Tercera Ley de la Termodinámica** {: .caja-subtitulo }
+
+La **entropía de una sustancia cristalina pura**, con ordenamiento perfecto, es **nula** en el **cero absoluto**.
+
+## **9. Energía libre de Gibbs**.
+
+La **energía libre de Gibbs (G)** permite evaluar la espontaneidad de un proceso sin tener en cuenta la variación de entropía del entorno. Se define como:
+
+$$G = H - TS$$
+{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
+*(donde T = temperatura absoluta, H = entalpía, S = entropía)*
+
+Es una función de estado que sólo depende de los estados inicial y final del sistema. Cuando un sistema experimenta un cambio a temperatura y presión constantes se puede determinar la espontaneidad del proceso evaluando el cambio de G:
 
 $$
-\begin{aligned}
-&\text{Etapa 1.} \quad \ce{2 H2 (g) + N2 (g) \rightarrow \cancel{\ce{N2H4}} (g)} \hspace{1.4cm} \Delta \ce{H}^{\circ}_1 = + 95,4 \text{ kJ} \\[0.1cm]
-&\text{Etapa 2.} \quad \ce{\cancel{\ce{N2H4}} (g) + H2 (g) \rightarrow 2 NH3 (g)} \hspace{1cm} \Delta \ce{H}^{\circ}_2 = - 187,6 \text{ kJ} \\[0.1cm]
-\hline \\[-0.05cm]
-&\text{Reacción} \quad \ce{3 H2 (g) + N2 (g) \rightarrow 2 NH3 (g)} 
-\end{aligned}
+ \Delta G_r = \Delta H_r - T \Delta S_r 
 $$
 
-$\ce{\Delta H^{\circ}_{reacción} = \Delta H^{\circ}_1 + \Delta H^{\circ}_2 = + 95,4 kJ + (- 187,6 kJ) = - 92,2 kJ }$
+Para una reacción química: $\Delta G = \sum G_{\text{productos}} - \sum G_{\text{reactivos}}$
 
-Pero en ella se forman 2 mol de $\ce{NH3}$ por lo tanto, la entalpía de formación del $\ce{NH3}$ sería: $\ce{- 92,2 / 2 = - 46,1 kJ/mol}$
+*   Si $\Delta G_r < 0$ la reacción es **espontánea**.
+*   Si $\Delta G_r > 0$ la reacción inversa es espontánea (**no espontánea**).
+*   Si $\Delta G_r = 0$ el sistema está en **equilibrio**.
 
-La ley de Hess permite tratar las ecuaciones termoquímicas como ecuaciones algebraicas, pudiendo sumarlas, restarlas o multiplicarlas por un número, junto a las entalpías de reacción correspondientes.
+![...](imagenes/tema04/gibbs.png){ style="display: block; margin: 0 auto; width: 80%; height: auto;" }
 
-### **4. Cáculo a partir de la entalpía de enlace** {: .caja-subtitulo}
+### **Energía libre y tipos de reacciones** {: .caja-subtitulo }
 
-La **entalpía de enlace** es un **valor medio de la energía** que se requiere para romper **1 mol de dichos enlaces**.
+Atendiendo al signo de $\Delta H$ y $\Delta S$, tenemos cuatro casos posibles:
 
-Cuanto **mayor** sea la **energía de enlace**, **más fuerte y más estable** será dicho enlace.
+1.  **Reacciones exotérmicas ($\Delta H < 0$) con aumento de desorden ($\Delta S > 0$)**: $\Delta G < 0$ a cualquier temperatura. **Siempre espontánea**.
+2.  **Reacciones endotérmicas ($\Delta H > 0$) con aumento de desorden ($\Delta S > 0$)**: $\Delta G < 0$ solo a **temperaturas altas**. Espontánea a altas temperaturas.
+3.  **Reacciones exotérmicas ($\Delta H < 0$) con aumento de orden ($\Delta S < 0$)**: $\Delta G < 0$ solo a **temperaturas bajas**. Espontánea a temperaturas bajas.
+4.  **Reacciones endotérmicas ($\Delta H > 0$) con aumento de orden ($\Delta S < 0$)**: $\Delta G > 0$ siempre. **No espontánea**.
 
-Una **reacción** consiste en una **reordenación de los átomos** de los reactivos para formar los productos. Esto supone la **ruptura de ciertos enlaces** y la **formación de otros nuevos**.
+![...](imagenes/tema04/tipos_reacciones.png){ style="display: block; margin: 0 auto; width: 50%; height: auto;" }
 
-La energía intercambiada en ese proceso de ruptura y formación de enlaces es otra forma de determinar “aproximadamente” la entalpía de una reacción $\ce{\Delta H_r}$:
-
-$\ce{\Delta H^{\circ}_{reacción} = \sum (energía de enlaces rotos) - \sum (energía de enlaces formados)}$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #f9f7fb" }
-
-![...](imagenes/tema04/td15.png){style="display: block; margin: 0 auto; width: 70%; height: auto; border: 1px solid #333;"}
-
-**Ejercicio de la entalpía de enlace**
-
-Calcula la entalpía estándar de la reacción de combustión del metanol:
-
-$\ce{\hspace{5cm} CH3OH + 3/2 O2 \rightarrow CO2 + 2 H2O}$
-
-a partir de los datos de entalpías de enlace (kJ/mol): $\ce{C-H = 414; C-O = 352; O=O = 498; O-H = 460; C=O = 745}$
-
-**Solución**:
-
-<!--
-##latex id=combustion_metanol sep=2em
-\schemestart[0, 0.8, 1.5]
-	\subscheme{
-		\chemfig{C(-[2]H)(-[4]H)(-[6]H)-O-H} 
-        \hspace{2em}
-		+ \hspace{2em} 3/2
-        \hspace{1em}
-		\chemfig{O = O}
-        \hspace{2em}
-		\arrow{->}[0,1] 
-        \hspace{2em}
-    \chemfig{O = C = O} 
-        \hspace{2em}
-    + \hspace{2em} 2 
-      \hspace{1em}
-    \chemfig{H - O - H} 
-		}
-\schemestop
--->
-
-![...](imagenes/tema04/combustion_metanol.svg){style="display: block; margin: 0 auto; width: 95%; height: auto;"}
-
+**Problema resuelto:** Halla a qué temperatura es espontánea la siguiente reacción, para la cual $\Delta H^\circ = 178,2 \text{ kJ}$ y $\Delta S^\circ = 0,1610 \text{ kJ/K}$:
 $$
-\begin{array}{ll}
-\textbf{Enlaces que se rompen} & \textbf{Enlaces que se forman} \\
-\ce{3 enlaces C-H} & \ce{dos enlaces C=O} \\
-\ce{1 enlace C-O} & \ce{cuatro enlaces O-H} \\
-\ce{1 enlace O-H} & \\
-\ce{3/2 enlace O=O} & \\
-\end{array}
+ \text{CaCO}_3(s) \rightarrow \text{CaO}(s) + \text{CO}_2(g) 
 $$
-
-Aplicando la expresión:
-
-$\ce{\Delta H^{\circ}_{reacción} = \sum (energía de enlaces rotos) - \sum (energía de enlaces formados)}$
-
-$\ce{\Delta H^{\circ}_{reacción} = (3 mol \cdot 414 kJ/mol + 1 mol \cdot  352 kJ/mol + 1 mol \cdot 460 kJ/mol + }$ 
-
-$\ce{\hspace{2cm} + 3/2 mol \cdot 498 kJ/mol) - (2 mol \cdot 745 kJ/mol + 4 mol \cdot 460 kJ/mol)}$
-
-$\ce{\Delta H^{\circ}_{reacción} = - 529 kJ }$
-
-## **5. Segundo principio y Entropía**
-
-El primer principio establece que cuando un sistema experimenta una transformación, se cumple que:
-
-$\ce{\hspace{3cm} \Delta U = Q + W}$
-
-La energía total se conserva, pero hay procesos:
-
-- **Espontáneos**: se producen sin ninguna intervención externa
-
-- **No espontáneos**: se dan gracias a una acción externa continua
-
-En principio, puede parecer que solo los procesos exotérmicos son espontáneos, pero hay procesos endotérmicos que también lo son.
-
-Para predecir en qué sentido un sistema va a evolucionar de forma espontánea, el primer principio no es suficiente, solo $\ce{\Delta H}$ no sirve para determinar la espontaneidad, necesitamos una nueva magnitud física: **ENTROPÍA**
-
-### **Concepto de entropía: S** {: .caja-subtitulo}
-
-La **entropía** mide el **grado de desorden de un sistema a nivel molecular**
-
-- Es una magnitud extensiva y función de estado
-
-- Se mide en J/K
-
-- $\ce{S_{gas} > S_{líquido} >S_{sólido}}$
-
-- La entropía de un sistema aumenta con la temperatura.
-
-Cuando un sistema intercambia energía con el entorno, la variación de entropía, depende del calor intercambiado y de la temperatura a la que se produce el intercambio.
-
-$\ce{\Delta S = \dfrac {Q}{T} }$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #f9f7fb" }
-
-![...](imagenes/tema04/td17.png){style="display: block; margin: 0 auto; width: 70%; height: auto; border: 1px solid #333;"}
-
-### **Segundo principio de la termodinámica** {: .caja-subtitulo}
-
-- Plantea la imposibilidad de que puedan producirse ciertos procesos.
-
-- Conecta la entropía y la espontaneidad de un proceso
-
-Un **sistema evoluciona de forma espontánea** si la **entropía del universo aumenta** con esa transformación.
-
-$\ce{\Delta S_{universo} > 0 }$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #f9f7fb" }
-
-$\ce{\hspace{6cm} \Delta S_{universo} = \Delta S_{sistema} + \Delta S_{entorno}}$
-
-![...](imagenes/tema04/td18.png){style="display: block; margin: 0 auto; width: 90%; height: auto; border: 1px solid #333;"}
-
-El **gas se distribuye uniformemente** entre ambos matraces; pero **NO se da el proceso inverso**: que un gas encerrado en 2 matraces se concentre espontáneamente en uno solo.
-
-### **La entropía y el segundo principio** {: .caja-subtitulo}
-
-$\ce{\Delta S_{universo} = \Delta S_{sistema} + \Delta S_{entorno}}$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #f9f7fb" }
-
-### **Reacción exotérmica** {: .caja-subtitulo}
-
-![...](imagenes/tema04/td21.png){style="display: block; margin: 0 auto; width: 50%; height: auto; border: none;"}
-
-- La **espontaneidad** de los procesos **exotérmicos** depende de cómo varíe la $\ce{\Delta S}$ del **sistema**.
-
-### **Reacción endotérmica** {: .caja-subtitulo}
-
-<div style="display: flex; width: 100%; border: none; font-family: sans-serif;">
-
-  <div style="flex: 1; width: 50%; border-right: 1px solid #ddd; display: flex; flex-direction: column;">
-    <div style="height: 300px; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: none;">
-      <img src="../imagenes/tema04/td19.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-    </div>
-  </div>
-
-  <div style="flex: 1; width: 50%; border-right: none; display: flex; flex-direction: column;">
-    <div style="height: 300px; display: flex; align-items: center; justify-content: center; padding: 10px; border-top: none;">
-      <img src="../imagenes/tema04/td20.png" style="max-width: 100%; max-height: 100%; object-fit: contain;">
-    </div>
-  </div>
-</div>
-
-- La **espontaneidad** de los procesos **endotérmicos** depende de cómo varíe la $\ce{\Delta S}$ del **entorno**.
-
-### **Variacción de entropía en una reacción** {: .caja-subtitulo}
-
-El **tercer principio** de la Termodinámica establece que:
-
-La **entropía de una sustancia pura** (elemento o compuesto) que se halle como un cristal perfecto a **0 K es cero**
-
-La **entropía nunca puede ser negativa** ya que 0 K es la temperatura más baja posible y a cualquier otra S > 0
-
-Si puede haber $\ce{\Delta S < 0}$
-
-A partir de las tablas de entropías molares de las sustancias en condiciones estándar $\ce{S^{\circ}}$, la $\ce{\Delta S^{\circ}}$ de una reacción se calcula:
-
-$\ce{\Delta S^{\circ}_{reacción} = \sum n_p \cdot S^{\circ} (productos) - \sum n_r \cdot S^{\circ} (reactivos)}$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #f9f7fb" }
-
-![...](imagenes/tema04/td22.png){style="display: block; margin: 0 auto; width: 30%; height: auto; border: 1px solid #333;"}
-
-Para una reacción genérica dada sería:
-
-$\ce{\hspace{5cm} a A + b B \rightarrow \; c C + d D}$
-
-$\ce{\hspace{2cm} \Delta S^{\circ}_{reacción} =[c \cdot S^{\circ} (C) + d \cdot S^{\circ} (D)] - [a \cdot S^{\circ} (A) + b \cdot S^{\circ} (B)]}$
-
-a, b, c y d están en mol
-
-### **Cómo averiguar el signo de la $\ce{\Delta S}$ de una reacción** {: .caja-subtitulo}
-
-Para predecir el signo de la $\ce{\Delta S}$ de una reacción si el **número de partículas de gas** es mayor en los productos que en los reactivos $\ce{\Delta S > 0}$; si es menor $\ce{\Delta S < 0}$ y si no varía $\ce{\Delta S = 0}$
-
-$\ce{C (s) +  \color{blue}{1/2 O2 (g)} \rightarrow \color{blue}{CO (g)} \hspace{2.3cm} \Delta S^{\circ} > 0}$
-
-$\ce{CaCO3 (s) \rightarrow CaO (s) + \color{blue}{CO2 (g)} \hspace{1cm} \Delta S^{\circ} > 0}$
-
-$\ce{\color{blue}{PCl3 (g)} + \color{blue}{Cl2 (g)} \rightarrow \color{blue}{PCl5 (g)} \hspace{1.6cm} \Delta S^{\circ} < 0 }$
-
-## **6. Espontaneidad y Energía Libre**
-   
-### **Energía libre de Gibbs** {: .caja-subtitulo}
-
-Para salvar la dificultad de tener que determinar la $\ce{\Delta S_{universo}}$ para poder saber si una reacción es o no espontánea, se introduce una nueva magnitud: la **energía libre de Gibbs** (**G**)
-
-$\ce{\hspace{5cm} G = H - T \cdot S}$
-
-Es una función de estado y en el S.I. se mide en **Julios** (J)
-
-T = temperatura en K. No podemos conocer su valor absoluto pero si su variación, que en condiciones de p y T constantes es:
-
-$\ce{\Delta G = \Delta H - T \cdot \Delta S}$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #f9f7fb" }
-
-<span style="color: red; font-size: 1.2em;">&#10071;</span> Un **proceso es espontáneo** si $\ce{\Delta G < 0}$
-
-Si $\ce{\Delta G > 0}$ el proceso **no es espontáneo**
-
-Si $\ce{\Delta G = 0}$ el sistema está en **equilibrio**
-
-### **Variacion de la energía libre de Gibbs en una reacción química** {: .caja-subtitulo}
-
-Se puede calcular a partir de la variación de entalpía estándar de reacción  y de la variación de entropía estándar de la reacción:
-
-$\ce{\Delta G^{\circ}_r = \Delta H^{\circ}_r - T \cdot \Delta S^{\circ}_r}$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #f9f7fb" }
-
-También se puede hallar a partir de las energías libres de formación de reactivos y productos, usando la ley de Hess.
-
-$\ce{\Delta G^{\circ}_r = \sum n_p \cdot \Delta G^{\circ}_f (productos) - \sum n_r \cdot \Delta G^{\circ}_f (reactivos)}$
-{ style="border: 2px solid #34077d; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background: #f9f7fb" }
-
-Para la reacción: $\quad \ce{\text{a} A + \text{b} B \rightarrow \text{c} C + \text{d} D}$
-
-$\ce{\hspace{2cm} \Delta G^{\circ}_r = (c \cdot \Delta G^{\circ}_f C + d \cdot \Delta G^{\circ}_f D) - (a \cdot \Delta G^{\circ}_f A + b \cdot \Delta G^{\circ}_f B)}$
-
-Cuanto más negativo es el valor de la energia libre de Gibbs, más estable es la especie química formada y más espontánea es la reacción.
-
-La energía libre de Gibbs estándar de formación de un elemento químico en su estado más estable (natural) es 0, al igual que ocurría con la entalpía estandar de formación ($\ce{N2(g)}$, $\ce{Br2(l)}$, Fe(s)...)
-
-### **Espontaneidad de las reacciones** {: .caja-subtitulo}
-
-Partiendo de la ecuación de la energía libre de Gibbs, $\ce{\Delta G = \Delta H - T \cdot \Delta S}$, se puede deducir que:
-
-- Si en una **reacción exotérmica** ($\ce{\Delta H < 0}$) se produce un aumento de la entropía ($\ce{\Delta S > 0}$), tendremos que $\ce{\Delta G < 0}$ y, por tanto, el proceso es **espontáneo**.
-  
-- Pero hay reacciones en las que los términos entálpico ($\ce{\Delta H}$) y entrópico ($\ce{T \cdot \Delta S}$) están enfrentados; en estos casos, decide el valor de la temperatura, $\ce{T}$, a la que se realiza el proceso, ya que va a determinar si ($\ce{T \cdot \Delta S}$) es más o menos negativo y por tanto si favorece o no la espontaneidad de la reacción.
-
-Por ejemplo, el carbonato de amonio se descompone desprendiendo un fuerte olor a amoniaco, según la reacción:
-
-$\ce{\hspace{2cm} (NH4)2CO3 (s) \rightarrow NH4HCO3 (s) + NH3 (g) \hspace{1cm} \Delta H = 40,2 kJ}$
-
-Esta reacción es endotérmica ($\ce{\Delta H > 0}$) y transcurre con un aumento de la entropía ($\ce{\Delta S > 0}$), luego solo será **espontánea** ($\ce{\Delta G < 0}$) a **temperaturas altas**; cuando se cumpla que: $\ce{|T \cdot \Delta S| > |\Delta H|}$
-
-### **Evaluación de la espontaneidad** {: .caja-subtitulo}
-
-Influencia de la temperatura en la espontaneidad de una reacción química:
-
-![...](imagenes/tema04/td23.png){style="display: block; margin: 0 auto; width: 90%; height: auto; border: 1px solid #333;"}
-
-<!-- ---
-
-[Descargar Tema 3 en PDF](../pdfs/tema3-termoquimica/tema3-termoquimica.pdf){ .md-button .md-button--primary } -->
+**Solución:**
+El término entrópico ($-T\Delta S < 0$) favorece la espontaneidad, mientras que el entálpico ($\Delta H > 0$) la desfavorece. La temperatura a la cual ambos términos se contrarrestan es:
+$$
+ \Delta G^\circ = \Delta H^\circ - T\Delta S^\circ = 0 \Rightarrow T = \frac{\Delta H^\circ}{\Delta S^\circ} = \frac{178,2}{0,1610} = 1107 \text{ K} 
+$$
+Por tanto, a 1107 K (834 ºC) la reacción está en equilibrio. A temperaturas mayores, el término entrópico domina y $\Delta G < 0$, siendo la reacción espontánea.
