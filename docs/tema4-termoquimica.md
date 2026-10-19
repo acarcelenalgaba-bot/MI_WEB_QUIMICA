@@ -51,16 +51,16 @@ En un proceso a volumen constante, la variación de energía interna se debe só
 
 La **entalpía** es una magnitud física, con unidades de energía, que se define como:
 
-$\ce{H = U + pV}$
+$\ce{H = U + \textrm{p} V}$
 { style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
 
 ### **Variación de entalpía a presión constante** {: .caja-subtitulo }
 
-$$\ce{\Delta H = \Delta U + p\Delta V = (Q + W) + p\Delta V}$$
+$$\ce{\Delta H = \Delta U + p \cdot \Delta V = (Q + W) + p \cdot \Delta V}$$
 
-Sabiendo que $\ce{W = - p\Delta V}$:
+Sabiendo que $\ce{W = - p \cdot \Delta V}$:
 
-$$\ce{\Delta H = Q - p\Delta V + p\Delta V = Q}$$
+$$\ce{\Delta H = Q - p \cdot \Delta V + p \cdot \Delta V = Q}$$
 
 En un proceso a **presión constante**, la variación de entalpía del sistema es igual a la energía intercambiada mediante calor.
 
@@ -70,10 +70,12 @@ $$\ce{\Delta H = \Delta U + \Delta nRT}$$
 
 ## **4. Entalpía de reacción**.
 
-La diferencia entre la entalpía de los productos de una reacción, $\ce{H_{productos}}$, y la de los reactivos, $\ce{H_{reactivos}}$, se denomina **entalpía de reacción, $\ce{\Delta H_r}$**.
+La diferencia entre la entalpía de los productos de una **reacción**, $\ce{H_{productos}}$, y la de los reactivos, $\ce{H_{reactivos}}$, se denomina **entalpía de reacción, $\ce{\Delta H_r}$**.
 
-$\ce{ \Delta H_r = \sum H_{productos} - \sum H_{reactivos}} $
+$\ce{ \Delta H_r = \sum n_p \cdot H_{productos} - \sum n_r \cdot H_{reactivos}} $
 { style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
+
+siendo $\ce{n_r}$ y $\ce{n_p}$, los moles de reactivos y productos respectivamente.
 
 Si $\ce{p = cte}$, el calor intercambiado con el entorno (calor de reacción) es igual a la entalpía de la reacción $\ce{\Delta H}$:
 
@@ -84,7 +86,7 @@ Si $\ce{p = cte}$, el calor intercambiado con el entorno (calor de reacción) es
 
 La variación de entalpía se denomina **estándar ($\ce{\Delta H_r^\circ}$)** si la presión es de 1 atm:
 
-$$\ce{ \Delta H_r^\circ = \sum H_{productos, \ 1 \ atm} - \sum H_{reactivos, \ 1 \ atm}} $$
+$$\ce{ \Delta H_r^\circ = \sum n_p \cdot H_{productos, \ 1 \ atm} - \sum n_r \cdot H_{reactivos, \ 1 \ atm}} $$
 
 **Ejemplo:** Síntesis del amoníaco $\ce{NH3}$
 
@@ -101,39 +103,73 @@ Al ser $\ce{H_{productos} < H_{reactivos}}$, $\ce{Q = \Delta H_r^\circ < 0}$, se
 La **entalpía estándar (molar) de formación de un compuesto ($\ce{\Delta H_f^\circ}$)** es igual al cambio de entalpía de la reacción en la que se forma 1 mol de ese compuesto a la presión constante de 1 atm y una temperatura fija de 25 ºC, a partir de los elementos que lo componen en sus estados estables a esa presión y temperatura. También se denomina **calor de formación**.
 
 **Ejemplo:** Formación de agua a partir de $\ce{O2}$ e $\ce{H2}$
-$$
- H_2(g, 1 \text{ atm}, 25^\circ\text{C}) + \frac{1}{2} O_2(g, 1 \text{ atm}, 25^\circ\text{C}) \rightarrow H_2O(l, 1 \text{ atm}, 25^\circ\text{C}) 
-$$
-$$
- \Delta H_r = -285,8 \, \text{kJ} \Rightarrow \Delta H_f^\circ [H_2O(l)] = -285,8 \, \text{kJ} 
-$$
+
+$$\ce{ H2 (g{,} \ 1 \ atm{,} \ 25^\circ C) + \dfrac{1}{2} O2 (g{,} \ 1 \ atm{,} \ 25^\circ C) \rightarrow H2O (l{,} \ 1 \ atm{,} 25^\circ C)} $$
+
+$$\ce{ \Delta H_r = -285,8 \, kJ \Rightarrow \Delta H_f^\circ [H2O (l)] = -285,8 \, kJ} $$
 
 El cambio de entalpía estándar para una reacción es igual a la suma de las entalpías estándar de formación de los productos menos la suma de las entalpías estándar de formación de los reactivos:
 
-$$
- \Delta H_r^\circ = \sum \Delta H_f^\circ \text{ (productos)} - \sum \Delta H_f^\circ \text{ (reactivos)} 
-$$
+$$\ce{ \Delta H_r^\circ = \sum n_p \cdot \Delta H_f^\circ (productos) - \sum n_p \cdot \Delta H_f^\circ (reactivos)} $$
 
-*   $\Delta H_f^\circ = 0$ para las especies elementales en su estado estable.
+*   $\ce{\Delta H_f^\circ = 0}$ para las especies elementales en su estado estable.
 
-Para una reacción química: $aA + bB \rightarrow cC + dD$
-$$
- \Delta H_r^\circ = [c \Delta H_f^\circ(C) + d \Delta H_f^\circ(D)] - [a \Delta H_f^\circ(A) + b \Delta H_f^\circ(B)] 
-$$
+Para una reacción química: $\ce{\qquad a A + b B \rightarrow c C + d D}$
+
+$$\ce{  \Delta H_r^\circ = [c \Delta H_f^\circ(C) + d \Delta H_f^\circ(D)] - [a \Delta H_f^\circ(A) + b \Delta H_f^\circ(B)]  }$$
 
 **Ejemplo**:
 
-Dada las entalpías estándar de formación, $\ce{\Delta H_f^\circ \ PCl3 (l) = - 317,7 kJ}$; $\ce{\Delta H_f^\circ \ PCl5 (s) = - 454,8 kJ}$, calcula el cambio de estalpía estándar $\ce{\Delta H_r^\circ }$ para la reacción: $\ce{PCl3 (l) + Cl2 (g) \rightarrow PCl5 (s) }$
+Dada las entalpías estándar de formación, $\ce{\Delta H_f^\circ \ PCl3 (l) = - 317,7 kJ}$; $\ce{\Delta H_f^\circ \ PCl5 (s) = - 454,8 kJ}$, calcula el cambio de estalpía estándar $\ce{\Delta H_r^\circ }$ para la reacción: $\ce{\qquad PCl3 (l) + Cl2 (g) \rightarrow PCl5 (s) }$
 
 **Solución**:
 
-El $\ce{Cl2 (g)}$ es la forma estable del cloro a 1 atm por lo que $\ce{\Delta H_f^\circ Cl2 (g) = 0}$
+El $\ce{Cl2 (g)}$ es la forma estable del cloro a 1 atm por lo que $\ce{\Delta H_f^\circ \ Cl2 (g) = 0}$
 
 $$\ce{\Delta H_r^\circ = \Delta H_f^\circ \ PCl5 (s) - (\Delta H_f^\circ \ PCl3 (l) + \Delta H_f^\circ \ Cl2 (g)) = -454,8 - (- 317,7 + 0) = - 137,1 kJ}$$
 
 ## **6. Reglas de la Termoquímica (Ley de Hess)**.
 
-La **Ley de Hess** establece que la variación de entalpía de una reacción química depende únicamente de los estados inicial y final, y no del camino seguido por la reacción. Esto permite calcular entalpías de reacción sumando algebraicamente las entalpías de otras reacciones relacionadas.
+**Primera regla**: La **Ley de Hess** establece que la variación de entalpía, $\ce{\Delta H}$ (función de estado) de una reacción química depende únicamente de los estados inicial y final, y no del camino seguido por la reacción. Esto permite calcular entalpías de reacción sumando algebraicamente las entalpías de otras reacciones relacionadas.
+
+Ecuación dada = ecuación (1) + ecuación (2) + .... $\qquad \rightarrow \qquad$ $\ce{\Delta H = \Delta H(1) + \Delta H(2) + ...}$ 
+
+**Ejemplo**: Halla la entalpía de formación del amoniaco a partir de las siguientes ecuaciones:
+
+$\ce{Reacci\textrm{ó}n 1) \qquad 2 H2 (g) + N2 (g) \rightarrow N2H4 (g) \qquad \qquad ∆H_1 = 95,4 kJ}$
+
+$\ce{Reacci\textrm{ó}n 2) \qquad  N2H4 (g) + H2 (g) \rightarrow 2 NH3 (g) \qquad \qquad  ∆H_2 = − 187,6 kJ}$
+
+**Solución**: 
+
+$\ce{3 H2 (g) + N2 (g) \rightarrow 2 \ NH3 (g) \qquad\qquad  \Delta H = ?}$
+
+
+$$
+\begin{array}{r l l}
+\text{Reacción 1:} & \ce{2 H2(g) + N2(g) -> \cancel{\ce{N2H4(g)}}} & \ce{\Delta H_1 = + 95,4 kJ} \\[4pt]
+\text{Reacción 2:} & \ce{\cancel{\ce{N2H4(g)}} + H2(g) -> 2 NH3(g)} & \ce{\Delta H_2 = -187,6 kJ} \\[4pt]
+\hline \\[-6pt]
+\text{Reacción 3:} & \ce{3 H2(g) + N2(g) -> 2 NH3(g)} & \ce{\Delta H_r = ?}
+\end{array}
+$$
+
+
+$\ce{\Delta H_{reacción} = \Delta H_1 + \Delta H_2 = 95,4 kJ - 187,6 kJ = - 92,2 kJ}$
+
+Aplicando la ley de Hess, si sumamos las dos reacciones dadas obtenemos la ecuación buscada pero en ella se forman 2 mol de $\ce{NH3}$, por lo tanto, la entalpía de formación del $\ce{NH3}$ sería la mitad $\ce{- 46,1 kJ/mol}$.
+
+**Segunda regla**: El calor de $\ce{\Delta H}$ es directamente proporcional a la cantidad de reactivo o producto
+
+$$\ce{H2 (g) + Cl2 (g) \rightarrow 2 \ HCl (g) \qquad \qquad \Delta H = - 185 kJ} $$
+
+$$\ce{\dfrac {1}{2} H2 (g) + \dfrac {1}{2} Cl2 (g) \rightarrow  HCl (g) \qquad \qquad \Delta H = - 92,5 kJ} $$
+
+**Tercera regla**: Los valores de para dos reacciones inversas son iguales en magnitud pero de signo opuesto.
+
+$$\ce{H2O (l) \rightarrow H2 (g) + \dfrac {1}{2} O2 (g) \qquad \qquad \Delta H = + 285 kJ} $$
+
+$$\ce{H2 (g) + \dfrac {1}{2} O2 (g) \rightarrow H2O (l) \qquad \qquad \Delta H = - 285 kJ} $$
 
 ## **7. Energía de enlace**.
 
@@ -160,7 +196,7 @@ Los fenómenos en los que las cosas se desordenan son más probables que aquello
 ![...](imagenes/tema04/probabilidad.png){ style="display: block; margin: 0 auto; width: 95%; height: auto;" }
 
 *   La **entropía (S)** es una magnitud que mide el **grado de desorden** de un sistema físico o químico.
-*   Es una función de estado: su variación en cualquier transformación sólo depende de los estados inicial y final.
+*   Es una **función de estado**: su variación en cualquier transformación sólo depende de los estados inicial y final.
 
 Para una reacción química:
 
@@ -178,7 +214,7 @@ Relaciona la espontaneidad de un proceso y el aumento de desorden. En un proceso
 
 $$\ce{ \Delta S_{total} = (\Delta S_{sistema} + \Delta S_{entorno}) > 0 }$$
 
-Una **reacción es espontánea** si $\Delta S_{\text{total}} > 0$. En un proceso que se encuentra en equilibrio la entropía se mantiene constante ($\Delta S_{\text{total}} = 0$).
+Una **reacción es espontánea** si $\ce{\Delta S_{total} > 0}$. En un proceso que se encuentra en equilibrio la entropía se mantiene constante ($\ce{\Delta S_{total} = 0}$).
 
 **Ejemplo:** Corrosión espontánea del hierro
 
@@ -194,42 +230,92 @@ La **entropía de una sustancia cristalina pura**, con ordenamiento perfecto, es
 
 La **energía libre de Gibbs (G)** permite evaluar la espontaneidad de un proceso sin tener en cuenta la variación de entropía del entorno. Se define como:
 
-$$G = H - TS$$
+$$\ce{G = H - T \cdot S}$$
+
+(donde T = temperatura absoluta, H = entalpía, S = entropía)
+
+Es una **función de estado** que sólo depende de los estados inicial y final del sistema. 
+
+Cuando un sistema experimenta un cambio a temperatura y presión constantes se puede determinar la espontaneidad del proceso evaluando el cambio de G:
+
+$\ce{ \Delta G_r = \Delta H_r - T \cdot \Delta S_r }$
 { style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
-*(donde T = temperatura absoluta, H = entalpía, S = entropía)*
 
-Es una función de estado que sólo depende de los estados inicial y final del sistema. Cuando un sistema experimenta un cambio a temperatura y presión constantes se puede determinar la espontaneidad del proceso evaluando el cambio de G:
+Para una reacción química: 
 
-$$
- \Delta G_r = \Delta H_r - T \Delta S_r 
-$$
+$\ce{\Delta G = \sum G_{productos} - \sum G_{reactivos}}$
+{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
 
-Para una reacción química: $\Delta G = \sum G_{\text{productos}} - \sum G_{\text{reactivos}}$
+*   Si $\ce{\Delta G_r < 0}$ la reacción es **espontánea**.
+*   Si $\ce{\Delta G_r > 0}$ la reacción inversa es espontánea (**no espontánea**).
+*   Si $\ce{\Delta G_r = 0}$ el sistema está en **equilibrio**.
 
-*   Si $\Delta G_r < 0$ la reacción es **espontánea**.
-*   Si $\Delta G_r > 0$ la reacción inversa es espontánea (**no espontánea**).
-*   Si $\Delta G_r = 0$ el sistema está en **equilibrio**.
-
-![...](imagenes/tema04/gibbs.png){ style="display: block; margin: 0 auto; width: 80%; height: auto;" }
+![...](imagenes/tema04/gibbs.png){ style="display: block; margin: 0 auto; width: 90%; height: auto;" }
 
 ### **Energía libre y tipos de reacciones** {: .caja-subtitulo }
 
-Atendiendo al signo de $\Delta H$ y $\Delta S$, tenemos cuatro casos posibles:
+Atendiendo al signo de $\ce{\Delta H}$ y $\ce{\Delta S}$, tenemos cuatro casos posibles: $\ce{ \qquad \Delta G = \Delta H - T \cdot \Delta S }$
 
-1.  **Reacciones exotérmicas ($\Delta H < 0$) con aumento de desorden ($\Delta S > 0$)**: $\Delta G < 0$ a cualquier temperatura. **Siempre espontánea**.
-2.  **Reacciones endotérmicas ($\Delta H > 0$) con aumento de desorden ($\Delta S > 0$)**: $\Delta G < 0$ solo a **temperaturas altas**. Espontánea a altas temperaturas.
-3.  **Reacciones exotérmicas ($\Delta H < 0$) con aumento de orden ($\Delta S < 0$)**: $\Delta G < 0$ solo a **temperaturas bajas**. Espontánea a temperaturas bajas.
-4.  **Reacciones endotérmicas ($\Delta H > 0$) con aumento de orden ($\Delta S < 0$)**: $\Delta G > 0$ siempre. **No espontánea**.
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%; font-size: 20px;">
+  <thead>
+    <tr style="background-color: rgb(252, 234, 234);">
+      <th style="width: 1%; white-space: nowrap; text-align: center;">Caso</th>
+      <th style="text-align: left;">Descripción de la reacción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="width: 1%; white-space: nowrap; text-align: center; vertical-align: top; font-weight: bold;">1.</td>
+      <td>
+        <strong>Reacciones exotérmicas ($\ce{\Delta H < 0}$) con aumento de desorden ($\ce{\Delta S > 0}$)</strong>:<br><br>
+        Primer término de la ecuación: $\ce{\Delta H < 0}$; Segundo término de la ecuación: $\ce{- T \cdot \Delta S < 0}$<br><br>
+        $$\ce{\Delta G < 0 \qquad a cualquier temperatura{.} \quad \boldsymbol{\ce{Siempre espont\textbf{á}nea}}}$$
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 1%; white-space: nowrap; text-align: center; vertical-align: top; font-weight: bold;">2.</td>
+      <td>
+        <strong>Reacciones endotérmicas ($\ce{\Delta H > 0}$) con aumento de desorden ($\ce{\Delta S > 0}$)</strong>:<br><br>
+        Primer término de la ecuación: $\ce{\Delta H > 0}$; Segundo término de la ecuación: $\ce{- T \cdot \Delta S < 0}$
+        <br><br>
+        $\ce{\Delta G < 0}$ solo a <strong>temperaturas altas</strong>. Espontánea a altas temperaturas.
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 1%; white-space: nowrap; text-align: center; vertical-align: top; font-weight: bold;">3.</td>
+      <td>
+        <strong>Reacciones exotérmicas ($\ce{\Delta H < 0}$) con aumento de orden ($\ce{\Delta S < 0}$)</strong>:<br><br>
+        Primer término de la ecuación: $\ce{\Delta H < 0}$; Segundo término de la ecuación: $\ce{- T \cdot \Delta S > 0}$<br><br>
+        $\ce{\Delta G < 0}$ solo a <strong>temperaturas bajas</strong>. Espontánea a temperaturas bajas.
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 1%; white-space: nowrap; text-align: center; vertical-align: top; font-weight: bold;">4.</td>
+      <td>
+        <strong>Reacciones endotérmicas ($\ce{\Delta H > 0}$) con aumento de orden ($\ce{\Delta S < 0}$)</strong>:<br><br>
+        Primer término de la ecuación: $\ce{\Delta H > 0}$; Segundo término de la ecuación: $\ce{- T \cdot \Delta S > 0}$<br><br>
+        $\ce{\Delta G > 0}$ siempre. <strong>No espontánea</strong>.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-![...](imagenes/tema04/tipos_reacciones.png){ style="display: block; margin: 0 auto; width: 50%; height: auto;" }
 
-**Problema resuelto:** Halla a qué temperatura es espontánea la siguiente reacción, para la cual $\Delta H^\circ = 178,2 \text{ kJ}$ y $\Delta S^\circ = 0,1610 \text{ kJ/K}$:
+
+![...](imagenes/tema04/tipos_reacciones.png){ style="display: block; margin: 0 auto; width: 40%; height: auto;" }
+
+**Aplicación de la Energía libre de Gibbs**
+
+**Problema resuelto:** Halla a qué temperatura es espontánea la siguiente reacción, para la cual $\ce{\Delta H^\circ = 178,2 kJ}$ y $\ce{\Delta S^\circ = 0,1610 kJ/K}$:
+
 $$
- \text{CaCO}_3(s) \rightarrow \text{CaO}(s) + \text{CO}_2(g) 
+ \ce{CaCO3 (s) \rightarrow CaO (s) + CO2 (g)} 
 $$
+
 **Solución:**
-El término entrópico ($-T\Delta S < 0$) favorece la espontaneidad, mientras que el entálpico ($\Delta H > 0$) la desfavorece. La temperatura a la cual ambos términos se contrarrestan es:
-$$
- \Delta G^\circ = \Delta H^\circ - T\Delta S^\circ = 0 \Rightarrow T = \frac{\Delta H^\circ}{\Delta S^\circ} = \frac{178,2}{0,1610} = 1107 \text{ K} 
-$$
-Por tanto, a 1107 K (834 ºC) la reacción está en equilibrio. A temperaturas mayores, el término entrópico domina y $\Delta G < 0$, siendo la reacción espontánea.
+
+El término entrópico ($\ce{-T \cdot \Delta S < 0}$) favorece la espontaneidad, mientras que el entálpico ($\ce{\Delta H > 0}$) la desfavorece. La temperatura a la cual ambos términos se contrarrestan es:
+
+$$\ce{\Delta G^\circ = \Delta H^\circ \ - T \cdot \Delta S^\circ = 0 \Rightarrow T = \dfrac {\ce{\Delta H^\circ}}{\ce{\Delta S^\circ}} = \dfrac {\ce{178,2}}{\ce{0,1610}} = 1107  K}$$
+
+Por tanto, a 1107 K (834 ºC) la reacción está en equilibrio. A temperaturas mayores, el término entrópico domina y $\ce{\Delta G < 0}$, siendo la reacción espontánea.
