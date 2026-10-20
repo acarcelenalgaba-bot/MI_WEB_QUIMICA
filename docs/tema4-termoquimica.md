@@ -12,7 +12,7 @@ La **energía** se puede entender como la capacidad que tiene un cuerpo de produ
 
 La unidad de medida de la energía en el S.I. es el **julio** (J).
 
-También es común medir la energía en calorías o en kWh:  $\ce{1 cal = 4,18 J{,} \qquad 1 kWh = 3,6 \cdot 10^6 J}$
+También es común medir la energía en calorías o en kWh:  $\ce{\qquad  1 cal = 4,18 J \qquad  \qquad 1 kWh = 3,6 \cdot 10^6 J}$
 
 La termodinámica selecciona una parte del universo para su estudio y la denomina **sistema**, al espacio cercano al sistema lo llama **entorno** y al resto lo llama **universo**. La frontera del sistema es la pared.
 
@@ -43,7 +43,7 @@ En palabras simples, el principio dice que si se pone un objeto con cierta tempe
 
 ## **2. Primera Ley de la Termodinámica**.
 
-La primera ley de la Termodinámica es el principio de conservación de la energía aplicado a un sistema: **la energía ni se crea ni se destruye**.
+La **primera ley de la Termodinámica** es el principio de conservación de la energía aplicado a un sistema: **la energía ni se crea ni se destruye**.
 
 El cambio de **energía interna** de un sistema $\ce{\Delta U}$ es igual a la suma de la energía intercambiada como calor y como trabajo con el entorno:
 
@@ -177,26 +177,29 @@ Ecuación dada = ecuación (1) + ecuación (2) + .... $\qquad \rightarrow \qquad
 
 **Ejemplo**: Halla la entalpía de formación del amoniaco a partir de las siguientes ecuaciones:
 
-$\ce{Reacci\textrm{ó}n 1) \qquad 2 H2 (g) + N2 (g) \rightarrow N2H4 (g) \qquad \qquad ∆H_1 = 95,4 kJ}$
+$\ce{Reacci\textrm{ó}n 1. \qquad 2 H2 (g) + N2 (g) \rightarrow N2H4 (g) \hspace{2cm} ∆H_1 = 95,4 kJ}$
 
-$\ce{Reacci\textrm{ó}n 2) \qquad  N2H4 (g) + H2 (g) \rightarrow 2 NH3 (g) \qquad \qquad  ∆H_2 = − 187,6 kJ}$
+$\ce{Reacci\textrm{ó}n 2. \qquad  N2H4 (g) + H2 (g) \rightarrow 2 NH3 (g) \hspace{1.5cm}   ∆H_2 = − 187,6 kJ}$
 
 **Solución**: 
 
-$\ce{3 H2 (g) + N2 (g) \rightarrow 2 \ NH3 (g) \qquad\qquad  \Delta H = ?}$
+La reacción solicitada en el enunciado sería:
 
+$$\ce{3 H2 (g) + N2 (g) \rightarrow 2 \ NH3 (g) \qquad\qquad  \Delta H = ?}$$
+
+A partir de la suma de las reacciones 1 y 2 se puede obtener:
 
 $$
 \begin{array}{r l l}
-\text{Reacción 1:} & \ce{2 H2(g) + N2(g) -> \cancel{\ce{N2H4(g)}}} & \ce{\Delta H_1 = + 95,4 kJ} \\[4pt]
-\text{Reacción 2:} & \ce{\cancel{\ce{N2H4(g)}} + H2(g) -> 2 NH3(g)} & \ce{\Delta H_2 = -187,6 kJ} \\[4pt]
+\text{Reacción 1.} & \ce{2 H2(g) + N2(g) -> \cancel{\ce{N2H4(g)}}} & \ce{\Delta H_1 = + 95,4 kJ} \\[4pt]
+\text{Reacción 2.} & \ce{\cancel{\ce{N2H4(g)}} + H2(g) -> 2 NH3(g)} & \ce{\Delta H_2 = -187,6 kJ} \\[4pt]
 \hline \\[-6pt]
-\text{Reacción 3:} & \ce{3 H2(g) + N2(g) -> 2 NH3(g)} & \ce{\Delta H_r = ?}
+\text{Reacción 3.} & \ce{3 H2(g) + N2(g) -> 2 NH3(g)} & \ce{\Delta H_r = ?}
 \end{array}
 $$
 
 
-$\ce{\Delta H_{reacción} = \Delta H_1 + \Delta H_2 = 95,4 kJ - 187,6 kJ = - 92,2 kJ}$
+$$\ce{\Delta H_{reacción} = \Delta H_1 + \Delta H_2 = 95,4 kJ - 187,6 kJ = - 92,2 kJ}$$
 
 Aplicando la ley de Hess, si sumamos las dos reacciones dadas obtenemos la ecuación buscada pero en ella se forman 2 mol de $\ce{NH3}$, por lo tanto, la entalpía de formación del $\ce{NH3}$ sería la mitad $\ce{- 46,1 kJ/mol}$.
 
