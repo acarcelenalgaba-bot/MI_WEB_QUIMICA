@@ -6,6 +6,16 @@ La **termodinámica** es la ciencia que estudia las variaciones de energía que 
 
 La **termoquímica** es la parte de la termodinámica que se centra y estudia el intercambio de energía en las reacciones químicas.
 
+### **1.1 Conceptos previos** {: .caja-subtitulo }
+
+La **energía** se puede entender como la capacidad que tiene un cuerpo de producir cambios en sí mismo o sobre sus alrededores.
+
+La unidad de medida de la energía en el S.I. es el **julio** (J).
+
+También es común medir la energía en calorías o en kWh:  $\ce{1 cal = 4,18 J{,} \qquad 1 kWh = 3,6 \cdot 10^6 J}$
+
+La termodinámica selecciona una parte del universo para su estudio y la denomina **sistema**, al espacio cercano al sistema lo llama **entorno** y al resto lo llama **universo**. La frontera del sistema es la pared.
+
 Se distinguen dos formas de intercambio de energía entre el sistema y su entorno:
 
 *   **Trabajo ($\ce{W}$)**
@@ -21,6 +31,15 @@ $\ce{Q}$ y $\ce{W}$ se consideran positivos si entra energía en el sistema, y n
 ![...](imagenes/tema04/sistema_entorno.png){ style="display: block; margin: 0 auto; width: 60%; height: auto;" }
 
 Todas las **reacciones químicas** absorben o liberan energía, por lo general en forma de **calor**.
+
+Las **funciones** o **variables de estado** en un sistema termodinámico son aquellas magnitudes macroscópicas que describen el estado de un sistema en equilibrio y que no dependen de la forma en que el sistema llegó a dicho estado, U, H, S...
+
+Las variables termodinámicas también describen el estado de un sistema pero sí que podemos conocer sus valores fuera del equilibrio, T, p, V...
+
+![...](imagenes/tema04/funcion_estado.png){ style="display: block; margin: 0 auto; width: 60%; height: auto;" }
+
+De las funciones o variables de estado solo podemos calcular la variación de su valor entre dos estados de equilibrio.
+
 
 ## **2. Primera Ley de la Termodinámica**.
 
