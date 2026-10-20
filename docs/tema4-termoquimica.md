@@ -77,7 +77,7 @@ En un proceso a volumen constante, la variación de energía interna se debe só
 
 ## **3. Concepto de Entalpía**.
 
-La **entalpía** es una magnitud física, con unidades de energía, que se define como:
+La **entalpía** es una magnitud física, función de estado, con unidades de energía, que se define como:
 
 $\ce{H = U + \textrm{p} V}$
 { style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
