@@ -4,7 +4,7 @@
 
 La **termodinámica** es la ciencia que estudia las variaciones de energía que acompañan a los procesos físicos y químicos con su entorno.
 
-La **termoquímica** es la parte de la termodinámica que se centra y estudia el intercambio de energía en las reacciones químicas.
+La **termoquímica** es la parte de la termodinámica que se centra y estudia el intercambio de energía en las **reacciones químicas**.
 
 ### **1.1 Conceptos previos** {: .caja-subtitulo }
 
@@ -21,6 +21,35 @@ Se distinguen dos formas de intercambio de energía entre el sistema y su entorn
 *   **Trabajo ($\ce{W}$)**
 *   **Calor ($\ce{Q}$)**
 
+Todas las **reacciones químicas** absorben o liberan energía, por lo general en forma de **calor**.
+
+Las **funciones** o **variables de estado** en un sistema termodinámico son aquellas magnitudes macroscópicas que describen el estado de un sistema en equilibrio y que no dependen de la forma en que el sistema llegó a dicho estado, U, H, S...
+
+Las variables termodinámicas también describen el estado de un sistema pero sí que podemos conocer sus valores fuera del equilibrio, T, p, V...
+
+![...](imagenes/tema04/funcion_estado.png){ style="display: block; margin: 0 auto; width: 30%; height: auto;" }
+
+De las funciones o variables de estado solo podemos calcular la variación de su valor entre dos estados de equilibrio.
+
+### **1.2 Principio cero de la termodinámica.** {: .caja-subtitulo }
+
+Si dos cuerpos están en equilibrio térmico con un tercer de forma separada, también lo están entre sí.
+
+El principio establece que para todo sistema existe una propiedad denominada temperatura que es común a todos los sistemas que se encuentran en equilibrio térmico mutuo.
+
+En palabras simples, el principio dice que si se pone un objeto con cierta temperatura en contacto con otro a distinta temperatura, ambos intercambian calor hasta que sus temperaturas se igualan.
+
+![...](imagenes/tema04/principio_cero.png){ style="display: block; margin: 0 auto; width: 40%; height: auto;" }
+
+## **2. Primera Ley de la Termodinámica**.
+
+La primera ley de la Termodinámica es el principio de conservación de la energía aplicado a un sistema: **la energía ni se crea ni se destruye**.
+
+El cambio de **energía interna** de un sistema $\ce{\Delta U}$ es igual a la suma de la energía intercambiada como calor y como trabajo con el entorno:
+
+$\ce{\Delta U = Q + W}$
+{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
+
 $\ce{Q}$ y $\ce{W}$ se consideran positivos si entra energía en el sistema, y negativos si sale energía del sistema.
 
 *   $\ce{Q > 0 \rightarrow}$ calor absorbido por el sistema.
@@ -30,29 +59,9 @@ $\ce{Q}$ y $\ce{W}$ se consideran positivos si entra energía en el sistema, y n
 
 ![...](imagenes/tema04/sistema_entorno.png){ style="display: block; margin: 0 auto; width: 60%; height: auto;" }
 
-Todas las **reacciones químicas** absorben o liberan energía, por lo general en forma de **calor**.
-
-Las **funciones** o **variables de estado** en un sistema termodinámico son aquellas magnitudes macroscópicas que describen el estado de un sistema en equilibrio y que no dependen de la forma en que el sistema llegó a dicho estado, U, H, S...
-
-Las variables termodinámicas también describen el estado de un sistema pero sí que podemos conocer sus valores fuera del equilibrio, T, p, V...
-
-![...](imagenes/tema04/funcion_estado.png){ style="display: block; margin: 0 auto; width: 60%; height: auto;" }
-
-De las funciones o variables de estado solo podemos calcular la variación de su valor entre dos estados de equilibrio.
-
-
-## **2. Primera Ley de la Termodinámica**.
-
-La primera ley de la Termodinámica es el principio de conservación de la energía aplicado a un sistema: **la energía ni se crea ni se destruye**.
-
-El cambio de energía interna de un sistema $\ce{\Delta U}$ es igual a la suma de la energía intercambiada como calor y como trabajo con el entorno:
-
-$\ce{\Delta U = Q + W}$
-{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
-
 ### **El trabajo en termodinámica** {: .caja-subtitulo }
 
-Cuando un sistema experimenta un cambio de volumen $\ce{\Delta V}$, intercambia energía mediante trabajo con su entorno. A presión constante ($\ce{p = cte}$):
+Cuando un sistema experimenta un cambio de volumen $\ce{\Delta V}$, intercambia energía mediante **trabajo** con su entorno. A presión constante ($\ce{p = cte}$):
 
 $$\ce{W = -p \Delta V}$$
 
@@ -83,9 +92,29 @@ $$\ce{\Delta H = Q - p \cdot \Delta V + p \cdot \Delta V = Q}$$
 
 En un proceso a **presión constante**, la variación de entalpía del sistema es igual a la energía intercambiada mediante calor.
 
-Utilizando la expresión $\ce{pV = nRT}$, cuando intervienen **gases** se cumple:
+Utilizando la expresión $\ce{p \cdot V = n \cdot R \cdot T}$, cuando intervienen **gases** se cumple:
 
-$$\ce{\Delta H = \Delta U + \Delta nRT}$$
+$\ce{\Delta H = \Delta U + \Delta n \cdot R \cdot T}$
+{ style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
+
+Si $\ce{p = cte}$, el calor intercambiado con el entorno (calor de reacción) es igual a la entalpía de la reacción $\ce{\Delta H}$:
+
+*   **Reacción endotérmica**: $\ce{\qquad Q = \Delta H_r > 0 \qquad \rightarrow \qquad H_{productos} > H_{reactivos}}$
+*   **Reacción exotérmica**: $\ce{\qquad Q = \Delta H_r < 0 \qquad \rightarrow \qquad H_{productos} < H_{reactivos}}$
+
+### **Ecuación termoquímica** {: .caja-subtitulo }
+
+Una **ecuación termoquímica** es una ecuación química en la que además de las sustancias que intervienen y su estado de agregación se añade información sobre el intercambio de calor que se da en el proceso.
+
+**Ejemplo**: 
+
+$$\ce{H2 (g) + \dfrac {1}{2} O2 (g) \rightarrow H2O (g) \qquad \qquad \Delta H = - 241,9 kJ/mol }$$
+
+### **Diagrama de entalpía** {: .caja-subtitulo }
+
+El **diagrama de entalpía** representa gráficamente la variación de entalpía de un proceso, relacionando la entalpía del sistema inicialmente (entalpía de los reactivos) con la entalpía del sistema al final del proceso (entalpía de los productos)
+
+![...](imagenes/tema04/diagramas_entalpicos.png){ style="display: block; margin: 0 auto; width: 80%; height: auto;" }
 
 ## **4. Entalpía de reacción**.
 
@@ -95,13 +124,6 @@ $\ce{ \Delta H_r = \sum n_p \cdot H_{productos} - \sum n_r \cdot H_{reactivos}} 
 { style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
 
 siendo $\ce{n_r}$ y $\ce{n_p}$, los moles de reactivos y productos respectivamente.
-
-Si $\ce{p = cte}$, el calor intercambiado con el entorno (calor de reacción) es igual a la entalpía de la reacción $\ce{\Delta H}$:
-
-*   **Reacción endotérmica**: $\ce{\qquad Q = \Delta H_r > 0 \rightarrow H_{productos} > H_{reactivos}}$
-*   **Reacción exotérmica**: $\ce{\qquad Q = \Delta H_r < 0 \rightarrow H_{productos} < H_{reactivos}}$
-
-![...](imagenes/tema04/diagramas_entalpicos.png){ style="display: block; margin: 0 auto; width: 80%; height: auto;" }
 
 La variación de entalpía se denomina **estándar ($\ce{\Delta H_r^\circ}$)** si la presión es de 1 atm:
 
