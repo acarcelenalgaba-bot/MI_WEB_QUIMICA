@@ -4,9 +4,9 @@
 
 El “vitalismo” consideraba que los compuestos orgánicos –componentes de los seres vivos– no podían sintetizarse en el laboratorio.
 
-Desde que Wöhler sintetizó urea a partir de compuestos inorgánicos (1828) sabemos que no es así.
+Desde que Wöhler sintetizó urea (1828) a partir de compuestos inorgánicos sabemos que no es así.
 
-Puesto que en prácticamente todos los compuestos orgánicos aparece el carbono, a esta rama de la química se la llama química del carbono.
+Puesto que en prácticamente todos los compuestos orgánicos aparece el carbono, a esta rama de la química se la llama **química del carbono**.
 
 El número de compuestos de carbono conocido es enorme, más de 10 millones, mientras que de inorgánicos apenas se conocen unos cien mil.
 
@@ -14,17 +14,118 @@ El número de compuestos de carbono conocido es enorme, más de 10 millones, mie
 
 Las cadenas de carbono tienen una disposición en zigzag debido a la orientación tetraédrica de los orbitales $\ce{sp^3}$ responsables con sus solapamientos de los enlaces sigma. Esta estructura de zigzag se interrumpe con los enlaces dobles o triples. A su vez, la posibilidad de ramificaciones o ciclos hace que el número de posibilidades para formar moléculas sea enorme.
 
-![...](imagenes/tema03/orbitales.png){ style="display: block; margin: 0 auto; width: 90%; height: auto;" }
+| Orbitales | Ángulo interatómico | Geometría molecular | Tipo de enlace | Ejemplos |
+| :--- | :--- | :--- | :--- | :--- |
+| 4 orbitales $\text{sp}^3$ | $109{,}3^\circ$ | tetraédrica | sencillo | $\text{C-H}$, $\text{C-C}$ |
+| 3 orbitales $\text{sp}^2$<br>1 orbital $\text{p}$ | $120^\circ$ | trigonal plana | doble | $\text{C=C}$, $\text{C=O}$ |
+| 2 orbitales $\text{sp}$<br>2 orbitales $\text{p}$ | $180^\circ$ | lineal | triple<br>dos dobles | $\text{C}\equiv\text{C}$, $\text{C}\equiv\text{N}$<br>$\text{C=C=C}$, $\text{C=C=O}$ |
 
 ### **Representación de las moléculas orgánicas** {: .caja-subtitulo}
 
-![...](imagenes/tema03/formulas.png){ style="display: block; margin: 0 auto; width: 90%; height: auto;" }
+La representación de las moléculas orgánicas transmite desde la composición elemental hasta la disposición tridimensional de los átomos mediante fórmulas estructurales, diagramas bidimensionales y proyecciones estereoquímicas.
+
+
+<!--
+##latex id=empirica_butano sep=2em
+\schemestart
+	\subscheme{
+        \chemfig{[0,1.2] C_2H_5} 
+    }
+\schemestop
+-->
+
+<!--
+##latex id=molecular_butano sep=2em
+\schemestart
+	\subscheme{
+        \chemfig{[0,1.2] C_4H_{10}} 
+    }
+\schemestop
+-->
+
+<!--
+##latex id=desarrollada_butano sep=2em
+\schemestart
+	\subscheme{
+        \chemfig{[0,1.2] H-C(-[6]H)(-[2]H)-C(-[6]H)(-[2]H)-C(-[6]H)(-[2]H)-C(-[6]H)(-[2]H)-H} 
+    }
+\schemestop
+-->
+
+<!--
+##latex id=semidesarrollada_butano sep=2em
+\schemestart
+	\subscheme{
+        \chemfig{[0,1.2] CH_3-CH_2-CH_2-CH_3} 
+    }
+\schemestop
+-->
+
+<!--
+##latex id=condensada_butano sep=2em
+\schemestart
+	\subscheme{
+        \chemfig{[0,1.2] CH_3-{(}CH_2{)}_2-CH_3} 
+    }
+\schemestop
+-->
+
+<!--
+##latex id=espacial_butano sep=2em
+\schemestart
+	\subscheme{
+
+\setchemfig{
+  cram width = 3.5pt,       % Ancho de la base de la cuña (por defecto es ~1.5pt)
+  cram dash length = 1.2pt, % Longitud de cada trazo en la cuña de rayas
+  cram dash sep = 1.5pt     % Separación entre trazos
+}
+
+\chemfig{
+  H_3C
+  -[:30]C(>[:100]H)(>:[:40]H)
+  -[:-30]C(>[:-100]H)(>:[:-40]H)
+  -[:30]CH_3
+}
+    }
+\schemestop
+-->
+
+<!--
+##latex id=lineal_butano sep=2em
+\schemestart
+	\subscheme{
+        \chemfig{[0,1.2] -[:30]-[:-30]-[:30] } 
+    }
+\schemestop
+-->
+
+|Tipo de fórmula | Descripción | Ejemplo (Butano) |
+|--|--|--|
+| **Empírica** | Indica la proporción mínima de números enteros entre los átomos. | ![...](imagenes/tema03/empirica_butano.svg){style="display: block; margin: 0 auto; width: 50%; height: auto;"} |
+| **Molecular** | Muestra la cantidad real de átomos de cada elemento en la molécula. | ![...](imagenes/tema03/molecular_butano.svg){style="display: block; margin: 0 auto; width: 50%; height: auto;"} | 
+| **Desarrollada** | Muestra explícitamente todos los átomos y cada uno de sus enlaces en un plano. | ![...](imagenes/tema03/desarrollada_butano.svg){style="display: block; margin: 0 auto; width: 100%; height: auto;"}  |
+| **Semidesarrollada** | Omite los enlaces $\text{C-H}$, agrupando los átomos de hidrógeno con su carbono correspondiente. | ![...](imagenes/tema03/semidesarrollada_butano.svg){style="display: block; margin: 0 auto; width: 150%; height: auto;"} | 
+| **Condensada** | Los grupos que se repiten se agrupa entre paréntesis. | ![...](imagenes/tema03/condensada_butano.svg){style="display: block; margin: 0 auto; width: 150%; height: auto;"} | 
+| **Esquelética** (Lineal / Zig-zag) | Representa la cadena de carbonos mediante líneas continuas; cada extremo y vértice es un $\text{C}$. Los $\text{H}$ unidos a carbono se omiten implícitamente.| ![...](imagenes/tema03/lineal_butano.svg){style="display: block; margin: 0 auto; width: 100%; height: auto;"}  |
+| **Espacial** | Representación tridimensional | ![...](imagenes/tema03/espacial_butano.svg){ style="display: block; margin: 0 auto; width: 90%; height: auto;" } |
+| **Modelo de varillas** | Representación tridimensional en la que los enlaces covalentes se representan mediante varillas o cilindros rígidos, y los núcleos atómicos mediante esferas de tamaño reducido | ![...](imagenes/tema03/modelo_varillas.png){ style="display: block; margin: 0 auto; width: 90%; height: auto;" } |
 
 ### **Grupos funcionales** {: .caja-subtitulo}
 
 Un **grupo funcional** es un átomo o grupo de átomos que dan al compuesto sus propiedades características. Se podría decir que es cualquier cosa que no sean enlaces simples C-C o C-H.
 
-![...](imagenes/tema03/grupos.png){ style="display: block; margin: 0 auto; width: 90%; height: auto;" }
+| Clase de Compuesto | Grupo Funcional, Nombre | Fórmula General | Prefijo | Sufijo | Ejemplo |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Alcoholes** | $-\ce{OH}$, hidróxido | $\ce{R-OH}$ | hidroxi– | –ol | $\ce{CH3-OH}$, metanol |
+| **Aldehídos** | $-\ce{CHO}$, carbonilo | $\ce{R-CHO}$ | oxo– (formil) | –al | $\ce{HCHO}$, metanal (formaldehído) |
+| **Aminas** | $-\ce{NH2}$, amino | $\ce{R-NH2}$ | amino– | –amina | $\ce{CH3-NH2}$, metilamina |
+| **Ácidos carboxílicos** | $-\ce{COOH}$, carboxilo | $\ce{R-COOH}$ | —— | ácido –oico | $\ce{CH3-COOH}$, ácido etanoico (ácido acético) |
+| **Ésteres** | $-\ce{COO}-$ | $\ce{R-COO-R}'$ | —— | –ato de alquilo | $\ce{CH3-COO-CH3}$, acetato de metilo |
+| **Éteres** | $-\ce{O}-$ | $\text{R-O-R}'$ | alcoxi– | alquil-éter | $\ce{CH3-O-CH3}$, dimetiléter (metoximetano) |
+| **Halogenuros de alquilo** | $-\text{X}$ ($\text{X} =$ flúor, cloro, bromo, yodo) | $\text{R}-\text{X}$ | fluoro–, cloro–, bromo–, yodo– | —— | $\ce{CH3-Cl}$, clorometano (cloruro de metilo) |
+| **Cetonas** | $>\ce{C = O}$, carbonilo | $\ce{R-CO-R}'$ | oxo– | –ona | $\ce{CH3-CO-CH3}$, propanona (acetona) |
+| **Nitrilos** | $-\ce{C \equiv N}$, nitrilo, cianuro | $\ce{R-CN}$ | ciano– | –nitrilo | $\ce{CH3-CN}$, acetonitrilo (cianometano; cianuro de metilo) |
 
 ###  **Series homólogas** {: .caja-subtitulo}
 
