@@ -1,0 +1,20 @@
+\documentclass[tikz,border=2mm]{standalone}
+\usepackage{chemfig}
+\usepackage{ragged2e}
+\usepackage[skins]{tcolorbox}
+\usepackage{wrapfig}
+\usepackage{longfbox}
+\usepackage{array}
+\usepackage{color, colortbl,xcolor}
+\usepackage{tikz}
+\usetikzlibrary{shapes,snakes}
+\usepackage{xcolor}
+
+% Cargar soporte para fórmulas de forma limpia
+\usepackage{mhchem}
+\usepackage{modiagram}
+
+\setchemfig{atom sep=2em}
+\begin{document}
+\setchemfig{ cram width = 3.5pt, cram dash length = 1.2pt, cram dash sep = 1.5pt } \schemestart \subscheme{% \chemfig{ H_3C -[:30]C(>[:100]H)(>:[:40]H) -[:-30]C(>[:-100]H)(>:[:-40]H) -[:30]CH_3 }% } \schemestop
+\end{document}

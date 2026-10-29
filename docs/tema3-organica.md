@@ -72,22 +72,21 @@ La representación de las moléculas orgánicas transmite desde la composición 
 
 <!--
 ##latex id=espacial_butano sep=2em
-\schemestart
-	\subscheme{
-
 \setchemfig{
-  cram width = 3.5pt,       % Ancho de la base de la cuña (por defecto es ~1.5pt)
-  cram dash length = 1.2pt, % Longitud de cada trazo en la cuña de rayas
-  cram dash sep = 1.5pt     % Separación entre trazos
+  cram width = 3.5pt,
+  cram dash length = 1.2pt,
+  cram dash sep = 1.5pt
 }
 
-\chemfig{
-  H_3C
-  -[:30]C(>[:100]H)(>:[:40]H)
-  -[:-30]C(>[:-100]H)(>:[:-40]H)
-  -[:30]CH_3
-}
-    }
+\schemestart
+  \subscheme{%
+    \chemfig{
+      H_3C
+      -[:30]C(>[:100]H)(>:[:40]H)
+      -[:-30]C(>[:-100]H)(>:[:-40]H)
+      -[:30]CH_3
+    }%
+  }
 \schemestop
 -->
 
@@ -108,7 +107,7 @@ La representación de las moléculas orgánicas transmite desde la composición 
 | **Semidesarrollada** | Omite los enlaces $\text{C-H}$, agrupando los átomos de hidrógeno con su carbono correspondiente. | ![...](imagenes/tema03/semidesarrollada_butano.svg){style="display: block; margin: 0 auto; width: 150%; height: auto;"} | 
 | **Condensada** | Los grupos que se repiten se agrupa entre paréntesis. | ![...](imagenes/tema03/condensada_butano.svg){style="display: block; margin: 0 auto; width: 150%; height: auto;"} | 
 | **Esquelética** (Lineal / Zig-zag) | Representa la cadena de carbonos mediante líneas continuas; cada extremo y vértice es un $\text{C}$. Los $\text{H}$ unidos a carbono se omiten implícitamente.| ![...](imagenes/tema03/lineal_butano.svg){style="display: block; margin: 0 auto; width: 100%; height: auto;"}  |
-| **Espacial** | Representación tridimensional | ![...](imagenes/tema03/espacial_butano.svg){ style="display: block; margin: 0 auto; width: 90%; height: auto;" } |
+| **Espacial** | Es la notación estándar para mostrar la tridimensionalidad. <br>- Línea continua ($-$): Enlace situado sobre el plano del papel. <br> - Cuña sólida ($\blacktriangleright$): Enlace proyectado hacia adelante del plano. <br> - Cuña discontinuada/trazos (<svg width="14" height="12" viewBox="0 0 100 100" style="vertical-align: middle; display: inline-block;"><polygon points="10,50 90,10 90,90" fill="none" stroke="currentColor" stroke-width="14" stroke-dasharray="18,12"/></svg>): Enlace proyectado hacia atrás del plano. | ![...](imagenes/tema03/espacial_butano.svg){ style="display: block; margin: 0 auto; width: 90%; height: auto;" } |
 | **Modelo de varillas** | Representación tridimensional en la que los enlaces covalentes se representan mediante varillas o cilindros rígidos, y los núcleos atómicos mediante esferas de tamaño reducido | ![...](imagenes/tema03/modelo_varillas.png){ style="display: block; margin: 0 auto; width: 90%; height: auto;" } |
 
 ### **Grupos funcionales** {: .caja-subtitulo}

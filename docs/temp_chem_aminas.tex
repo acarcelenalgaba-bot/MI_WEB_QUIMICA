@@ -1,0 +1,20 @@
+\documentclass[tikz,border=2mm]{standalone}
+\usepackage{chemfig}
+\usepackage{ragged2e}
+\usepackage[skins]{tcolorbox}
+\usepackage{wrapfig}
+\usepackage{longfbox}
+\usepackage{array}
+\usepackage{color, colortbl,xcolor}
+\usepackage{tikz}
+\usetikzlibrary{shapes,snakes}
+\usepackage{xcolor}
+
+% Cargar soporte para fórmulas de forma limpia
+\usepackage{mhchem}
+\usepackage{modiagram}
+
+\setchemfig{atom sep=2em}
+\begin{document}
+\schemestart 	\subscheme{ \chemfig{NH_3} 		\arrow{->}[0,0.7] 		\chemfig{R-NH_2} 		\arrow{->}[0,0.7] \chemfig{R-NH-R'} 		\arrow{->}[0,0.7] 		\chemfig{R-N(-[6]R'')-R''} } \schemestop
+\end{document}

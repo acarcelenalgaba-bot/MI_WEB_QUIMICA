@@ -234,7 +234,7 @@ No file temp_chem_espacial_butano.aux.
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)))
 Runaway argument?
-{ \setchemfig { cram width = 3.5pt, \end {document} 
+{\end {document} 
 ! File ended while scanning use of \CF_addnextarg.
 <inserted text> 
                 \par 
