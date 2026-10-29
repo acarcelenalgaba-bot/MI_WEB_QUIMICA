@@ -101,8 +101,8 @@ La representación de las moléculas orgánicas transmite desde la composición 
 
 |Tipo de fórmula | Descripción | Ejemplo (Butano) |
 |--|--|--|
-| **Empírica** | Indica la proporción mínima de números enteros entre los átomos. | ![...](imagenes/tema03/empirica_butano.svg){style="display: block; margin: 0 auto; width: 50%; height: auto;"} |
-| **Molecular** | Muestra la cantidad real de átomos de cada elemento en la molécula. | ![...](imagenes/tema03/molecular_butano.svg){style="display: block; margin: 0 auto; width: 50%; height: auto;"} | 
+| **Empírica** | Indica la proporción mínima de números enteros entre los átomos. | ![...](imagenes/tema03/empirica_butano.svg){style="display: block; margin: 0 auto; width: 40%; height: auto;"} |
+| **Molecular** | Muestra la cantidad real de átomos de cada elemento en la molécula. | ![...](imagenes/tema03/molecular_butano.svg){style="display: block; margin: 0 auto; width: 40%; height: auto;"} | 
 | **Desarrollada** | Muestra explícitamente todos los átomos y cada uno de sus enlaces en un plano. | ![...](imagenes/tema03/desarrollada_butano.svg){style="display: block; margin: 0 auto; width: 100%; height: auto;"}  |
 | **Semidesarrollada** | Omite los enlaces $\text{C-H}$, agrupando los átomos de hidrógeno con su carbono correspondiente. | ![...](imagenes/tema03/semidesarrollada_butano.svg){style="display: block; margin: 0 auto; width: 150%; height: auto;"} | 
 | **Condensada** | Los grupos que se repiten se agrupa entre paréntesis. | ![...](imagenes/tema03/condensada_butano.svg){style="display: block; margin: 0 auto; width: 150%; height: auto;"} | 
@@ -116,15 +116,102 @@ Un **grupo funcional** es un átomo o grupo de átomos que dan al compuesto sus 
 
 | Clase de Compuesto | Grupo Funcional, Nombre | Fórmula General | Prefijo | Sufijo | Ejemplo |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Alcoholes** | $-\ce{OH}$, hidróxido | $\ce{R-OH}$ | hidroxi– | –ol | $\ce{CH3-OH}$, metanol |
-| **Aldehídos** | $-\ce{CHO}$, carbonilo | $\ce{R-CHO}$ | oxo– (formil) | –al | $\ce{HCHO}$, metanal (formaldehído) |
-| **Aminas** | $-\ce{NH2}$, amino | $\ce{R-NH2}$ | amino– | –amina | $\ce{CH3-NH2}$, metilamina |
-| **Ácidos carboxílicos** | $-\ce{COOH}$, carboxilo | $\ce{R-COOH}$ | —— | ácido –oico | $\ce{CH3-COOH}$, ácido etanoico (ácido acético) |
-| **Ésteres** | $-\ce{COO}-$ | $\ce{R-COO-R}'$ | —— | –ato de alquilo | $\ce{CH3-COO-CH3}$, acetato de metilo |
-| **Éteres** | $-\ce{O}-$ | $\text{R-O-R}'$ | alcoxi– | alquil-éter | $\ce{CH3-O-CH3}$, dimetiléter (metoximetano) |
-| **Halogenuros de alquilo** | $-\text{X}$ ($\text{X} =$ flúor, cloro, bromo, yodo) | $\text{R}-\text{X}$ | fluoro–, cloro–, bromo–, yodo– | —— | $\ce{CH3-Cl}$, clorometano (cloruro de metilo) |
-| **Cetonas** | $>\ce{C = O}$, carbonilo | $\ce{R-CO-R}'$ | oxo– | –ona | $\ce{CH3-CO-CH3}$, propanona (acetona) |
-| **Nitrilos** | $-\ce{C \equiv N}$, nitrilo, cianuro | $\ce{R-CN}$ | ciano– | –nitrilo | $\ce{CH3-CN}$, acetonitrilo (cianometano; cianuro de metilo) |
+| **Alcoholes** | $-\ce{OH}$, hidróxido | $\ce{R-OH}$ | hidroxi– | –ol | $\ce{CH3-OH}$ <br> metanol |
+| **Aldehídos** | $-\ce{CHO}$, carbonilo | $\ce{R-CHO}$ | oxo– (formil) | –al | $\ce{HCHO}$ <br> metanal <br> (formaldehído) |
+| **Aminas** | $-\ce{NH2}$, amino | $\ce{R-NH2}$ | amino– | –amina | $\ce{CH3-NH2}$ <br> metilamina |
+| **Ácidos carboxílicos** | $-\ce{COOH}$, carboxilo | $\ce{R-COOH}$ | —— | ácido –oico | $\ce{CH3-COOH}$ <br> ácido etanoico <br> (ácido acético) |
+| **Ésteres** | $-\ce{COO}-$ | $\ce{R-COO-R}'$ | —— | –ato de alquilo | $\ce{CH3-COO-CH3}$ <br> acetato de metilo |
+| **Éteres** | $-\ce{O}-$ | $\text{R-O-R}'$ | alcoxi– | alquil-éter | $\ce{CH3-O-CH3}$ <br> dimetiléter <br> (metoximetano) |
+| **Halogenuros de alquilo** | $-\text{X}$ ($\text{X} =$ flúor, cloro, bromo, yodo) | $\text{R}-\text{X}$ | fluoro–, cloro–, bromo–, yodo– | —— | $\ce{CH3-Cl}$ <br> clorometano <br> (cloruro de metilo) |
+| **Cetonas** | $>\ce{C = O}$, carbonilo | $\ce{R-CO-R}'$ | oxo– | –ona | $\ce{CH3-CO-CH3}$ <br> propanona <br> (acetona) |
+| **Nitrilos** | $-\ce{C \equiv N}$, nitrilo, cianuro | $\ce{R-CN}$ | ciano– | –nitrilo | $\ce{CH3-CN}$ <br> acetonitrilo <br> (cianometano; <br> cianuro de metilo) |
+
+<table>
+  <thead>
+<tr>
+    <th style="width: 16%; text-align: left;">Clase de Compuesto</th>
+    <th style="width: 20%; text-align: left;">Grupo Funcional, Nombre</th>
+    <th style="width: 13%; text-align: left;">Fórmula General</th>
+    <th style="width: 13%; text-align: left;">Prefijo</th>
+    <th style="width: 13%; text-align: left;">Sufijo</th>
+    <th style="width: 25%; text-align: left;">Ejemplo</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left;"><strong>Alcoholes</strong></td>
+      <td style="text-align: left;">$-\ce{OH}$, hidróxido</td>
+      <td style="text-align: left;">$\ce{R-OH}$</td>
+      <td style="text-align: left;">hidroxi–</td>
+      <td style="text-align: left;">–ol</td>
+      <td style="text-align: left;">$\ce{CH3-OH}$<br>metanol</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;"><strong>Aldehídos</strong></td>
+      <td style="text-align: left;">$-\ce{CHO}$, carbonilo</td>
+      <td style="text-align: left;">$\ce{R-CHO}$</td>
+      <td style="text-align: left;">oxo– (formil)</td>
+      <td style="text-align: left;">–al</td>
+      <td style="text-align: left;">$\ce{HCHO}$<br>metanal<br>(formaldehído)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;"><strong>Aminas</strong></td>
+      <td style="text-align: left;">$-\ce{NH2}$, amino</td>
+      <td style="text-align: left;">$\ce{R-NH2}$</td>
+      <td style="text-align: left;">amino–</td>
+      <td style="text-align: left;">–amina</td>
+      <td style="text-align: left;">$\ce{CH3-NH2}$<br>metilamina</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;"><strong>Ácidos carboxílicos</strong></td>
+      <td style="text-align: left;">$-\ce{COOH}$, carboxilo</td>
+      <td style="text-align: left;">$\ce{R-COOH}$</td>
+      <td style="text-align: left;">——</td>
+      <td style="text-align: left;">ácido –oico</td>
+      <td style="text-align: left;">$\ce{CH3-COOH}$<br>ácido etanoico<br>(ácido acético)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;"><strong>Ésteres</strong></td>
+      <td style="text-align: left;">$-\ce{COO}-$</td>
+      <td style="text-align: left;">$\ce{R-COO-R}'$</td>
+      <td style="text-align: left;">——</td>
+      <td style="text-align: left;">–ato de alquilo</td>
+      <td style="text-align: left;">$\ce{CH3-COO-CH3}$<br>acetato de metilo</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;"><strong>Éteres</strong></td>
+      <td style="text-align: left;">$-\ce{O}-$</td>
+      <td style="text-align: left;">$\text{R-O-R}'$</td>
+      <td style="text-align: left;">alcoxi–</td>
+      <td style="text-align: left;">alquil-éter</td>
+      <td style="text-align: left;">$\ce{CH3-O-CH3}$<br>dimetiléter<br>(metoximetano)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;"><strong>Halogenuros de alquilo</strong></td>
+      <td style="text-align: left;">$-\text{X}$ ($\text{X} =$ flúor, cloro, bromo, yodo)</td>
+      <td style="text-align: left;">$\text{R}-\text{X}$</td>
+      <td style="text-align: left;">fluoro–, cloro–, bromo–, yodo–</td>
+      <td style="text-align: left;">——</td>
+      <td style="text-align: left;">$\ce{CH3-Cl}$<br>clorometano<br>(cloruro de metilo)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;"><strong>Cetonas</strong></td>
+      <td style="text-align: left;">$>\ce{C = O}$, carbonilo</td>
+      <td style="text-align: left;">$\ce{R-CO-R}'$</td>
+      <td style="text-align: left;">oxo–</td>
+      <td style="text-align: left;">–ona</td>
+      <td style="text-align: left;">$\ce{CH3-CO-CH3}$<br>propanona<br>(acetona)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;"><strong>Nitrilos</strong></td>
+      <td style="text-align: left;">$-\ce{C \equiv N}$, nitrilo, cianuro</td>
+      <td style="text-align: left;">$\ce{R-CN}$</td>
+      <td style="text-align: left;">ciano–</td>
+      <td style="text-align: left;">–nitrilo</td>
+      <td style="text-align: left;">$\ce{CH3-CN}$<br>acetonitrilo<br>(cianometano;<br>cianuro de metilo)</td>
+    </tr>
+  </tbody>
+</table>
 
 ###  **Series homólogas** {: .caja-subtitulo}
 
