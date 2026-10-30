@@ -167,7 +167,7 @@ Son compuestos de C e H (de ahí el nombre de hidrocarburos) de cadena abierta q
 
 ### **Alquenos** {: .caja-subtitulo}
 
-Son hidrocarburos de cadena abierta que se caracterizan por tener uno o más dobles enlaces, $\ce{C = C}$.
+Son hidrocarburos de cadena abierta que se caracterizan por tener uno o más dobles enlaces, $\ce{C=C}$.
 
 Se nombran igual que los alcanos, pero con la terminación en **"-eno"**. De todas formas, hay que seguir las siguientes reglas:
 
@@ -177,7 +177,7 @@ Se nombran igual que los alcanos, pero con la terminación en **"-eno"**. De tod
 
 ### **Alquinos** {: .caja-subtitulo}
 
-Son hidrocarburos de cadena abierta que se caracterizan por tener uno o más triples enlaces, carbono-carbono, $\ce{C \equiv C}$.
+Son hidrocarburos de cadena abierta que se caracterizan por tener uno o más triples enlaces, carbono-carbono, $\ce{C\equiv C}$.
 
 En general su nomenclatura sigue las pautas indicadas para los alquenos, pero terminando en **"-ino"**.
 
@@ -205,13 +205,14 @@ Experimentalmente se comprueba que los seis enlaces son equivalentes, de ahí qu
 
 <!--
 ##latex id=benceno sep=2em
+\setchemfig{double bond sep=4pt}
 \schemestart
-	\subscheme{
+    \subscheme{
         \chemfig{[0,1.2]*6(=-=-=-)} 
-		\arrow{<->}[0,1.2]
-		\chemfig{[0,1.2]*6(-=-=-=)} 
-		\arrow{<->}[0,1.2]
-		\chemfig{[0,1.2]**6(------)}
+        \arrow{<->}[0,1.2]
+        \chemfig{[0,1.2]*6(-=-=-=)} 
+        \arrow{<->}[0,1.2]
+        \chemfig{[0,1.2]**6(------)}
     }
 \schemestop
 -->
@@ -230,6 +231,7 @@ Cuando el benceno actúa como radical de otra cadena se utiliza con el nombre de
 
 <!--
 ##latex id=difenilo sep=2em
+\setchemfig{double bond sep=4pt}
 \schemestart
 	\subscheme{
 		\chemfig{[:-30]*6(=-=(-CH_2-CH([:-270]-CH_3)-CH_2-CH([:-270]-CH_2-[:0]CH_3)-CH_2-CH_2-(*6(=-=-=-)))-=-)}
@@ -296,6 +298,7 @@ Se nombran como los alcoholes, con la terminación **"-ol"** añadida al nombre 
 
 <!--
 ##latex id=fenol sep=2em
+\setchemfig{double bond sep=4pt}
 \schemestart
 	\subscheme{
         \chemfig{[0,1.2]*6(=-=-(-[2]OH)=-)} 
