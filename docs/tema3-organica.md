@@ -101,13 +101,13 @@ La representación de las moléculas orgánicas transmite desde la composición 
 
 |Tipo de fórmula | Descripción | Ejemplo (Butano) |
 |--|--|--|
-| **Empírica** | Indica la proporción mínima de números enteros entre los átomos. | ![...](imagenes/tema03/empirica_butano.svg){style="display: block; margin: 0 auto; width: 40%; height: auto;"} |
-| **Molecular** | Muestra la cantidad real de átomos de cada elemento en la molécula. | ![...](imagenes/tema03/molecular_butano.svg){style="display: block; margin: 0 auto; width: 40%; height: auto;"} | 
+| **Empírica** | Indica la proporción mínima de números enteros que se repiten entre los átomos. | ![...](imagenes/tema03/empirica_butano.svg){style="display: block; margin: 0 auto; width: 30%; height: auto;"} |
+| **Molecular** | Muestra la cantidad real de átomos de cada elemento en la molécula. | ![...](imagenes/tema03/molecular_butano.svg){style="display: block; margin: 0 auto; width: 30%; height: auto;"} | 
 | **Desarrollada** | Muestra explícitamente todos los átomos y cada uno de sus enlaces en un plano. | ![...](imagenes/tema03/desarrollada_butano.svg){style="display: block; margin: 0 auto; width: 100%; height: auto;"}  |
 | **Semidesarrollada** | Omite los enlaces $\text{C-H}$, agrupando los átomos de hidrógeno con su carbono correspondiente. | ![...](imagenes/tema03/semidesarrollada_butano.svg){style="display: block; margin: 0 auto; width: 150%; height: auto;"} | 
-| **Condensada** | Los grupos que se repiten se agrupa entre paréntesis. | ![...](imagenes/tema03/condensada_butano.svg){style="display: block; margin: 0 auto; width: 150%; height: auto;"} | 
+| **Condensada** | Los grupos que se repiten se agrupa entre paréntesis. | ![...](imagenes/tema03/condensada_butano.svg){style="display: block; margin: 0 auto; width: 80%; height: auto;"} | 
 | **Esquelética** (Lineal / Zig-zag) | Representa la cadena de carbonos mediante líneas continuas; cada extremo y vértice es un $\text{C}$. Los $\text{H}$ unidos a carbono se omiten implícitamente.| ![...](imagenes/tema03/lineal_butano.svg){style="display: block; margin: 0 auto; width: 100%; height: auto;"}  |
-| **Espacial** | Es la notación estándar para mostrar la tridimensionalidad. <br>- Línea continua ($-$): Enlace situado sobre el plano del papel. <br> - Cuña sólida ($\blacktriangleright$): Enlace proyectado hacia adelante del plano. <br> - Cuña discontinuada/trazos (<svg width="14" height="12" viewBox="0 0 100 100" style="vertical-align: middle; display: inline-block;"><polygon points="10,50 90,10 90,90" fill="none" stroke="currentColor" stroke-width="14" stroke-dasharray="18,12"/></svg>): Enlace proyectado hacia atrás del plano. | ![...](imagenes/tema03/espacial_butano.svg){ style="display: block; margin: 0 auto; width: 90%; height: auto;" } |
+| **Espacial** | Es la notación estándar para mostrar la tridimensionalidad. <br>- Línea continua ($-$): Enlace situado sobre el plano del papel. <br> - Cuña sólida ($\blacktriangleright$): Enlace proyectado hacia adelante del plano. <br> - Cuña discontinuada/trazos (<svg width="14" height="12" viewBox="0 0 100 100" style="vertical-align: middle; display: inline-block;"><polygon points="10,50 90,10 90,90" fill="none" stroke="currentColor" stroke-width="14" stroke-dasharray="18,12"/></svg>): Enlace proyectado hacia atrás del plano. | ![...](imagenes/tema03/espacial_butano.svg){ style="display: block; margin: 0 auto; width: 70%; height: auto;" } |
 | **Modelo de varillas** | Representación tridimensional en la que los enlaces covalentes se representan mediante varillas o cilindros rígidos, y los núcleos atómicos mediante esferas de tamaño reducido | ![...](imagenes/tema03/modelo_varillas.png){ style="display: block; margin: 0 auto; width: 90%; height: auto;" } |
 
 ### **Grupos funcionales** {: .caja-subtitulo}
@@ -171,7 +171,7 @@ Son compuestos de C e H (de ahí el nombre de hidrocarburos) de cadena abierta q
 
 ### **Alquenos** {: .caja-subtitulo}
 
-Son hidrocarburos de cadena abierta que se caracterizan por tener uno o más dobles enlaces, $\ce{C=C}$.
+Son hidrocarburos de cadena abierta que se caracterizan por tener uno o más dobles enlaces, $\ce{C = C}$.
 
 Se nombran igual que los alcanos, pero con la terminación en **"-eno"**. De todas formas, hay que seguir las siguientes reglas:
 
@@ -181,7 +181,7 @@ Se nombran igual que los alcanos, pero con la terminación en **"-eno"**. De tod
 
 ### **Alquinos** {: .caja-subtitulo}
 
-Son hidrocarburos de cadena abierta que se caracterizan por tener uno o más triples enlaces, carbono-carbono.
+Son hidrocarburos de cadena abierta que se caracterizan por tener uno o más triples enlaces, carbono-carbono, $\ce{C \equiv C}$.
 
 En general su nomenclatura sigue las pautas indicadas para los alquenos, pero terminando en **"-ino"**.
 
