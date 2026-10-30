@@ -72,21 +72,11 @@ La representación de las moléculas orgánicas transmite desde la composición 
 
 <!--
 ##latex id=espacial_butano sep=2em
-\setchemfig{
-  cram width = 3.5pt,
-  cram dash length = 1.2pt,
-  cram dash sep = 1.5pt
-}
-
-\schemestart
-  \subscheme{%
-    \chemfig{
+    \chemfig[cram width=8pt, cram dash width=0.4pt, cram dash sep=1.5pt]{
       H_3C
-      -[:30]C(>[:100]H)(>:[:40]H)
-      -[:-30]C(>[:-100]H)(>:[:-40]H)
-      -[:30]CH_3
-    }%
-  }
+      -[:30]C(>[:100,1.5]H)(>:[:40,1.5]H)
+      -[:-30]C(>[:-100,1.5]H)(>:[:-40,1.5]H)
+      -[:30]CH_3}
 \schemestop
 -->
 
