@@ -89,6 +89,12 @@ La representación de las moléculas orgánicas transmite desde la composición 
 \schemestop
 -->
 
+<!--
+##latex id=cuna_butano sep=1.5em
+    \chemfig[cram width=5pt, cram dash width=1.2pt, cram dash sep=2pt]{>:[:0,1]}
+\schemestop
+-->
+
 |Tipo de fórmula | Descripción | Ejemplo (Butano) |
 |--|--|--|
 | **Empírica** | Indica la proporción mínima de números enteros que se repiten entre los átomos. | ![...](imagenes/tema03/empirica_butano.svg){style="display: block; margin: 0 auto; width: 30%; height: auto;"} |
@@ -97,7 +103,7 @@ La representación de las moléculas orgánicas transmite desde la composición 
 | **Semidesarrollada** | Omite los enlaces $\text{C-H}$, agrupando los átomos de hidrógeno con su carbono correspondiente. | ![...](imagenes/tema03/semidesarrollada_butano.svg){style="display: block; margin: 0 auto; width: 150%; height: auto;"} | 
 | **Condensada** | Los grupos que se repiten se agrupa entre paréntesis. | ![...](imagenes/tema03/condensada_butano.svg){style="display: block; margin: 0 auto; width: 80%; height: auto;"} | 
 | **Esquelética** (Lineal / Zig-zag) | Representa la cadena de carbonos mediante líneas continuas; cada extremo y vértice es un $\text{C}$. Los $\text{H}$ unidos a carbono se omiten implícitamente.| ![...](imagenes/tema03/lineal_butano.svg){style="display: block; margin: 0 auto; width: 100%; height: auto;"}  |
-| **Espacial** | Es la notación estándar para mostrar la tridimensionalidad. <br>- Línea continua ($-$): Enlace situado sobre el plano del papel. <br> - Cuña sólida ($\blacktriangleright$): Enlace proyectado hacia adelante del plano. <br> - Cuña discontinuada/trazos (<svg width="14" height="12" viewBox="0 0 100 100" style="vertical-align: middle; display: inline-block;"><polygon points="10,50 90,10 90,90" fill="none" stroke="currentColor" stroke-width="14" stroke-dasharray="18,12"/></svg>): Enlace proyectado hacia atrás del plano. | ![...](imagenes/tema03/espacial_butano.svg){ style="display: block; margin: 0 auto; width: 70%; height: auto;" } |
+| **Espacial** | Es la notación estándar para mostrar la tridimensionalidad. <br>- Línea continua ($-$): Enlace situado sobre el plano del papel. <br> - Cuña sólida ($\blacktriangleright$): Enlace proyectado hacia adelante del plano. <br> - Cuña discontinuada/trazos (![...](imagenes/tema03/cuna_butano.svg){ style="display: inline-block; vertical-align: middle; height: 1.2em; width: auto;" }): Enlace proyectado hacia atrás del plano. | ![...](imagenes/tema03/espacial_butano.svg){ style="display: block; margin: 0 auto; width: 70%; height: auto;" } |
 | **Modelo de varillas** | Representación tridimensional en la que los enlaces covalentes se representan mediante varillas o cilindros rígidos, y los núcleos atómicos mediante esferas de tamaño reducido | ![...](imagenes/tema03/modelo_varillas.png){ style="display: block; margin: 0 auto; width: 90%; height: auto;" } |
 
 ### **Grupos funcionales** {: .caja-subtitulo}
