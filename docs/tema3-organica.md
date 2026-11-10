@@ -619,11 +619,7 @@ $\ce{CH3-CH2-Br + NaOH \; \rightarrow \; CH3-CH2-OH + NaBr}$
 
 - A partir de derivados halogenados también se pueden obtener otras sustancias: aminas, nitrilos, éteres, ésteres, pero la más importante es la que da alcoholes.
 
-- **Formación de derivados halogenados a partir de alcoholes**.
-
-Es justamente la reacción contraria a la anterior. Están catalizadas por ácidos.
-Si para la anterior se usaba un hidróxido para ésta al revés, se usa un ácido,
-por ejemplo:
+- **Formación de derivados halogenados a partir de alcoholes**. Es justamente la reacción contraria a la anterior. Están catalizadas por ácidos. Si para la anterior se usaba un hidróxido para ésta al revés, se usa un ácido, por ejemplo:
 
 $\ce{CH3-CH2-OH + HCl \; \rightarrow \; CH3-CH2-Cl + H2O}$
 
