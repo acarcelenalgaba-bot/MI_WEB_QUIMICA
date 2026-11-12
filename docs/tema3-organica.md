@@ -803,7 +803,7 @@ $\ce{CH3-CH(CH3)-CH=CH2 + H2 ->[Pt/Pd] CH3-CH(CH3)-CH2-CH3}$
 
 *Producto:* 2-metilbutano. *Tipo de reacción:* Adición (Reducción).
 
-* **b) Deshidratación de 1-butanol con ácido sulfúrico en caliente.**
+* **b) Deshidratación de butan-1-ol con ácido sulfúrico en caliente.**
   
 $\ce{CH3-CH2-CH2-CH2OH ->[H2SO4][\Delta] CH3-CH2-CH=CH2 + H2O}$
 
