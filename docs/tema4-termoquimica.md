@@ -89,7 +89,7 @@ En un proceso a volumen constante, la variación de energía interna se debe só
 
 ## **3. Concepto de Entalpía**.
 
-La **entalpía** es una magnitud física, función de estado, con unidades de energía, que se define como:
+La **entalpía** es magnitud termodinámica (función de estado) que mide la **cantidad de energía que un sistema intercambia** con su entorno en forma de calor, específicamente cuando se encuentra a **presión constante**, con unidades de energía, y se define como:
 
 $\ce{H = U + \textrm{p} V}$
 { style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
@@ -98,13 +98,13 @@ $\ce{H = U + \textrm{p} V}$
 
 $$\ce{\Delta H = \Delta U + p \cdot \Delta V = (Q + W) + p \cdot \Delta V}$$
 
-Sabiendo que $\ce{W = - p \cdot \Delta V}$:
+Sabiendo que en un proceso de expansión, $\ce{W = - p \cdot \Delta V}$:
 
 $$\ce{\Delta H = Q - p \cdot \Delta V + p \cdot \Delta V = Q}$$
 
 En un proceso a **presión constante**, la variación de entalpía del sistema es igual a la energía intercambiada mediante calor.
 
-Utilizando la expresión $\ce{p \cdot V = n \cdot R \cdot T}$, cuando intervienen **gases** se cumple:
+Utilizando la expresión de la ecuación de estado $\ce{p \cdot V = n \cdot R \cdot T}$, cuando intervienen **gases** se cumple:
 
 $\ce{\Delta H = \Delta U + \Delta n \cdot R \cdot T}$
 { style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
@@ -189,9 +189,9 @@ Ecuación dada = ecuación (1) + ecuación (2) + .... $\qquad \rightarrow \qquad
 
 **Ejemplo**: Halla la entalpía de formación del amoniaco a partir de las siguientes ecuaciones:
 
-$\ce{Reacci\textrm{ó}n 1. \qquad 2 H2 (g) + N2 (g) \rightarrow N2H4 (g) \hspace{2cm} ∆H_1 = 95,4 kJ}$
+$\ce{Reacci\textrm{ó}n 1{.} \qquad 2 H2 (g) + N2 (g) \rightarrow N2H4 (g) \hspace{2cm} ∆H_1 = 95,4 kJ}$
 
-$\ce{Reacci\textrm{ó}n 2. \qquad  N2H4 (g) + H2 (g) \rightarrow 2 NH3 (g) \hspace{1.5cm}   ∆H_2 = − 187,6 kJ}$
+$\ce{Reacci\textrm{ó}n 2{.} \qquad  N2H4 (g) + H2 (g) \rightarrow 2 NH3 (g) \hspace{1.5cm}   ∆H_2 = − 187,6 kJ}$
 
 **Solución**: 
 
