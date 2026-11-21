@@ -14,16 +14,16 @@ La unidad de medida de la energía en el S.I. es el **julio** (J).
 
 También es común medir la energía en calorías o en kWh:  $\ce{\qquad  1 cal = 4,18 J \qquad  \qquad 1 kWh = 3,6 \cdot 10^6 J}$
 
-La termodinámica selecciona una parte del universo para su estudio y la denomina **sistema**, al espacio cercano al sistema lo llama **entorno** y al resto lo llama **universo**. La frontera del sistema es la pared.
+La termodinámica selecciona una parte del universo para su estudio y la denomina **sistema**, al espacio cercano al sistema lo llama **entorno** y al resto lo llama **universo**. La frontera del sistema es la **pared**.
 
-Se distinguen dos formas de intercambio de energía entre el sistema y su entorno:
+Se distinguen dos **formas de intercambio** de energía entre el sistema y su entorno:
 
 *   **Trabajo ($\ce{W}$)**
 *   **Calor ($\ce{Q}$)**
 
 Todas las **reacciones químicas** absorben o liberan energía, por lo general en forma de **calor**.
 
-Las **funciones** o **variables de estado** en un sistema termodinámico son aquellas magnitudes macroscópicas que describen el estado de un sistema en equilibrio y que no dependen de la forma en que el sistema llegó a dicho estado, U, H, S...
+Las **funciones** o **variables de estado** en un sistema termodinámico son aquellas magnitudes macroscópicas que describen el estado de un sistema en equilibrio y que no dependen de la forma en que el sistema llegó a dicho estado, como la **energía interna** (U), la **entalpía** (H), la **entropía** (S)...
 
 Las variables termodinámicas también describen el estado de un sistema pero sí que podemos conocer sus valores fuera del equilibrio, T, p, V...
 
@@ -33,9 +33,9 @@ De las funciones o variables de estado solo podemos calcular la variación de su
 
 ### **1.2 Principio cero de la termodinámica.** {: .caja-subtitulo }
 
-Si dos cuerpos están en equilibrio térmico con un tercer de forma separada, también lo están entre sí.
+Si dos cuerpos están en equilibrio térmico con un tercero de forma separada, también lo están entre sí.
 
-El principio establece que para todo sistema existe una propiedad denominada temperatura que es común a todos los sistemas que se encuentran en equilibrio térmico mutuo.
+El principio establece que para todo sistema existe una propiedad denominada **temperatura** que es común a todos los sistemas que se encuentran en equilibrio térmico mutuo.
 
 En palabras simples, el principio dice que si se pone un objeto con cierta temperatura en contacto con otro a distinta temperatura, ambos intercambian calor hasta que sus temperaturas se igualan.
 
@@ -45,12 +45,18 @@ En palabras simples, el principio dice que si se pone un objeto con cierta tempe
 
 La **primera ley de la Termodinámica** es el principio de conservación de la energía aplicado a un sistema: **la energía ni se crea ni se destruye**.
 
-El cambio de **energía interna** de un sistema $\ce{\Delta U}$ es igual a la suma de la energía intercambiada como calor y como trabajo con el entorno:
+La magnitud que designa la energía almacenada por un sistema de partículas se denomina **energía interna** (**U**).
+
+La **energía interna** (**U**) es el resultado de la contribución de la energía cinética de las moléculas o átomos que lo constituyen, de sus energías de rotación, traslación y vibración, además de la energía potencial intermolecular debida a las fuerzas de tipo gravitatorio, electromagnético y nuclear.
+
+La energía interna es una **función de estado**: su variación entre dos estados es independiente de la transformación que los conecte, sólo depende del estado inicial y del estado final.
+
+El cambio de **energía interna** de un **sistema**, $\ce{\Delta U}$, es igual a la suma de la energía intercambiada como calor y como trabajo con el **entorno**:
 
 $\ce{\Delta U = Q + W}$
 { style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
 
-$\ce{Q}$ y $\ce{W}$ se consideran positivos si entra energía en el sistema, y negativos si sale energía del sistema.
+$\ce{Q}$ y $\ce{W}$ se consideran **positivos** si **entra** energía en el sistema, y **negativos** si **sale** energía del sistema.
 
 *   $\ce{Q > 0 \rightarrow}$ calor absorbido por el sistema.
 *   $\ce{Q < 0 \rightarrow}$ calor desprendido por el sistema.
