@@ -69,7 +69,13 @@ $\ce{Q}$ y $\ce{W}$ se consideran **positivos** si **entra** energía en el sist
 
 Cuando un sistema experimenta un cambio de volumen $\ce{\Delta V}$, intercambia energía mediante **trabajo** con su entorno. A presión constante ($\ce{p = cte}$):
 
-$$\ce{W = -p \Delta V}$$
+![...](imagenes/tema04/trabajo.png){ style="display: block; margin: 0 auto; width: 60%; height: auto;" }
+
+Como se observa en el diagrama, cuando el gas se expande desde un volumen inicial $\ce{V0}$ hasta un volumen final $\ce{V1}$, el pistón se desplaza desde la posición $\ce{e0}$ hasta $\ce{e1}$ en sentido opuesto a la fuerza externa $\ce{F}$
+
+$$\ce{W = F * \Delta x = F * \Delta x * \cos (\theta) = - F * \Delta x = - P * S * \Delta x }$$
+
+$$\ce{W = - P * \Delta V}$$
 
 *   **Expansión**: $\ce{\Delta V > 0}$ y $\ce{W < 0 \rightarrow}$ Trabajo realizado por el sistema.
 *   **Compresión**: $\ce{\Delta V < 0}$ y $\ce{W > 0 \rightarrow}$ Trabajo realizado sobre el sistema.
