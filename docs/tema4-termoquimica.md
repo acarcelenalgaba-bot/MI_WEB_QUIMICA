@@ -85,7 +85,7 @@ Si el volumen es constante ($\ce{V = cte}$), el trabajo es nulo ($\ce{W = 0}$) y
 $\ce{\Delta U = Q}$
 { style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
 
-En un proceso a volumen constante, la variación de energía interna se debe sólo a la energía intercambiada mediante calor con el entorno. (Nota: Los sólidos y líquidos no experimentan casi expansión, por lo que el trabajo realizado es prácticamente nulo).
+En un proceso a **volumen constante**, la variación de energía interna se debe sólo a la energía intercambiada mediante calor con el entorno. (Nota: Los sólidos y líquidos no experimentan casi expansión, por lo que el trabajo realizado es prácticamente nulo).
 
 ## **3. Concepto de Entalpía**.
 
