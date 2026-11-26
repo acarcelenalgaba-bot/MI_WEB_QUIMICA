@@ -130,14 +130,16 @@ El **diagrama de entalpía** representa gráficamente la variación de entalpía
 
 ## **4. Entalpía de reacción**.
 
-La diferencia entre la entalpía de los productos de una **reacción**, $\ce{H_{productos}}$, y la de los reactivos, $\ce{H_{reactivos}}$, se denomina **entalpía de reacción, $\ce{\Delta H_r}$**.
+Como **la mayoría** de las reacciones químicas ocurren a **presión constante**, ese calor coincide con la variación de entalpía de la reacción, magnitud que depende de las condiciones del sistema. 
 
-$\ce{ \Delta H_r = \sum n_p \cdot H_{productos} - \sum n_r \cdot H_{reactivos}} $
+La **entalpía de reacción**, $\ce{\Delta H_r}$, es por tanto la variación de entalpía o diferencia entre la entalpía de los productos de una reacción, $\ce{H_{productos}}$, y la de los reactivos, $\ce{H_{reactivos}}$.
+
+$\ce{ \Delta H_r = \sum n_p \cdot H_{f, productos} - \sum n_r \cdot H_{f, reactivos}} $
 { style="border: 2px solid #320d71; border-radius: 12px; padding: 15px; text-align: center; width: fit-content; margin: 20px auto; display: block; background-color: #eae7ec;" }
 
 siendo $\ce{n_r}$ y $\ce{n_p}$, los moles de reactivos y productos respectivamente.
 
-La variación de entalpía se denomina **estándar ($\ce{\Delta H_r^\circ}$)** si la presión es de 1 atm:
+La variación de entalpía se denomina **estándar ($\ce{\Delta H_r^\circ}$)** si la presión es de 1 atm y la temperatura de 25 $^{\circ}$C (298 K):
 
 $$\ce{ \Delta H_r^\circ = \sum n_p \cdot H_{productos, \ 1 \ atm} - \sum n_r \cdot H_{reactivos, \ 1 \ atm}} $$
 
@@ -155,17 +157,19 @@ Al ser $\ce{H_{productos} < H_{reactivos}}$, $\ce{Q = \Delta H_r^\circ < 0}$, se
 
 La **entalpía estándar (molar) de formación de un compuesto ($\ce{\Delta H_f^\circ}$)** es igual al cambio de entalpía de la reacción en la que se forma 1 mol de ese compuesto a la presión constante de 1 atm y una temperatura fija de 25 ºC, a partir de los elementos que lo componen en sus estados estables a esa presión y temperatura. También se denomina **calor de formación**.
 
+Es importante que sepas que **por convenio**, a los **elementos químicos puros en su forma más estable** en condiciones estándar, se le asigna el valor **0**. 
+
+$$\ce{C (s), O2 (g), N2 (g), H2 (g) \quad \rightarrow \quad \Delta H_f = 0}$$
+
 **Ejemplo:** Formación de agua a partir de $\ce{O2}$ e $\ce{H2}$
 
-$$\ce{ H2 (g{,} \ 1 \ atm{,} \ 25^\circ C) + \dfrac{1}{2} O2 (g{,} \ 1 \ atm{,} \ 25^\circ C) \rightarrow H2O (l{,} \ 1 \ atm{,} 25^\circ C)} $$
+$$\ce{ H2 (g) + \dfrac{1}{2} O2 (g) \rightarrow H2O (l)} $$
 
 $$\ce{ \Delta H_r = -285,8 \, kJ \Rightarrow \Delta H_f^\circ [H2O (l)] = -285,8 \, kJ} $$
 
 El cambio de entalpía estándar para una reacción es igual a la suma de las entalpías estándar de formación de los productos menos la suma de las entalpías estándar de formación de los reactivos:
 
 $$\ce{ \Delta H_r^\circ = \sum n_p \cdot \Delta H_f^\circ (productos) - \sum n_p \cdot \Delta H_f^\circ (reactivos)} $$
-
-*   $\ce{\Delta H_f^\circ = 0}$ para las especies elementales en su estado estable.
 
 Para una reacción química: $\ce{\qquad a A + b B \rightarrow c C + d D}$
 
@@ -183,45 +187,43 @@ $$\ce{\Delta H_r^\circ = \Delta H_f^\circ \ PCl5 (s) - (\Delta H_f^\circ \ PCl3 
 
 ## **6. Reglas de la Termoquímica (Ley de Hess)**.
 
-**Primera regla**: La **Ley de Hess** establece que la variación de entalpía, $\ce{\Delta H}$ (función de estado) de una reacción química depende únicamente de los estados inicial y final, y no del camino seguido por la reacción. Esto permite calcular entalpías de reacción sumando algebraicamente las entalpías de otras reacciones relacionadas.
+**Primera regla**{ style="border: 2px solid #320d71; border-radius: 12px; padding: 6px 12px; display: inline-block; margin-right: 10px; background-color: #f8e5ba;" } La **Ley de Hess** establece que la variación de entalpía, $\ce{\Delta H}$ (función de estado) de una reacción química depende únicamente de los estados inicial y final, y no del camino seguido por la reacción. Esto permite calcular entalpías de reacción sumando algebraicamente las entalpías de otras reacciones relacionadas.
 
-Ecuación dada = ecuación (1) + ecuación (2) + .... $\qquad \rightarrow \qquad$ $\ce{\Delta H = \Delta H(1) + \Delta H(2) + ...}$ 
+Ecuación dada (1) = ecuación (2) + ecuación (3) + .... $\qquad \rightarrow \qquad$ $\ce{\Delta H_1 = \Delta H_2 + \Delta H_3 + }$... 
+
+![...](imagenes/tema04/hess.svg){ style="display: block; margin: 0 auto; width: 50%; height: auto;" }
 
 **Ejemplo**: Halla la entalpía de formación del amoniaco a partir de las siguientes ecuaciones:
 
-$\ce{Reacci\textrm{ó}n 1{.} \qquad 2 H2 (g) + N2 (g) \rightarrow N2H4 (g) \hspace{2cm} ∆H_1 = 95,4 kJ}$
+$\ce{Reacci\textrm{ó}n 1{.} \qquad 2 H2 (g) + N2 (g) \rightarrow N2H4 (g) \hspace{2cm} \Delta H_1 = 95,4 kJ}$
 
-$\ce{Reacci\textrm{ó}n 2{.} \qquad  N2H4 (g) + H2 (g) \rightarrow 2 NH3 (g) \hspace{1.5cm}   ∆H_2 = − 187,6 kJ}$
+$\ce{Reacci\textrm{ó}n 2{.} \qquad  N2H4 (g) + H2 (g) \rightarrow 2 NH3 (g) \hspace{1.5cm}   \Delta H_2 = − 187,6 kJ}$
 
 **Solución**: 
 
-La reacción solicitada en el enunciado sería:
-
-$$\ce{3 H2 (g) + N2 (g) \rightarrow 2 \ NH3 (g) \qquad\qquad  \Delta H = ?}$$
+La reacción solicitada en el enunciado sería: $\ce{\hspace{2cm} 3 H2 (g) + N2 (g) \rightarrow 2 \ NH3 (g) \qquad\qquad  \Delta H = ?}$
 
 A partir de la suma de las reacciones 1 y 2 se puede obtener:
 
-$$
-\begin{array}{r l l}
+$\begin{array}{r l l}
 \text{Reacción 1.} & \ce{2 H2(g) + N2(g) -> \cancel{\ce{N2H4(g)}}} & \ce{\Delta H_1 = + 95,4 kJ} \\[4pt]
 \text{Reacción 2.} & \ce{\cancel{\ce{N2H4(g)}} + H2(g) -> 2 NH3(g)} & \ce{\Delta H_2 = -187,6 kJ} \\[4pt]
 \hline \\[-6pt]
 \text{Reacción 3.} & \ce{3 H2(g) + N2(g) -> 2 NH3(g)} & \ce{\Delta H_r = ?}
-\end{array}
-$$
+\end{array}$
 
 
 $$\ce{\Delta H_{reacción} = \Delta H_1 + \Delta H_2 = 95,4 kJ - 187,6 kJ = - 92,2 kJ}$$
 
 Aplicando la ley de Hess, si sumamos las dos reacciones dadas obtenemos la ecuación buscada pero en ella se forman 2 mol de $\ce{NH3}$, por lo tanto, la entalpía de formación del $\ce{NH3}$ sería la mitad $\ce{- 46,1 kJ/mol}$.
 
-**Segunda regla**: El calor de $\ce{\Delta H}$ es directamente proporcional a la cantidad de reactivo o producto
+**Segunda regla**{ style="border: 2px solid #320d71; border-radius: 12px; padding: 6px 12px; display: inline-block; margin-right: 10px; background-color: #f8e5ba;" } El valor de $\ce{\Delta H}$ es directamente proporcional a la cantidad de reactivo o producto
 
 $$\ce{H2 (g) + Cl2 (g) \rightarrow 2 \ HCl (g) \qquad \qquad \Delta H = - 185 kJ} $$
 
 $$\ce{\dfrac {1}{2} H2 (g) + \dfrac {1}{2} Cl2 (g) \rightarrow  HCl (g) \qquad \qquad \Delta H = - 92,5 kJ} $$
 
-**Tercera regla**: Los valores de para dos reacciones inversas son iguales en magnitud pero de signo opuesto.
+**Tercera regla**{ style="border: 2px solid #320d71; border-radius: 12px; padding: 6px 12px; display: inline-block; margin-right: 10px; background-color: #f8e5ba;" } Los valores de entalpia para dos reacciones inversas son iguales en magnitud pero de signo opuesto.
 
 $$\ce{H2O (l) \rightarrow H2 (g) + \dfrac {1}{2} O2 (g) \qquad \qquad \Delta H = + 285 kJ} $$
 
