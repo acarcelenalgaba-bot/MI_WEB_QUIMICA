@@ -254,13 +254,13 @@ Datos: Energías medias de enlace (kJ/mol): $\ce{\quad C=C = 610; C-C = 347; H-H
 Deducimos los enlaces que se deben romper y los que se deben formar:
 
 <!--
-##latex id=po4 sep=2em
+##latex id=etileno sep=2em
 \schemestart[0,1.2,1.5]
-   \chemfig{ C(-[2]H)(-[6]H) = C(-[2]H)(-[6]H) + H - H \rightarrow H - C(-[2]H)(-[6]H) - C(-[2]H)(-[6]H) }
+   \chemfig{ C(-[2]H)(-[6]H) = C(-[2]H)(-[6]H)} \+ \chemfig{H - H} \arrow \chemfig{H - C(-[2]H)(-[6]H) - C(-[2]H)(-[6]H) - H }
 \schemestop
 -->
 
-![...](imagenes/tema04/etileno.svg){style="display: block; margin: 0 auto; width: 98%; height: auto;"}
+![...](imagenes/tema04/etileno.svg){style="display: block; margin: 0 auto; width:40%; height: auto;"}
 
 Enlaces rotos: 1 enlace C=C, 4 enlaces C-H y 1 enlace H-H.
 
