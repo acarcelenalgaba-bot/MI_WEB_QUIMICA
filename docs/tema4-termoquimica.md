@@ -247,6 +247,22 @@ $\ce{\Delta H_r = \sum E (enlaces rotos) - \sum E (enlaces formados)} $
 *   Si $\ce{\Delta H_r > 0}$: Los enlaces que hay que romper son más fuertes que los que se forman $\rightarrow$ **Reacción endotérmica**.
 *   Si $\ce{\Delta H_r < 0}$: Los enlaces que hay que romper son más débiles que los que se forman $\rightarrow$ **Reacción exotérmica**.
 
+**Ejemplo**: Calcula, a partir de las energías medias de enlace, la variación de entalpía aproximada que acompaña a la hidrogenación de 1 mol de etileno para dar etano. $\ce{\quad CH2=CH2 (g) + H2 (g) \rightarrow  CH3-CH3 (g)}$
+
+Datos: Energías medias de enlace (kJ/mol): $\ce{\quad C=C = 610; C-C = 347; H-H = 436; C-H = 415 }$
+
+Deducimos los enlaces que se deben romper y los que se deben formar:
+
+Enlaces rotos: 1 enlace C=C, 4 enlaces C-H y 1 enlace H-H.
+
+Enlaces formados: 1 enlace C-C; 6 enlaces C-H
+
+Aplicamos la ecuación genérica: $\ce{\quad \Delta H_r = \sum E (enlaces rotos) - \sum E (enlaces formados)}$
+
+$\ce{\quad \Delta H_r = (1 * E_{C=C} + 4 * E_{C-H} + 1 * E_{H-H}) - (1 * E_{C-C} + 6 * E_{C-H}) }$
+
+$\ce{\quad \Delta H_r = (1 * 610 + 4 * 415 + 1 * 436) - (1 * 347 + 6 * 415) = - 131 kJ/mol}$
+
 ## **8. Entropía y Segunda Ley de la Termodinámica**.
 
 Los fenómenos en los que las cosas se desordenan son más probables que aquellos que entrañan una ordenación. El cambio espontáneo de una disposición ordenada a otra desordenada es consecuencia de las leyes de la probabilidad.
