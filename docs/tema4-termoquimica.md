@@ -201,7 +201,7 @@ $\ce{Reacci\textrm{ó}n 2{.} \qquad  N2H4 (g) + H2 (g) \rightarrow 2 NH3 (g) \hs
 
 **Solución**: 
 
-La reacción solicitada en el enunciado sería: $\ce{\hspace{2cm} 3 H2 (g) + N2 (g) \rightarrow 2 \ NH3 (g) \qquad\qquad  \Delta H = ?}$
+La reacción solicitada en el enunciado sería: $\ce{\hspace{2cm} 3 H2 (g) + N2 (g) \rightarrow 2 \ NH3 (g) \qquad\qquad  \Delta H_r = ?}$
 
 A partir de la suma de las reacciones 1 y 2 se puede obtener:
 
