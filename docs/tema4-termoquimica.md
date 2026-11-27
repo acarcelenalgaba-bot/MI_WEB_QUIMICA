@@ -249,7 +249,9 @@ $\ce{\Delta H_r = \sum E (enlaces rotos) - \sum E (enlaces formados)} $
 
 **Ejemplo**: Calcula, a partir de las energías medias de enlace, la variación de entalpía aproximada que acompaña a la hidrogenación de 1 mol de etileno para dar etano. $\ce{\quad CH2=CH2 (g) + H2 (g) \rightarrow  CH3-CH3 (g)}$
 
-Datos: Energías medias de enlace (kJ/mol): $\ce{\quad C=C = 610; C-C = 347; H-H = 436; C-H = 415 }$
+**Datos**: Energías medias de enlace (kJ/mol): $\ce{\quad C=C = 610; C-C = 347; H-H = 436; C-H = 415 }$
+
+**Solución**: 
 
 Deducimos los enlaces que se deben romper y los que se deben formar:
 
