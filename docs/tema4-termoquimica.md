@@ -171,19 +171,19 @@ El cambio de entalpía estándar para una reacción es igual a la suma de las en
 
 $$\ce{ \Delta H_r^\circ = \sum n_p \cdot \Delta H_f^\circ (productos) - \sum n_p \cdot \Delta H_f^\circ (reactivos)} $$
 
-Para una reacción química: $\ce{\qquad a A + b B \rightarrow c C + d D}$
+Para una reacción química genérica: $\ce{\qquad a A + b B \rightarrow c C + d D}$
 
 $$\ce{  \Delta H_r^\circ = [c \Delta H_f^\circ(C) + d \Delta H_f^\circ(D)] - [a \Delta H_f^\circ(A) + b \Delta H_f^\circ(B)]  }$$
 
 **Ejemplo**:
 
-Dada las entalpías estándar de formación, $\ce{\Delta H_f^\circ \ PCl3 (l) = - 317,7 kJ}$; $\ce{\Delta H_f^\circ \ PCl5 (s) = - 454,8 kJ}$, calcula el cambio de estalpía estándar $\ce{\Delta H_r^\circ }$ para la reacción: $\ce{\qquad PCl3 (l) + Cl2 (g) \rightarrow PCl5 (s) }$
+Dada las entalpías estándar de formación, $\ce{\Delta H_f^\circ \ PCl3 (l) = - 317,7 kJ}$; $\ce{\Delta H_f^\circ \ PCl5 (s) = - 454,8 kJ}$, calcula el cambio de estalpía estándar $\ce{\Delta H_r^\circ }$ para la siguiente reacción: $\ce{\qquad PCl3 (l) + Cl2 (g) \rightarrow PCl5 (s) }$
 
 **Solución**:
 
 El $\ce{Cl2 (g)}$ es la forma estable del cloro a 1 atm por lo que $\ce{\Delta H_f^\circ \ Cl2 (g) = 0}$
 
-$$\ce{\Delta H_r^\circ = \Delta H_f^\circ \ PCl5 (s) - (\Delta H_f^\circ \ PCl3 (l) + \Delta H_f^\circ \ Cl2 (g)) = -454,8 - (- 317,7 + 0) = - 137,1 kJ}$$
+$$\ce{\Delta H_r^\circ = \Delta H_f^\circ \ (PCl5) - (\Delta H_f^\circ \ (PCl3) + \Delta H_f^\circ \ (Cl2)) = -454,8 - (- 317,7 + 0) = - 137,1 kJ}$$
 
 ## **6. Reglas de la Termoquímica (Ley de Hess)**.
 
